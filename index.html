@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maui Kuia Estate</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div class="popup" id="search">
+        <input type="search" id="detailSearch" placeholder="Search">
+        <a href="#" class="btn_close">CLOSE</a>
+    </div>
+    <div class="popup" id="shoppingBag">
+        <h2 class="btn_close">CART</h2>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    <img src="images/common_chocolateBars_09.png" alt="Dark Chocolate Bar">
+                    <dl>
+                        <dt>Dark Chocolate Bar</dt>
+                        <dd>
+                            $
+                            <input type="text" id="price" value="9.00" readonly>
+                             USD
+                        </dd>
+                    </dl>
+                    <div class="countComp">
+                        <input type="button" value="-" class="countMinus" >
+                        <input type="number" class="qc" id="countNumb" value="1" min="1" max="99" step="1">
+                        <input type="button" value="+" class="countPlus" >
+                    </div>
+                </li>
+            </ul>
+            <span>Subtotal</span>
+            <strong>$ <output id="totalPrice">9.00</output> USD</strong>
+            <input type="submit" value="VIEW CART">
+        </form>
+    </div>
+    <div class="topBanner main">
+        FREE SHIPPING ON DK &amp; EU ORDERS OVER $99 USD
+    </div>
+    <header>
+        <input type="button" value="menu" id="muiNavBtn" class="material-icons">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>
+                    SHOP
+                    <ol>
+                        <li><a href="list_bestSellers.html">Best Sellers</a></li>
+                        <li><a href="list_gifts.html">Gifts</a></li>
+                        <li><a href="list_bakingPantry.html">Baking & Pantry</a></li>
+                        <li><a href="list_atHomeTasting.html">AT&#45;Home Tasting  </a></li>
+                        <li><a href="list_chocolateBars.html">Chocolate Bars</a></li>
+                        <li><a href="list_mauiGrown.html">Maui Grown</a></li>
+                        <li><a href="list_merchandise.html">Merchandise</a></li>
+                        <li><a href="list_bulkChocolateSquares.html">Bulk Chocolate Squares</a></li>
+                    </ol>
+                </li>
+                <li>
+                    EXPLORE
+                    <ol>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ol>
+                </li>
+                <li><a href="cafe.html">Cafe</a></li>
+                <li><a href="monthClub.html">Month club</a></li>
+                <li>
+                    ABOUT US
+                    <ol>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li>
+                        <li><a href="ourStory.html">Our Story</a></li>
+                        <li><a href="cacaoOrigins.html">Cacao Origins</a></li>
+                    </ol>
+                </li>
+            </ul>
+            <div class="navSns">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/MauiChocolate/" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/mauichocolate/?hl=en" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="mailto:aloha@mauichocolate.com"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1><a href="/"><img src="images/logo.png" alt="Maui Kuia Estate"></a></h1>
+        <ul>
+            <li><a href="myPage_login.html"><img src="images/bull_person.png" alt="my page"></a></li>
+            <li class="search"><a href="#" data-panel="search"><img src="images/bull_search.png" alt="search"></a></li>
+            <li class="cart"><a href="#" data-panel="shoppingBag"><img src="images/bull_shoppingbag.png" alt="shopping bag"></a></li>
+        </ul>
+    </header>
+    <section class="mainContainer">
+        <h2>
+            <small>JOIN OUR</small>
+            HANDMADE CHOCOLATE
+        </h2>
+        <!-- ? headerArea fin -->
+        <div>
+            <h3>NEW IN</h3>
+            <div class="sliderWrap">
+                <ul class="mainSlider">
+                    <li>
+                        <a href="detail_gifts_44.html">
+                            <img src="images/common_giftBag_02.jpg" alt="Assorted Chocolate Gift Bag">
+                            <h4>Assorted Chocolate Gift Bag</h4>
+                            <span>$24.00 USD</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_atHomeTasting_01.html">
+                            <img src="images/common_atHomeTasting_01.png" alt="The Maui Chocolate Experience">
+                            <h4>The Maui Chocolate Experience</h4>
+                            <span>$110.00 USD</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_bulkChocolateSquares_02.html">
+                            <img src="images/common_bulkBag_19.png" alt="Classic Dark Milk Chocolate Bulk Bag">
+                            <h4>Classic Dark Milk Chocolate Bulk Bag</h4>
+                            <span>$50.00 USD</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_chocolateBars_01.html">
+                            <img src="images/common_chocolateBars_09.png" alt="Dark Chocolate Bar">
+                            <h4>Dark Chocolate Bar</h4>
+                            <span>$9.00 USD</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="detail_bestSellers_04.html">
+                            <img src="images/common_giftBox_06.png" alt="Chocolate Trio Gift Box">
+                            <h4>Chocolate Trio Gift Box</h4>
+                            <span>$50.00 USD</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_gifts_03.html">
+                            <img src="images/common_giftTin_05.png" alt="Dark Milk Chocolate Gift Tin">
+                            <h4>Dark Milk Chocolate Gift Tin</h4>
+                            <span>$32.00 USD</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_bakingPantry_01.html">
+                            <img src="images/common_bakingPantry_01.png" alt="Classic Dark Chocolate Baking Drops">
+                            <h4>Classic Dark Chocolate Baking Drops</h4>
+                            <span>$29.00 USD</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_bakingPantry_05.html">
+                            <img src="images/common_bakingPantry_02.png" alt="Cocoa Mass">
+                            <h4>Cocoa Mass</h4>
+                            <span>$15.00 USD</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <a href="list_bestSellers.html" class="btn">VIEW PRODUCTS</a>
+        </div>
+        <!-- ? newIn Fin -->
+        <div>
+            <article>
+                <h3>Cacao Origins</h3>
+                <p>
+                    We pride ourselves in sourcing cacao from some of the most renowned and
+                    exclusive places around the world.
+                </p>
+                <p>
+                    Our Vice President of Farm & Factory Operations, Daniel O’Doherty,
+                    regularly travels to South America to oversee and manage our cacao sourcing.
+                </p>
+                <p>
+                    And with his expert consultation, our Maui Ku’ia Estate Cacao Farm
+                    produces an incredible cacao for our Hawaiian chocolate that we can’t
+                    wait to share with you!
+                </p>
+                <a href="cacaoOrigins.html">Read our little big story</a>
+            </article>
+        </div>
+        <!-- ? cacoOriginsArea Fin -->
+        <div>
+            <h3>DISCOVER OUR HANDMADE PRODUCTS</h3>
+            <div class="sliderWrap">
+                <ul class="mainSlider">
+                    <li>
+                        <a href="detail_chocolateBars_03.html">
+                            <img src="images/common_chocolateBars_01.png" alt="Mokka Cappuccino Chocolate Bar">
+                            <h4>Mokka Cappuccino Chocolate Bar</h4>
+                            <span>$9.00 USD</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_gifts_14.html">
+                            <img src="images/common_giftBox_13.jpg" alt="Assorted Dark Milk Chocolate Bar Gift Box">
+                            <h4>Assorted Dark Milk Chocolate Bar Gift Box</h4>
+                            <span>$46.00 USD</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_gifts_19.html">
+                            <img src="images/main_discover_03.png" alt="Dark Chocolate Bar Duo">
+                            <h4>Dark Chocolate Bar Duo</h4>
+                            <span>$13.50 USD</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_gifts_20.html">
+                            <img src="images/common_giftTin_18.png" alt="Assorted Dark Chocolate Gift Tin">
+                            <h4>Assorted Dark Chocolate Gift Tin</h4>
+                            <span>$24.00 USD</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="detail_gifts_44.html">
+                            <img src="images/common_giftBag_01.png" alt="Assorted Chocolate Gift Bag">
+                            <h4>Assorted Chocolate Gift Bag</h4>
+                            <span>$24.00 USD</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_gifts_17.html">
+                            <img src="images/common_tower_02.png" alt="Kaho'olawe Gift Tower">
+                            <h4>Kaho'olawe Gift Tower</h4>
+                            <span>$82.00 USD</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_merchandise_02.html">
+                            <img src="images/common_greetingCard_01.jpg" alt="Handmade Greeting Card">
+                            <h4>Handmade Greeting Card</h4>
+                            <span>$8.95 USD</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detail_merchandise_06.html">
+                            <img src="images/common_hat_01.png" alt="Green Ku'ia Hat">
+                            <h4>Green Ku'ia Hat</h4>
+                            <span>$15.00 USD</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="customControler">
+                    <span class="btnPrev"></span>
+                    <span class="btnNext"></span>
+                </div>
+            </div>
+            <a href="list_bestSellers.html" class="btn">VIEW PRODUCTS</a>
+        </div>
+        <div>
+            <h3>VISIT OUR STORE & CAFE</h3>
+            <p><strong>OPENING HOURS</strong> 09:00 ~ 16:30 (EVERY DAY)</p>
+            <address><strong>ADDRESS</strong> 78 Ulupono St, Ste 1 Lahaina, Maui, Hawaii 96761</address>
+            <ul>
+                <li>
+                    <h4>
+                        <small>EXPLORE</small>
+                        HANDMADE DESSERTS
+                    </h4>
+                    <a href="cafe.html">VIEW STORE</a>
+                </li>
+                <li>
+                    <h4>
+                        <small>EXPLORE</small>
+                        GIFT TO YOUR LOVED ONES
+                    </h4>
+                    <a href="cafe.html">VIEW STORE</a>
+                </li>
+                <li>
+                    <h4>
+                        <small>EXPLORE</small>
+                        RELAX WITH THE VIEW
+                    </h4>
+                    <a href="cafe.html">VIEW STORE</a>
+                </li>
+                <li>
+                    <h4>
+                        <small>EXPLORE</small>
+                        HANDMADE PLATES AND PLATTERS
+                    </h4>
+                    <a href="cafe.html">VIEW STORE</a>
+                </li>
+            </ul>
+        </div>
+        <!-- ? cafeArea Fin -->
+        <article>
+            <h3>Chocolate of the Month Club</h3>
+            <p>
+                Subscribe to our chocolate of the month box and get delicious curated chocolate each month.<br>
+                Sign up by the 15th of the month to get the current month's box!
+            </p>
+            <p>
+                Open your chocolate of the month box and enjoy the curated, limited edition chocolate.<br>
+                If you love a certain's month box, you can always login and purchase more. Let us know your favorites!
+            </p>
+            <p>
+                Once you're signed up, chocolate will be delivered right to your doorstep each month.<br>
+                Ku'ia Club members get access to exclusive new flavors selected by our CEO and VP of Operations!
+            </p>
+            <a href="monthClub.html">Sign up for membership</a>
+            <img src="images/main_monthClub.jpg" alt="Chocolate Bulk image">
+        </article>
+        <!-- ? monthClubArea Fin -->
+        <article>
+            <h3>Athena Willard on Mar 30, 2021</h3>
+            <blockquote>
+                <strong>New favorite snack!</strong>
+                &quot;I bought these for baking, but after I tried one I am keeping
+                them for snaking. The chocolate is creamy and has just the right
+                amount of sweetness with no bitterness. Yum&#33;&quot;
+            </blockquote>
+        </article>
+        <!-- ? reviewArea Fin-->
+        <div>
+            <ul>
+                <li>
+                    <h3>PEPPERMINT MILKSHAKE RECIPE</h3>
+                    <a href="recipes_detail_01.html">VIEW RECIPES</a>
+                </li>
+                <li>
+                    <h3>CHOCOLATE LAVA CUPCAKES</h3>
+                    <a href="recipes_detail_07.html">VIEW RECIPES</a>
+                </li>
+                <li>
+                    <h3>EVERYONE'S FAVORITE CHOCOLATE MOUSSE</h3>
+                    <a href="recipes_detail_03.html">VIEW RECIPES</a>
+                </li>
+                <li>
+                    <h3>TEQUILA & CHOCOLATE PAIRINGS</h3>
+                    <a href="recipes_detail_18.html">VIEW RECIPES</a>
+                </li>
+                <li>
+                    <h3>CHOCOLATE PEANUT BUTTER BALLS</h3>
+                    <a href="recipes_detail_15.html">VIEW RECIPES</a>
+                </li>
+                <li>
+                    <h3>CHOCOLATE RISOTTO</h3>
+                    <a href="recipes_detail_17.html">VIEW RECIPES</a>
+                </li>
+            </ul>
+        </div>
+        <!-- ? recipesArea Fin -->
+        <div>
+            <div>
+                <h3>BUY A GIFT CARD</h3>
+                <img src="images/main_giftCard.png" alt="Gift Card image">
+                <div>
+                    <span>MAUI KU’IA CLASSES</span>
+                    <h4>GIFT CARD</h4>
+                    <p>Shopping for someone else but not sure what to give them?</p>
+                    <p>Give them the gift of choice with a gift card!</p>
+                    <span>$25.00 USD</span>
+                    <div class="selectComponent">
+                        <select>
+                            <option>$25</option>
+                            <option>$50</option>
+                            <option>$100</option>
+                            <option>$150</option>
+                            <option>$200</option>
+                        </select>
+                        <span><img src="images/arrow_down.png" alt="down"></span>
+                    </div>
+                    <a href="cart.html" class="btn">ADD TO CART</a>
+                    <a href="detail_gifts_43.html">View product details</a>
+                </div>
+            </div>
+            <ul>
+                <li>
+                    <h4>
+                        <small>HANDMADE IN</small>
+                        CLASSIC DARK MILK CHOCOLATE BULK BAG
+                    </h4>
+                    <a href="detail_bulkChocolateSquares_02.html">VIEW PRODUCTS</a>
+                </li>
+                <li>
+                    <h4>
+                        <small>HANDMADE IN</small>
+                        GREETING CARD
+                    </h4>
+                    <a href="detail_merchandise_02.html">VIEW PRODUCTS</a>
+                </li>
+                <li>
+                    <h4>
+                        <small>HANDMADE IN</small>
+                        GIFT BOX
+                    </h4>
+                    <a href="detail_gifts_42.html">VIEW PRODUCTS</a>
+                </li>
+            </ul>
+        </div>
+        <!-- ? giftCardArea Fin -->
+        <div>
+            <h3>
+                <small>EXPLORE</small>
+                MAUI KU'IA NEWS
+            </h3>
+            <ul>
+                <li>
+                    <img src="images/main_news_01.png" alt="2020 Aipono Awards">
+                    <dl>
+                        <dt>2020 Aipono Awards</dt>
+                        <dd>
+                            The 2020 Aipono Restaurant Awards were presented
+                            virtually by Maui No Ka ‘Oi Magazine.
+                        </dd>
+                        <dd>
+                            We at Maui Ku‘ia Estate Chocolate are honored to
+                            accept the award for Excellence in Sustainability. 
+                        </dd>
+                    </dl>
+                    <a href="news_detail_22.html">Read more</a>
+                </li>
+                <li>
+                    <img src="images/main_news_02.png" alt="Supporting Maui's Nonprofit Community">
+                    <dl>
+                        <dt>
+                            Supporting Maui's
+                            Nonprofit Community
+                        </dt>
+                        <dd>
+                            In order to stay true to our company mission, we've
+                            recently partnered with multiple nonprofit organizations
+                            through our Chocolate Laulima program.
+                        </dd>
+                        <dd>
+                            Forty percent of all Laulima product sales will be
+                            donated directly to the participating nonprofit of the
+                            purchaser's choice.
+                        </dd>
+                    </dl>
+                    <a href="news_detail_13.html">Read more</a>
+                </li>
+                <li>
+                    <img src="images/main_news_03.png" alt="Get a Lesson in All Things Cacao">
+                    <dl>
+                        <dt>
+                            Get a Lesson in All Things
+                            Cacao
+                        </dt>
+                        <dd>
+                            Learn about Maui Ku’ia Estate Chocolate via in-person
+                            and virtual tastings with the company’s owners.
+                        </dd>
+                    </dl>
+                    <a href="news_detail_20.html">Read more</a>
+                </li>
+            </ul>
+            <a href="news.html" class="btn">SEE ALL POSTS</a>
+        </div>
+        <!-- ? newsArea Fin -->
+        <div>
+            <ul>
+                <li>
+                    <h3>Our Story</h3>
+                    <p>
+                        In the Hawaiian language, kuleana can be defined as accepting
+                        esponsibility with understanding and intent.
+                    </p>
+                    <p>It is our kuleana to serve our community to the best of our ability.</p>
+                    <p>
+                        At Maui Ku'ia Estate Chocolate, it is our privilege to support our
+                        local nonprofit community and implement pono practices into our
+                        business operations.
+                    </p>
+                </li>
+                <li>
+                    <h3>Laulima Cooperative Program</h3>
+                    <p>
+                        Our company was founded with the intent to donate 100% of our
+                        net-profits to Maui's charities and nonprofit organizations that support
+                        our community.
+                    </p>
+                    <p>
+                        We've also developed a cooperative program called Chocolate Laulima,
+                        in which we partner with nonprofit organizations to enhance their
+                        fundraising efforts.
+                    </p>
+                    <p>
+                        We do this through hosting events and offering a collection of fundraising
+                        chocolate products that benefit these organizations.
+                    </p>
+                </li>
+                <li>
+                    <h3>Learn More Our Cacao</h3>
+                    <blockquote>
+                        &quot;The answer came from what my family had already been doing for
+                        eight years, giving back to the Maui non-profit community.&quot;
+                    </blockquote>
+                    <p>
+                        Through their family foundation, Makana Aloha Foundation, Gunars
+                        and his wife, JoRene, recognized that the needs in the non-profit
+                        community could not be met by current funding and wanted to do more.
+                    </p>
+                    <p>
+                        They decided to invest in building a chocolate company where 100% of
+                        net-profits would be given back to the Maui community, their home.
+                    </p>
+                </li>
+                <li>
+                    <h3>Sustainable Chocolate</h3>
+                    <p>
+                        We currently grow 20 acres of cacao and have hopes to continue to grow
+                        our orchard.
+                    </p>
+                    <p>
+                        Our chocolate factory in Lahaina is 100% powered by the sun and isn't
+                        connected to our local power plant in any way.
+                    </p>
+                    <p>
+                        We do our best to source as locally as possible and utilize more
+                        eco-friendly supplies for our packaging and services.
+                    </p>
+                    <p>
+                        This is an ambitious, yet very rewarding, journey that we are on, and we
+                        are thrilled to have you as part of it.
+                    </p>
+                </li>
+            </ul>
+            <a href="ourStory.html">See More Our Story!</a>
+        </div>
+    <!-- ? ourStoryArea Fin -->
+    </section>
+    <footer>
+        <div>
+            <h2>KU’IA CLUB MEMBER</h2>
+            <p>Sign up for a membership and get 10% discount</p>
+            <input type="email" id="memberShipEmail" placeholder="Enter your email address">
+            <input type="button" value="SUBSCRIBE" class="btn">
+        </div>
+        <div>
+            <h2>MAUI KU'IA</h2>
+            <ul>
+                <li>
+                    <a href="contactUs.html">Contact us</a>
+                </li>
+                <li>
+                    <a href="team.html">Team</a>
+                </li>
+                <li>
+                    <a href="ourStory.html">Our Story</a>
+                </li>
+                <li>
+                    <a href="cacaoOrigins.html">Cacao Origins</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>FAQ</h2>
+            <ul>
+                <li>
+                    <a href="faq.html">How long until I receive order</a>
+                </li>
+                <li>
+                    <a href="faq.html">Do you offer gift cards?</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is the cacao sourced from</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is your chocolate made?</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>SNS</h2>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/MauiChocolate/" target="_blank"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mauichocolate/?hl=en" target="_blank"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ" target="_blank"></a>
+                </li>
+                <li>
+                    <a href="mailto:aloha@mauichocolate.com"></a>
+                </li>
+            </ul>
+            <p>&copy; 2022 MAUI KU’IA ESTATE CHOCOLATE</p>
+        </div>
+    </footer>
+</body>
+</html>

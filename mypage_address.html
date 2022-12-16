@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maui Kuia Estate</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div class="popup" id="search">
+        <input type="search" id="detailSearch" placeholder="SEARCH">
+        <a href="#" class="btn_close">CLOSE</a>
+    </div>
+    <div class="popup" id="shoppingBag">
+        <h2 class="btn_close">CART</h2>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    <img src="images/common_chocolateBars_09.png" alt="Dark Chocolate Bar">
+                    <dl>
+                        <dt>Dark Chocolate Bar</dt>
+                        <dd>
+                            $
+                            <input type="text" id="price" value="9.00" readonly>
+                             USD
+                        </dd>
+                    </dl>
+                    <div class="countComp">
+                        <input type="button" value="-" class="countMinus" >
+                        <input type="number" class="qc" id="countNumb" value="1" min="1" max="99" step="1">
+                        <input type="button" value="+" class="countPlus" >
+                    </div>
+                </li>
+            </ul>
+            <span>Subtotal</span>
+            <strong>$ <output id="totalPrice">9.00</output> USD</strong>
+            <input type="submit" value="VIEW CART">
+        </form>
+    </div>
+    <div class="myPagePopup" id="addNewAddress">
+        <h2>
+            ADD A NEW ADDRESS
+            <input type="button" value="CLOSE" class="btn_close">
+        </h2>
+        <p>Please fill in information below :</p>
+        <form>
+            <fieldset>
+                <input type="text" id="newAddressFirstName" placeholder="First Name">
+                <input type="text" id="newAddressLastName" placeholder="Last Name">
+                <input type="text" id="newAddressCompany" placeholder="Company">
+                <input type="tel" id="newAddressPhone" placeholder="Phone">
+                <input type="text" id="newAddressAddress" placeholder="Address">
+                <input type="text" id="newAddressCity" placeholder="City">
+                <div class="selectComponent">
+                    <select id="newAddressCountry">
+                        <option>Austria</option>
+                        <option>Australia</option>
+                        <option>Belgium</option>
+                        <option>China</option>
+                        <option>Denmark</option>
+                        <option>France</option>
+                        <option>Germany</option>
+                        <option>Greece</option>
+                        <option>India</option>
+                        <option>Japan</option>
+                        <option>Mexico</option>
+                        <option>New Zealand</option>
+                        <option>Poland</option>
+                        <option>Republic of korea</option>
+                        <option>Russia</option>
+                        <option>United States</option>
+                    </select>
+                    <span><img src="images/arrow_down.png" alt="down"></span>
+                </div>
+                <input type="text" id="newAddressZipCode" placeholder="Zip Code">
+                <input type="checkbox" id="newAddressCheckBox">
+                <label for="newAddressCheckBox">Set as default address</label>
+                <input type="submit" value="ADD A NEW ADDRESS" class="btn_close">
+            </fieldset>
+        </form>
+    </div>
+    <div class="myPagePopup" id="editUnAddress">
+        <h2>
+            EDIT AN ADDRESS
+            <input type="button" value="CLOSE" class="btn_close">
+        </h2>
+        <p>Please fill in information below :</p>
+        <form>
+            <fieldset>
+                <input type="text" id="editAddressFirstName" placeholder="First Name">
+                <input type="text" id="editAddressLastName" placeholder="Last Name">
+                <input type="text" id="editAddressCompany" placeholder="Company">
+                <input type="tel" id="editAddressPhone" placeholder="Phone">
+                <input type="text" id="editAddressAddress" placeholder="Address">
+                <input type="text" id="editAddressCity" placeholder="City">
+                <div class="selectComponent">
+                    <select id="editAddressCountry">
+                        <option>Austria</option>
+                        <option>Australia</option>
+                        <option>Belgium</option>
+                        <option>China</option>
+                        <option>Denmark</option>
+                        <option>France</option>
+                        <option>Germany</option>
+                        <option>Greece</option>
+                        <option>India</option>
+                        <option>Japan</option>
+                        <option>Mexico</option>
+                        <option>New Zealand</option>
+                        <option>Poland</option>
+                        <option>Republic of korea</option>
+                        <option>Russia</option>
+                        <option>United States</option>
+                    </select>
+                    <span><img src="images/arrow_down.png" alt="down"></span>
+                </div>
+                <input type="text" id="editAddressZipCode" placeholder="Zip Code">
+                <input type="checkbox" id="editAddressCheckBox">
+                <label for="editAddressCheckBox">Set as default address</label>
+                <input type="submit" value="EDIT AN ADDRESS" class="btn_close">
+            </fieldset>
+        </form>
+    </div>
+    <div class="topBannerSub">
+        Hello Summer.
+    </div>
+    <header>
+        <input type="button" value="menu" id="muiNavBtn" class="material-icons">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>
+                    SHOP
+                    <ol>
+                        <li><a href="list_bestSellers.html">Best Sellers</a></li>
+                        <li><a href="list_gifts.html">Gifts</a></li>
+                        <li><a href="list_bakingPantry.html">Baking & Pantry</a></li>
+                        <li><a href="list_atHomeTasting.html">AT&#45;Home Tasting  </a></li>
+                        <li><a href="list_chocolateBars.html">Chocolate Bars</a></li>
+                        <li><a href="list_mauiGrown.html">Maui Grown</a></li>
+                        <li><a href="list_merchandise.html">Merchandise</a></li>
+                        <li><a href="list_bulkChocolateSquares.html">Bulk Chocolate Squares</a></li>
+                    </ol>
+                </li>
+                <li>
+                    EXPLORE
+                    <ol>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ol>
+                </li>
+                <li><a href="cafe.html">Cafe</a></li>
+                <li><a href="monthClub.html">Month club</a></li>
+                <li>
+                    ABOUT US
+                    <ol>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li>
+                        <li><a href="ourStory.html">Our Story</a></li>
+                        <li><a href="cacaoOrigins.html">Cacao Origins</a></li>
+                    </ol>
+                </li>
+            </ul>
+            <div class="navSns">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/MauiChocolate/" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/mauichocolate/?hl=en" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="mailto:aloha@mauichocolate.com"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1><a href="/"><img src="images/logo.png" alt="Maui Kuia Estate"></a></h1>
+        <ul>
+            <li><a href="myPage_login.html"><img src="images/bull_person.png" alt="my page"></a></li>
+            <li class="search"><a href="#" data-panel="search"><img src="images/bull_search.png" alt="search"></a></li>
+            <li class="cart"><a href="#" data-panel="shoppingBag"><img src="images/bull_shoppingbag.png" alt="shopping bag"></a></li>
+        </ul>
+    </header>
+    <section class="myAddressContainer">
+        <div class="wrap">
+            <a href="mypage.html">BACK TO ACCOUNT</a>
+            <h2>MY ADDRESS</h2>
+            <a href="#" class="btn_open" data-panel="addNewAddress">ADD A NEW ADDRESS</a>
+            <div>
+                <h3>DEFAULT ADDRESS</h3>
+                <span>Bang Hyeonmin</span>
+                <span>South Korea</span>
+                <a href="#" class="btn_open" data-panel="editUnAddress">Edit</a>
+                <a href="#">Delete</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h2>KU’IA CLUB MEMBER</h2>
+            <p>Sign up for a membership and get 10% discount</p>
+            <input type="email" id="memberShipEmail" placeholder="Enter your email address">
+            <input type="button" value="SUBSCRIBE">
+        </div>
+        <div>
+            <h2>MAUI KU'IA</h2>
+            <ul>
+                <li>
+                    <a href="contactUs.html">Contact us</a>
+                </li>
+                <li>
+                    <a href="team.html">Team</a>
+                </li>
+                <li>
+                    <a href="ourStory.html">Our Story</a>
+                </li>
+                <li>
+                    <a href="cacaoOrigins.html">Cacao Origins</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>FAQ</h2>
+            <ul>
+                <li>
+                    <a href="faq.html">How long until I receive order</a>
+                </li>
+                <li>
+                    <a href="faq.html">Do you offer gift cards?</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is the cacao sourced from</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is your chocolate made?</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>SNS</h2>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/MauiChocolate/"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mauichocolate/?hl=en"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ"></a>
+                </li>
+                <li>
+                    <a href="aloha@mauichocolate.com"></a>
+                </li>
+            </ul>
+            <p>&copy; 2022 MAUI KU’IA ESTATE CHOCOLATE</p>
+        </div>
+    </footer>
+</body>
+</html>

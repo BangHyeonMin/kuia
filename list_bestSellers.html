@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maui Kuia Estate</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div class="popup" id="search">
+        <input type="search" id="detailSearch" placeholder="SEARCH">
+        <a href="#" class="btn_close">CLOSE</a>
+    </div>
+    <div class="popup" id="shoppingBag">
+        <h2 class="btn_close">CART</h2>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    <img src="images/common_chocolateBars_09.png" alt="Dark Chocolate Bar">
+                    <dl>
+                        <dt>Dark Chocolate Bar</dt>
+                        <dd>
+                            $
+                            <input type="text" id="price" value="9.00" readonly>
+                             USD
+                        </dd>
+                    </dl>
+                    <div class="countComp">
+                        <input type="button" value="-" class="countMinus" >
+                        <input type="number" class="qc" id="countNumb" value="1" min="1" max="99" step="1">
+                        <input type="button" value="+" class="countPlus" >
+                    </div>
+                </li>
+            </ul>
+            <span>Subtotal</span>
+            <strong>$ <output id="totalPrice">9.00</output> USD</strong>
+            <input type="submit" value="VIEW CART">
+        </form>
+    </div>
+    <div class="topBannerSub">
+        Hello Summer.
+    </div>
+    <header>
+        <input type="button" value="menu" id="muiNavBtn" class="material-icons">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>
+                    SHOP
+                    <ol>
+                        <li><a href="list_bestSellers.html">Best Sellers</a></li>
+                        <li><a href="list_gifts.html">Gifts</a></li>
+                        <li><a href="list_bakingPantry.html">Baking & Pantry</a></li>
+                        <li><a href="list_atHomeTasting.html">AT&#45;Home Tasting  </a></li>
+                        <li><a href="list_chocolateBars.html">Chocolate Bars</a></li>
+                        <li><a href="list_mauiGrown.html">Maui Grown</a></li>
+                        <li><a href="list_merchandise.html">Merchandise</a></li>
+                        <li><a href="list_bulkChocolateSquares.html">Bulk Chocolate Squares</a></li>
+                    </ol>
+                </li>
+                <li>
+                    EXPLORE
+                    <ol>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ol>
+                </li>
+                <li><a href="cafe.html">Cafe</a></li>
+                <li><a href="monthClub.html">Month club</a></li>
+                <li>
+                    ABOUT US
+                    <ol>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li>
+                        <li><a href="ourStory.html">Our Story</a></li>
+                        <li><a href="cacaoOrigins.html">Cacao Origins</a></li>
+                    </ol>
+                </li>
+            </ul>
+            <div class="navSns">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/MauiChocolate/" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/mauichocolate/?hl=en" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="mailto:aloha@mauichocolate.com"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1><a href="/"><img src="images/logo.png" alt="Maui Kuia Estate"></a></h1>
+        <ul>
+            <li><a href="myPage_login.html"><img src="images/bull_person.png" alt="my page"></a></li>
+            <li class="search"><a href="#" data-panel="search"><img src="images/bull_search.png" alt="search"></a></li>
+            <li class="cart"><a href="#" data-panel="shoppingBag"><img src="images/bull_shoppingbag.png" alt="shopping bag"></a></li>
+        </ul>
+    </header>
+    <section class="listContainer">
+        <h2>
+            <span>BEST SELLERS</span>
+        </h2>
+        <div>
+            <a href="list_bestSellers.html">VIEW NEW <br> BSET SELLERS HERE</a>
+        </div>
+        <div>
+            <p>Refresh your browser to shop!</p>
+            <div>
+                <h3>Filter by</h3>
+                <form>
+                    <fieldset>
+                        <legend>Chocolate Type</legend>
+                        <a href="#">All</a>
+                        <a href="#">Assorted</a>
+                        <a href="#">Dark</a>
+                        <a href="#">Milk</a>
+                        <a href="#">Dark Milk</a>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Price</legend>
+                        <input type="range" id="priceRange" min="6.5" max="60">
+                        <label for="priceRange">$6.5 USD</label>
+                        <label for="priceRange">$60 USD</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Flavor</legend>
+                        <a href="#">Assorted</a>
+                        <a href="#">Classic</a>
+                        <a href="#">Mango</a>
+                        <a href="#">Mokka Cappuchino</a>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Gift Category</legend>
+                        <a href="#">Gift Box</a>
+                        <a href="#">Gift Set</a>
+                        <a href="#">Gift Tin</a>
+                    </fieldset>
+                </form>
+            </div>
+            <ul>
+                <li>
+                    <div>
+                        <img src="images/common_chocolateBars_09.png" alt="Dark Chocolate Bar">
+                        <a href="detail_bestSellers_01.html">QuickView</a>
+                    </div>
+                    <h3>Dark Chocolate Bar</h3>
+                    <span>$9.00 USD</span>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/common_chocolateBars_05.png" alt="Mokka Cappuchino Chocolate Bar">
+                        <a href="detail_bestSellers_02.html">QuickView</a>
+                    </div>
+                    <h3>Mokka Cappuchino Chocolate Bar</h3>
+                    <span>$9.00 USD</span>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/common_chocolateBars_20.png" alt="Mango Dark Chocolate Bar">
+                        <a href="detail_bestSellers_03.html">QuickView</a>
+                    </div>
+                    <h3>Mango Dark Chocolate Bar</h3>
+                    <span>$6.50 USD</span>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/common_giftBox_06.png" alt="Chocolate Trio Gift Box">
+                        <a href="detail_bestSellers_04.html">QuickView</a>
+                    </div>
+                    <h3>Chocolate Trio Gift Box</h3>
+                    <span>$50.00 USD</span>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/common_giftBox_09.png" alt="Assorted Dark Chocolate Gift Box">
+                        <a href="detail_bestSellers_05.html">QuickView</a>
+                    </div>
+                    <h3>Assorted Dark Chocolate Gift Box</h3>
+                    <span>$36.00 USD</span>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/common_giftBox_08.png" alt="Tropical Trio Dark Chocolate Gift Box">
+                        <a href="detail_bestSellers_06.html">QuickView</a>
+                    </div>
+                    <h3>Tropical Trio Dark Chocolate Gift Box</h3>
+                    <span>$36.00 USD</span>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/common_giftBox_03.png" alt="Tropical Trio Dark Milk Chocolate Gift Box">
+                        <a href="detail_bestSellers_07.html">QuickView</a>
+                    </div>
+                    <h3>Tropical Trio Dark Milk Chocolate Gift Box</h3>
+                    <span>$36.00 USD</span>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/common_giftBox_07.png" alt="Assorted Dark Chocolate Deluxe Gift Box">
+                        <a href="detail_bestSellers_08.html">QuickView</a>
+                    </div>
+                    <h3>Assorted Dark Chocolate Deluxe Gift Box</h3>
+                    <span>$60.00 USD</span>
+                </li>
+            </ul>
+            <div class="pager">
+                <a href="#">Prev</a>
+                <a href="list_bestSellers_02.html">next</a>
+                <ol>
+                    <li><a href="list_bestSellers.html">1</a></li>
+                    <li><a href="list_bestSellers_02.html">2</a></li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h2>KU’IA CLUB MEMBER</h2>
+            <p>Sign up for a membership and get 10% discount</p>
+            <input type="email" id="memberShipEmail" placeholder="Enter your email address">
+            <input type="button" value="SUBSCRIBE">
+        </div>
+        <div>
+            <h2>MAUI KU'IA</h2>
+            <ul>
+                <li>
+                    <a href="contactUs.html">Contact us</a>
+                </li>
+                <li>
+                    <a href="team.html">Team</a>
+                </li>
+                <li>
+                    <a href="ourStory.html">Our Story</a>
+                </li>
+                <li>
+                    <a href="cacaoOrigins.html">Cacao Origins</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>FAQ</h2>
+            <ul>
+                <li>
+                    <a href="faq.html">How long until I receive order</a>
+                </li>
+                <li>
+                    <a href="faq.html">Do you offer gift cards?</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is the cacao sourced from</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is your chocolate made?</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>SNS</h2>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/MauiChocolate/"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mauichocolate/?hl=en"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ"></a>
+                </li>
+                <li>
+                    <a href="aloha@mauichocolate.com"></a>
+                </li>
+            </ul>
+            <p>&copy; 2022 MAUI KU’IA ESTATE CHOCOLATE</p>
+        </div>
+    </footer>
+</body>
+</html>

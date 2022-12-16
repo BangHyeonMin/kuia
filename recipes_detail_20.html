@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maui Kuia Estate</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div class="popup" id="search">
+        <input type="search" id="detailSearch" placeholder="SEARCH">
+        <a href="#" class="btn_close">CLOSE</a>
+    </div>
+    <div class="popup" id="shoppingBag">
+        <h2 class="btn_close">CART</h2>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    <img src="images/common_chocolateBars_09.png" alt="Dark Chocolate Bar">
+                    <dl>
+                        <dt>Dark Chocolate Bar</dt>
+                        <dd>
+                            $
+                            <input type="text" id="price" value="9.00" readonly>
+                             USD
+                        </dd>
+                    </dl>
+                    <div class="countComp">
+                        <input type="button" value="-" class="countMinus" >
+                        <input type="number" class="qc" id="countNumb" value="1" min="1" max="99" step="1">
+                        <input type="button" value="+" class="countPlus" >
+                    </div>
+                </li>
+            </ul>
+            <span>Subtotal</span>
+            <strong>$ <output id="totalPrice">9.00</output> USD</strong>
+            <input type="submit" value="VIEW CART">
+        </form>
+    </div>
+    <div class="topBannerSub">
+        Hello Summer.
+    </div>
+    <header>
+        <input type="button" value="menu" id="muiNavBtn" class="material-icons">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>
+                    SHOP
+                    <ol>
+                        <li><a href="list_bestSellers.html">Best Sellers</a></li>
+                        <li><a href="list_gifts.html">Gifts</a></li>
+                        <li><a href="list_bakingPantry.html">Baking & Pantry</a></li>
+                        <li><a href="list_atHomeTasting.html">AT&#45;Home Tasting  </a></li>
+                        <li><a href="list_chocolateBars.html">Chocolate Bars</a></li>
+                        <li><a href="list_mauiGrown.html">Maui Grown</a></li>
+                        <li><a href="list_merchandise.html">Merchandise</a></li>
+                        <li><a href="list_bulkChocolateSquares.html">Bulk Chocolate Squares</a></li>
+                    </ol>
+                </li>
+                <li>
+                    EXPLORE
+                    <ol>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ol>
+                </li>
+                <li><a href="cafe.html">Cafe</a></li>
+                <li><a href="monthClub.html">Month club</a></li>
+                <li>
+                    ABOUT US
+                    <ol>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li>
+                        <li><a href="ourStory.html">Our Story</a></li>
+                        <li><a href="cacaoOrigins.html">Cacao Origins</a></li>
+                    </ol>
+                </li>
+            </ul>
+            <div class="navSns">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/MauiChocolate/" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/mauichocolate/?hl=en" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="mailto:aloha@mauichocolate.com"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1><a href="/"><img src="images/logo.png" alt="Maui Kuia Estate"></a></h1>
+        <ul>
+            <li><a href="myPage_login.html"><img src="images/bull_person.png" alt="my page"></a></li>
+            <li class="search"><a href="#" data-panel="search"><img src="images/bull_search.png" alt="search"></a></li>
+            <li class="cart"><a href="#" data-panel="shoppingBag"><img src="images/bull_shoppingbag.png" alt="shopping bag"></a></li>
+        </ul>
+    </header>
+    <section class="recipesDetailContainer">
+        <div>
+            <div class="detailPager">
+                <time datetime="2020-04-24T00:00:00">April 24, 2020</time>
+                <a href="recipes_detail_19.html">Prev</a>
+                <a href="recipes_detail_21.html">next</a>
+            </div>
+            <h2>Mole 2 Ways</h2>
+            <div class="contentBox">
+                <img src="images/recipes_20.jpg" alt="Mole 2 Ways">
+                <img src="images/recipes_20_02.jpg" alt="Mole 2 Ways">
+                <p>
+                    Cinco de Mayo is just around the corner!
+                </p>
+                <p>
+                    We have not one, but two great mole recipes for you to try at home this year.
+                    What a fun new way to eat Maui Ku'ia Estate Chocolate!
+                </p>
+                <div>
+                    <h3>Lisa's Homemade Mole</h3>
+                    <p>
+                        Lisa Foth, our very own Assistant General Manager, is somewhat of a wizard in the kitchen.
+                        She uses our Ku'ia Dark Maui Coffee Chocolate to add depth and flavor to this delicious sauce!
+                    </p>
+                    <p>
+                        This is something worth taking your time to do when creating that special meal for Cinco de
+                        Mayo utilizing Maui Chocolate.
+                    </p>
+                    <div>
+                        <h4>INGREDIENTS :</h4>
+                        <ul>
+                            <li>
+                                Toast & Blister Chiles - Approx. 2 Minutes
+                            </li>
+                            <li>
+                                8 Dried Mulato Chiles 
+                            </li>
+                            <li>
+                                8 Dried Pasilla Chiles
+                            </li>
+                            <li>
+                                4 Dried Chilhaucle Negro Chiles
+                            </li>
+                            <li>
+                                1 Plum Tomato Cut in Half - Remove Skin After Saute
+                            </li>
+                            <li>
+                                1/2 Medium Onion, Slice into 4 Large Pieces
+                            </li>
+                            <li>
+                                3 Tomatillos - Remove Husks and Rinse
+                            </li>
+                            <li>
+                                3 Cloves Garlic
+                            </li>
+                            <li>
+                                Wipe Pan, Toast and Place in Bowl
+                            </li>
+                            <li>
+                                3 T. Corn Oil
+                            </li>
+                            <li>
+                                2 T. Almonds
+                            </li>
+                            <li>
+                                2T. Peacans
+                            </li>
+                            <li>
+                                2 T. Peanuts
+                            </li>
+                            <li>
+                                1 Large Slice Stale Bread Torn into Pieces.
+                            </li>
+                            <li>
+                                2 Cinnamon Sticks
+                            </li>
+                            <li>
+                                3 Allspice
+                            </li>
+                            <li>
+                                3 Cloves
+                            </li>
+                            <li>
+                                2 T. Raisins
+        
+                            </li>
+                            <li>
+                                2 T. Pumpkin Seeds or Papitas
+                            </li>
+                            <li>
+                                2 T. Sesame Seeds
+                            </li>
+                            <li>
+                                1 t.  Dried Oregano
+                            </li>
+                            <li>
+                                1/8 t. Aniseed
+                            </li>
+                            <li>
+                                1/8t. Cumin Seed
+                            </li>
+                            <li>
+                                4 oz. Maui Ku'ia Estate Chocolate Dark Chocolate with Maui Mokka Coffee
+                            </li>
+                            <li>
+                                4 T. Honey
+                            </li>
+                            <li>
+                                5 C. Chicken Broth 
+                            </li>
+                            <li>
+                                Chile Soaking Liquid
+                            </li>
+                            <li>
+                                Kosher Salt
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>DIRECTIONS :</h4>
+                        <ol>
+                            <li>
+                                Combine All Items  (You will need to do this in two batches)
+                            </li>
+                            <li>
+                                Use either an Immersion Blender or VitaMix to Liquify.  
+                            </li>
+                            <li>
+                                Transfer to Large Dutch Oven to Simmer.
+                            </li>
+                            <li>
+                                Now it's time to add this to your favorite dishes.
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div>
+                    <h3>Chef Nabavi's Fig Mole Rojos Sauce</h3>
+                    <p>
+                        Chef Paris Nabavi is the force behind West Maui's Pizza Paradiso Mediterranean Grill in
+                        Honokowai.
+                    </p>
+                    <p>
+                        You just need one 5g piece of our Dark Chocolate to make this recipe!
+                    </p>
+                    <div>
+                        <h4>INGREDIENTS :</h4>
+                        <ul>
+                            <li>
+                                ENCHILADA SAUCE = 13
+                            </li>
+                            <li>
+                                Batch Yields = 12 fl oz.- Serves 4
+                            </li>
+                            <li>
+                                8 floz. Water
+                            </li>
+                            <li>
+                                1 ea. Tomato quartered
+                            </li>
+                            <li>
+                                1/4 ea. Onion, chopped
+                            </li>
+                            <li>
+                                1 ea. Garlic cloves
+                            </li>
+                            <li>
+                                2 ea. California Chiles
+                            </li>
+                            <li>
+                                0.5 oz. Butter cubed
+                            </li>
+                            <li>
+                                Salt to taste 
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>DIRECTIONS :</h4>
+                        <ol>
+                            <li>
+                                In a stock pot over high heat, bring the water to boil add tomato, onion, garlic and Chiles for
+                                30 minutes.
+                            </li>
+                            <li>
+                                Remove from the heat and let cool.
+                            </li>
+                            <li>
+                                Blend all the ingredients and strain through a fine mesh sieve.
+                            </li>
+                            <li>
+                                Press with the back of the ladle to extract all the flavors.
+                            </li>
+                            <li>
+                                Whisk in the cubed butter and add salt. Refrigerate up to 3 days.
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div>
+                    <h3>FIG MOLE ROJOS SAUCE</h3>
+                    <div>
+                        <h4>INGREDIENTS :</h4>
+                        <ul>
+                            <li>
+                                Batch yields = 10 floz
+                            </li>
+                            <li>
+                                2.5 oz. Peanut Butter
+                            </li>
+                            <li>
+                                2.5 oz. Pecans
+                            </li>
+                            <li>
+                                2.5 oz. Pumpkin Seeds
+                            </li>
+                            <li>
+                                5g 65% Ku'ia Dark Chocolate
+                            </li>
+                            <li>
+                                1 Tbsp. Cinnamon
+                            </li>
+                            <li>
+                                2 Tbsp Sugar
+                            </li>
+                            <li>
+                                12 floz. Enchilada sauce
+                            </li>
+                            <li>
+                                10 floz. Hot water
+                            </li>
+                            <li>
+                                8 floz. Hot water
+                            </li>
+                            <li>
+                                1 ea. Ancho Chili
+                            </li>
+                            <li>
+                                2 tsp. Cumin
+                            </li>
+                            <li>
+                                1.5 oz. Butter
+                            </li>
+                            <li>
+                                Salt to taste
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>DIRECTIONS :</h4>
+                        <ol>
+                            <li>
+                                Heat the enchilada sauce in a large size pot.
+                            </li>
+                            <li>
+                                Remove the stems and roast Ancho Chiles on the flat top and add to the enchilada sauce, add
+                                hot water, peanut butter, pecans, Pumpkin Seeds Sugar and cinnamon and chocolate, let
+                                simmer at low heat for 30 minutes, blend all, salt and strain to remove all impurities.
+                            </li>
+                            <li>
+                                Return to pot add 8-10 oz. water and whisk in the butter in the sauce.
+                            </li>
+                            <li>
+                                Turn the heat off. Let cool before storing in refrigerator.
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <form>
+                <fieldset>
+                    <legend>LEAVE A COMMENT</legend>
+                    <input type="text" id="newsCommentName" placeholder="Name">
+                    <input type="email" id="newsCommentEmail" placeholder="Email">
+                    <textarea id="newsCommentTextarea" cols="50" rows="10" placeholder="Comment"></textarea>
+                    <span>All comments are moderated before being published</span>
+                    <input type="submit" class="btn" value="POST COMMENT">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h2>KU’IA CLUB MEMBER</h2>
+            <p>Sign up for a membership and get 10% discount</p>
+            <input type="email" id="memberShipEmail" placeholder="Enter your email address">
+            <input type="button" value="SUBSCRIBE">
+        </div>
+        <div>
+            <h2>MAUI KU'IA</h2>
+            <ul>
+                <li>
+                    <a href="contactUs.html">Contact us</a>
+                </li>
+                <li>
+                    <a href="team.html">Team</a>
+                </li>
+                <li>
+                    <a href="ourStory.html">Our Story</a>
+                </li>
+                <li>
+                    <a href="cacaoOrigins.html">Cacao Origins</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>FAQ</h2>
+            <ul>
+                <li>
+                    <a href="faq.html">How long until I receive order</a>
+                </li>
+                <li>
+                    <a href="faq.html">Do you offer gift cards?</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is the cacao sourced from</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is your chocolate made?</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>SNS</h2>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/MauiChocolate/"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mauichocolate/?hl=en"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ"></a>
+                </li>
+                <li>
+                    <a href="aloha@mauichocolate.com"></a>
+                </li>
+            </ul>
+            <p>&copy; 2022 MAUI KU’IA ESTATE CHOCOLATE</p>
+        </div>
+    </footer>
+</body>
+</html>

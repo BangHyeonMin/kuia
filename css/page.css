@@ -1,0 +1,5307 @@
+.mainContainer h2,
+.mainContainer h3,
+.mainContainer ul[class$="Slider"] li,
+.mainContainer > div:nth-of-type(4) > *,
+.mainContainer > div:nth-of-type(5) ul li a,
+.mainContainer > div:nth-of-type(6) > div > div > *:not(.selectComponent) ,
+.mainContainer > div:nth-of-type(6) > div > a:first-of-type,
+.mainContainer > div:nth-of-type(6) > ul li,
+.mainContainer > div:nth-of-type(7) ul li dl dt,
+.loginContainer h2,
+.loginContainer input,
+.loginContainer input::placeholder,
+.registerContainer h2,
+.registerContainer input,
+.registerContainer input::placeholder,
+.mypageContainer a,
+.mypageContainer h2,
+.mypageContainer > div > div:first-of-type,
+.mypageContainer > div > div:last-of-type h3,
+.myAddressContainer > div > *:not(div),
+.myAddressContainer h3,
+.myAddressContainer div div a,
+#addNewAddress h2,
+#editUnAddress h2,
+#addNewAddress form fieldset input,
+#editUnAddress form fieldset input,
+#addNewAddress form fieldset input::placeholder,
+#editUnAddress form fieldset input::placeholder,
+#addNewAddress label,
+#editUnAddress label,
+.cartContainer > div > div:first-of-type ul li dl,
+.cartContainer > div > div:last-of-type ul li > *,
+.checkOutContainer h2,
+.checkOutContainer label,
+.checkOutContainer input,
+.checkOutContainer select,
+.checkOutContainer select option,
+.checkOutContainer strong,
+.checkOutContainer legend,
+.checkOutContainer p,
+.checkOutContainer span,
+.checkOutContainer div ul li dl,
+.checkOutContainer div a,
+.faqContainer,
+.recipesContainer h2,
+.recipesContainer ul li dl dt,
+.newsContainer h2,
+.newsContainer ul li dl dt,
+.cafeContainer h2,
+.cafeContainer .wrap > div > *:not(:last-of-type),
+.cafeContainer h3,
+.cafeContainer .wrap > div:nth-of-type(2) > *:not(p),
+#paymentComplete h2,
+.monthClubContainer,
+.contactUsContainer .wrap > div:first-of-type div h3,
+.contactUsContainer .wrap > div:first-of-type div a,
+.contactUsContainer .wrap > div:first-of-type div address,
+.contactUsContainer .wrap > div:last-of-type form fieldset legend,
+.contactUsContainer .wrap > div:last-of-type form fieldset input,
+.contactUsContainer .wrap > div:last-of-type form fieldset textarea,
+.contactUsContainer .wrap > div:last-of-type form fieldset input::placeholder,
+.contactUsContainer .wrap > div:last-of-type form fieldset textarea::placeholder,
+.contactUsContainer .wrap > div:last-of-type .successComment h3,
+.ourStoryContainer h2,
+.ourStoryContainer h3,
+.ourStoryContainer blockquote,
+.ourStoryContainer dl > *,
+.ourStoryContainer .wrap > div:last-of-type > p,
+.cacaoOriginsContainer,
+.teamContainer,
+div[id$="Address"] .selectComponent > select{
+    font-family: 'Raleway', sans-serif;
+}
+
+.mainContainer > div:nth-of-type(2) article p,
+.mainContainer > div:nth-of-type(2) article a,
+.mainContainer > article:first-of-type p,
+.mainContainer > article:first-of-type a,
+.mainContainer > article:last-of-type > *,
+.mainContainer > div:nth-of-type(6) .selectComponent select,
+.mainContainer > div:nth-of-type(6) > div > a:last-of-type,
+.mainContainer > div:nth-of-type(7) ul li dl dd,
+.mainContainer > div:nth-of-type(7) ul li > a,
+.mainContainer > div:last-of-type ul li > p,
+.mainContainer > div:last-of-type ul li > blockquote,
+.mainContainer > div:last-of-type > a,
+.loginContainer p,
+.loginContainer a,
+.registerContainer p,
+.mypageContainer small,
+.mypageContainer > div > div:last-of-type span,
+.myAddressContainer span,
+#addNewAddress p,
+#editUnAddress p,
+.recipesContainer ul li dl dd,
+.recipesContainer ul li a,
+.newsContainer ul li dl dd,
+.newsContainer ul li a,
+.cafeContainer .wrap > div > p:last-of-type,
+.cafeContainer .wrap > div:nth-of-type(2) > p,
+#paymentComplete p,
+.contactUsContainer .wrap > div:first-of-type div strong,
+.contactUsContainer .wrap > div:first-of-type div p,
+.contactUsContainer .wrap > div:last-of-type form fieldset p,
+.contactUsContainer .wrap > div:last-of-type .successComment p,
+.ourStoryContainer .wrap > p,
+.ourStoryContainer .memberSlider p{
+    font-family: 'Futura std';
+}
+
+.mainContainer > div > h3,
+.mainContainer > div .mainSlider li,
+.mainContainer > div article,
+.mainContainer > div p,
+.mainContainer > div address,
+.mainContainer > article,
+.mainContainer > div > div > span:not(:last-of-type),
+.mainContainer > div > div > h4,
+.mainContainer > div > div > p,
+.mainContainer > div > div .selectComponent,
+.mainContainer > div > ul li > *,
+.mainContainer > div:last-of-type > *,
+.mypageContainer h2,
+.mypageContainer div div ul li dl,
+.mypageContainer div div span,
+#addNewAddress h2,
+#editUnAddress h2,
+#addNewAddress p,
+#editUnAddress p,
+#addNewAddress label,
+div[id$="Address"] form fieldset input#newAddressCheckBox:checked + label,
+div[id$="Address"] form fieldset input#editAddressCheckBox:checked + label{
+    color: #1c1b1b;
+}
+
+.loginContainer input::placeholder,
+.loginContainer > div > div > p,
+.registerContainer div form input::placeholder,
+div[id$="Address"] form fieldset input#newAddressCheckBox + label,
+div[id$="Address"] form fieldset input#editAddressCheckBox + label,
+.cartContainer > div > div:first-of-type ul li dl dd:first-of-type,
+.checkOutContainer > div > div ul:first-of-type li a,
+.recipesContainer ul li dl dd,
+.newsContainer ul li dl dd{
+    color: #626262;
+}
+
+div[id$="Address"]{
+    display: none;
+}
+div[id$="Address"].active{
+    display: block;
+}
+
+@media screen and (max-width: 767px){
+
+    .loginContainer,
+    .registerContainer,
+    .mypageContainer,
+    .myAddressContainer,
+    .cartContainer,
+    .faqContainer,
+    .recipesContainer,
+    .newsContainer,
+    .cafeContainer,
+    .monthClubContainer,
+    .teamContainer,
+    .contactUsContainer,
+    .ourStoryContainer,
+    .cacaoOriginsContainer{
+        padding: 200px 3% 80px; background-color: #efefef;
+    }
+
+    .faqContainer h2,
+    .recipesContainer h2,
+    .newsContainer h2,
+    .cafeContainer h2,
+    .teamContainer h2,
+    .contactUsContainer h2,
+    .ourStoryContainer h2{
+        text-align: center; font-size: 16px; font-weight: 300; margin-bottom: 80px;
+    }
+
+    .mainContainer > div:first-of-type,
+    .mainContainer > article:last-of-type > *,
+    .mainContainer > div:nth-of-type(3),
+    .mainContainer > div:nth-of-type(6),
+    .mainContainer > div:nth-of-type(7){
+         margin: 0 auto 120px;
+    }
+
+    .mainContainer > div:nth-of-type(n + 4):nth-of-type(-n + 6) ul li{
+        width: 100%; background-size: cover; background-repeat: no-repeat;
+        box-sizing: border-box; display: flex; flex-flow: column; height: 345px;
+        justify-content: flex-end; padding: 0 0 7.7% 7.7%;
+    }
+
+    .mainContainer div:not(:nth-of-type(4)) h3{
+        font-weight: 500; text-align: center; margin-bottom: 80px; line-height: 30px;
+        font-size: 16px;
+    }
+
+    .mainContainer{
+        padding-top: 40%; background-image: url('../images/main_bg.jpg');
+        background-size: 100%; background-repeat: no-repeat; background-color: #efefef;
+        background-position: 0 116px;
+    }
+    .mainContainer h2{
+        text-align: center; font-size: 14px; font-weight: 500; margin: 60px 0 165px;
+        text-shadow: 5px 6px 5px #000; color: #fff; 
+    }
+    .mainContainer h2 small{
+        text-shadow: 3px 6px 8px #000; font-size: 12px; margin-bottom: 30px;
+    }
+
+    /* ? bx slider */
+
+    .mainContainer .sliderWrap .bx-wrapper{
+        margin: 0 auto 60px; display: block; padding: 0 21%; box-sizing: border-box;
+    }
+    .mainContainer .sliderWrap .mainSlider::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+
+    .mainContainer .sliderWrap .mainSlider li{
+        max-width: 160px; width: 61.5%;
+    }
+    .mainContainer .sliderWrap .mainSlider li a > *{
+        font-size: 12px; font-weight: 500; text-align: center;
+    }
+    .mainContainer .sliderWrap .mainSlider li a img{
+        margin-bottom: 20px;
+    }
+    .mainContainer .sliderWrap .mainSlider li a h4{
+        margin-bottom: 15px; line-height: 25px;
+    }
+    .mainContainer .sliderWrap .mainSlider li a span{
+        display: block;
+    }
+    .mainContainer .sliderWrap .bx-wrapper .bx-controls-direction a{
+        margin-top: 0; z-index: 1; width: 33px; height: 33px; border-radius: 22px;
+        background-color: white; box-shadow: 0 2px 10px #363636; background-size: 5px;
+        background-position: 50%; transition: all 0.3s ease-in-out; top: 65px;
+    }
+    .mainContainer .sliderWrap .bx-wrapper .bx-controls-direction a.bx-prev{
+        background-image: url('../images/btn_prev.png'); left: 3%;
+    }
+    .mainContainer .sliderWrap .bx-wrapper .bx-controls-direction a.bx-prev:hover{
+        background-position: -100px;
+    }
+    .mainContainer .sliderWrap .bx-wrapper .bx-controls-direction a.bx-next{
+        background-image: url('../images/btn_next.png'); right: 3%;
+    }
+    .mainContainer .sliderWrap .bx-wrapper .bx-controls-direction a.bx-next:hover{
+        background-position: 100px;
+    }
+
+    .mainContainer .sliderWrap ~ .btn{
+        width: 61.5%; margin: 0 auto; font-size: 12px;
+    }
+
+    /*  ? View products */
+
+    .mainContainer > div:nth-of-type(2){
+        background-image: url('../images/cacaoOrigins_bg_01.jpg'); padding: 40px 0; margin-bottom: 120px;
+        background-size: cover; background-repeat: no-repeat; background-position: center;
+    }
+    .mainContainer > div:nth-of-type(2) article{
+        width: 93%; background-color: white; text-align: center;
+        padding: 40px 7.7%; box-sizing: border-box; margin: 0 auto;
+    }
+    .mainContainer > div:nth-of-type(2) article > *{
+        font-size: 12px; font-weight: 500;
+    }
+    .mainContainer > div:nth-of-type(2) article h3{
+        margin-bottom: 40px;
+    }
+    .mainContainer > div:nth-of-type(2) article p{
+        margin-bottom: 20px;
+    }
+    .mainContainer > div:nth-of-type(2) article p{
+        line-height: 20px;
+    }
+    .mainContainer > div:nth-of-type(2) article a{
+        text-decoration: underline;
+    }
+
+    /* ? CACAO ORIGINS */
+
+    .mainContainer > div:nth-of-type(4){
+        margin-bottom: 120px;
+    }
+    .mainContainer > div:nth-of-type(4) h3{
+        font-size: 16px; font-weight: 700; text-align: center; margin-bottom: 60px;
+    }
+    .mainContainer > div:nth-of-type(4) p,
+    .mainContainer > div:nth-of-type(4) address{
+        text-align: center; font-size: 12px; font-weight: 500;
+    }
+    .mainContainer > div:nth-of-type(4) strong{
+        font-weight: 700; margin-bottom: 20px; font-size: 14px; display: block;
+    }
+    .mainContainer > div:nth-of-type(4) p{
+        margin-bottom: 40px;
+    }
+    .mainContainer > div:nth-of-type(4) address{
+        font-style: normal; margin: 0 auto 60px; max-width: 240px; line-height: 20px;
+    }
+    .mainContainer > div:nth-of-type(4) ul{
+        display: flex; justify-content: space-between; flex-wrap: wrap;
+        padding: 0 3.5%;
+    }
+
+    .mainContainer > div:nth-of-type(4) ul li:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+
+    .mainContainer > div:nth-of-type(4) ul li:nth-of-type(1){
+        background-image: url('../images/main_cafeBg_01.png'); 
+    }
+    .mainContainer > div:nth-of-type(4) ul li:nth-of-type(2){
+        background-image: url('../images/main_cafeBg_02.png');
+    }
+    .mainContainer > div:nth-of-type(4) ul li:nth-of-type(3){
+        background-image: url('../images/main_cafeBg_03.png');
+    }
+    .mainContainer > div:nth-of-type(4) ul li:nth-of-type(4){
+        background-image: url('../images/main_cafeBg_04.jpg');
+    }
+
+    .mainContainer > div:nth-of-type(4) ul li h4{
+        color: #fff; margin-bottom: 20px; width: 90%; font-weight: 500;
+        font-size: 18px; line-height: 30px; text-shadow: 3px 3px 5px #000;
+    }
+    .mainContainer > div:nth-of-type(4) ul li h4 small{
+        margin-bottom: 20px; font-size: 11px;
+    }
+
+    .mainContainer > div:nth-of-type(4) ul li a{
+        background-color: #fff; line-height: 40px; display: block; text-align: center;
+        color: #363636; box-shadow: 10px 10px 20px #000; font-weight: 500;
+        font-size: 12px; max-width: 160px; width: 57.7%;
+    }
+
+    /* ? STORE & CAFE */
+
+    .mainContainer > article:first-of-type,
+    .mainContainer > article:last-of-type{
+        text-align: center; font-weight: 500;
+    }
+
+    .mainContainer > article:first-of-type h3 {
+        font-size: 16px; margin: 0 auto 60px; text-align: center;
+        line-height: 30px; text-transform: uppercase;
+    }
+    .mainContainer > article:first-of-type p{
+        font-size: 12px; line-height: 25px; margin: 0 auto 40px; width: 93%;
+    }
+    .mainContainer > article:first-of-type a{
+        display: block; font-size: 12px; text-transform: uppercase;
+        margin-bottom: 60px; text-decoration: underline 2px solid #9d9d9d;
+    }
+    .mainContainer > article:first-of-type img{
+        width: 100%; margin-bottom: 120px;
+    }
+    /* ? Chocolate of month club */
+
+    .mainContainer > article:last-of-type{
+        padding: 0 3.5%;
+    }
+    .mainContainer > article:last-of-type{
+        position: relative; margin-bottom: 100px;
+    }
+    .mainContainer > article:last-of-type h3{
+        font-size: 14px; margin-bottom: 60px;
+    }
+    .mainContainer > article:last-of-type blockquote{
+        font-size: 12px; line-height: 25px; padding-bottom: 70px;
+        background: url('../images/main_review.png') right bottom/ 150px no-repeat;
+    }
+    .mainContainer > article:last-of-type blockquote strong{
+        display: block; margin-bottom: 40px; font-size: 18px;
+    }
+    /* ? Review */
+
+    .mainContainer > div:nth-of-type(5){
+        margin-bottom: 120px;
+    }
+    .mainContainer > div:nth-of-type(5) ul{
+        display: flex; justify-content: space-between; flex-wrap: wrap;
+        padding: 0 3%;
+    }
+
+    .mainContainer > div:nth-of-type(5) ul li:nth-child(-n+5){
+        margin-bottom: 40px;
+    }
+    .mainContainer > div:nth-of-type(5) ul li:nth-of-type(1){
+        background-image: url('../images/recipes_01.jpg');
+    }
+    .mainContainer > div:nth-of-type(5) ul li:nth-of-type(2){
+        background-image: url('../images/recipes_07.jpg');
+    }
+    .mainContainer > div:nth-of-type(5) ul li:nth-of-type(3){
+        background-image: url('../images/recipes_03.jpg');
+    }
+    .mainContainer > div:nth-of-type(5) ul li:nth-of-type(4){
+        background-image: url('../images/recipes_18.jpg');
+    }
+    .mainContainer > div:nth-of-type(5) ul li:nth-of-type(5){
+        background-image: url('../images/recipes_15.jpg');
+    }
+    .mainContainer > div:nth-of-type(5) ul li:nth-of-type(6){
+        background-image: url('../images/recipes_17.jpg');
+    }
+    .mainContainer > div:nth-of-type(5) ul li h3{
+        font-size: 18px; color: #fff; text-shadow: 3px 3px 3px #000;
+        line-height: 30px; margin-bottom: 20px; font-weight: 500; width: 85%;
+    }
+    .mainContainer > div:nth-of-type(5) ul li a{
+        font-size: 12px; font-weight: 500; color: #363636; width: 57.7%;
+        background-color: #fff; box-shadow: 10px 10px 19px rgba(0, 0, 0,0.63);
+        text-align: center; display: block; line-height: 40px;
+    }
+    /* ? recipes */
+
+    .mainContainer > div:nth-of-type(6) > div{
+        padding: 0 3.5%;
+    }
+    .mainContainer > div:nth-of-type(6) > div > img{
+        width: 100%; margin-bottom: 60px;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div{
+        font-weight: 500; text-align: center;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div > *:not(:last-child, p){
+        margin-bottom: 40px;
+    }
+
+    .mainContainer > div:nth-of-type(6) > div > div > span{
+        display: block;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div > span:first-of-type{
+        font-size: 14px;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div > span:last-of-type{
+        color: #6a6a6a; font-size: 18px;
+    }
+
+    .mainContainer > div:nth-of-type(6) > div > div h4{
+        font-size: 18px;
+    }
+
+    .mainContainer > div:nth-of-type(6) > div > div p{
+        font-size: 12px; line-height: 25px;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div p:first-of-type{
+        margin-bottom: 20px;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div p:last-of-type{
+        margin-bottom: 40px;
+    }
+
+    .mainContainer > div:nth-of-type(6) > div > div > a:first-of-type{
+        font-size: 12px;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div > a:last-of-type{
+        text-decoration: underline; font-size: 14px; margin-bottom: 120px; display: block;
+    }
+
+    .mainContainer .selectComponent{
+        width: 100%;
+    }
+    .mainContainer .selectComponent > select{
+        font-size: 12px; font-weight: 500; line-height: 38px; padding-left: 10px;
+    }
+    .mainContainer .selectComponent > select option{
+        font-size: 12px; font-weight: 500;
+    }
+    .mainContainer .selectComponent > span{
+        top: 8px; right: 10px;
+    }
+
+    .mainContainer > div:nth-of-type(6) > ul{
+        clear: left; display: flex; justify-content: space-between; flex-flow: row nowrap;
+        padding: 0 3%;
+    }
+
+    .mainContainer > div:nth-of-type(6) > ul{
+        display: flex; justify-content: flex-start; flex-wrap: wrap;
+    }
+    .mainContainer > div:nth-of-type(6) > ul li:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+    .mainContainer > div:nth-of-type(6) > ul li:nth-of-type(1){
+        background-image: url('../images/main_giftCardProduct_01.png');
+    }
+    .mainContainer > div:nth-of-type(6) > ul li:nth-of-type(2){
+        background-image: url('../images/main_giftCardProduct_02.png');
+    }
+    .mainContainer > div:nth-of-type(6) > ul li:nth-of-type(3){
+        background-image: url('../images/main_giftCardProduct_03.png');
+    }
+    .mainContainer > div:nth-of-type(6) > ul li h4{
+        color: #fff; font-size: 18px; font-weight: 500; text-shadow: 5px 4px 6px #000;
+        margin-bottom: 20px; line-height: 30px;
+    }
+    .mainContainer > div:nth-of-type(6) > ul li h4 small{
+        margin-bottom: 20px; font-size: 14px;
+    }
+    .mainContainer > div:nth-of-type(6) > ul li > a{
+        width: 57.7%; display: block; background-color: #fff; text-align: center;
+        line-height: 40px; box-shadow: 5px 5px 10px rgba(0, 0, 0,0.7); color: #363636;
+        font-weight: 500; font-size: 12px; font-weight: 500;
+    }
+
+    /* ? gift Card */
+
+    .mainContainer > div:nth-of-type(7){
+        padding: 0 3.5%; border-bottom: 1px solid #d5d5d5;
+    }
+    .mainContainer > div:nth-of-type(7) h3{
+        font-weight: 500; font-size: 16px;
+    }
+    .mainContainer > div:nth-of-type(7) h3 small{
+        font-size: 12px; margin-bottom: 60px;
+    }
+
+    .mainContainer > div:nth-of-type(7) ul{
+        margin: 0 auto 80px;
+        
+    }
+    .mainContainer > div:nth-of-type(7) ul li{
+        font-weight: 500;
+    }
+    .mainContainer > div:nth-of-type(7) ul li:not(:last-of-type){
+        margin-bottom: 100px;
+    }
+    .mainContainer > div:nth-of-type(7) ul li img{
+        width: 100%; margin-bottom: 40px;
+    }
+
+    .mainContainer > div:nth-of-type(7) ul li dl dt{
+        font-size: 16px; text-transform: uppercase; line-height: 30px; margin-bottom: 40px;
+    }
+    .mainContainer > div:nth-of-type(7) ul li dl dd{
+        font-size: 12px; line-height: 25px; margin-bottom: 20px;
+    }
+
+    .mainContainer > div:nth-of-type(7) ul li > a{
+        font-size: 12px; text-decoration: underline;
+    }
+    .mainContainer > div:nth-of-type(7) > a{
+        width: 77%; margin: 0 auto 120px; font-size: 12px;
+    }
+    /* ? news */
+
+    .mainContainer > div:last-of-type{
+        overflow: auto;
+    }
+    .mainContainer > div:last-of-type ul{
+        padding: 3.5%; box-sizing: border-box; margin: 0 auto;
+    }
+    .mainContainer > div:last-of-type ul li{
+        font-weight: 500; margin-bottom: 80px;
+    }   
+
+    .mainContainer > div:last-of-type ul li h3{
+        font-size: 16px; margin-bottom: 40px; text-transform: uppercase;
+        font-weight: 500; line-height: 30px; text-align: left;
+    }
+    .mainContainer > div:last-of-type ul li > *:not(h3){
+        line-height: 25px; font-size: 12px;
+    }
+
+    .mainContainer > div:last-of-type ul li > p:not(:last-of-type),
+    .mainContainer > div:last-of-type ul li > blockquote{
+        margin-bottom: 30px;
+    }
+    .mainContainer > div:last-of-type ul li:nth-of-type(2) p:last-of-type{
+        margin-bottom: 60px;
+    }
+    .mainContainer > div:last-of-type > a{
+        font-size: 12px; font-weight: 500; text-decoration: underline; display: block;
+        text-align: center; margin: 0 auto 120px;
+
+    }
+    /* ? ourStory */
+
+    
+    .loginContainer > div > p,
+    .loginContainer input[type='submit'],
+    .registerContainer h2,
+    .registerContainer p{
+        margin-bottom: 40px;
+    }
+
+    .loginContainer > div,
+    .registerContainer > div{
+        max-width: 260px; margin: 0 auto; text-align: center;
+    }
+
+    .loginContainer h2,
+    .registerContainer h2{
+        font-size: 18px; font-weight: 500;
+    }
+    .loginContainer h2{
+        margin-bottom: 20px;
+    }
+
+    .loginContainer p,
+    .registerContainer p{
+        font-size: 14px; font-weight: 500;
+    }
+
+    .loginContainer a,
+    .loginContainer input,
+    .loginContainer .btn,
+    .registerContainer .btn,
+    .registerContainer input{
+        font-size: 12px; font-weight: 500;
+    }
+
+    .loginContainer input,
+    .registerContainer input{
+        display: block; width: 100%; line-height: 50px;
+    }
+
+    .loginContainer input:not(:last-of-type),
+    .registerContainer input:not(:last-of-type){
+        margin-bottom: 20px; padding-left: 15px; box-sizing: border-box;
+    }
+    .loginContainer input::placeholder,
+    .registerContainer input::placeholder{
+        font-size: 12px; font-weight: 500; color: #626262;
+    }
+
+    .loginContainer div::after{
+        clear: both; display: block; content: ''; visibility: hidden;
+    }
+
+    .loginContainer > div > div{
+        margin: 0 auto; width: 80%;
+    }
+    .loginContainer > div > div p{
+        float: left; color: #626262;
+    }
+
+    .mypageContainer > div > a,
+    .myAddressContainer > div > a:first-of-type{
+        font-size: 16px; color: #626262; margin-bottom: 60px; display: block;
+    }
+
+    .mypageContainer > div h2,
+    .myAddressContainer > div h2{
+        font-size: 20px;
+    }
+
+    .mypageContainer > div h2 small{
+        font-size: 12px; margin: 40px 0 80px;
+    }
+
+    .mypageContainer > div *:not(dd:first-of-type),
+    .myAddressContainer > div > *,
+    .myAddressContainer > div > div > *{
+        font-weight: 500;
+    }
+
+    .mypageContainer > div > div h3,
+    .myAddressContainer h3{
+        font-size: 18px; color: #626262; border-bottom: 1px solid #626262;
+        padding-bottom: 20px; margin-bottom: 40px;
+    }
+
+    .mypageContainer > div > div:last-of-type span,
+    .myAddressContainer span{
+        margin-bottom: 40px; display: block; font-size: 12px;
+    }
+
+    .mypageContainer > div > div:last-of-type span:first-of-type{
+        margin-bottom: 40px;
+    }
+
+    .mypageContainer > div > div:first-of-type{
+        margin-bottom: 80px;
+    }
+    .mypageContainer > div > div:first-of-type ul li:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+    .mypageContainer > div > div:first-of-type ul li::after{
+        clear: both; visibility: hidden; content: ''; display: block;
+    }
+    .mypageContainer > div > div:first-of-type ul li img{
+        float: left; max-width: 100px; margin-right: 20px;
+    }
+
+    .mypageContainer > div > div:first-of-type ul li dl > *{
+        font-size: 12px;
+    }
+    .mypageContainer > div > div:first-of-type ul li dl > *:not(dd:last-of-type){
+        margin-bottom: 20px;
+    }
+    .mypageContainer > div > div:first-of-type ul li dl dt{
+        line-height: 20px;
+    }
+    .mypageContainer > div > div:first-of-type ul li dl dd:first-of-type{
+        font-weight: 700;
+    }
+
+    .mypageContainer > div > div:last-of-type span:last-of-type{
+        margin-bottom: 60px;
+    }
+    .mypageContainer > div > div:last-of-type a{
+        width: 61.5%; margin-left: 38.5%; font-size: 12px; line-height: 50px;
+    }
+
+    .myAddressContainer > div > a:first-of-type::before{
+        content: '<'; padding-right: 10px;
+    }
+    .myAddressContainer > div > h2{
+        margin-bottom: 60px;
+    }
+    .myAddressContainer > div > a:last-of-type{
+        max-width: 160px; width: 71.5%; background-color: #000; color: #fff;
+        text-align: center; display: block; margin-bottom: 80px; line-height: 50px;
+        font-size: 12px;
+    }
+
+    .myAddressContainer > div > div a{
+        text-decoration: underline; font-size: 12px;
+    }
+    .myAddressContainer > div > div a:first-of-type{
+        margin-right: 2%;
+    }
+
+    div[id$="Address"]{
+        width: 100%; margin: 0 auto; position: fixed; z-index: 100; text-align: center;
+        border: 1px solid #626262; background-color: #fff;
+        box-sizing: border-box; padding: 40px 2.2%;
+    }
+
+    div[id$="Address"] h2{
+        font-size: 16px; margin-bottom: 40px; font-weight: 500;
+    }
+
+    div[id$="Address"] .btn_close{
+        cursor: pointer;
+    }
+
+    #addNewAddress form fieldset input:not(#newAddressZipCode),
+    #editUnAddress form fieldset input:not(#editAddressZipCode){
+        width: 100%;
+    }
+
+    #addNewAddress #newAddressCheckBox,
+    #editUnAddress #editAddressCheckBox{
+        display: none;
+    }
+
+    div[id$="Address"] h2 input{
+        top: 20px; right: 20px; position: absolute; text-indent: -9999px;
+        background-color: transparent; border: none; content: ''; cursor: pointer;
+        width: 20px; height: 20px; background-image: url('../images/bull_close.png');
+        background-size: contain; background-repeat: no-repeat;
+    }
+    div[id$="Address"] > p{
+        font-size: 12px; margin-bottom: 40px;
+    }
+    
+    div[id$="Address"] form fieldset{
+        font-weight: 500;
+    }
+
+    div[id$="Address"] form fieldset input{
+        line-height: 48px; border: 1px solid #626262; font-weight: 500;
+        box-sizing: border-box; padding-left: 15px; font-size: 12px; color: #000;
+    }
+
+    div[id$="Address"] form fieldset input:not(input[type='checkbox']){
+        display: block;
+    }
+
+    div[id$="Address"] form fieldset input:not(#newAddressZipCode,#editAddressZipCode){
+        margin: 0 auto 20px;
+    }
+    
+    div[id$="Address"] form fieldset input::placeholder{
+        font-size: 12px; color: #626262; font-weight: 500;
+    }
+
+    div[id$="Address"] .selectComponent,
+    div[id$="Address"] form fieldset input#newAddressZipCode,
+    div[id$="Address"] form fieldset input#editAddressZipCode{
+        width: 100%;
+    }
+
+    div[id$="Address"] .selectComponent > select{
+        line-height: 48px; display: block; margin-bottom: 20px; padding-left: 15px;
+        font-size: 12px;
+    }
+    div[id$="Address"] .selectComponent > span{
+        top: 13px; right: 15px;
+    }
+    
+    div[id$="Address"] form fieldset label{
+        margin: 30px 0 30px; line-height: 20px; padding-left: 10%; float: right;
+        box-sizing: border-box; 
+    }
+    
+    div[id$="Address"] form fieldset input[type='submit']{
+        background-color: #000; color: #fff; font-size: 12px; line-height: 40px;
+    }
+
+    /* ? loginPage */
+
+    .cartContainer > div > div:last-of-type ul li:not(:last-of-type),
+    .checkOutContainer > div > div ul:last-of-type li:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+
+    .cartContainer > div > div:last-of-type ul li,
+    .checkOutContainer > div > div ul:last-of-type li{
+        position: relative;
+    }
+
+    .cartContainer > div > div:last-of-type ul li input[type='text'],
+    .checkOutContainer > div > div ul:last-of-type li input[type='text']{
+        background: transparent; border: none; text-align: right;
+        position: absolute; top: 0; right: 0;
+    }
+
+
+    .cartContainer > div > div:first-of-type h2,
+    .cartContainer > div > div:last-of-type h3{
+        font-size: 16px; margin-bottom: 40px; border-bottom: 1px solid #000;
+        padding-bottom: 30px;
+    }
+
+    .cartContainer > div > div:first-of-type ul li{
+        border-bottom: 1px solid #000; position: relative;
+    }
+
+    .cartContainer > div > div:first-of-type ul li:first-of-type{
+        margin-bottom: 40px;
+    }
+    .cartContainer > div > div:first-of-type ul li:last-of-type{
+        margin-bottom: 60px;
+    }
+
+    .cartContainer > div > div:first-of-type ul li::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+
+    .cartContainer > div > div:first-of-type ul li img{
+        max-width: 120px; margin-right: 3.6%; float: left;
+    }
+
+    .cartContainer > div > div:first-of-type ul li dl{
+        width: 47%; float: left;
+    }
+    .cartContainer > div > div:first-of-type ul li dl > *{
+        margin-bottom: 20px; font-weight: 500;
+    }
+    .cartContainer > div > div:first-of-type ul li dl dt{
+        font-size: 12px;
+    }
+    .cartContainer > div > div:first-of-type ul li dl dd:first-of-type{
+        font-size: 12px; line-height: 20px;
+    }
+    .cartContainer > div > div:first-of-type ul li dl dd:last-of-type{
+        font-size: 14px;
+    }
+    
+    .cartContainer .countComp{
+        border: 1px solid #626262; line-height: 30px;
+        width: 28.6%; max-width: 80px; box-sizing: border-box;
+        background-color: #fff;
+    }
+    .cartContainer .countComp input[type='button']{
+        top: 5px; font-size: 18px; cursor: pointer;
+    }
+    .cartContainer .countComp input[type='button']:first-of-type{
+        left: 0;
+    }
+    .cartContainer .countComp input[type='button']:last-of-type{
+        right: 0;
+    }
+    .cartContainer .countComp input[type='number']{
+        font-size: 12px; text-align: center; border: none;
+    }
+
+    .cartContainer > div > div:first-of-type ul li > a{
+        position: absolute; top: -25px; right: 0; max-width: 15px;
+    }
+    .cartContainer > div > div:first-of-type ul li > a img{
+        width: 100%;
+    }
+
+    .cartContainer > div > div:last-of-type ul li:not(:last-of-type) label{
+        font-size: 12px; font-weight: 300;
+    }
+    .cartContainer > div > div:last-of-type ul li:last-of-type label,
+    .cartContainer > div > div:last-of-type ul li:not(:last-of-type) input[type='text']{
+        font-size: 16px; font-weight: 500;
+    }
+    .cartContainer > div > div:last-of-type ul li:last-of-type input[type='text']{
+        font-size: 16px; font-weight: 700;
+    }
+
+    .cartContainer > div > div:last-of-type ul li:last-of-type{
+        margin-bottom: 60px;
+    }
+    .cartContainer > div > div:last-of-type ul li:nth-of-type(3){
+        border-bottom: 1px solid #000; padding-bottom: 40px;
+    }
+
+    .cartContainer > div > div:last-of-type > a{
+        font-size: 12px; line-height: 50px;
+    }
+
+    /* ? cartPage */
+
+    #paymentComplete{
+        width: 93%; position: fixed; z-index: 100; top: 20%; left: 3.5%; background-color: #fff;
+        text-align: center; border: 1px solid #626262; padding: 60px 7.7%; box-sizing: border-box;
+    }
+
+    #paymentComplete > div{
+        max-width: 220px; width: 85%; margin: 0 auto;
+    }
+
+    #paymentComplete h2{
+        font-size: 16px; font-weight: 300; margin-bottom: 60px;
+    }
+    #paymentComplete p{
+        font-size: 12px; line-height: 20px; font-weight: 500;
+    }
+    #paymentComplete p:first-of-type{
+        margin-bottom: 40px;
+    }
+    #paymentComplete p:last-of-type{
+        margin-bottom: 60px;
+    }
+    #paymentComplete a{
+        width: 100%; background-color: #000; color: #fff; display: block;
+        line-height: 50px; font-size: 12px;
+    }
+
+    .checkOutContainer > div ol li .btn_next{
+        font-size: 12px; line-height: 50px;
+    }
+
+    .checkOutContainer .stepperBox li{
+        border-bottom: 1px solid #626262; padding-bottom: 40px;
+    }
+    .checkOutContainer .stepperBox li.active .hideBox{
+        display: none;
+    }
+    .checkOutContainer .stepperBox li .hideBox{
+        display: block;
+    }
+
+    .checkOutContainer .stepperBox li .hideBox p{
+        font-size: 12px; line-height: 20px; font-weight: 500; color: #626262;
+    }
+    .checkOutContainer .stepperBox li:first-of-type .hideBox p:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+    .checkOutContainer .stepperBox li:nth-of-type(3) .hideBox::after{
+        display: block; clear: both; content: ''; visibility: hidden;
+    }
+    .checkOutContainer .stepperBox li:nth-of-type(3) .hideBox img{
+        width: 30px; height: 20px; float: left; margin-right: 4%; 
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) .hideBox p{
+        display: block;
+    }
+
+
+    .checkOutContainer .stepperBox > li h2~*,
+    .checkOutContainer .stepperBox li.active h2 input[type='button'],
+    .checkOutContainer .stepperBox li.active input[type='checkbox']{
+        display: none;
+    }
+    .checkOutContainer .stepperBox > li.active h2~*:not(.hideBox,input[type="checkbox"]),
+    .checkOutContainer .stepperBox li h2 input[type='button']{
+        display: block;
+    }
+
+    .checkOutContainer .stepperBox li.active h2{
+        border: none; padding: 0;
+    }
+    .checkOutContainer > div ol li:first-of-type.active label{
+        display: block;
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(1) h2::before{
+        content: '1.';
+    }
+    .checkOutContainer > div ol li:nth-of-type(2) h2::before{
+        content: '2.';
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) h2::before{
+        content: '3.';
+    }
+    .checkOutContainer > div ol li:nth-of-type(4) h2::before{
+        content: '4.';
+    }
+
+    .checkOutContainer{
+        margin: 200px auto 80px; padding: 0 3.5%;
+    }
+
+
+    .checkOutContainer > div ol li:not(:last-of-type){
+        margin-bottom: 80px;
+    }
+    .checkOutContainer > div ol li:last-of-type{
+        margin-bottom: 100px;
+    }
+
+    .checkOutContainer > div ol li h2{
+        font-size: 16px; font-weight: 300; margin-bottom: 40px; position: relative;
+    }
+
+
+    .checkOutContainer > div ol li h2 input[type='button']{
+        position: absolute; top: 0; right: 0; max-width: 30px; cursor: pointer;
+        border: none; background-color: transparent; font-size: 12px; font-weight: 700;
+        text-decoration: underline;
+    }
+
+    .checkOutContainer > div ol li:first-of-type label{
+        margin-bottom: 20px; font-size: 14px; color: #626262;
+    }
+    .checkOutContainer > div ol li:first-of-type input{
+        width: 100%; line-height: 46px; margin-bottom: 40px; font-weight: 500;
+        padding: 0 0 0 10px; box-sizing: border-box; font-size: 14px;
+    }
+    
+    .checkOutContainer .selectComponent{
+        margin-bottom: 40px;
+    }
+
+    .checkOutContainer .selectComponent select{
+        font-size: 17px; line-height: 48px; font-weight: 500; color: #000;
+        padding-left: 10px;
+    }
+    .checkOutContainer .selectComponent span{
+        top: 50px; right: 10px; width: 20px;
+    }
+    .checkOutContainer .selectComponent span img{
+        width: 100%;
+    }
+
+
+    .checkOutContainer > div ol li:nth-of-type(2) > div:first-of-type{
+        border: 1px solid #626262; margin-bottom: 40px; padding: 25px 0 25px 23%; position: relative;
+    }
+    .checkOutContainer > div ol li:nth-of-type(2) div input[type='radio']{
+        position: absolute; top: 43%; left: 6%; margin: 0;  width: 20px; height: 20px;
+        background: url('../images/bull_radio_default.png') no-repeat top left / 100%;
+        appearance: none; 
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(2) div input[type='radio']:checked{
+        background-image: url('../images/bull_radio_checked.png');
+    }
+
+
+    .checkOutContainer > div ol li:nth-of-type(2) > div > div label{
+        font-size: 12px; font-weight: 500; margin-bottom: 20px; display: block;
+    }
+    .checkOutContainer > div ol li:nth-of-type(2) > div > div label small{
+        color: #626262; margin-top: 25px;
+    }
+    .checkOutContainer > div ol li:nth-of-type(2) > div > div strong{
+        font-size: 18px;
+    }
+
+    
+    .checkOutContainer > div ol li:nth-of-type(3) > label{
+        padding-left: 11.5%; font-weight: 500; line-height: 20px;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > label:first-of-type{
+        margin-bottom: 20px; font-size: 12px;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > label:last-of-type{
+        margin-bottom: 60px; font-size: 14px;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > div::after{
+        display: block; clear: both; content: ''; visibility: hidden;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > div form > *{
+        margin-bottom: 40px; font-size: 12px; box-sizing: border-box;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > div form input[type='text']{
+        width: 65%; line-height: 40px; border: 1px solid #626262; padding-left: 10px; 
+        float: left;
+    }   
+    .checkOutContainer > div ol li:nth-of-type(3) > div form input[type='text']::placeholder{
+        font-size: 12px; font-weight: 500; color: #626262;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > div form input[type='submit']{
+        margin-left: 4%; width: 31%;  height: 44px; border: none; cursor: pointer;
+        color: #fff; background-color: #626262; float: left;
+        
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset{
+        padding: 40px 7.7%; background-color: #f2f2f2; position: relative;
+        margin-bottom: 60px;
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset > *,
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset input{
+        font-size: 12px; font-weight: 500;
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset legend{
+        position: absolute; top: 40px; color: #626262;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset label{
+        display: block; margin-bottom: 20px; color: #626262;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset > label:first-of-type{
+        padding-top: 50px;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset input{
+        line-height: 38px; border: 1px solid #626262; padding-left: 10px;
+        box-sizing: border-box;
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset input:not(:last-of-type),
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset div{
+        margin-bottom: 40px;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset input{
+        width: 100%; 
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(3).active span{
+        font-size: 16px; font-weight: 500; margin-bottom: 20px;
+    }
+
+    .checkOutContainer > div ol li:last-of-type > *:not(h2){
+        font-size: 12px; font-weight: 500; line-height: 20px;
+    }
+    .checkOutContainer > div ol li:last-of-type p{
+        color: #626262; margin-bottom: 40px;
+    }
+    .checkOutContainer > div ol li:last-of-type label{
+        padding-left: 11.5%;
+    }
+    .checkOutContainer > div ol li:last-of-type label:first-of-type{
+        margin-bottom: 20px;
+    }
+    .checkOutContainer > div ol li:last-of-type label:last-of-type{
+        margin-bottom: 60px;
+    }
+    .checkOutContainer > div ol li:last-of-type a{
+        width: 100%; background-color: #000; line-height: 50px;
+        color: #fff; text-align: center;
+    }
+
+    .checkOutContainer .checkOutpanel{
+        background-color: #efefef; padding: 50px 3.8%; box-sizing: border-box;
+    }
+
+    .checkOutContainer .checkOutpanel h2{
+        font-size: 16px; font-weight: 300; margin-bottom: 60px; float: left;
+    }
+    .checkOutContainer .checkOutpanel > a{
+        text-align: right; display: block; text-decoration: underline;
+        font-size: 14px; font-weight: 700;
+    }
+
+    .checkOutContainer .checkOutpanel ul:first-of-type{
+        clear: both;
+    }
+    .checkOutContainer .checkOutpanel ul:first-of-type li::after{
+        clear: both; display: block; content: ''; visibility: hidden;
+    }
+    .checkOutContainer .checkOutpanel ul:first-of-type li{
+        margin-bottom: 40px; position: relative;
+    }
+    .checkOutContainer .checkOutpanel ul:first-of-type li img{
+        max-width: 80px; float: left; margin-right: 7.7%;
+    }
+
+    .checkOutContainer .checkOutpanel ul:first-of-type li dl,
+    .checkOutContainer .checkOutpanel ul:first-of-type li a{
+        font-size: 12px; font-weight: 500; 
+    }
+    .checkOutContainer .checkOutpanel ul:first-of-type li dl dt,
+    .checkOutContainer .checkOutpanel ul:first-of-type li dl dd:first-of-type{
+        margin-bottom: 20px; color: #626262; line-height: 20px;
+    }
+    .checkOutContainer .checkOutpanel ul:first-of-type li dl dd:last-of-type{
+        font-size: 16px; font-weight: 700;
+    }
+
+
+    .checkOutContainer .checkOutpanel ul:last-of-type{
+        border-top: 1px solid #000; padding-top: 40px;
+    }
+    .checkOutContainer .checkOutpanel ul:last-of-type li > *{
+        font-weight: 700;
+    }
+    .checkOutContainer .checkOutpanel ul:last-of-type li:not(:last-of-type) label,
+    .checkOutContainer .checkOutpanel ul:last-of-type li:not(:last-of-type) input{
+        font-size: 12px;
+    }
+    .checkOutContainer .checkOutpanel ul:last-of-type li:last-of-type label,
+    .checkOutContainer .checkOutpanel ul:last-of-type li:last-of-type input{
+        font-size: 16px;
+    }
+
+    /* ? checkOutPage */
+
+
+    .faqContainer > div > div h3{
+        text-align: center; font-size: 14px; font-size: 500; margin-bottom: 60px;
+    }
+
+    .faqContainer > div > div ul li:not(:last-of-type){
+        margin-bottom: 60px;
+    }
+    .faqContainer > div > div:not(:last-of-type) ul li:last-of-type{
+        margin-bottom: 80px;
+    }
+
+    .faqContainer > div > div ul li .hideBox{
+        display: none;
+    }
+    .faqContainer > div > div ul li.active .hideBox{
+        display: block;
+    }
+
+    .faqContainer > div > div ul li h4{
+        background-color: #fff; line-height: 20px; padding: 20px 3.9%; box-sizing: border-box;
+        position: relative; font-size: 12px; font-weight: 700; cursor: pointer;
+    }
+    .faqContainer > div > div ul li h4::after{
+        content: ''; background: url('../images/arrow_down.png') top right / cover no-repeat;
+        width: 30px; height: 30px; display: block; position: absolute; top: 30%; right: 3.9%;
+        transition: 0.4s ease-in-out;
+    }
+    .faqContainer > div > div ul li.active h4::after{
+        transform: rotate(180deg);
+    }
+
+    .faqContainer > div > div ul li .hideBox{
+        margin-bottom: 60px;
+    }
+
+    .faqContainer > div > div ul li.active  h4{
+        background-color: #cfcfcf;
+    }
+    .faqContainer > div > div ul li.active .hideBox{
+        background-color: #fff; padding: 30px 7.7%;
+    }
+    .faqContainer > div > div ul li.active .hideBox p{
+        font-size: 10px; font-weight: 500; line-height: 20px;
+    }
+    .faqContainer > div > div ul li .hideBox p:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+
+    /* ? faq */
+
+    
+    /* .recipesContainer ul,
+    .newsContainer ul{
+        display: flex; justify-content: flex-start; flex-wrap: wrap;
+    } */
+
+    .recipesContainer ul li,
+    .newsContainer ul li{
+        width: 100%; margin-bottom: 100px;
+    }
+
+    .recipesContainer ul li img,
+    .newsContainer ul li img{
+        width: 100%; height: 145px; margin-bottom: 40px;
+    }
+
+    .recipesContainer ul li dl > *,
+    .newsContainer ul li dl > *{
+        margin-bottom: 30px; font-weight: 500;
+    }
+    .recipesContainer ul li dl dt,
+    .newsContainer ul li dl dt{
+        font-size: 16px; line-height: 30px;
+    }
+    .recipesContainer ul li dl dd,
+    .newsContainer ul li dl dd{
+        font-size: 12px; line-height: 25px;
+    }
+
+    .recipesContainer ul li a,
+    .newsContainer ul li a{
+        font-size: 12px; text-decoration: underline;
+    }
+    
+    /* ? recipes, news list */
+
+    .cafeContainer .wrap > div:first-of-type{
+        background: url('../images/cafe_bg_01.jpg') top left / contain no-repeat;
+        padding-top: 70%;
+    }
+    .cafeContainer .wrap > div:first-of-type > *{
+        text-align: center;
+    }
+    .cafeContainer .wrap > div:first-of-type p,
+    .cafeContainer .wrap > div:first-of-type address{
+        font-size: 12px; font-weight: 500;
+    }
+    .cafeContainer .wrap > div:first-of-type strong,
+    .cafeContainer .wrap > div:first-of-type p:nth-of-type(2) a{
+        font-size: 14px; font-weight: 700; display: block; margin-top: 15px;
+    }
+
+    .cafeContainer .wrap > div:first-of-type p,
+    .cafeContainer .wrap > div:first-of-type address{
+        margin-bottom: 30px;
+    }
+
+    .cafeContainer .wrap > div:first-of-type p:last-of-type{
+        margin: 0 auto 80px; line-height: 25px; color: #626262;
+    }
+
+    .cafeContainer .wrap > div:nth-of-type(2) h3{
+        text-align: center; font-size: 14px; font-weight: 500; margin-bottom: 30px;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) img{
+        width: 100%; max-width: 260px; margin: 0 auto 40px; display: block;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) > div > *{
+        font-weight: 500;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) > div h4{
+        font-size: 16px; margin-bottom: 30px;
+    }
+
+    .cafeContainer .wrap > div:nth-of-type(2) > div span{
+        display: block; font-size: 12px;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) > div span:first-of-type{
+        margin-bottom: 30px;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) > div span:last-of-type{
+        margin-bottom: 50px;
+    }
+
+    .cafeContainer .wrap > div:nth-of-type(2) > div dl{
+        margin-bottom: 30px;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) > div dl dt{
+        font-size: 12px; margin-bottom: 10px;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) > div dl dd{
+        font-size: 10px; line-height: 20px; color: #626262;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) > div dl dd:not(:last-of-type){
+        margin-bottom: 30px;
+    }
+
+    .cafeContainer .wrap > div:nth-of-type(2) > p{
+        text-align: center; font-size: 14px; line-height: 40px; margin-bottom: 80px;
+    }
+
+    .cafeContainer .wrap > ul li{
+        width: 100%;
+    }
+    .cafeContainer .wrap > ul li:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+    .cafeContainer .wrap > ul li img{
+        width: 100%;
+    }
+    
+
+    /* ? cafe */
+
+
+    .monthClubContainer .wrap > div:first-of-type dl,
+    .ourStoryContainer .wrap > div:nth-of-type(2) dl{
+        width: 100%; max-width: 260px; text-align: center; background-size: 55px;
+        background-position: center top; background-repeat: no-repeat; font-weight: 500;
+    }
+
+    .monthClubContainer .wrap > div:first-of-type dl:not(:last-of-type),
+    .ourStoryContainer .wrap > div:nth-of-type(2) dl:not(:last-of-type){
+        margin-bottom: 60px;
+    }
+
+    .monthClubContainer .wrap > div:first-of-type dl dt,
+    .ourStoryContainer .wrap > div:nth-of-type(2) dl dt{
+        padding-top: 90px; font-size: 16px;  margin-bottom: 40px;
+    }
+    .monthClubContainer .wrap > div:first-of-type dl dd,
+    .ourStoryContainer .wrap > div:nth-of-type(2) dl dd{
+        font-size: 12px; color: #525252; line-height: 20px;
+    }
+    .monthClubContainer .wrap > div:first-of-type dl dd:first-of-type,
+    .ourStoryContainer .wrap > div:nth-of-type(2) dl:nth-of-type(2) dd:first-of-type{
+        margin-bottom: 20px;
+    }
+
+    .monthClubContainer .wrap{
+        background: url('../images/main_monthClub.jpg') left top/ contain no-repeat;
+    }
+
+    .monthClubContainer .wrap h2{
+        padding-top: 54vw; font-size: 16px; font-weight: 500; text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .monthClubContainer .wrap > div:not(:last-of-type){
+        margin-bottom: 100px;
+    }
+
+    .monthClubContainer .wrap > div:first-of-type dl:nth-of-type(1){
+        background-image: url('../images/bull_favorites.png');
+    }
+    .monthClubContainer .wrap > div:first-of-type dl:nth-of-type(2){
+        background-image: url('../images/bull_delivery.png');
+    }
+    .monthClubContainer .wrap > div:first-of-type dl:nth-of-type(3){
+        background-image: url('../images/bull_chocolate.png');
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(2){
+        background: url('../images/monthClub_bg_02.png') top center / 140px no-repeat;
+        padding-top: 190px; font-weight: 500;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(2) h3{
+        font-size: 16px; line-height: 25px; margin-bottom: 40px;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(2) ul li{
+        font-size: 12px; font-weight: 500; line-height: 20px;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(2) ul li:not(:last-of-type){
+        margin-bottom: 30px;
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(3) h3{
+        text-align: center; font-size: 16px; font-weight: 500; margin-bottom: 40px;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(3) div{
+        background-color: #e1e1e1;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(3) div div{
+        position: relative;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(3) div div blockquote{
+        text-align: center; padding: 40px 7.7%; margin: 0 auto 50px;
+        font-size: 12px; font-weight: 500; line-height: 20px; position: relative;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(3) div div img{
+        width: 35%; border-radius: 50%; position: absolute; bottom: -25%; left: 33%;
+        max-width: 90px;
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(3) div span{
+        padding-top: 65px; display: block; background-color: #efefef; text-align: center;
+        font-size: 16px; font-weight: 500;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(3) div span small{
+        font-size: 12px; font-weight: 300; margin-top: 20px;
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(4) h3{
+        font-size: 16px; font-weight: 500; margin-bottom: 40px; text-align: center;
+        text-transform: uppercase;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(4) > p{
+        font-size: 12px; font-weight: 500; margin-bottom: 60px; text-align: center;
+        line-height: 20px;
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer{
+        font-weight: 500;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer li{
+       padding-top: 215px; background-position: top left; margin-bottom: 80px;
+       background-size: 260px; background-repeat: no-repeat;
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer li:nth-of-type(1){
+        background-image: url('../images/monthClub_previous_01.png');
+    }
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer li:nth-of-type(2){
+        background-image: url('../images/monthClub_previous_02.png');
+    }
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer li:nth-of-type(3){
+        background-image: url('../images/monthClub_previous_03.png');
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer time{
+        font-size: 14px; margin-bottom: 40px; display: block;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer h4{
+        font-size: 16px; margin-bottom: 40px;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer p{
+        font-size: 12px; line-height: 20px;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer p:not(:last-of-type){
+        margin-bottom: 20px; 
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(4) > a{
+        font-size: 12px;
+    }
+
+    .monthClubSpec{
+        margin-top: 100px;
+    }
+    .monthClubSpec h3{
+        font-size: 16px; font-weight: 300; margin-bottom: 40px;
+    }
+    .monthClubSpec ul li{
+        font-size: 12px; font-weight: 500; color: #7e7e7e; line-height: 25px;
+    }
+    .monthClubSpec ul li:not(:last-of-type) {
+        margin-bottom: 40px;
+    }
+    .monthClubSpec ul li:last-of-type{
+        margin-bottom: 60px;
+    }
+
+    /*  ? monthClub */
+
+    .teamContainer .wrap > div{
+        background-color: #e1e1e1; padding: 60px 7.7%;
+    }
+
+    .teamContainer .wrap > div > ul li:not(:last-of-type){
+        margin-bottom: 60px;
+    }
+
+    .teamContainer .wrap > div > ul li span{
+        max-width: 120px; width: 46%; display: block; margin: 0 auto 40px;
+    }
+    .teamContainer .wrap > div > ul li span img{
+        border-radius: 50%; display: block; margin: 0 auto;
+    }
+    .teamContainer .wrap > div > ul li.active span img{
+        width: 100%; 
+    }
+    .teamContainer .wrap > div > ul li:not(.active) span img{
+        width: 50%; max-width: 60px;
+    }
+
+    .teamContainer .wrap > div > ul li > div{
+        text-align: center; display: none;
+    }
+    .teamContainer .wrap > div > ul li > div.active{
+        display: block;
+    }
+
+    .teamContainer .wrap > div > ul li > div > *:not(h3){
+        font-weight: 500;
+    }
+
+    .teamContainer .wrap > div > ul li > div > p{
+        font-size: 10px; line-height: 20px;
+    }
+    .teamContainer .wrap > div > ul li > div > p:last-of-type{
+        margin-bottom: 40px;
+    }
+    .teamContainer .wrap > div > ul li > div > p:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+
+    .teamContainer .wrap > div > ul li > div .position{
+        font-size: 14px; font-weight: 300; margin: 0 auto;
+    }
+    .teamContainer .wrap > div > ul li > div .position h3{
+        font-size: 16px; font-weight: 500; margin-bottom: 20px;
+    }
+    .teamContainer .wrap > div > ul li > div .position small{
+        font-size: 12px; font-weight: 500; color: #626262; margin-top: 20px;
+    }
+
+    /* ? team */
+    
+    .contactUsContainer .wrap > div:first-of-type > div:first-of-type > *:not(p),
+    .contactUsContainer .wrap > div:first-of-type > div:last-of-type > *:not(a:nth-of-type(2)){
+        margin-bottom: 40px;
+    }
+    .contactUsContainer .wrap > div:first-of-type > div:last-of-type > a:nth-of-type(2){
+        margin-bottom: 60px;
+    }
+
+    .contactUsContainer .wrap > div:first-of-type > div > *:not(h3){
+        font-weight: 500;
+    }
+
+    .contactUsContainer .wrap > div:first-of-type h3{
+        font-size: 16px; font-weight: 700;
+    }
+    .contactUsContainer .wrap > div:first-of-type a,
+    .contactUsContainer .wrap > div:first-of-type address{
+        font-size: 12px; line-height: 20px; display: block;
+    }
+    .contactUsContainer .wrap > div:first-of-type strong{
+        font-size: 20px; display: block; text-align: center;
+    }
+    .contactUsContainer .wrap > div:first-of-type p{
+        font-size: 12px; color: #626262; line-height: 20px; text-align: center;
+    }
+
+    .contactUsContainer .wrap > div:first-of-type > div:first-of-type{
+        margin-bottom: 60px;
+    }
+    .contactUsContainer .wrap > div:first-of-type > div:last-of-type{
+        margin-bottom: 100px;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type{
+        background-color: #fff;
+        padding: 40px 7.7%; box-sizing: border-box; border: 1px solid #626262;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset::after{
+        display: block; clear: both; content: ''; visibility: hidden;
+    }
+    .contactUsContainer .wrap > div:last-of-type form fieldset{
+        display: none;
+    }
+    .contactUsContainer .wrap > div:last-of-type form fieldset.active{
+        display: block;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset legend{
+        font-size: 14px; font-weight: 300; line-height: 25px; margin-bottom: 40px;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset input,
+    .contactUsContainer .wrap > div:last-of-type form fieldset textarea{
+        border: 1px solid #626262; box-sizing: border-box; font-size: 12px; font-weight: 500;
+        width: 100%;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset input::placeholder,
+    .contactUsContainer .wrap > div:last-of-type form fieldset textarea::placeholder{
+        font-size: 12px; font-weight: 500;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset input{
+        line-height: 50px;  margin-bottom: 20px; padding-left: 10px; 
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset textarea{
+        height: 140px; margin-bottom: 20px; padding: 10px 0 0 10px;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset p{
+        font-size: 12px; font-weight: 500; line-height: 20px; margin-bottom: 40px;
+    }
+    
+    .contactUsContainer .wrap > div:last-of-type form fieldset .btn{
+        float: right; max-width: 140px; width: 54%; font-size: 12px;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type .successComment{
+        display: none; font-weight: 500; min-height: 700px;
+    }
+    .contactUsContainer .wrap > div:last-of-type .successComment.active{
+        display: block;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type .successComment h3{
+        font-size: 16px; margin-bottom: 40px; font-weight: 300;
+    }
+    .contactUsContainer .wrap > div:last-of-type .successComment p{
+        font-size: 12px; line-height: 20px; font-weight: 500;
+    }
+    .contactUsContainer .wrap > div:last-of-type .successComment p:first-of-type{
+        margin-bottom: 20px;
+    }
+    .contactUsContainer .wrap > div:last-of-type .successComment p a{
+        text-decoration: underline;
+    }
+
+    /* ? contact us */
+
+    .ourStoryContainer .wrap > p{
+        font-size: 12px; line-height: 20px; font-weight: 500; color: #626262;
+        text-align: center;
+    }
+    .ourStoryContainer .wrap > p:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+    .ourStoryContainer .wrap > p:last-of-type{
+        margin-bottom: 100px;
+    }
+
+
+    .ourStoryContainer .wrap > div > div{
+        margin-bottom: 60px;
+    }
+
+    .ourStoryContainer .wrap div h3{
+        font-size: 14px; margin-bottom: 40px; text-align: center;
+    }
+
+
+    .ourStoryContainer .wrap div:first-of-type .memberSlider li{
+        background-color: #fff;
+    }
+    .ourStoryContainer .wrap div:first-of-type .memberSlider li img{
+        width: 100%; display: block;
+    }
+    .ourStoryContainer .wrap div:first-of-type .memberSlider div{
+        padding: 0 3.7%; box-sizing: border-box; margin-top: 20px; min-height: 280px;
+    }
+    .ourStoryContainer .wrap div:first-of-type .memberSlider div p{
+        font-size: 10px; line-height: 20px;
+    }
+    .ourStoryContainer .wrap div:first-of-type .memberSlider div p:not(:last-of-type){
+        margin-bottom: 30px;
+    }
+    .ourStoryContainer .wrap > div > div > .customControler{
+        text-align: right;
+    }
+    .ourStoryContainer .wrap > div > div > .customControler::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+    .ourStoryContainer .wrap > div > div > .customControler span{
+        display: inline-block; font-weight: 700; line-height: 40px; font-size: 12px;
+        text-align: center;
+    }
+    .ourStoryContainer .wrap > div > div > .customControler span:first-of-type{
+        max-width: 55px; width: 21%; color: #5893b1; background-color: #fff;
+    }
+    .ourStoryContainer .wrap > div > div > .customControler span:last-of-type{
+        max-width: 110px; width: 42%; background-color: #c5dae4; float: right;
+        text-transform: uppercase;
+    }
+    .ourStoryContainer .wrap > div > div > .customControler span:last-of-type::after{
+        content: '>'; padding-left: 5px;
+    }
+
+    .ourStoryContainer .wrap div:first-of-type blockquote{
+        font-size: 16px; line-height: 30px; margin: 0 auto 100px;
+        text-align: center; font-style: italic;
+    }
+
+    .ourStoryContainer .wrap > div:nth-of-type(2){
+        margin-bottom: 100px;
+    }
+
+    .ourStoryContainer .wrap > div:nth-of-type(2) dl:nth-of-type(1){
+        background-image: url('../images/bull_donation.png');
+    }
+    .ourStoryContainer .wrap > div:nth-of-type(2) dl:nth-of-type(2){
+        background-image: url('../images/bull_leaf.png');
+    }
+    .ourStoryContainer .wrap > div:nth-of-type(2) dl:nth-of-type(3){
+        background-image: url('../images/bull_trophy.png');
+    }
+
+    .ourStoryContainer .wrap > div:last-of-type{
+        font-weight: 500;
+    }
+    .ourStoryContainer .wrap > div:last-of-type::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+
+    .ourStoryContainer .wrap > div:last-of-type p{
+        font-size: 12px; line-height: 20px; color: #626262;
+    }
+    .ourStoryContainer .wrap > div:last-of-type p:not(:last-of-type){
+        margin-bottom: 40px;
+    } 
+    .ourStoryContainer .wrap > div:last-of-type p:last-of-type{
+        margin-bottom: 60px;
+    }
+    
+    .ourStoryContainer .wrap > div:last-of-type .btn{
+        max-width: 160px; width: 61.5%; float: right; margin-bottom: 80px; font-size: 12px;
+    }
+    .ourStoryContainer .wrap > div:last-of-type img{
+        width: 100%;
+    }
+
+    /* ? our story */
+
+
+    .cacaoOriginsContainer h2{
+        font-size: 16px; font-weight: 500; margin-bottom: 60px;
+    }
+
+    .cacaoOriginsContainer > .wrap > div:first-of-type{
+        background-color: #fff; padding: 40px 3.8%; box-sizing: border-box;
+        font-weight: 500; text-align: center; border: 3px solid #626262;
+        margin-bottom: 100px;
+    }
+
+    .cacaoOriginsContainer > .wrap > div:first-of-type p{
+        font-size: 10px; line-height: 20px; color: #515151;
+    }
+    .cacaoOriginsContainer > .wrap > div:first-of-type p:not(:last-of-type){
+        margin-bottom: 30px;
+    }
+
+    .cacaoOriginsContainer > .wrap > div:last-of-type img{
+        width: 100%; margin-bottom: 60px;
+    }
+
+    .cacaoOriginsContainer > .wrap > div:last-of-type div > *{
+        font-weight: 500;
+    }
+    .cacaoOriginsContainer > .wrap > div:last-of-type div h3{
+        font-size: 16px; margin-bottom: 40px; line-height: 30px;
+    }
+
+    .cacaoOriginsContainer > .wrap > div:last-of-type div p{
+        font-size: 12px; color: #3b3b3b; line-height: 20px;
+    }
+    .cacaoOriginsContainer > .wrap > div:last-of-type div p:last-of-type{
+        margin-bottom: 60px;
+    }
+    .cacaoOriginsContainer > .wrap > div:last-of-type div p:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+
+    .cacaoOriginsContainer > .wrap > div:last-of-type div blockquote{
+        font-size: 12px; margin-bottom: 40px; color: #3b3b3b; line-height: 20px;
+    }
+    .cacaoOriginsContainer > .wrap > div:last-of-type div span{
+        font-size: 14px; text-align: right; display: block;
+    }
+
+    /* ? cacao Origins */
+
+}
+/* ? mobile */
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+
+    .loginContainer,
+    .registerContainer,
+    .mypageContainer,
+    .myAddressContainer,
+    .cartContainer,
+    .faqContainer,
+    .recipesContainer,
+    .newsContainer,
+    .cafeContainer,
+    .monthClubContainer,
+    .teamContainer,
+    .contactUsContainer,
+    .ourStoryContainer,
+    .cacaoOriginsContainer{
+        padding: 240px 3% 120px; background-color: #efefef;
+    }
+
+    .faqContainer h2,
+    .recipesContainer h2,
+    .newsContainer h2,
+    .cafeContainer h2,
+    .teamContainer h2,
+    .contactUsContainer h2,
+    .ourStoryContainer h2{
+        text-align: center; font-size: 26px; font-weight: 300; margin-bottom: 120px;
+    }
+
+    .mainContainer > div:first-of-type,
+    .mainContainer > article:last-of-type > *,
+    .mainContainer > div:nth-of-type(3),
+    .mainContainer > div:nth-of-type(6),
+    .mainContainer > div:nth-of-type(7){
+         margin: 0 auto 120px;
+    }
+
+    .mainContainer > div:nth-of-type(n + 4):nth-of-type(-n + 6) ul li{
+        width: 47.5%; background-size: cover; background-repeat: no-repeat;
+        box-sizing: border-box; display: flex; flex-flow: column; height: 450px;
+        justify-content: flex-end; padding: 0 3% 3% 3%;
+    }
+
+    .mainContainer div:not(:nth-of-type(4)) > h3{
+        font-weight: 500; text-align: center; margin-bottom: 120px; font-size: 20px;
+    }
+
+    .mainContainer{
+        padding-top: 30%; background-image: url('../images/main_bg.jpg');
+        background-size: 100%; background-repeat: no-repeat; background-color: #efefef;
+    }
+    .mainContainer h2{
+        text-align: center; font-size: 24px; font-weight: 500; margin-bottom: 120px;
+        text-shadow: 5px 6px 5px #000; color: #fff; 
+    }
+    .mainContainer h2 small{
+        text-shadow: 3px 6px 8px #000; font-size: 16px; margin-bottom: 30px;
+    }
+    .mainContainer > div:first-of-type{
+        padding-top: 30%;
+    }
+
+    /* ? bx slider */
+
+    .mainContainer .sliderWrap .bx-wrapper{
+        margin: 0 auto 120px; display: block; padding: 0 15%; box-sizing: border-box;
+    }
+    .mainContainer .sliderWrap .mainSlider::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+
+    .mainContainer .sliderWrap .mainSlider li{
+        max-width: 240px; width: 33.33%;
+    }
+    .mainContainer .sliderWrap .mainSlider li a > *{
+        font-size: 16px; font-weight: 500; text-align: center;
+    }
+    .mainContainer .sliderWrap .mainSlider li a img{
+        margin-bottom: 20px;
+    }
+    .mainContainer .sliderWrap .mainSlider li a h4{
+        margin-bottom: 15px; line-height: 40px;
+    }
+    .mainContainer .sliderWrap .mainSlider li a span{
+        display: block;
+    }
+    .mainContainer .sliderWrap .bx-wrapper .bx-controls-direction a{
+        top: calc(50% - 45px); margin-top: 0; z-index: 1; width: 44px; height: 44px; border-radius: 22px;
+        background-color: white; box-shadow: 0 2px 10px #363636; background-size: 8px; background-position: 50%;
+        transition: all 0.3s ease-in-out; top: 100px;
+    }
+    .mainContainer .sliderWrap .bx-wrapper .bx-controls-direction a.bx-prev{
+        background-image: url('../images/btn_prev.png'); left: 3%;
+    }
+    .mainContainer .sliderWrap .bx-wrapper .bx-controls-direction a.bx-prev:hover{
+        background-position: -100px;
+    }
+    .mainContainer .sliderWrap .bx-wrapper .bx-controls-direction a.bx-next{
+        background-image: url('../images/btn_next.png'); right: 3%;
+    }
+    .mainContainer .sliderWrap .bx-wrapper .bx-controls-direction a.bx-next:hover{
+        background-position: 100px;
+    }
+
+    .mainContainer .sliderWrap ~ .btn{
+        width: 23%; margin: 0 auto; font-size: 14px;
+    }
+
+    /*  ? View products */
+
+    .mainContainer > div:nth-of-type(2){
+        background-image: url('../images/cacaoOrigins_bg_01.jpg'); padding: 230px 0;  margin-bottom: 120px;
+        background-size: cover; background-repeat: no-repeat; background-position: center;
+    }
+    .mainContainer > div:nth-of-type(2) article{
+        width: 85%; background-color: white; text-align: center;
+        padding: 50px 8.6%; box-sizing: border-box; margin: 0 auto;
+    }
+    .mainContainer > div:nth-of-type(2) article > *{
+        font-size: 16px; font-weight: 500;
+    }
+    .mainContainer > div:nth-of-type(2) article h3,
+    .mainContainer > div:nth-of-type(2) article p{
+        margin-bottom: 30px;
+    }
+    .mainContainer > div:nth-of-type(2) article p{
+        line-height: 30px;
+    }
+    .mainContainer > div:nth-of-type(2) article a{
+        text-decoration: underline;
+    }
+
+    /* ? CACAO ORIGINS */
+
+    .mainContainer > div:nth-of-type(4){
+        margin-bottom: 120px;
+    }
+    .mainContainer > div:nth-of-type(4) h3{
+        font-size: 20px; font-weight: 700; text-align: center; margin-bottom: 60px;
+    }
+    .mainContainer > div:nth-of-type(4) p,
+    .mainContainer > div:nth-of-type(4) address{
+        text-align: center; font-size: 16px; font-weight: 500;
+    }
+    .mainContainer > div:nth-of-type(4) strong{
+        font-weight: 700; margin-right: 1%;
+    }
+    .mainContainer > div:nth-of-type(4) p{
+        margin-bottom: 40px;
+    }
+    .mainContainer > div:nth-of-type(4) address{
+        font-style: normal; margin-bottom: 120px;
+    }
+    .mainContainer > div:nth-of-type(4) ul{
+        display: flex; justify-content: space-between; flex-wrap: wrap;
+        padding: 0 3%;
+    }
+
+    .mainContainer > div:nth-of-type(4) ul li:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+
+    .mainContainer > div:nth-of-type(4) ul li:nth-of-type(1){
+        background-image: url('../images/main_cafeBg_01.png'); 
+    }
+    .mainContainer > div:nth-of-type(4) ul li:nth-of-type(2){
+        background-image: url('../images/main_cafeBg_02.png');
+    }
+    .mainContainer > div:nth-of-type(4) ul li:nth-of-type(3){
+        background-image: url('../images/main_cafeBg_03.png');
+    }
+    .mainContainer > div:nth-of-type(4) ul li:nth-of-type(4){
+        background-image: url('../images/main_cafeBg_04.jpg');
+    }
+
+    .mainContainer > div:nth-of-type(4) ul li h4{
+        color: #fff; margin-bottom: 40px; width: 87%; font-weight: 500;
+        font-size: 20px; line-height: 30px; text-shadow: 3px 3px 5px #000;
+    }
+    .mainContainer > div:nth-of-type(4) ul li h4 small{
+        margin-bottom: 30px; font-size: 16px;
+    }
+
+    .mainContainer > div:nth-of-type(4) ul li a{
+        background-color: #fff; line-height: 50px; display: block; text-align: center;
+        color: #363636; box-shadow: 10px 10px 20px #000; font-weight: 500;
+        font-size: 12px; max-width: 160px; width: 48%;
+    }
+
+
+    /* ? STORE & CAFE */
+
+    .mainContainer > article:first-of-type,
+    .mainContainer > article:last-of-type{
+        text-align: center; font-weight: 500;
+    }
+
+    .mainContainer > article:first-of-type h3 {
+        font-size: 20px; margin-bottom: 120px; text-align: center;
+    }
+    .mainContainer > article:first-of-type p{
+        font-size: 16px; line-height: 30px; margin: 0 auto 40px;
+        width: 78%; max-width: 590px;
+    }
+    .mainContainer > article:first-of-type a{
+        display: block; font-size: 16px; text-transform: uppercase;
+        margin-bottom: 120px; text-decoration: underline 2px solid #9d9d9d;
+    }
+    .mainContainer > article:first-of-type img{
+        width: 100%; margin-bottom: 120px;
+    }
+    /* ? Chocolate of month club */
+
+    .mainContainer > article:last-of-type{
+        position: relative; margin-bottom: 235px;
+    }
+    .mainContainer > article:last-of-type h3{
+        font-size: 20px; margin-bottom: 120px;
+    }
+    .mainContainer > article:last-of-type blockquote{
+        width: 72%; font-size: 16px; line-height: 40px; padding-bottom: 100px;
+        background: url('../images/main_review.png') right bottom/ 30% no-repeat;
+    }
+    .mainContainer > article:last-of-type blockquote strong{
+        display: block; margin-bottom: 50px; font-size: 24px;
+    }
+    /* ? Review */
+
+    .mainContainer > div:nth-of-type(5){
+        margin-bottom: 120px;
+    }
+    .mainContainer > div:nth-of-type(5) ul{
+        display: flex; justify-content: space-between; flex-wrap: wrap;
+        padding: 0 3%;
+    }
+
+    .mainContainer > div:nth-of-type(5) ul li:nth-child(-n+4){
+        margin-bottom: 40px;
+    }
+    .mainContainer > div:nth-of-type(5) ul li:nth-of-type(1){
+        background-image: url('../images/recipes_01.jpg');
+    }
+    .mainContainer > div:nth-of-type(5) ul li:nth-of-type(2){
+        background-image: url('../images/recipes_07.jpg');
+    }
+    .mainContainer > div:nth-of-type(5) ul li:nth-of-type(3){
+        background-image: url('../images/recipes_03.jpg');
+    }
+    .mainContainer > div:nth-of-type(5) ul li:nth-of-type(4){
+        background-image: url('../images/recipes_18.jpg');
+    }
+    .mainContainer > div:nth-of-type(5) ul li:nth-of-type(5){
+        background-image: url('../images/recipes_15.jpg');
+    }
+    .mainContainer > div:nth-of-type(5) ul li:nth-of-type(6){
+        background-image: url('../images/recipes_17.jpg');
+    }
+    .mainContainer > div:nth-of-type(5) ul li h3{
+        font-size: 20px; color: #fff; text-shadow: 3px 3px 3px #000;
+        line-height: 30px; margin-bottom: 40px; font-weight: 500; width: 85%;
+    }
+    .mainContainer > div:nth-of-type(5) ul li a{
+        font-size: 12px; font-weight: 500; color: #363636; width: 47%; background-color: #fff;
+        text-align: center; display: block; line-height: 50px; box-shadow: 10px 10px 19px rgba(0, 0, 0,0.63);
+    }
+    /* ? recipes */
+
+    .mainContainer > div:nth-of-type(6) > div{
+        padding: 0 3%;
+    }
+    .mainContainer > div:nth-of-type(6) > div > img{
+        width: 45%; float: left; margin: 0 5.3% 120px 0;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div{
+        font-weight: 500; float: left; width: 49.7%;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div > *:not(:last-child, p){
+        margin-bottom: 40px;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div > span{
+        display: block;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div > a:last-of-type{
+        text-decoration: underline; font-size: 16px;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div > span:first-of-type,
+    .mainContainer > div:nth-of-type(6) > div > div p{
+        font-size: 14px;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div h4{
+        font-size: 24px;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div p{
+        line-height: 25px;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div p:first-of-type{
+        margin-bottom: 20px;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div p:last-of-type{
+        margin-bottom: 40px;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div > span:last-of-type{
+        font-size: 20px; color: #6a6a6a;
+    }
+
+    .mainContainer .selectComponent{
+        width: 97.4%;
+    }
+    .mainContainer .selectComponent > select{
+        font-size: 16px; line-height: 48px; padding-left: 20px;
+    }
+    .mainContainer .selectComponent > select option{
+        font-size: 16px; font-weight: 500;
+    }
+    .mainContainer .selectComponent > span{
+        top: 13px; right: 20px;
+    }
+
+    .mainContainer > div:nth-of-type(6) > ul{
+        clear: left; display: flex; justify-content: space-between; flex-flow: row nowrap;
+        padding: 0 3%;
+    }
+
+    .mainContainer .selectComponent + a:first-of-type{
+        width: 97.4%;
+    }
+
+    .mainContainer .selectComponent,
+    .mainContainer > div:nth-of-type(6) > div > div > a{
+        margin-left: 2.6%;
+    }
+
+    .mainContainer > div:nth-of-type(6) > ul{
+        display: flex; justify-content: flex-start; flex-wrap: wrap;
+    }
+    .mainContainer > div:nth-of-type(6) > ul li:nth-of-type(1){
+        background-image: url('../images/main_giftCardProduct_01.png');
+    }
+    .mainContainer > div:nth-of-type(6) > ul li:nth-of-type(2){
+        background-image: url('../images/main_giftCardProduct_02.png');
+        margin: 0 0 40px 5%;
+    }
+    .mainContainer > div:nth-of-type(6) > ul li:nth-of-type(3){
+        background-image: url('../images/main_giftCardProduct_03.png');
+        margin-bottom: 40px;
+    }
+    .mainContainer > div:nth-of-type(6) > ul li h4{
+        color: #fff; font-size: 20px; font-weight: 500; text-shadow: 5px 4px 6px #000;
+        margin-bottom: 40px; line-height: 30px;
+    }
+    .mainContainer > div:nth-of-type(6) > ul li h4 small{
+        margin-bottom: 30px; font-size: 16px;
+    }
+    .mainContainer > div:nth-of-type(6) > ul li > a{
+        width: 47%; display: block; background-color: #fff; text-align: center;
+        line-height: 50px; box-shadow: 5px 5px 10px rgba(0, 0, 0,0.7); color: #363636; font-weight: 500;
+        font-size: 1vw; font-weight: 500;
+    }
+
+    /* ? gift Card */
+
+    .mainContainer > div:nth-of-type(7){
+        padding: 0 3%; border-bottom: 1px solid #d5d5d5;
+    }
+    .mainContainer > div:nth-of-type(7) h3{
+        font-weight: 500; font-size: 20px;
+    }
+    .mainContainer > div:nth-of-type(7) h3 small{
+        font-size: 16px; margin-bottom: 60px;
+    }
+
+    .mainContainer > div:nth-of-type(7) ul{
+        margin: 0 auto 120px; width: 66%;
+        
+    }
+    .mainContainer > div:nth-of-type(7) ul li{
+        width: 100%; font-weight: 500;
+    }
+    .mainContainer > div:nth-of-type(7) ul li:not(:last-of-type){
+        margin-bottom: 100px;
+    }
+    .mainContainer > div:nth-of-type(7) ul li img{
+        width: 100%; margin-bottom: 40px;
+    }
+
+    .mainContainer > div:nth-of-type(7) ul li dl dt{
+        font-size: 18px; text-transform: uppercase; line-height: 30px; margin-bottom: 40px;
+    }
+    .mainContainer > div:nth-of-type(7) ul li dl dd{
+        font-size: 14px; line-height: 30px; margin-bottom: 20px;
+    }
+
+    .mainContainer > div:nth-of-type(7) ul li > a{
+        font-size: 14px; text-decoration: underline;
+    }
+    .mainContainer > div:nth-of-type(7) > a{
+        width: 30%; margin: 0 auto 120px;
+    }
+    /* ? news */
+
+    .mainContainer > div:last-of-type{
+        overflow: auto;
+    }
+    .mainContainer > div:last-of-type ul{
+        padding: 3%; box-sizing: border-box; margin: 0 auto;
+    }
+    .mainContainer > div:last-of-type ul::after{
+        clear: both; display: block; content: ''; visibility: hidden;
+    }
+    .mainContainer > div:last-of-type ul li{
+        width: 47.5%; font-weight: 500; float: left;
+    }
+    .mainContainer > div:last-of-type ul li:nth-of-type(2n+1){
+        margin-right: 5%;
+    }
+    .mainContainer > div:last-of-type ul li:last-of-type{
+        margin-bottom: 120px;
+    }
+    .mainContainer > div:last-of-type ul li h3{
+        font-size: 20px; margin-bottom: 60px; text-transform: uppercase;
+        font-weight: 500; line-height: 40px;
+    }
+    .mainContainer > div:last-of-type ul li > *:not(h3){
+        line-height: 30px; font-size: 16px;
+    }
+    .mainContainer > div:last-of-type ul li > p:not(:last-of-type),
+    .mainContainer > div:last-of-type ul li > blockquote{
+        margin-bottom: 40px;
+    }
+    .mainContainer > div:last-of-type ul li:nth-of-type(2) p:last-of-type{
+        margin-bottom: 60px;
+    }
+    .mainContainer > div:last-of-type > a{
+        font-size: 16px; font-weight: 500; text-decoration: underline; display: block;
+        text-align: center; margin: 0 auto 120px;
+
+    }
+    /* ? ourStory */
+
+    
+    .loginContainer h2,
+    .loginContainer > div > p,
+    .loginContainer input[type='submit'],
+    .registerContainer h2,
+    .registerContainer p{
+        margin-bottom: 40px;
+    }
+
+    .loginContainer > div,
+    .registerContainer > div{
+        max-width: 600px; margin: 0 auto; text-align: center;
+    }
+
+    .loginContainer h2,
+    .registerContainer h2{
+        font-size: 30px; font-weight: 500;
+    }
+
+    .loginContainer p,
+    .loginContainer a,
+    .loginContainer input,
+    .loginContainer .btn,
+    .registerContainer p,
+    .registerContainer .btn,
+    .registerContainer input{
+        font-size: 20px; font-weight: 500;
+    }
+
+    .loginContainer input,
+    .registerContainer input{
+        display: block; width: 100%; line-height: 60px;
+    }
+
+    .loginContainer input:not(:last-of-type),
+    .registerContainer input:not(:last-of-type){
+        margin-bottom: 20px; padding-left: 20px; box-sizing: border-box;
+    }
+    .loginContainer input::placeholder,
+    .registerContainer input::placeholder{
+        font-size: 17px; font-weight: 500; color: #626262;
+    }
+
+    .mypageContainer > div > a,
+    .myAddressContainer > div > a:first-of-type{
+        font-size: 20px; color: #626262; margin-bottom: 60px; display: block;
+    }
+
+    .mypageContainer > div h2,
+    .myAddressContainer > div h2{
+        font-size: 26px;
+    }
+
+    .loginContainer div::after{
+        clear: both; display: block; content: ''; visibility: hidden;
+    }
+
+    .loginContainer > div > div{
+        width: 55%; margin: 0 auto 120px;
+    }
+    .loginContainer > div > div p{
+        float: left; color: #626262;
+    }
+
+    .mypageContainer > div::after{
+        clear: both; visibility: hidden; content: ''; display: block;
+    }
+
+    .mypageContainer > div *:not(dd:first-of-type),
+    .myAddressContainer > div > *,
+    .myAddressContainer > div > div > *{
+        font-weight: 500;
+    }
+
+    .mypageContainer > div > div h3,
+    .myAddressContainer h3{
+        font-size: 24px; color: #626262; border-bottom: 1px solid #626262;
+        padding-bottom: 20px; margin-bottom: 40px;
+    }
+
+    .mypageContainer > div > div:last-of-type span,
+    .myAddressContainer span{
+        margin-bottom: 40px; display: block; font-size: 16px;
+    }
+
+    .mypageContainer > div > div:last-of-type span:first-of-type{
+        margin-bottom: 40px;
+    }
+
+    .mypageContainer > div h2 small{
+        font-size: 16px; margin: 40px 0 120px;
+    }
+
+    .mypageContainer > div > div:first-of-type{
+        margin-bottom: 120px;
+    }
+    .mypageContainer > div > div:first-of-type ul li:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+    .mypageContainer > div > div:first-of-type ul li::after{
+        clear: both; visibility: hidden; content: ''; display: block;
+    }
+    .mypageContainer > div > div:first-of-type ul li img{
+        float: left; max-width: 100px; margin-right: 20px;
+    }
+
+    .mypageContainer > div > div:first-of-type ul li dl{
+        font-size: 20px;
+    }
+    .mypageContainer > div > div:first-of-type ul li dl > *:not(dd:last-of-type){
+        margin-bottom: 20px;
+    }
+    .mypageContainer > div > div:first-of-type ul li dl dd:first-of-type{
+        font-weight: 700;
+    }
+
+    .mypageContainer > div > div:last-of-type span:last-of-type{
+        margin-bottom: 60px;
+    }
+    .mypageContainer > div > div:last-of-type a{
+        width: 36%; margin-left: 64%;
+    }
+
+    .myAddressContainer > div > a:first-of-type::before{
+        content: '<'; padding-right: 10px;
+    }
+    .myAddressContainer > div > h2{
+        margin-bottom: 60px;
+    }
+    .myAddressContainer > div > a:last-of-type{
+        max-width: 260px; width: 36%; background-color: #000; color: #fff;
+        text-align: center; display: block; margin-bottom: 100px; line-height: 50px;
+    }
+
+    .myAddressContainer > div > div a{
+        text-decoration: underline; font-size: 16px;
+    }
+    .myAddressContainer > div > div a:first-of-type{
+        margin-right: 2%;
+    }
+
+    div[id$="Address"]{
+        width: 78%; height: 90%; margin: 0 auto; position: fixed; z-index: 100; text-align: center;
+        border: 1px solid #626262; background-color: #fff; top: 50px; left: 11%;
+        max-width: 600px; box-sizing: border-box; padding: 40px 2.2%;
+    }
+
+    div[id$="Address"] h2{
+        font-size: 26px; margin-bottom: 40px; line-height: 50px; font-weight: 500;
+    }
+
+    div[id$="Address"] .btn_close{
+        cursor: pointer;
+    }
+
+    #addNewAddress form fieldset input:not(#newAddressZipCode),
+    #editUnAddress form fieldset input:not(#editAddressZipCode){
+        width: 100%;
+    }
+
+    #addNewAddress #newAddressCheckBox,
+    #editUnAddress #editAddressCheckBox{
+        display: none;
+    }
+
+    div[id$="Address"] h2 input{
+        top: 20px; right: 20px; position: absolute; text-indent: -9999px;
+        background-color: transparent; border: none; content: ''; cursor: pointer;
+        width: 20px; height: 20px; background-image: url('../images/bull_close.png');
+        background-size: contain; background-repeat: no-repeat;
+    }
+    div[id$="Address"] > p{
+        font-size: 16px; margin-bottom: 40px;
+    }
+    
+    div[id$="Address"] form fieldset{
+        font-weight: 500;
+    }
+
+    div[id$="Address"] form fieldset::after{
+        clear: both; visibility: hidden; content: ''; display: block;
+    }
+
+    div[id$="Address"] form fieldset input{
+        line-height: 58px; border: 1px solid #626262; font-weight: 500;
+        box-sizing: border-box; padding: 0 20px; font-size: 16px; color: #000;
+    }
+
+    div[id$="Address"] form fieldset input:not(input[type='checkbox']){
+        display: block;
+    }
+
+    div[id$="Address"] form fieldset input:not(#newAddressZipCode,#editAddressZipCode){
+        margin: 0 auto 20px;
+    }
+    
+    div[id$="Address"] form fieldset input::placeholder{
+        font-size: 16px; color: #626262; font-weight: 500;
+    }
+
+    div[id$="Address"] .selectComponent,
+    div[id$="Address"] form fieldset input#newAddressZipCode,
+    div[id$="Address"] form fieldset input#editAddressZipCode{
+        width: 48%; float:left;
+    }
+
+    div[id$="Address"] .selectComponent > select{
+        line-height: 58px; display: block; margin-bottom: 20px; padding-left: 20px;
+        font-size: 16px;
+    }
+    div[id$="Address"] .selectComponent > span{
+        top: 17px; right: 20px;
+    }
+    
+    div[id$="Address"] .selectComponent.depth2,
+    div[id$="Address"] form fieldset input#newAddressZipCode,
+    div[id$="Address"] form fieldset input#editAddressZipCode{
+        margin-left: 4%;
+    }
+
+    div[id$="Address"] form fieldset label{
+        margin: 30px 0 30px; line-height: 20px; padding-left: 7%; float: right;
+        box-sizing: border-box; 
+    }
+    
+    div[id$="Address"] form fieldset input[type='submit']{
+        background-color: #000; color: #fff; font-size: 16px; line-height: 50px;
+    }
+
+    /* ? loginPage */
+
+    .cartContainer > div > div:first-of-type h2,
+    .cartContainer > div > div:last-of-type h3{
+        font-size: 20px; margin-bottom: 40px; border-bottom: 1px solid #000;
+        padding-bottom: 30px;
+    }
+
+    .cartContainer > div > div:first-of-type ul li{
+        border-bottom: 1px solid #000; position: relative;
+    }
+
+    .cartContainer > div > div:first-of-type ul li:first-of-type{
+        margin-bottom: 40px;
+    }
+    .cartContainer > div > div:first-of-type ul li:last-of-type{
+        margin-bottom: 60px;
+    }
+
+    .cartContainer > div > div:first-of-type ul li::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+
+    .cartContainer > div > div:first-of-type ul li img{
+        max-width: 200px; margin: 0 5% 40px 0; float: left;
+    }
+
+    .cartContainer > div > div:first-of-type ul li dl{
+        font-weight: 500; width: 80%;
+    }
+    .cartContainer > div > div:first-of-type ul li dl > *{
+        margin-bottom: 30px;
+    }
+    .cartContainer > div > div:first-of-type ul li dl dt{
+        font-size: 14px;
+    }
+    .cartContainer > div > div:first-of-type ul li dl dd:first-of-type{
+        font-size: 14px; line-height: 30px;
+    }
+    .cartContainer > div > div:first-of-type ul li dl dd:last-of-type{
+        font-size: 18px;
+    }
+    
+    .cartContainer .countComp{
+        border: 1px solid #626262; line-height: 30px;
+        width: 15%; max-width: 110px; box-sizing: border-box; background-color: #fff;
+    }
+    .cartContainer .countComp input[type='button']{
+        top: 5px; font-size: 18px; cursor: pointer;
+    }
+    .cartContainer .countComp input[type='button']:first-of-type{
+        left: 0;
+    }
+    .cartContainer .countComp input[type='button']:last-of-type{
+        right: 0;
+    }
+    .cartContainer .countComp input[type='number']{
+        font-size: 16px; text-align: center; border: none;
+    }
+
+    .cartContainer > div > div:first-of-type ul li > a{
+        position: absolute; top: 0; right: 0; max-width: 25px;
+    }
+    .cartContainer > div > div:first-of-type ul li > a img{
+        width: 100%;
+    }
+
+    .cartContainer > div > div:last-of-type ul li:not(:last-of-type) label{
+        font-size: 16px; font-weight: 300;
+    }
+    .cartContainer > div > div:last-of-type ul li:last-of-type label{
+        font-size: 26px; font-weight: 500;
+    }
+    .cartContainer > div > div:last-of-type ul li:not(:last-of-type) input[type='text']{
+        font-size: 24px; font-weight: 500;
+    }
+    .cartContainer > div > div:last-of-type ul li:last-of-type input[type='text']{
+        font-size: 26px; font-weight: 700;
+    }
+
+    .cartContainer > div > div:last-of-type ul li,
+    .checkOutContainer > div > div ul:last-of-type li{
+        margin-bottom: 60px; position: relative;
+    }
+    .cartContainer > div > div:last-of-type ul li:nth-of-type(3){
+        border-bottom: 1px solid #000; padding-bottom: 40px;
+    }
+
+    .cartContainer > div > div:last-of-type ul li input[type='text'],
+    .checkOutContainer > div > div ul:last-of-type li input[type='text']{
+        background: transparent; border: none; text-align: right;
+        position: absolute; top: 0; right: 0;
+    }
+
+    /* ? cartPage */
+
+    #paymentComplete{
+        width: 94%; position: fixed; z-index: 100; 
+        text-align: center; border: 1px solid #626262; padding: 100px 0;
+        top: 20%; left: 3%; background-color: #fff;
+    }
+
+    #paymentComplete > div{
+        max-width: 760px; width: 89%; margin: 0 auto;
+    }
+
+    #paymentComplete h2{
+        font-size: 24px; font-weight: 300; margin-bottom: 80px;
+    }
+    #paymentComplete p{
+        font-size: 16px; font-weight: 500; line-height: 40px;
+    }
+    #paymentComplete p:first-of-type{
+        margin-bottom: 60px;
+    }
+    #paymentComplete p:last-of-type{
+        margin-bottom: 80px;
+    }
+    #paymentComplete a{
+        width: 100%; background-color: #000; color: #fff; display: block;
+        line-height: 50px;
+    }
+
+    .checkOutContainer .stepperBox li{
+        border-bottom: 1px solid #626262; padding-bottom: 40px;
+    }
+    .checkOutContainer .stepperBox li.active .hideBox{
+        display: none;
+    }
+    .checkOutContainer .stepperBox li .hideBox{
+        display: block;
+    }
+
+    .checkOutContainer .stepperBox li .hideBox p{
+        font-size: 17px; font-weight: 500; color: #626262;
+    }
+    .checkOutContainer .stepperBox li:first-of-type .hideBox p:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+    .checkOutContainer .stepperBox li:nth-of-type(3) .hideBox p::before{
+        background: url('../images/icon_masterCard.png') left / 51px 35px no-repeat;
+        width: 51px; height: 35px;
+    }
+
+    .checkOutContainer .stepperBox > li h2~*,
+    .checkOutContainer .stepperBox li.active h2 input[type='button'],
+    .checkOutContainer .stepperBox li.active input[type='checkbox']{
+        display: none;
+    }
+    .checkOutContainer .stepperBox > li.active h2~*:not(.hideBox,input[type="checkbox"]),
+    .checkOutContainer .stepperBox li h2 input[type='button']{
+        display: block;
+    }
+
+    .checkOutContainer .stepperBox li.active h2{
+        border: none; padding: 0;
+    }
+    .checkOutContainer > div ol li:first-of-type.active label{
+        display: block;
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(1) h2::before{
+        content: '1.';
+    }
+    .checkOutContainer > div ol li:nth-of-type(2) h2::before{
+        content: '2.';
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) h2::before{
+        content: '3.';
+    }
+    .checkOutContainer > div ol li:nth-of-type(4) h2::before{
+        content: '4.';
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(3) .hideBox{
+        position: relative;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) .hideBox p{
+        position: absolute; left: 10%; top: 10px;
+    }
+
+    .checkOutContainer{
+        margin: 240px auto 120px; padding: 0 3%;
+    }
+
+
+    .checkOutContainer > div ol li:not(:last-of-type){
+        margin-bottom: 100px;
+    }
+    .checkOutContainer > div ol li:last-of-type{
+        margin-bottom: 120px;
+    }
+
+    .checkOutContainer > div ol li h2{
+        font-size: 26px; font-weight: 300; margin-bottom: 40px; position: relative;
+    }
+
+
+    .checkOutContainer > div ol li h2 input[type='button']{
+        position: absolute; top: 0; right: 0; max-width: 70px; cursor: pointer;
+        border: none; background-color: transparent; font-size: 20px; font-weight: 700;
+        text-decoration: underline;
+    }
+
+    .checkOutContainer > div ol li:first-of-type label{
+        margin-bottom: 20px; font-size: 17px; color: #626262;
+    }
+    .checkOutContainer > div ol li:first-of-type input{
+        width: 100%; line-height: 60px; margin-bottom: 40px; font-weight: 500;
+        padding-left: 20px; box-sizing: border-box; font-size: 17px;
+    }
+    
+    .checkOutContainer .selectComponent{
+        margin-bottom: 40px; width: 48%; float: left;
+    }
+    .checkOutContainer .selectComponent.depth2{
+        margin-left: 4%;
+    }
+    .checkOutContainer .selectComponent select{
+        font-size: 17px; font-weight: 500; color: #000; line-height: 60px;
+        padding-left: 20px;
+    }
+    .checkOutContainer .selectComponent span{
+        top: 55px; right: 20px;
+    }
+    .checkOutContainer .selectComponent span img{
+        width: 100%;
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(2) > div:first-of-type{
+        border: 1px solid #626262; margin-bottom: 60px; padding: 40px 6%; position: relative;
+    }
+    .checkOutContainer > div ol li:nth-of-type(2) div input[type='radio']{
+        position: absolute; top: 45%; left: 6%; margin: 0;  width: 20px; height: 20px;
+        background: url('../images/bull_radio_default.png') no-repeat top left / 100%;
+        appearance: none; 
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(2) div input[type='radio']:checked{
+        background-image: url('../images/bull_radio_checked.png');
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(2) > div > div{
+        padding-left: 8%; 
+    }
+    .checkOutContainer > div ol li:nth-of-type(2) > div > div label{
+        font-size: 20px; font-weight: 500;
+    }
+    .checkOutContainer > div ol li:nth-of-type(2) > div > div label small{
+        color: #626262; margin-top: 25px;
+    }
+    .checkOutContainer > div ol li:nth-of-type(2) > div > div strong{
+        float: left; position: absolute; top: 45%; right: 6%;
+    }
+
+    
+    .checkOutContainer > div ol li:nth-of-type(3) > label{
+        padding-left: 3.5%; font-size: 17px; font-weight: 500;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > label:first-of-type{
+        margin-bottom: 20px;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > label:last-of-type{
+        margin-bottom: 60px;
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(3) > div form > *{
+        margin-bottom: 40px; font-size: 17px; box-sizing: border-box;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > div form input[type='text']{
+        width: 78%; line-height: 56px; border: 1px solid #626262; padding-left: 20px; 
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > div form input[type='text']::placeholder{
+        font-size: 17px; font-weight: 500; color: #626262;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > div form input[type='submit']{
+        margin-left: 3%; width: 18%;  height: 60px; border: none; cursor: pointer;
+        color: #fff; background-color: #626262; 
+        
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset{
+        padding: 60px 6%; background-color: #f2f2f2; position: relative;
+        margin-bottom: 60px;
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset > *,
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset input{
+        font-size: 17px; font-weight: 500;
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset legend{
+        position: absolute; top: 60px; color: #626262;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset label{
+        display: block; margin-bottom: 20px; color: #626262;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset > label:first-of-type{
+        padding-top: 50px;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset input{
+        line-height: 78px; border: 1px solid #626262; padding-left: 20px;
+        box-sizing: border-box;
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset input:not(:last-of-type),
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset div{
+        margin-bottom: 40px;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset > input{
+        width: 100%; 
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset div{
+        width: 48%; float: left;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset div:last-of-type{
+        margin-left: 4%;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset div input{
+        width: 100%;
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(3).active span{
+        font-size: 20px; font-weight: 500; margin-bottom: 20px;
+    }
+
+    .checkOutContainer > div ol li:last-of-type > *:not(h2){
+        font-size: 20px; font-weight: 500;
+    }
+    .checkOutContainer > div ol li:last-of-type p{
+        color: #626262; margin-bottom: 40px;
+    }
+    .checkOutContainer > div ol li:last-of-type label{
+        padding-left: 3.5%;
+    }
+    .checkOutContainer > div ol li:last-of-type label:first-of-type{
+        margin-bottom: 20px;
+    }
+    .checkOutContainer > div ol li:last-of-type label:last-of-type{
+        margin-bottom: 60px;
+    }
+    .checkOutContainer > div ol li:last-of-type a{
+        width: 100%; background-color: #000; line-height: 65px;
+        color: #fff; text-align: center;
+    }
+
+    .checkOutContainer .checkOutpanel{
+        background-color: #efefef; padding: 40px 3.4%; z-index: 1; box-sizing: border-box;
+    }
+
+    .checkOutContainer .checkOutpanel h2{
+        font-size: 26px; font-weight: 300; margin-bottom: 60px;
+        float: left;
+    }
+    .checkOutContainer .checkOutpanel > a{
+        text-align: right; display: block; text-decoration: underline;
+        font-size: 20px; font-weight: 700;
+    }
+
+    .checkOutContainer .checkOutpanel ul:first-of-type{
+        clear: both;
+    }
+    .checkOutContainer .checkOutpanel ul:first-of-type li::after{
+        clear: both; display: block; content: ''; visibility: hidden;
+    }
+    .checkOutContainer .checkOutpanel ul:first-of-type li{
+        margin-bottom: 60px; position: relative;
+    }
+    .checkOutContainer .checkOutpanel ul:first-of-type li img{
+        max-width: 100px; float: left; margin-right: 5%;
+    }
+
+    .checkOutContainer .checkOutpanel ul:first-of-type li dl,
+    .checkOutContainer .checkOutpanel ul:first-of-type li a{
+        font-size: 17px; font-weight: 500; 
+    }
+    .checkOutContainer .checkOutpanel ul:first-of-type li dl dt,
+    .checkOutContainer .checkOutpanel ul:first-of-type li dl dd:first-of-type{
+        margin-bottom: 20px; color: #626262;
+    }
+    .checkOutContainer .checkOutpanel ul:first-of-type li dl dt{
+        max-width: 300px;
+    }
+    .checkOutContainer .checkOutpanel ul:first-of-type li dl dd:last-of-type{
+        position: absolute; top: 0; right: 0;
+    }
+
+    .checkOutContainer .checkOutpanel ul:last-of-type{
+        border-top: 1px solid #000; padding-top: 40px;
+    }
+    .checkOutContainer .checkOutpanel ul:last-of-type li > *{
+        font-weight: 700;
+    }
+    .checkOutContainer .checkOutpanel ul:last-of-type li:not(:last-of-type) label,
+    .checkOutContainer .checkOutpanel ul:last-of-type li:not(:last-of-type) input{
+        font-size: 20px;
+    }
+    .checkOutContainer .checkOutpanel ul:last-of-type li:last-of-type label,
+    .checkOutContainer .checkOutpanel ul:last-of-type li:last-of-type input{
+        font-size: 26px;
+    }
+
+    /* ? checkOutPage */
+
+
+    .faqContainer > div > div h3{
+        text-align: center; font-size: 24px; font-size: 500; margin-bottom: 60px;
+    }
+
+    .faqContainer > div > div ul li:not(:last-of-type){
+        margin-bottom: 60px;
+    }
+    .faqContainer > div > div:not(:last-of-type) ul li:last-of-type{
+        margin-bottom: 100px;
+    }
+
+    .faqContainer > div > div ul li .hideBox{
+        display: none;
+    }
+    .faqContainer > div > div ul li.active .hideBox{
+        display: block;
+    }
+
+    .faqContainer > div > div ul li h4{
+        background-color: #fff; line-height: 80px; padding-left: 3.3%; box-sizing: border-box;
+        position: relative; font-size: 16px; font-weight: 700; cursor: pointer;
+    }
+    .faqContainer > div > div ul li h4::after{
+        content: ''; background: url('../images/arrow_down.png') top right / cover no-repeat;
+        width: 30px; height: 30px; display: block; position: absolute; top: 25px; right: 3%;
+        transition: 0.4s ease-in-out;
+    }
+    .faqContainer > div > div ul li.active h4::after{
+        transform: rotate(180deg);
+    }
+
+    .faqContainer > div > div ul li .hideBox{
+        margin-bottom: 60px;
+    }
+
+    .faqContainer > div > div ul li.active  h4{
+        background-color: #cfcfcf;
+    }
+    .faqContainer > div > div ul li.active .hideBox{
+        background-color: #fff; padding: 60px 3%;
+    }
+    .faqContainer > div > div ul li.active .hideBox p{
+        font-size: 16px; font-weight: 500; line-height: 30px;
+    }
+    .faqContainer > div > div ul li .hideBox p:not(:last-of-type){
+        margin-bottom: 30px;
+    }
+
+    /* ? faq */
+
+    
+    .recipesContainer ul,
+    .newsContainer ul{
+        display: flex; justify-content: flex-start; flex-wrap: wrap;
+    }
+
+    .recipesContainer ul li,
+    .newsContainer ul li{
+        max-width: 340px; width: 48%; margin-bottom: 100px;
+    }
+    .recipesContainer ul li:nth-of-type(2n+1),
+    .newsContainer ul li:nth-of-type(2n+1){
+        margin-right: 4%;
+    }
+
+    .recipesContainer ul li img,
+    .newsContainer ul li img{
+        width: 100%; height: 190px; margin-bottom: 40px;
+    }
+
+    .recipesContainer ul li dl > *,
+    .newsContainer ul li dl > *{
+        margin-bottom: 40px; font-weight: 500;
+    }
+    .recipesContainer ul li dl dt,
+    .newsContainer ul li dl dt{
+        font-size: 24px; line-height: 40px;
+    }
+    .recipesContainer ul li dl dd,
+    .newsContainer ul li dl dd{
+        font-size: 16px; line-height: 30px;
+    }
+
+    .recipesContainer ul li a,
+    .newsContainer ul li a{
+        font-size: 20px; text-decoration: underline;
+    }
+    
+    /* ? recipes, news list */
+
+    .cafeContainer .wrap > div:first-of-type{
+        background: url('../images/cafe_bg_01.jpg') top left / contain no-repeat; padding-top: 60%;
+    }
+    .cafeContainer .wrap > div:first-of-type > *{
+        text-align: center;
+    }
+    .cafeContainer .wrap > div:first-of-type p:not(:last-of-type),
+    .cafeContainer .wrap > div:first-of-type address{
+        font-size: 16px; font-weight: 500;
+    }
+    .cafeContainer .wrap > div:first-of-type strong{
+        font-size: 20px; font-weight: 700;
+    }
+
+    .cafeContainer .wrap > div:first-of-type p:first-of-type,
+    .cafeContainer .wrap > div:first-of-type address{
+        margin-bottom: 40px;
+    }
+    .cafeContainer .wrap > div:first-of-type p:nth-of-type(2){
+        margin-bottom: 60px;
+    }
+    .cafeContainer .wrap > div:first-of-type p:last-of-type{
+        margin: 0 auto 120px; line-height: 40px; color: #626262;
+    }
+
+    .cafeContainer .wrap > div:nth-of-type(2) h3{
+        text-align: center; font-size: 20px; font-weight: 500; margin-bottom: 60px;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) img{
+        width: 83%; max-width: 600px; margin: 0 auto 60px; display: block;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) > div > *{
+        font-weight: 500;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) > div h4{
+        font-size: 20px; margin-bottom: 40px;
+    }
+
+    .cafeContainer .wrap > div:nth-of-type(2) > div span{
+        display: block; font-size: 16px;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) > div span:first-of-type{
+        margin-bottom: 40px;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) > div span:last-of-type{
+        margin-bottom: 60px;
+    }
+
+    .cafeContainer .wrap > div:nth-of-type(2) > div dl{
+        margin-bottom: 60px;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) > div dl dt{
+        font-size: 16px; margin-bottom: 15px;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) > div dl dd{
+        font-size: 14px; color: #626262;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) > div dl dd:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+
+    .cafeContainer .wrap > div:nth-of-type(2) > p{
+        text-align: center; font-size: 20px; margin-bottom: 120px;
+    }
+
+    .cafeContainer .wrap > ul{
+        display: flex; justify-content: space-between; flex-flow: row wrap;
+    }
+    .cafeContainer .wrap > ul li{
+        width: 48%;
+    }
+    .cafeContainer .wrap > ul li:nth-of-type(2n){
+        margin-left: 4%;
+    }
+    .cafeContainer .wrap > ul li:nth-of-type(-n+2){
+        margin-bottom: 40px;
+    }
+    .cafeContainer .wrap > ul li img{
+        width: 100%;
+    }
+    
+
+    /* ? cafe */
+
+    .monthClubContainer .wrap > div:first-of-type,
+    .ourStoryContainer .wrap > div:nth-of-type(2){
+        display: flex; justify-content: space-between; 
+    }
+    .monthClubContainer .wrap > div:first-of-type dl,
+    .ourStoryContainer .wrap > div:nth-of-type(2) dl{
+        width: 28%; max-width: 200px; text-align: center; background-size: 80px;
+        background-position: center top; background-repeat: no-repeat; font-weight: 500;
+    }
+
+    .monthClubContainer .wrap > div:first-of-type dl dt,
+    .ourStoryContainer .wrap > div:nth-of-type(2) dl dt{
+        padding-top: 120px; font-size: 20px;  margin-bottom: 40px;
+    }
+    .monthClubContainer .wrap > div:first-of-type dl dd,
+    .ourStoryContainer .wrap > div:nth-of-type(2) dl dd{
+        font-size: 16px; color: #525252; line-height: 30px;
+    }
+    .monthClubContainer .wrap > div:first-of-type dl dd:first-of-type,
+    .ourStoryContainer .wrap > div:nth-of-type(2) dl:nth-of-type(2) dd:first-of-type{
+        margin-bottom: 30px;
+    }
+
+    .monthClubContainer .wrap{
+        background: url('../images/main_monthClub.jpg') left top/ contain no-repeat;
+    }
+
+    .monthClubContainer .wrap h2{
+        padding-top: 54vw; font-size: 24px; font-weight: 500; text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .monthClubContainer .wrap > div:not(:last-of-type){
+        margin-bottom: 120px;
+    }
+
+    .monthClubContainer .wrap > div:first-of-type dl:nth-of-type(1){
+        background-image: url('../images/bull_favorites.png');
+    }
+    .monthClubContainer .wrap > div:first-of-type dl:nth-of-type(2){
+        background-image: url('../images/bull_delivery.png');
+    }
+    .monthClubContainer .wrap > div:first-of-type dl:nth-of-type(3){
+        background-image: url('../images/bull_chocolate.png');
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(2){
+        padding-top: 460px; font-weight: 500;
+        background: url('../images/monthClub_bg_02.png') top center / 400px no-repeat;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(2) h3{
+        font-size: 20px; margin-bottom: 60px;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(2) ul li{
+        font-size: 16px; font-weight: 500; line-height: 30px;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(2) ul li:not(:last-of-type){
+        margin-bottom: 60px;
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(3) h3{
+        text-align: center; font-size: 20px; font-weight: 500; margin-bottom: 60px;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(3) div{
+        background-color: #e1e1e1;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(3) div div{
+        position: relative;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(3) div div blockquote{
+        text-align: center; padding: 40px 3%; margin: 0 auto;
+        font-size: 16px; font-weight: 500; line-height: 35px; position: relative;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(3) div div img{
+        width: 8.3%; border-radius: 50%; position: absolute; bottom: -10%; left: 45.85%;
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(3) div span{
+        padding-top: 65px; display: block; background-color: #efefef; text-align: center;
+        font-size: 20px; font-weight: 500;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(3) div span small{
+        font-size: 16px; font-weight: 300; margin-top: 20px;
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(4) h3{
+        font-size: 20px; font-weight: 500; margin-bottom: 40px; text-align: center;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(4) > p{
+        font-size: 16px; font-weight: 500; margin-bottom: 100px; text-align: center;
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer{
+        font-weight: 500;
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer li{
+       padding-top: 440px; background-position: top left;
+       background-size: 600px; background-repeat: no-repeat;
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer li:nth-of-type(1){
+        background-image: url('../images/monthClub_previous_01.png');
+    }
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer li:nth-of-type(2){
+        background-image: url('../images/monthClub_previous_02.png');
+    }
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer li:nth-of-type(3){
+        background-image: url('../images/monthClub_previous_03.png');
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer li:not(:last-of-type){
+        margin-bottom: 100px;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer li:last-of-type{
+        margin-bottom: 120px;
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer time{
+        font-size: 18px; margin-bottom: 40px; display: block;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer h4{
+        font-size: 20px; margin-bottom: 40px;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer p{
+        font-size: 16px; line-height: 30px;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer p:not(:last-of-type){
+        margin-bottom: 40px; 
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(4) > a{
+        font-size: 16px;
+    }
+
+    .monthClubSpec{
+        margin-top: 100px;
+    }
+    .monthClubSpec h3{
+        font-size: 20px; font-weight: 300; margin-bottom: 60px;
+    }
+    .monthClubSpec ul li{
+        font-size: 16px; font-weight: 500; color: #7e7e7e; line-height: 40px;
+    }
+    .monthClubSpec ul li:not(:last-of-type) {
+        margin-bottom: 40px;
+    }
+    .monthClubSpec ul li:last-of-type{
+        margin-bottom: 60px;
+    }
+
+    /*  ? monthClub */
+
+    .teamContainer .wrap > div{
+        background-color: #e1e1e1; padding: 60px 8.3%;
+    }
+
+    .teamContainer .wrap > div > ul li:not(:last-of-type){
+        margin-bottom: 60px;
+    }
+
+    .teamContainer .wrap > div > ul li span{
+        max-width: 300px; width: 47%; display: block; margin: 0 auto 60px;
+    }
+    .teamContainer .wrap > div > ul li span img{
+        border-radius: 50%; display: block; margin: 0 auto;
+    }
+    .teamContainer .wrap > div > ul li.active span img{
+        width: 100%; 
+    }
+    .teamContainer .wrap > div > ul li:not(.active) span img{
+        width: 50%;
+    }
+
+    .teamContainer .wrap > div > ul li > div{
+        text-align: center; display: none;
+    }
+    .teamContainer .wrap > div > ul li > div.active{
+        display: block;
+    }
+
+    .teamContainer .wrap > div > ul li > div > *:not(h3){
+        font-weight: 500;
+    }
+
+    .teamContainer .wrap > div > ul li > div > p{
+        font-size: 16px; line-height: 35px;
+    }
+    .teamContainer .wrap > div > ul li > div > p:last-of-type{
+        margin-bottom: 60px;
+    }
+    .teamContainer .wrap > div > ul li > div > p:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+
+    .teamContainer .wrap > div > ul li > div .position{
+        font-size: 20px; font-weight: 300; margin: 0 auto;
+    }
+    .teamContainer .wrap > div > ul li > div .position h3{
+        font-size: 24px; font-weight: 500; margin-bottom: 20px;
+    }
+    .teamContainer .wrap > div > ul li > div .position small{
+        font-size: 16px; font-weight: 500; color: #626262; margin-top: 20px;
+    }
+
+    /* ? team */
+    
+    .contactUsContainer .wrap > div:first-of-type > div:first-of-type > *:not(p),
+    .contactUsContainer .wrap > div:first-of-type > div:last-of-type > *:not(a:nth-of-type(2)){
+        margin-bottom: 40px;
+    }
+    .contactUsContainer .wrap > div:first-of-type > div:last-of-type > a:nth-of-type(2){
+        margin-bottom: 60px;
+    }
+
+    .contactUsContainer .wrap > div:first-of-type > div > *:not(h3){
+        font-weight: 500;
+    }
+
+    .contactUsContainer .wrap > div:first-of-type h3{
+        font-size: 20px; font-weight: 700;
+    }
+    .contactUsContainer .wrap > div:first-of-type a,
+    .contactUsContainer .wrap > div:first-of-type address{
+        font-size: 16px; line-height: 40px; display: block;
+    }
+    .contactUsContainer .wrap > div:first-of-type strong{
+        font-size: 24px; display: block; text-align: center;
+    }
+    .contactUsContainer .wrap > div:first-of-type p{
+        font-size: 16px; color: #626262; line-height: 40px;
+    }
+
+    .contactUsContainer .wrap > div:first-of-type > div:first-of-type{
+        margin-bottom: 60px;
+    }
+    .contactUsContainer .wrap > div:first-of-type > div:last-of-type{
+        margin-bottom: 120px;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type{
+        background-color: #fff;
+        padding: 40px 5.6%; box-sizing: border-box; border: 1px solid #626262;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset{
+        display: none;
+    }
+    .contactUsContainer .wrap > div:last-of-type form fieldset.active{
+        display: block;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset::after{
+        clear: both; visibility: hidden; display: block; clear: '';
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset legend{
+        font-size: 20px; font-weight: 300; margin-bottom: 60px;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset input,
+    .contactUsContainer .wrap > div:last-of-type form fieldset textarea{
+        border: 1px solid #626262; box-sizing: border-box; font-size: 17px; font-weight: 500;
+        width: 100%;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset input::placeholder,
+    .contactUsContainer .wrap > div:last-of-type form fieldset textarea::placeholder{
+        font-size: 17px; font-weight: 500;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset input{
+        line-height: 70px;  margin-bottom: 20px; padding-left: 10px; 
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset textarea{
+        height: 200px; margin-bottom: 40px; padding: 10px 0 0 10px;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset p{
+        font-size: 16px; font-weight: 500; margin-bottom: 40px;
+    }
+    
+    .contactUsContainer .wrap > div:last-of-type form fieldset .btn{
+        float: right; max-width: 240px; width: 33.4%;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type .successComment{
+        display: none; font-weight: 500; min-height: 700px;
+    }
+    .contactUsContainer .wrap > div:last-of-type .successComment.active{
+        display: block;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type .successComment h3{
+        font-size: 20px; margin-bottom: 60px; font-weight: 300;
+    }
+    .contactUsContainer .wrap > div:last-of-type .successComment p{
+        font-size: 16px; font-weight: 500;
+    }
+    .contactUsContainer .wrap > div:last-of-type .successComment p:first-of-type{
+        margin-bottom: 40px;
+    }
+    .contactUsContainer .wrap > div:last-of-type .successComment p a{
+        text-decoration: underline;
+    }
+
+    /* ? contact us */
+
+    .ourStoryContainer .wrap > p{
+        font-size: 16px; font-weight: 500; width: 76.4%;
+        color: #626262; text-align: center; line-height: 40px;
+    }
+    .ourStoryContainer .wrap > p:not(:last-of-type){
+        margin: 0 auto 20px;
+    }
+    .ourStoryContainer .wrap > p:last-of-type{
+        margin: 0 auto 120px;
+    }
+
+
+    .ourStoryContainer .wrap > div > div{
+        margin-bottom: 80px;
+    }
+
+    .ourStoryContainer .wrap div h3{
+        font-size: 20px; margin-bottom: 60px; text-align: center;
+    }
+
+
+    .ourStoryContainer .wrap div:first-of-type .memberSlider li{
+        background-color: #fff; 
+    }
+    .ourStoryContainer .wrap div:first-of-type .memberSlider li img{
+        width: 100%; display: block;
+    }
+    .ourStoryContainer .wrap div:first-of-type .memberSlider div{
+        padding: 0 6.7%; box-sizing: border-box; margin-top: 40px; min-height: 370px;
+    }
+    .ourStoryContainer .wrap div:first-of-type .memberSlider div p{
+        font-size: 16px; line-height: 30px;
+    }
+    .ourStoryContainer .wrap div:first-of-type .memberSlider div p:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+    .ourStoryContainer .wrap > div > div > .customControler{
+        text-align: right;
+    }
+    .ourStoryContainer .wrap > div > div > .customControler::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+    .ourStoryContainer .wrap > div > div > .customControler span{
+        display: inline-block; font-weight: 700; line-height: 60px; font-size: 16px;
+        text-align: center;
+    }
+    .ourStoryContainer .wrap > div > div > .customControler span:first-of-type{
+        max-width: 80px; width: 11%; color: #5893b1; background-color: #fff;
+    }
+    .ourStoryContainer .wrap > div > div > .customControler span:last-of-type{
+        max-width: 160px; width: 23%; background-color: #c5dae4; float: right;
+        text-transform: uppercase;
+    }
+    .ourStoryContainer .wrap > div > div > .customControler span:last-of-type::after{
+        content: '>'; padding-left: 13px;
+    }
+
+    .ourStoryContainer .wrap div:first-of-type blockquote{
+        font-size: 20px; line-height: 50px; margin: 0 auto 120px;
+        text-align: center; font-style: italic;
+    }
+
+    .ourStoryContainer .wrap > div:nth-of-type(2){
+        margin-bottom: 120px;
+    }
+
+    .ourStoryContainer .wrap > div:nth-of-type(2) dl:nth-of-type(1){
+        background-image: url('../images/bull_donation.png');
+    }
+    .ourStoryContainer .wrap > div:nth-of-type(2) dl:nth-of-type(2){
+        background-image: url('../images/bull_leaf.png');
+    }
+    .ourStoryContainer .wrap > div:nth-of-type(2) dl:nth-of-type(3){
+        background-image: url('../images/bull_trophy.png');
+    }
+
+    .ourStoryContainer .wrap > div:last-of-type{
+        font-weight: 500;
+    }
+    .ourStoryContainer .wrap > div:last-of-type::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+
+    .ourStoryContainer .wrap > div:last-of-type p{
+        font-size: 16px; line-height: 30px; color: #626262;
+    }
+    .ourStoryContainer .wrap > div:last-of-type p:not(:last-of-type){
+        margin-bottom: 40px;
+    } 
+    .ourStoryContainer .wrap > div:last-of-type p:last-of-type{
+        margin-bottom: 60px;
+    }
+    
+    .ourStoryContainer .wrap > div:last-of-type .btn{
+        max-width: 300px; width: 40%; float: right; margin-bottom: 120px;
+    }
+    .ourStoryContainer .wrap > div:last-of-type img{
+        max-width: 720px;
+    }
+
+    /* ? our story */
+
+
+    .cacaoOriginsContainer h2{
+        font-size: 20px; font-weight: 500; margin-bottom: 60px;
+    }
+
+    .cacaoOriginsContainer > .wrap > div:first-of-type{
+        background-color: #fff; padding: 60px 5.6%; box-sizing: border-box;
+        font-weight: 500; text-align: center; border: 5px solid #626262;
+        margin-bottom: 120px;
+    }
+    .cacaoOriginsContainer > .wrap > div:last-of-type::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+
+    .cacaoOriginsContainer > .wrap > div:first-of-type p{
+        font-size: 16px; line-height: 30px; color: #515151;
+    }
+    .cacaoOriginsContainer > .wrap > div:first-of-type p:not(:last-of-type){
+        margin-bottom: 40px; 
+    }
+
+    .cacaoOriginsContainer > .wrap > div:last-of-type img{
+        width: 100%; margin-bottom: 60px;
+    }
+
+    .cacaoOriginsContainer > .wrap > div:last-of-type div > *{
+        font-weight: 500;
+    }
+    .cacaoOriginsContainer > .wrap > div:last-of-type div h3{
+        font-size: 20px; margin-bottom: 40px; line-height: 40px;
+    }
+
+    .cacaoOriginsContainer > .wrap > div:last-of-type div p{
+        font-size: 16px; color: #3b3b3b; line-height: 30px;
+    }
+    .cacaoOriginsContainer > .wrap > div:last-of-type div p:last-of-type{
+        margin-bottom: 60px;
+    }
+    .cacaoOriginsContainer > .wrap > div:last-of-type div p:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+
+    .cacaoOriginsContainer > .wrap > div:last-of-type div blockquote{
+        font-size: 16px; margin-bottom: 40px; color: #3b3b3b; line-height: 30px;
+    }
+    .cacaoOriginsContainer > .wrap > div:last-of-type div span{
+        font-size: 20px; text-align: right; display: block;
+    }
+
+    /* ? cacao Origins */
+
+}
+/* ? tablet */
+
+@media screen and (min-width: 1280px){
+    
+    .wrap,
+    .recipesContainer > ul,
+    .newsContainer > ul{
+        max-width: 1800px; margin: 0 auto;
+    }
+
+    .loginContainer,
+    .registerContainer,
+    .mypageContainer,
+    .myAddressContainer,
+    .cartContainer,
+    .faqContainer,
+    .recipesContainer,
+    .newsContainer,
+    .cafeContainer,
+    .monthClubContainer,
+    .teamContainer,
+    .contactUsContainer,
+    .ourStoryContainer,
+    .cacaoOriginsContainer{
+        padding: 290px 3% 120px; background-color: #efefef;
+    }
+
+    .faqContainer h2,
+    .recipesContainer h2,
+    .newsContainer h2,
+    .cafeContainer h2,
+    .teamContainer h2,
+    .contactUsContainer h2,
+    .ourStoryContainer h2{
+        text-align: center; font-size: 42px; font-weight: 300; margin-bottom: 120px;
+    }
+
+    .mainContainer > div:first-of-type,
+    .mainContainer > div:nth-of-type(2) article,
+    .mainContainer > article:last-of-type > *,
+    .mainContainer > div:nth-of-type(3),
+    .mainContainer > div:nth-of-type(6),
+    .mainContainer > div:nth-of-type(7){
+        max-width: 1800px; margin: 0 auto 120px;
+    }
+
+    .mainContainer > div:nth-of-type(n + 4):nth-of-type(-n + 6) ul li{
+        width: 32.22%; background-size: cover; background-repeat: no-repeat;
+        box-sizing: border-box; display: flex; flex-flow: column; height: 740px;
+        justify-content: flex-end; padding: 0 3% 3% 3%;
+    }
+
+    .mainContainer div:not(:nth-of-type(4)) > h3{
+        font-size: 36px; 
+    }
+    .mainContainer div > h3{
+        font-weight: 500; text-align: center; margin-bottom: 120px;
+    }
+
+    .mainContainer{
+        padding-top: 30%; background-image: url('../images/main_bg.jpg');
+        background-size: 100%; background-repeat: no-repeat;
+        background-color: #efefef;
+    }
+    .mainContainer h2{
+        text-align: center; font-size: 36px; font-weight: 500; margin-bottom: 120px;
+        text-shadow: 5px 6px 5px #000; color: #fff; 
+    }
+    .mainContainer h2 small{
+        text-shadow: 3px 6px 8px #000; font-size: 20px; margin-bottom: 30px;
+    }
+    .mainContainer > div:first-of-type{
+        padding-top: 33.33%;
+    }
+
+    /* ? bx slider */
+
+    .mainContainer .sliderWrap .bx-wrapper{
+        margin: 0 auto 120px; display: block; padding: 0 8.5%; box-sizing: border-box;
+    }
+    .mainContainer .sliderWrap .mainSlider::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+
+    .mainContainer .sliderWrap .mainSlider li a > *{
+        font-size: 20px; font-weight: 500; text-align: center;
+    }
+    .mainContainer .sliderWrap .mainSlider li a img{
+        margin-bottom: 30px;
+    }
+    .mainContainer .sliderWrap .mainSlider li a h4{
+        margin-bottom: 15px; line-height: 40px;
+    }
+    .mainContainer .sliderWrap .mainSlider li a span{
+        display: block;
+    }
+    .mainContainer .sliderWrap .bx-wrapper .bx-controls-direction a{
+        top: calc(50% - 45px); margin-top: 0; z-index: 1; width: 44px; height: 44px; border-radius: 22px;
+        background-color: white; box-shadow: 0 2px 10px #363636; background-size: 8px; background-position: 50%;
+        transition: all 0.3s ease-in-out;
+    }
+    .mainContainer .sliderWrap .bx-wrapper .bx-controls-direction a.bx-prev{
+        background-image: url('../images/btn_prev.png');
+    }
+    .mainContainer .sliderWrap .bx-wrapper .bx-controls-direction a.bx-prev:hover{
+        background-position: -100px;
+    }
+    .mainContainer .sliderWrap .bx-wrapper .bx-controls-direction a.bx-next{
+        background-image: url('../images/btn_next.png');
+    }
+    .mainContainer .sliderWrap .bx-wrapper .bx-controls-direction a.bx-next:hover{
+        background-position: 100px;
+    }
+
+    .mainContainer .sliderWrap ~ .btn{
+        width: 18.6%; margin: 0 auto;
+    }
+
+    /*  ? View products */
+
+    .mainContainer > div:nth-of-type(2){
+        background-image: url('../images/cacaoOrigins_bg_01.jpg'); padding: 120px 0;  margin-bottom: 120px;
+        background-size: cover; background-repeat: no-repeat; background-position: center;
+    }
+    .mainContainer > div:nth-of-type(2) article{
+        width: 43.3%; background-color: white; text-align: center; padding: 6.4% 5.1%;
+    }
+    .mainContainer > div:nth-of-type(2) article > *{
+        font-size: 20px; font-weight: 500;
+    }
+    .mainContainer > div:nth-of-type(2) article h3,
+    .mainContainer > div:nth-of-type(2) article p{
+        margin-bottom: 40px;
+    }
+    .mainContainer > div:nth-of-type(2) article p{
+        line-height: 35px;
+    }
+    .mainContainer > div:nth-of-type(2) article a{
+        text-decoration: underline;
+    }
+
+    /* ? CACAO ORIGINS */
+
+    .mainContainer > div:nth-of-type(4){
+        margin-bottom: 120px;
+    }
+    .mainContainer > div:nth-of-type(4) h3{
+        font-size: 24px;
+    }
+    .mainContainer > div:nth-of-type(4) p,
+    .mainContainer > div:nth-of-type(4) address{
+        text-align: center; font-size: 20px; font-weight: 500;
+    }
+    .mainContainer > div:nth-of-type(4) strong{
+        font-weight: 700; margin-right: 1%;
+    }
+    .mainContainer > div:nth-of-type(4) p{
+        margin-bottom: 40px;
+    }
+    .mainContainer > div:nth-of-type(4) address{
+        font-style: normal; margin-bottom: 120px;
+    }
+    .mainContainer > div:nth-of-type(4) ul{
+        display: flex; justify-content: space-between; flex-wrap: wrap;
+        padding: 0 3%;
+    }
+
+    .mainContainer > div:nth-of-type(4) ul li:last-child{
+        width: 100%;
+    }
+
+    .mainContainer > div:nth-of-type(4) ul li:not(:last-of-type){
+        margin-bottom: 1.66%;
+    }
+
+    .mainContainer > div:nth-of-type(4) ul li:nth-of-type(1){
+        background-image: url('../images/main_cafeBg_01.png'); 
+    }
+    .mainContainer > div:nth-of-type(4) ul li:nth-of-type(2){
+        background-image: url('../images/main_cafeBg_02.png');
+    }
+    .mainContainer > div:nth-of-type(4) ul li:nth-of-type(3){
+        background-image: url('../images/main_cafeBg_03.png');
+    }
+    .mainContainer > div:nth-of-type(4) ul li:nth-of-type(4){
+        background-image: url('../images/main_cafeBg_04.jpg');
+    }
+
+    .mainContainer > div:nth-of-type(4) ul li h4{
+        color: #fff; margin-bottom: 40px; max-width: 50%; font-weight: 500;
+        font-size: 1.88vw; line-height: 50px; text-shadow: 3px 3px 5px #000;
+    }
+    .mainContainer > div:nth-of-type(4) ul li h4 small{
+        margin-bottom: 2.1vw; font-size: 1vw;
+    }
+
+    .mainContainer > div:nth-of-type(4) ul li a{
+        background-color: #fff; line-height: 65px; display: block; text-align: center;
+        color: #363636; box-shadow: 10px 10px 20px #000; font-weight: 500;
+        font-size: 1vw;
+    }
+    .mainContainer > div:nth-of-type(4) ul li:not(:last-of-type) a{
+        width: 48%;
+    }
+    .mainContainer > div:nth-of-type(4) ul li:last-of-type a{
+        width: 15.5%;
+    }
+
+    /* ? STORE & CAFE */
+
+    .mainContainer > article:first-of-type,
+    .mainContainer > article:last-of-type{
+        text-align: center; font-weight: 500;
+    }
+
+    .mainContainer > article:first-of-type h3 {
+        font-size: 36px; margin-bottom: 120px; text-align: center;
+    }
+    .mainContainer > article:first-of-type p{
+        font-size: 20px; margin-bottom: 50px; line-height: 35px;
+    }
+    .mainContainer > article:first-of-type a{
+        display: block; font-size: 21px; text-transform: uppercase; margin-bottom: 120px;
+        text-decoration: underline 2px solid #9d9d9d;
+    }
+    .mainContainer > article:first-of-type img{
+        width: 100%; margin-bottom: 120px;
+    }
+
+    /* ? Chocolate of month club */
+    .mainContainer > article:last-of-type{
+        position: relative; margin-bottom: 235px;
+    }
+    .mainContainer > article:last-of-type h3{
+        font-size: 29px; margin-bottom: 120px;
+    }
+    .mainContainer > article:last-of-type blockquote{
+        width: 44.5%; font-size: 30px; line-height: 50px; padding-bottom: 130px;
+        background: url('../images/main_review.png') right bottom/ 30% no-repeat;
+    }
+    .mainContainer > article:last-of-type blockquote strong{
+        display: block; margin-bottom: 50px; font-size: 42px;
+    }
+    /* ? Review */
+
+    .mainContainer > div:nth-of-type(5){
+        margin-bottom: 120px;
+    }
+    .mainContainer > div:nth-of-type(5) ul{
+        display: flex; flex-wrap: wrap; padding: 0 3%;
+    }
+    .mainContainer > div:nth-of-type(5) ul li:not(:nth-of-type(3n)){
+        margin-right: 1.66%;
+    }
+    .mainContainer > div:nth-of-type(5) ul li:nth-child(-n+3){
+        margin-bottom: 1.66%;
+    }
+    .mainContainer > div:nth-of-type(5) ul li:nth-of-type(1){
+        background-image: url('../images/recipes_01.jpg');
+    }
+    .mainContainer > div:nth-of-type(5) ul li:nth-of-type(2){
+        background-image: url('../images/recipes_07.jpg');
+    }
+    .mainContainer > div:nth-of-type(5) ul li:nth-of-type(3){
+        background-image: url('../images/recipes_03.jpg');
+    }
+    .mainContainer > div:nth-of-type(5) ul li:nth-of-type(4){
+        background-image: url('../images/recipes_18.jpg');
+    }
+    .mainContainer > div:nth-of-type(5) ul li:nth-of-type(5){
+        background-image: url('../images/recipes_15.jpg');
+    }
+    .mainContainer > div:nth-of-type(5) ul li:nth-of-type(6){
+        background-image: url('../images/recipes_17.jpg');
+    }
+    .mainContainer > div:nth-of-type(5) ul li h3{
+        font-size: 1.88vw; color: #fff; text-shadow: 3px 3px 3px #000; line-height: 50px;
+        margin-bottom: 40px; font-weight: 500; width: 85%;
+    }
+    .mainContainer > div:nth-of-type(5) ul li a{
+        font-size: 1vw; font-weight: 500; color: #363636; width: 48%; background-color: #fff;
+        text-align: center; display: block; line-height: 65px; box-shadow: 10px 10px 19px rgba(0, 0, 0,0.63);
+    }
+    /* ? recipes */
+
+    .mainContainer > div:nth-of-type(6) > div{
+        padding: 0 13%;
+    }
+    .mainContainer > div:nth-of-type(6) > div > img{
+        width: 45.5%; float: left; margin: 0 9% 120px 0;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div{
+        font-weight: 500; float: left; width: 45.5%;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div > *:not(:last-child){
+        margin-bottom: 50px;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div > span{
+        display: block;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div > a:last-of-type{
+        text-decoration: underline; font-size: 20px;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div > span:first-of-type,
+    .mainContainer > div:nth-of-type(6) > div > div p{
+        font-size: 20px;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div h4{
+        font-size: 32px;
+    }
+    .mainContainer > div:nth-of-type(6) > div > div p{
+        line-height: 50px; 
+    }
+    .mainContainer > div:nth-of-type(6) > div > div > span:last-of-type{
+        font-size: 28px; color: #6a6a6a;
+    }
+
+    .mainContainer .selectComponent{
+        width: 100%; height: 66px;
+    }
+    .mainContainer .selectComponent > select{
+        font-size: 22px; font-weight: 500; line-height: 68px; padding-left: 20px;
+    }
+    .mainContainer .selectComponent > select option{
+        font-size: 22px; font-weight: 500;
+    }
+    .mainContainer .selectComponent > span{
+        top: 23px; right: 20px;
+    }
+
+    .mainContainer > div:nth-of-type(6) > ul{
+        clear: left; display: flex; justify-content: space-between; flex-flow: row nowrap;
+        padding: 0 3%;
+    }
+    .mainContainer > div:nth-of-type(6) > ul li:nth-of-type(1){
+        background-image: url('../images/main_giftCardProduct_01.png');
+    }
+    .mainContainer > div:nth-of-type(6) > ul li:nth-of-type(2){
+        background-image: url('../images/main_giftCardProduct_02.png');
+    }
+    .mainContainer > div:nth-of-type(6) > ul li:nth-of-type(3){
+        background-image: url('../images/main_giftCardProduct_03.png');
+    }
+    .mainContainer > div:nth-of-type(6) > ul li h4{
+        color: #fff; font-size: 1.88vw; font-weight: 500; text-shadow: 5px 4px 6px #000;
+        margin-bottom: 40px; line-height: 50px;
+    }
+    .mainContainer > div:nth-of-type(6) > ul li h4 small{
+        margin-bottom: 2.1vw; font-size: 1vw;
+    }
+    .mainContainer > div:nth-of-type(6) > ul li > a{
+        width: 48.27%; display: block; background-color: #fff; text-align: center;
+        line-height: 65px; box-shadow: 5px 5px 10px rgba(0, 0, 0,0.7); color: #363636; font-weight: 500;
+        font-size: 1vw; font-weight: 500;
+    }
+
+    /* ? gift Card */
+
+    .mainContainer > div:nth-of-type(7){
+        padding: 0 3%; border-bottom: 1px solid #d5d5d5;
+    }
+    .mainContainer > div:nth-of-type(7) h3{
+        font-weight: 500; font-size: 36px;
+    }
+    .mainContainer > div:nth-of-type(7) h3 small{
+        font-size: 20px; margin-bottom: 80px;
+    }
+
+    .mainContainer > div:nth-of-type(7) ul{
+        display: flex; justify-content: space-between; flex-flow: row nowrap; margin-bottom: 120px;
+        
+    }
+    .mainContainer > div:nth-of-type(7) ul li{
+        width: 28%; font-weight: 500;
+    }
+    .mainContainer > div:nth-of-type(7) ul li img{
+        width: 100%; margin-bottom: 40px;
+    }
+    .mainContainer > div:nth-of-type(7) ul li dl dt{
+        font-size: 32px; margin-bottom: 40px; text-transform: uppercase;
+        line-height: 50px;
+    }
+    .mainContainer > div:nth-of-type(7) ul li dl dd{
+        font-size: 24px; line-height: 34px; margin-bottom: 20px;
+    }
+    .mainContainer > div:nth-of-type(7) ul li > a{
+        font-size: 24px; text-decoration: underline;
+    }
+    .mainContainer > div:nth-of-type(7) > a{
+        width: 14.5%; line-height: 65px; margin: 0 auto 120px;
+    }
+    /* ? news */
+
+    .mainContainer > div:last-of-type{
+        overflow:auto;
+    }
+    .mainContainer > div:last-of-type ul{
+        width: 89%; max-width: 1600px; margin: 0 auto;
+    }
+    .mainContainer > div:last-of-type ul::after{
+        clear: both; display: block; content: ''; visibility: hidden;
+    }
+    .mainContainer > div:last-of-type ul li{
+        width: 45.6%; font-weight: 500; float: left;
+    }
+    .mainContainer > div:last-of-type ul li:nth-of-type(2n+1){
+        margin-right: 5.6%;
+    }
+    .mainContainer > div:last-of-type ul li:last-of-type{
+        margin-bottom: 120px;
+    }
+    .mainContainer > div:last-of-type ul li h3{
+        font-size: 32px; margin-bottom: 60px;
+    }
+    .mainContainer > div:last-of-type ul li > *:not(h3){
+        line-height: 35px; font-size: 24px;
+    }
+    .mainContainer > div:last-of-type ul li > p:not(:last-of-type),
+    .mainContainer > div:last-of-type ul li > blockquote{
+        margin-bottom: 40px;
+    }
+    .mainContainer > div:last-of-type ul li:nth-of-type(2) p:last-of-type{
+        margin-bottom: 60px;
+    }
+    .mainContainer > div:last-of-type > a{
+        font-size: 24px; font-weight: 500; text-decoration: underline; display: block;
+        text-align: center; margin: 0 auto 120px;
+
+    }
+    /* ? ourStory */
+
+    
+    .loginContainer h2,
+    .loginContainer > div > p,
+    .loginContainer input[type='submit'],
+    .registerContainer h2,
+    .registerContainer p{
+        margin-bottom: 40px;
+    }
+
+    .loginContainer > div,
+    .registerContainer > div{
+        max-width: 600px; margin: 0 auto; text-align: center;
+    }
+
+    .loginContainer h2,
+    .registerContainer h2{
+        font-size: 36px; font-weight: 500;
+    }
+
+    .loginContainer p,
+    .loginContainer a,
+    .loginContainer input,
+    .loginContainer .btn,
+    .registerContainer p,
+    .registerContainer .btn,
+    .registerContainer input{
+        font-size: 20px; font-weight: 500;
+    }
+
+    .loginContainer input,
+    .registerContainer input{
+        display: block; width: 100%; line-height: 60px;
+    }
+
+    .loginContainer input:not(:last-of-type),
+    .registerContainer input:not(:last-of-type){
+        margin-bottom: 20px; padding-left: 20px; box-sizing: border-box;
+    }
+    .loginContainer input::placeholder,
+    .registerContainer input::placeholder{
+        font-size: 17px; font-weight: 500; color: #626262;
+    }
+
+    .mypageContainer > div > a,
+    .myAddressContainer > div > a:first-of-type{
+        font-size: 20px; color: #626262; margin-bottom: 60px; display: block;
+    }
+
+    .mypageContainer > div h2,
+    .myAddressContainer > div h2{
+        font-size: 36px;
+    }
+
+    .loginContainer div::after{
+        clear: both; display: block; content: ''; visibility: hidden;
+    }
+
+    .loginContainer > div > div{
+        width: 55%; margin: 0 auto 120px;
+    }
+    .loginContainer > div > div p{
+        float: left; color: #626262;
+    }
+
+    .mypageContainer > div::after{
+        clear: both; visibility: hidden; content: ''; display: block;
+    }
+
+    .mypageContainer > div *:not(dd:first-of-type),
+    .myAddressContainer > div > *,
+    .myAddressContainer > div > div > *{
+        font-weight: 500;
+    }
+
+    .mypageContainer > div > div h3,
+    .myAddressContainer h3{
+        font-size: 24px; color: #626262; border-bottom: 1px solid #626262;
+        padding-bottom: 20px; margin-bottom: 40px;
+    }
+
+    .mypageContainer > div > div:first-of-type,
+    .myAddressContainer > div > div{
+        max-width: 1175px; width: 65%;
+    }
+
+    .mypageContainer > div > div:last-of-type span,
+    .myAddressContainer span{
+        margin-bottom: 40px;
+        display: block; font-size: 20px;
+    }
+
+    .mypageContainer > div > div:last-of-type span:first-of-type,
+    .myAddressContainer span{
+        margin-bottom: 40px;
+    }
+
+    .mypageContainer > div h2 small{
+        font-size: 20px; margin: 40px 0 120px;
+    }
+
+    .mypageContainer > div > div{
+        float: left;
+    }
+
+    .mypageContainer > div > div:first-of-type{
+        margin-right: 6%;
+    }
+    .mypageContainer > div > div:first-of-type ul li:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+    .mypageContainer > div > div:first-of-type ul li::after{
+        clear: both; visibility: hidden; content: ''; display: block;
+    }
+    .mypageContainer > div > div:first-of-type ul li img{
+        float: left; max-width: 100px; margin-right: 20px;
+    }
+
+    .mypageContainer > div > div:first-of-type ul li dl{
+        font-size: 20px;
+    }
+    .mypageContainer > div > div:first-of-type ul li dl > *:not(dd:last-of-type){
+        margin-bottom: 20px;
+    }
+    .mypageContainer > div > div:first-of-type ul li dl dd:first-of-type{
+        font-weight: 700;
+    }
+
+    .mypageContainer > div > div:last-of-type{
+        width: 29%; max-width: 530px;
+    } 
+
+    .mypageContainer > div > div:last-of-type span:last-of-type{
+        margin-bottom: 60px;
+    }
+    .mypageContainer > div > div:last-of-type a{
+        width: 100%; line-height: 65px;
+    }
+
+    .myAddressContainer > div > a:first-of-type::before{
+        content: '<'; padding-right: 0.5%;
+    }
+    .myAddressContainer > div > h2{
+        margin-bottom: 60px;
+    }
+    .myAddressContainer > div > a:last-of-type{
+        max-width: 300px; width: 17%; background-color: #000; color: #fff;
+        line-height: 65px; text-align: center; display: block; margin-bottom: 100px;
+    }
+
+    .myAddressContainer > div > div a{
+        text-decoration: underline; font-size: 20px;
+    }
+    .myAddressContainer > div > div a:first-of-type{
+        margin-right: 2%;
+    }
+
+    div[id$="Address"]{
+        width: 34%; height: 90%; margin: 0 auto; position: fixed; z-index: 100; text-align: center;
+        border: 1px solid #626262; background-color: #fff; top: 10px; left: 34.5%;
+        max-width: 600px; min-height: 900px; box-sizing: border-box; padding: 40px 2.2%;
+    }
+
+    div[id$="Address"] h2{
+        font-size: 2vw; margin-bottom: 40px; line-height: 50px; font-weight: 500;
+    }
+
+    div[id$="Address"] .btn_close{
+        cursor: pointer;
+    }
+
+    #addNewAddress form fieldset input:not(#newAddressZipCode),
+    #editUnAddress form fieldset input:not(#editAddressZipCode){
+        width: 100%;
+    }
+
+    #addNewAddress #newAddressCheckBox,
+    #editUnAddress #editAddressCheckBox{
+        display: none;
+    }
+
+
+    div[id$="Address"] h2 input{
+        top: 20px; right: 20px; position: absolute; text-indent: -9999px;
+        background-color: transparent; border: none; content: ''; cursor: pointer;
+        width: 20px; height: 20px; background-image: url('../images/bull_close.png');
+        background-size: contain; background-repeat: no-repeat;
+    }
+    div[id$="Address"] > p{
+        font-size: 1vw; margin-bottom: 40px;
+    }
+    
+    div[id$="Address"] form fieldset{
+        font-weight: 500;
+    }
+
+    div[id$="Address"] form fieldset::after{
+        clear: both; visibility: hidden; content: ''; display: block;
+    }
+
+    div[id$="Address"] form fieldset input{
+        line-height: 58px; border: 1px solid #626262;
+        box-sizing: border-box; padding: 0 20px; font-size: 17px; color: #000;
+        font-weight: 500;
+    }
+
+    div[id$="Address"] form fieldset input:not(input[type='checkbox']){
+        display: block;
+    }
+
+    div[id$="Address"] form fieldset input:not(#newAddressZipCode,#editAddressZipCode){
+        margin: 0 auto 20px;
+    }
+    
+    div[id$="Address"] form fieldset input::placeholder{
+        font-size: 17px; color: #626262; font-weight: 500;
+    }
+
+    div[id$="Address"] .selectComponent,
+    div[id$="Address"] form fieldset input#newAddressZipCode,
+    div[id$="Address"] form fieldset input#editAddressZipCode{
+        width: 48%; float:left;
+    }
+
+    div[id$="Address"] .selectComponent > select{
+        line-height: 58px; display: block; margin-bottom: 20px; font-size: 16px;
+        padding-left: 20px; box-sizing: border-box; color: #626262; font-weight: 500;
+    }
+    div[id$="Address"] .selectComponent > span{
+        top: 17px; right: 20px;
+    }
+
+    div[id$="Address"] .selectComponent.depth2,
+    div[id$="Address"] form fieldset input#newAddressZipCode,
+    div[id$="Address"] form fieldset input#editAddressZipCode{
+        margin-left: 4%;
+    }
+
+    div[id$="Address"] form fieldset label{
+        margin: 30px 0 30px; line-height: 20px; padding-left: 7%; float: right;
+        box-sizing: border-box; 
+    }
+    
+    div[id$="Address"] form fieldset input[type='submit']{
+        background-color: #000; color: #fff; font-size: 20px;
+    }
+
+    /* ? loginPage */
+
+    .cartContainer > div > div:first-of-type h2,
+    .cartContainer > div > div:last-of-type h3{
+        font-size: 24px; margin-bottom: 40px; border-bottom: 1px solid #000;
+        padding-bottom: 30px;
+    }
+
+    .cartContainer > div::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+
+    .cartContainer > div > div:first-of-type{
+        width: 66%; max-width: 1180px; float: left; 
+    }
+
+    .cartContainer > div > div:first-of-type ul li{
+        margin-bottom: 40px; border-bottom: 1px solid #000; position: relative;
+    }
+
+    .cartContainer > div > div:first-of-type ul li::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+
+    .cartContainer > div > div:first-of-type ul li img{
+        max-width: 200px; margin: 0 40px 40px 0; float: left;
+    }
+
+    .cartContainer > div > div:first-of-type ul li dl{
+        font-weight: 500; width: 80%;
+    }
+    .cartContainer > div > div:first-of-type ul li dl dt{
+        font-size: 20px; margin-bottom: 30px;
+    }
+    .cartContainer > div > div:first-of-type ul li dl dd:first-of-type{
+        font-size: 20px; margin-bottom: 30px; line-height: 30px;
+    }
+    .cartContainer > div > div:first-of-type ul li dl dd:last-of-type{
+        font-size: 24px;
+    }
+    
+    .cartContainer .countComp{
+        position: absolute; top: 0; right: 15%; border: 1px solid #626262; line-height: 30px;
+        width: 9.4%; max-width: 110px; box-sizing: border-box; background-color: #fff;
+    }
+    .cartContainer .countComp input[type='button']{
+        top: 5px; font-size: 18px; cursor: pointer;
+    }
+    .cartContainer .countComp input[type='button']:first-of-type{
+        left: 0;
+    }
+    .cartContainer .countComp input[type='button']:last-of-type{
+        right: 0;
+    }
+    .cartContainer .countComp input[type='number']{
+        font-size: 20px; text-align: center; border: none;
+    }
+
+
+    /* ? js */
+
+    .cartContainer > div > div:first-of-type ul li > a{
+        position: absolute; top: 0; right: 0; max-width: 25px;
+    }
+    .cartContainer > div > div:first-of-type ul li > a img{
+        width: 100%;
+    }
+
+    .cartContainer > div > div:last-of-type{
+        width: 30%; max-width: 540px; margin-left: 4%; float: left;
+    }
+
+    .cartContainer > div > div:last-of-type ul li,
+    .checkOutContainer > div > div ul:last-of-type li{
+        margin-bottom: 40px; position: relative;
+    }
+    .cartContainer > div > div:last-of-type ul li:nth-of-type(3){
+        border-bottom: 1px solid #000; padding-bottom: 40px;
+    }
+
+    .cartContainer > div > div:last-of-type ul li input[type='text'],
+    .checkOutContainer > div > div ul:last-of-type li input[type='text']{
+        background: transparent; border: none; text-align: right;
+        position: absolute; top: 0; right: 0;
+    }
+
+    .cartContainer > div > div:last-of-type ul li:not(:last-of-type) label,
+    .checkOutContainer > div > div ul:last-of-type li:not(:last-of-type){
+        font-size: 20px; font-weight: 300;
+    }
+    .cartContainer > div > div:last-of-type ul li:last-of-type label,
+    .checkOutContainer > div > div ul:last-of-type li:last-of-type label{
+        font-size: 30px; font-weight: 500;
+    }
+    .cartContainer > div > div:last-of-type ul li:not(:last-of-type) input[type='text'],
+    .checkOutContainer > div > div ul:last-of-type li:not(:last-of-type) input[type='text']{
+        font-size: 20px; font-weight: 500;
+    }
+    .cartContainer > div > div:last-of-type ul li:last-of-type input[type='text'],
+    .checkOutContainer > div > div ul:last-of-type li:last-of-type input[type='text']{
+        font-size: 27px; font-weight: 700;
+    }
+
+    .cartContainer > div > div:last-of-type a{
+        line-height: 65px;
+    }
+
+    /* ? cartPage */
+
+    #paymentComplete{
+        width: 52%; position: fixed; max-width: 1100px; z-index: 100; 
+        text-align: center; border: 1px solid #626262; padding: 100px 0;
+        top: 20%; left: 25%; background-color: #fff;
+    }
+
+    #paymentComplete > div{
+        max-width: 760px; width: 70.5%; margin: 0 auto;
+    }
+
+    #paymentComplete h2{
+        font-size: 36px; font-weight: 300; margin-bottom: 80px;
+    }
+    #paymentComplete p{
+        font-size: 24px; font-weight: 500; line-height: 40px;
+    }
+    #paymentComplete p:first-of-type{
+        margin-bottom: 60px;
+    }
+    #paymentComplete p:last-of-type{
+        margin-bottom: 80px;
+    }
+    #paymentComplete a{
+        width: 100%; background-color: #000; color: #fff; display: block;
+        line-height: 65px;
+    }
+
+    .checkOutContainer .stepperBox li{
+        border-bottom: 1px solid #626262; padding-bottom: 40px;
+    }
+    .checkOutContainer .stepperBox li.active .hideBox{
+        display: none;
+    }
+    .checkOutContainer .stepperBox li .hideBox{
+        display: block;
+    }
+
+    .checkOutContainer .stepperBox li .hideBox p{
+        font-size: 17px; font-weight: 500; color: #626262;
+    }
+    .checkOutContainer .stepperBox li:first-of-type .hideBox p:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+    .checkOutContainer .stepperBox li:nth-of-type(3) .hideBox p::before{
+        background: url('../images/icon_masterCard.png') left / 51px 35px no-repeat;
+        width: 51px; height: 35px;
+    }
+
+    .checkOutContainer .stepperBox > li h2~*,
+    .checkOutContainer .stepperBox li.active h2 input[type='button'],
+    .checkOutContainer .stepperBox li.active input[type='checkbox']{
+        display: none;
+    }
+    .checkOutContainer .stepperBox > li.active h2~*:not(.hideBox,input[type="checkbox"]),
+    .checkOutContainer .stepperBox li h2 input[type='button']{
+        display: block;
+    }
+
+
+    .checkOutContainer .stepperBox li.active h2{
+        border: none; padding: 0;
+    }
+    .checkOutContainer > div ol li:first-of-type.active label{
+        display: block;
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(1) h2::before{
+        content: '1.';
+    }
+    .checkOutContainer > div ol li:nth-of-type(2) h2::before{
+        content: '2.';
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) h2::before{
+        content: '3.';
+    }
+    .checkOutContainer > div ol li:nth-of-type(4) h2::before{
+        content: '4.';
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(3) .hideBox{
+        position: relative;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) .hideBox p{
+        position: absolute; left: 7%; top: 10px;
+    }
+
+    .checkOutContainer{
+        margin: 290px auto 120px; padding-left: 3%;
+    }
+
+    .checkOutContainer > div::after{
+        display: block; visibility: hidden; clear: both; content: '';
+    }
+
+    .checkOutContainer > div ol{
+        max-width: 1000px; width: 56%; float: left; padding-right: 44%;
+    }
+
+    .checkOutContainer > div ol li:not(:last-of-type){
+        margin-bottom: 100px;
+    }
+
+    .checkOutContainer > div ol li h2{
+        font-size: 36px; font-weight: 300; margin-bottom: 40px; position: relative;
+    }
+
+
+    .checkOutContainer > div ol li h2 input[type='button']{
+        position: absolute; top: 0; right: 0; max-width: 70px; cursor: pointer;
+        border: none; background-color: transparent; font-size: 20px; font-weight: 700;
+        text-decoration: underline;
+    }
+
+    .checkOutContainer > div ol li:first-of-type label{
+        margin-bottom: 20px; font-size: 17px; color: #626262;
+    }
+    .checkOutContainer > div ol li:first-of-type input{
+        width: 100%; line-height: 60px; margin-bottom: 40px;
+        padding-left: 20px; box-sizing: border-box; font-size: 17px;
+        font-weight: 500;
+    }
+    
+
+    .checkOutContainer .selectComponent{
+        margin-bottom: 40px; width: 48%; float: left;
+    }
+    .checkOutContainer .selectComponent.depth2{
+        margin-left: 4%;
+    }
+    .checkOutContainer .selectComponent select{
+        font-size: 17px; font-weight: 500; color: #000; line-height: 60px;
+        padding-left: 20px;
+    }
+    .checkOutContainer .selectComponent span{
+        top: 55px; right: 20px;
+    }
+    .checkOutContainer .selectComponent span img{
+        width: 100%;
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(2) > div:first-of-type{
+        border: 1px solid #626262; margin-bottom: 60px; padding: 40px 6%; position: relative;
+    }
+    .checkOutContainer > div ol li:nth-of-type(2) div input[type='radio']{
+        position: absolute; top: 45%; left: 6%; margin: 0;  width: 20px; height: 20px;
+        background: url('../images/bull_radio_default.png') no-repeat top left / 100%;
+        appearance: none; 
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(2) div input[type='radio']:checked{
+        background-image: url('../images/bull_radio_checked.png');
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(2) > div > div{
+        padding-left: 8%; 
+    }
+    .checkOutContainer > div ol li:nth-of-type(2) > div > div label{
+        font-size: 24px; font-weight: 500;
+    }
+    .checkOutContainer > div ol li:nth-of-type(2) > div > div label small{
+        color: #626262; margin-top: 25px;
+    }
+    .checkOutContainer > div ol li:nth-of-type(2) > div > div strong{
+        float: left; position: absolute; top: 45%; right: 6%;
+    }
+
+    
+    .checkOutContainer > div ol li:nth-of-type(3) > label{
+        padding-left: 3.5%; font-size: 17px; font-weight: 500;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > label:first-of-type{
+        margin-bottom: 20px;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > label:last-of-type{
+        margin-bottom: 60px;
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(3) > div form > *{
+        margin-bottom: 40px; font-size: 17px; box-sizing: border-box;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > div form input[type='text']{
+        width: 78%; line-height: 56px; border: 1px solid #626262; padding-left: 20px; 
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > div form input[type='text']::placeholder{
+        font-size: 17px; font-weight: 500; color: #626262;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > div form input[type='submit']{
+        margin-left: 3%; width: 18%;  height: 60px; border: none; cursor: pointer;
+        color: #fff; background-color: #626262; 
+        
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset{
+        padding: 60px 6%; background-color: #f2f2f2; position: relative;
+        margin-bottom: 60px;
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset > *,
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset input{
+        font-size: 17px; font-weight: 500;
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset legend{
+        position: absolute; top: 60px; color: #626262;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset label{
+        display: block; margin-bottom: 20px; color: #626262;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset > label:first-of-type{
+        padding-top: 50px;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset input{
+        line-height: 78px; border: 1px solid #626262; padding-left: 20px;
+        box-sizing: border-box;
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset input:not(:last-of-type),
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset div{
+        margin-bottom: 40px;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset > input{
+        width: 100%; 
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset div{
+        width: 48%; float: left;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset div:last-of-type{
+        margin-left: 4%;
+    }
+    .checkOutContainer > div ol li:nth-of-type(3) > form fieldset div input{
+        width: 100%;
+    }
+
+    .checkOutContainer > div ol li:nth-of-type(3).active span{
+        font-size: 20px; font-weight: 500; margin-bottom: 20px; display: block;
+    }
+
+    .checkOutContainer > div ol li:last-of-type > *:not(h2){
+        font-size: 20px; font-weight: 500;
+    }
+    .checkOutContainer > div ol li:last-of-type p{
+        color: #626262; margin-bottom: 40px;
+    }
+    .checkOutContainer > div ol li:last-of-type label{
+        padding-left: 3.5%;
+    }
+    .checkOutContainer > div ol li:last-of-type label:first-of-type{
+        margin-bottom: 20px;
+    }
+    .checkOutContainer > div ol li:last-of-type label:last-of-type{
+        margin-bottom: 60px;
+    }
+    .checkOutContainer > div ol li:last-of-type a{
+        width: 100%; background-color: #000; line-height: 65px;
+        color: #fff; text-align: center;
+    }
+
+    .checkOutContainer > div > div{
+        width: 36%; background-color: #efefef; padding: 40px 3.4%; z-index: 1; right: 3%;
+        box-sizing: border-box; position: absolute; 
+    }
+
+    .checkOutContainer > div > div h2{
+        font-size: 30px; font-weight: 300; margin-bottom: 60px;
+        float: left;
+    }
+    .checkOutContainer > div > div > a{
+        text-align: right; display: block; text-decoration: underline;
+        font-size: 20px; font-weight: 700;
+    }
+
+    .checkOutContainer > div > div ul:first-of-type{
+        clear: both;
+    }
+    .checkOutContainer > div > div ul:first-of-type li::after{
+        clear: both; display: block; content: ''; visibility: hidden;
+    }
+    .checkOutContainer > div > div ul:first-of-type li{
+        margin-bottom: 60px; position: relative;
+    }
+    .checkOutContainer > div > div ul:first-of-type li img{
+        max-width: 100px; float: left; margin-right: 5%;
+    }
+
+    .checkOutContainer > div > div ul:first-of-type li dl,
+    .checkOutContainer > div > div ul:first-of-type li a{
+        font-size: 17px; font-weight: 500; 
+    }
+    .checkOutContainer > div > div ul:first-of-type li dl dt,
+    .checkOutContainer > div > div ul:first-of-type li dl dd:first-of-type{
+        margin-bottom: 20px; color: #626262;
+    }
+    .checkOutContainer > div > div ul:first-of-type li dl dt{
+        max-width: 300px;
+    }
+    .checkOutContainer > div > div ul:first-of-type li dl dd:last-of-type{
+        position: absolute; top: 0; right: 0;
+    }
+
+    .checkOutContainer > div > div ul:last-of-type{
+        border-top: 1px solid #000; padding-top: 40px;
+    }
+    .checkOutContainer > div > div ul:last-of-type li > *{
+        font-weight: 700;
+    }
+
+    /* ? checkOutPage */
+
+    .faqContainer > div{
+        max-width: 1200px; margin: 0 auto;
+    }
+    .faqContainer > div > div{
+        width: 100%;
+    }
+
+    .faqContainer > div > div h3{
+        text-align: center; font-size: 36px; font-size: 500; margin-bottom: 60px;
+    }
+
+    .faqContainer > div > div ul li:not(:last-of-type){
+        margin-bottom: 60px;
+    }
+    .faqContainer > div > div:not(:last-of-type) ul li:last-of-type{
+        margin-bottom: 100px;
+    }
+
+    .faqContainer > div > div ul li .hideBox{
+        display: none;
+    }
+    .faqContainer > div > div ul li.active .hideBox{
+        display: block;
+    }
+
+    .faqContainer > div > div ul li h4{
+        background-color: #fff; line-height: 80px; padding-left: 3.3%; box-sizing: border-box;
+        position: relative; font-size: 25px; font-weight: 700; cursor: pointer;
+    }
+    .faqContainer > div > div ul li h4::after{
+        content: ''; background: url('../images/arrow_down.png') top right / cover no-repeat;
+        width: 30px; height: 30px; display: block; position: absolute; top: 25px; right: 3%;
+        transition: 0.4s ease-in-out;
+    }
+    .faqContainer > div > div ul li.active h4::after{
+        transform: rotate(180deg);
+    }
+
+    .faqContainer > div > div ul li .hideBox{
+        margin-bottom: 60px;
+    }
+
+    .faqContainer > div > div ul li.active  h4{
+        background-color: #cfcfcf;
+    }
+    .faqContainer > div > div ul li.active .hideBox{
+        background-color: #fff; padding: 60px 3.5%;
+    }
+    .faqContainer > div > div ul li.active .hideBox p{
+        font-size: 25px; font-weight: 500; line-height: 40px;
+    }
+    .faqContainer > div > div ul li .hideBox p:not(:last-of-type){
+        margin-bottom: 30px;
+    }
+
+    /* ? faq */
+
+    
+    .recipesContainer ul,
+    .newsContainer ul{
+        display: flex; justify-content: flex-start; flex-wrap: wrap;
+    }
+
+    .recipesContainer ul li,
+    .newsContainer ul li{
+        max-width: 540px; width: 30%; margin-bottom: 120px;
+    }
+    .recipesContainer ul li:not(:nth-of-type(3n)),
+    .newsContainer ul li:not(:nth-of-type(3n)){
+        margin-right: 5%;
+    }
+
+    .recipesContainer ul li img,
+    .newsContainer ul li img{
+        width: 100%; height: 300px; margin-bottom: 40px;
+    }
+
+    .recipesContainer ul li dl > *,
+    .newsContainer ul li dl > *{
+        margin-bottom: 40px; font-weight: 500;
+    }
+    .recipesContainer ul li dl dt,
+    .newsContainer ul li dl dt{
+        font-size: 32px; line-height: 50px;
+    }
+    .recipesContainer ul li dl dd,
+    .newsContainer ul li dl dd{
+        font-size: 24px; line-height: 34px;
+    }
+
+    .recipesContainer ul li a,
+    .newsContainer ul li a{
+        font-size: 24px; text-decoration: underline;
+    }
+    
+    /* ? recipes, news list */
+
+    .cafeContainer .wrap > div:first-of-type{
+        background: url('../images/cafe_bg_01.jpg') top left / contain no-repeat; padding-top: 60%;
+    }
+    .cafeContainer .wrap > div:first-of-type > *{
+        text-align: center;
+    }
+    .cafeContainer .wrap > div:first-of-type p:not(:last-of-type),
+    .cafeContainer .wrap > div:first-of-type address{
+        font-size: 30px; font-weight: 500;
+    }
+    .cafeContainer .wrap > div:first-of-type strong{
+        font-size: 32px; font-weight: 700;
+    }
+
+    .cafeContainer .wrap > div:first-of-type p:first-of-type,
+    .cafeContainer .wrap > div:first-of-type address{
+        margin-bottom: 40px;
+    }
+    .cafeContainer .wrap > div:first-of-type p:nth-of-type(2){
+        margin-bottom: 60px;
+    }
+    .cafeContainer .wrap > div:first-of-type p:last-of-type{
+        margin: 0 auto 120px; max-width: 1020px; line-height: 40px; color: #626262;
+    }
+
+    .cafeContainer .wrap > div:nth-of-type(2)::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) h3{
+        text-align: center; font-size: 36px; font-weight: 500; margin-bottom: 60px;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) img{
+        float: left; width: 33.3%;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) > div{
+        float: left; margin-left: 4.5%; width: 62.2%;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) > div > *{
+        font-weight: 500;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) > div h4{
+        font-size: 27px; margin-bottom: 40px;
+    }
+
+    .cafeContainer .wrap > div:nth-of-type(2) > div span{
+        display: block; font-size: 24px;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) > div span:first-of-type{
+        margin-bottom: 40px;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) > div span:last-of-type{
+        margin-bottom: 60px;
+    }
+
+    .cafeContainer .wrap > div:nth-of-type(2) > div dl{
+        margin-bottom: 60px;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) > div dl dt{
+        font-size: 24px; margin-bottom: 15px;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) > div dl dd{
+        font-size: 20px; color: #626262;
+    }
+    .cafeContainer .wrap > div:nth-of-type(2) > div dl dd:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+
+    .cafeContainer .wrap > div:nth-of-type(2) > p{
+        text-align: center; font-size: 30px; margin-bottom: 120px;
+    }
+
+    .cafeContainer .wrap > ul{
+        display: flex; justify-content: space-between; flex-direction: row;
+    }
+    .cafeContainer .wrap > ul li{
+        width: 22.5%;
+    }
+    .cafeContainer .wrap > ul li img{
+        width: 100%;
+    }
+    
+
+    /* ? cafe */
+
+    .monthClubContainer .wrap > div:first-of-type,
+    .ourStoryContainer .wrap > div:nth-of-type(2){
+        display: flex; justify-content: space-between; 
+    }
+    .monthClubContainer .wrap > div:first-of-type dl,
+    .ourStoryContainer .wrap > div:nth-of-type(2) dl{
+        width: 30%; max-width: 500px; text-align: center; background-size: 80px;
+        background-position: center top; background-repeat: no-repeat; font-weight: 500;
+    }
+
+    .monthClubContainer .wrap > div:first-of-type dl dt,
+    .ourStoryContainer .wrap > div:nth-of-type(2) dl dt{
+        padding-top: 120px; font-size: 27px;  margin-bottom: 40px;
+    }
+    .monthClubContainer .wrap > div:first-of-type dl dd,
+    .ourStoryContainer .wrap > div:nth-of-type(2) dl dd{
+        font-size: 20px; color: #525252; line-height: 40px;
+    }
+    .monthClubContainer .wrap > div:first-of-type dl dd:first-of-type,
+    .ourStoryContainer .wrap > div:nth-of-type(2) dl dd:first-of-type{
+        margin-bottom: 30px;
+    }
+
+    .monthClubContainer .wrap{
+        background: url('../images/main_monthClub.jpg') left top/ contain no-repeat;
+    }
+
+    .monthClubContainer .wrap h2{
+        padding-top: 54vw; font-size: 42px; font-weight: 500; text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .monthClubContainer .wrap > div:not(:last-of-type){
+        margin-bottom: 120px;
+    }
+
+    .monthClubContainer .wrap > div:first-of-type dl:nth-of-type(1){
+        background-image: url('../images/bull_favorites.png');
+    }
+    .monthClubContainer .wrap > div:first-of-type dl:nth-of-type(2){
+        background-image: url('../images/bull_delivery.png');
+    }
+    .monthClubContainer .wrap > div:first-of-type dl:nth-of-type(3){
+        background-image: url('../images/bull_chocolate.png');
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(2){
+        padding-left: 24.5%; font-weight: 500; 
+        background: url('../images/monthClub_bg_02.png') top left / 22% no-repeat;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(2) h3{
+        font-size: 30px; margin-bottom: 60px;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(2) ul li:not(:last-of-type){
+        margin-bottom: 60px;
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(3) h3{
+        text-align: center; font-size: 36px; font-weight: 500; margin-bottom: 60px;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(3) div{
+        background-color: #e1e1e1;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(3) div div{
+        position: relative;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(3) div div blockquote{
+        max-width: 1510px; text-align: center; padding: 100px 7.8% 8%; margin: 0 auto;
+        font-size: 24px; font-weight: 500; line-height: 40px; position: relative;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(3) div div img{
+        width: 8.3%; border-radius: 50%; position: absolute; bottom: -10%; left: 45.85%;
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(3) div span{
+        padding-top: 95px; display: block; background-color: #efefef; text-align: center;
+        font-size: 24px; font-weight: 500;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(3) div span small{
+        font-size: 20px; font-weight: 300; margin-top: 20px;
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(4) h3{
+        font-size: 36px; font-weight: 500; margin-bottom: 40px; text-align: center;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(4) > p{
+        font-size: 20px; font-weight: 500; margin-bottom: 100px; text-align: center;
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer{
+        font-weight: 500;
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer .limgRtxt{
+       padding-left: 36%; background-position: top left;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer .ltxtRimg{
+        padding-right: 36%; background-position: top right;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer li{
+        background-size: 33%; background-repeat: no-repeat; min-height: 400px;
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer li:nth-of-type(1){
+        background-image: url('../images/monthClub_previous_01.png');
+    }
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer li:nth-of-type(2){
+        background-image: url('../images/monthClub_previous_02.png');
+    }
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer li:nth-of-type(3){
+        background-image: url('../images/monthClub_previous_03.png');
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer li:not(:last-of-type){
+        margin-bottom: 100px;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer li:last-of-type{
+        margin-bottom: 120px;
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer time{
+        font-size: 24px; margin-bottom: 40px; display: block;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer h4{
+        font-size: 30px; margin-bottom: 40px;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(4) .floatContainer p{
+        font-size: 24px; margin-bottom: 40px; line-height: 40px; max-width: 1140px;
+    }
+
+    .monthClubContainer .wrap > div:nth-of-type(4) > a{
+        width: 55%; max-width: 1000px; line-height: 65px; margin: 0 auto;
+    }
+
+    .monthClubSpec{
+        margin-top: 100px;
+    }
+    .monthClubSpec h3{
+        font-size: 32px; font-weight: 300; margin-bottom: 60px;
+    }
+    .monthClubSpec ul li{
+        font-size: 24px; font-weight: 500; color: #7e7e7e; line-height: 50px;
+    }
+    .monthClubSpec ul li:not(:last-of-type) {
+        margin-bottom: 40px;
+    }
+
+    /*  ? monthClub */
+
+    .teamContainer .wrap > div{
+        background-color: #e1e1e1; padding: 60px 0 60px 2.8%;
+    }
+
+    .teamContainer .wrap > div > ul li:not(:last-of-type){
+        margin-bottom: 60px;
+    }
+    .teamContainer .wrap > div > ul li::after{
+        clear: both; visibility: hidden; content: ''; display: block;
+    }
+
+    .teamContainer .wrap > div > ul li > div{
+        max-width: 1100px; width: 61%; margin-left: 9.5%; text-align: center; float: left;
+        display: none;
+    }
+    .teamContainer .wrap > div > ul li > div.active{
+        display: block;
+    }
+
+    .teamContainer .wrap > div > ul li span{
+        float: left; max-width: 300px; width: 16.7%; cursor: pointer;
+    }
+    .teamContainer .wrap > div > ul li span img{
+        border-radius: 50%;
+    }
+    .teamContainer .wrap > div > ul li.active span img{
+        width: 100%; 
+    }
+    .teamContainer .wrap > div > ul li:not(.active) span img{
+        width: 50%; margin-left: 25%;
+    }
+
+    .teamContainer .wrap > div > ul li > div > *:not(h3){
+        font-weight: 500;
+    }
+
+    .teamContainer .wrap > div > ul li > div > p{
+        font-size: 24px; line-height: 40px;
+    }
+    .teamContainer .wrap > div > ul li > div > p:last-of-type{
+        margin-bottom: 60px;
+    }
+    .teamContainer .wrap > div > ul li > div > p:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+
+    .teamContainer .wrap > div > ul li > div .position{
+        font-size: 32px; font-weight: 300; margin: 0 auto;
+    }
+    .teamContainer .wrap > div > ul li > div .position h3{
+        font-size: 36px; font-weight: 500; margin-bottom: 20px;
+    }
+    .teamContainer .wrap > div > ul li > div .position small{
+        font-size: 24px; font-weight: 500; color: #626262; margin-top: 20px;
+    }
+
+    /* ? team */
+
+    .contactUsContainer .wrap::after{
+        clear: both; display: block; content: ''; visibility: hidden;
+    }
+
+    .contactUsContainer .wrap > div{
+        float: left;
+    }
+
+    .contactUsContainer .wrap > div:first-of-type{
+        max-width: 860px; width: 48%;
+    }
+    
+    .contactUsContainer .wrap > div:first-of-type div > *:not(p){
+        margin-bottom: 40px;
+    }
+    .contactUsContainer .wrap > div:first-of-type div > *:not(h3){
+        font-weight: 500;
+    }
+
+    .contactUsContainer .wrap > div:first-of-type h3{
+        font-size: 34px; font-weight: 700;
+    }
+    .contactUsContainer .wrap > div:first-of-type a,
+    .contactUsContainer .wrap > div:first-of-type address{
+        font-size: 30px; line-height: 40px; display: block;
+    }
+    .contactUsContainer .wrap > div:first-of-type strong{
+        font-size: 42px; display: block; text-align: center;
+    }
+    .contactUsContainer .wrap > div:first-of-type p{
+        font-size: 27px; color: #626262; line-height: 40px;
+    }
+    .contactUsContainer .wrap > div:first-of-type p:first-of-type{
+        margin-bottom: 60px;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type{
+        max-width: 840px; width: 47%; margin-left: 5%; background-color: #fff;
+        padding: 60px 4.6%; box-sizing: border-box; border: 1px solid #626262;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset{
+        display: none;
+    }
+    .contactUsContainer .wrap > div:last-of-type form fieldset.active{
+        display: block;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset::after{
+        clear: both; visibility: hidden; display: block; clear: '';
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset legend{
+        font-size: 34px; font-weight: 300; margin-bottom: 60px;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset input,
+    .contactUsContainer .wrap > div:last-of-type form fieldset textarea{
+        border: 1px solid #626262; box-sizing: border-box; font-size: 17px; font-weight: 500;
+        width: 100%;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset input::placeholder,
+    .contactUsContainer .wrap > div:last-of-type form fieldset textarea::placeholder{
+        font-size: 17px; font-weight: 500;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset input{
+        line-height: 70px;  margin-bottom: 20px; padding-left: 10px; 
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset textarea{
+        height: 200px; margin-bottom: 40px; padding: 10px 0 0 10px;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type form fieldset p{
+        font-size: 24px; font-weight: 500; margin-bottom: 40px;
+    }
+    
+    .contactUsContainer .wrap > div:last-of-type form fieldset .btn{
+        float: right; max-width: 290px; width: 33.7%; line-height: 65px;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type .successComment{
+        display: none; font-weight: 500; min-height: 700px;
+    }
+    .contactUsContainer .wrap > div:last-of-type .successComment.active{
+        display: block;
+    }
+
+    .contactUsContainer .wrap > div:last-of-type .successComment h3{
+        font-size: 34px; margin-bottom: 60px; font-weight: 300;
+    }
+    .contactUsContainer .wrap > div:last-of-type .successComment p{
+        font-size: 24px; font-weight: 500;
+    }
+    .contactUsContainer .wrap > div:last-of-type .successComment p:first-of-type{
+        margin-bottom: 40px;
+    }
+    .contactUsContainer .wrap > div:last-of-type .successComment p a{
+        text-decoration: underline;
+    }
+
+    /* ? contact us */
+    .ourStoryContainer .wrap > p{
+        font-size: 24px; font-weight: 500; max-width: 1530px; width: 85%;
+        color: #626262; text-align: center; line-height: 40px;
+    }
+    .ourStoryContainer .wrap > p:last-of-type{
+        margin: 0 auto 120px;
+    }
+    .ourStoryContainer .wrap > p:not(:last-of-type){
+        margin: 0 auto 20px;
+    }
+
+    .ourStoryContainer .wrap div h3{
+        font-size: 36px; margin-bottom: 60px;
+    }
+
+    .ourStoryContainer .wrap div:first-of-type > *{
+        font-weight: 500;
+    }
+
+    .ourStoryContainer .wrap div:first-of-type h3{
+        text-align: center;
+    }
+
+    .ourStoryContainer .wrap div:first-of-type .memberSlider li{
+        background-color: white; min-height: 305px;
+    }
+    .ourStoryContainer .wrap div:first-of-type .memberSlider li:after{
+        content: ''; display: block; clear: both;
+    }
+    .ourStoryContainer .wrap div:first-of-type .memberSlider li img{
+        width: 33.3%; float: left; display: block;
+    }
+    .ourStoryContainer .wrap div:first-of-type .memberSlider div{
+        background-color: #fff; padding: 0 3.3%; width: 66.7%; box-sizing: border-box;
+        float: left;
+    }
+    .ourStoryContainer .wrap div:first-of-type .memberSlider div p{
+        font-size: 1.25vw; line-height: 2.09vw;
+    }
+
+    .ourStoryContainer .wrap div:first-of-type .memberSlider div p:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+    .ourStoryContainer .wrap > div > div{
+        margin-bottom: 80px;
+    }
+    .ourStoryContainer .wrap > div > div > .customControler{
+        text-align: right; clear: both;
+    }
+    .ourStoryContainer .wrap > div > div > .customControler span{
+        display: inline-block; font-weight: 700; line-height: 4.2vw; font-size: 1vw;
+        text-align: center;
+    }
+    .ourStoryContainer .wrap > div > div > .customControler span:first-of-type{
+        max-width: 80px; width: 4.5%; color: #5893b1;
+        background-color: #fff;
+    }
+    .ourStoryContainer .wrap > div > div > .customControler span:last-of-type{
+        max-width: 160px; width: 9%; background-color: #c5dae4; float: right;
+        text-transform: uppercase;
+    }
+    .ourStoryContainer .wrap > div > div > .customControler span:last-of-type::after{
+        content: '>'; padding-left: 13px;
+    }
+
+
+    .ourStoryContainer .wrap div:first-of-type blockquote{
+        font-size: 34px; max-width: 1260px; width: 70%; line-height: 50px; margin: 0 auto 120px;
+        text-align: center; font-style: italic;
+    }
+
+    .ourStoryContainer .wrap > div:nth-of-type(2){
+        margin-bottom: 120px;
+    }
+
+    .ourStoryContainer .wrap > div:nth-of-type(2) dl:nth-of-type(1){
+        background-image: url('../images/bull_donation.png');
+    }
+    .ourStoryContainer .wrap > div:nth-of-type(2) dl:nth-of-type(2){
+        background-image: url('../images/bull_leaf.png');
+    }
+    .ourStoryContainer .wrap > div:nth-of-type(2) dl:nth-of-type(3){
+        background-image: url('../images/bull_trophy.png');
+    }
+
+    .ourStoryContainer .wrap > div:last-of-type{
+        font-weight: 500;
+    }
+    .ourStoryContainer .wrap > div:last-of-type::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+
+    .ourStoryContainer .wrap > div:last-of-type p{
+        font-size: 20px; color: #626262; line-height: 40px;
+    }
+    .ourStoryContainer .wrap > div:last-of-type p:not(:last-of-type){
+        margin-bottom: 40px;
+    } 
+    .ourStoryContainer .wrap > div:last-of-type p:last-of-type{
+        margin-bottom: 60px;
+    }
+    
+    .ourStoryContainer .wrap > div:last-of-type .btn{
+        max-width: 450px; width: 25%; line-height: 65px; float: right; margin-bottom: 120px;
+    }
+
+    .ourStoryContainer .wrap > div:last-of-type img{
+        max-width: 1800px; width: 100%;
+    }
+
+    /* ? our story */
+
+    .cacaoOriginsContainer > .wrap{
+        background: url("../images/cacaoOrigins_bg_01.jpg") top / 100% no-repeat;
+        padding-top: 8vw;
+    }
+
+    .cacaoOriginsContainer h2{
+        font-size: 2vw; font-weight: 500; line-height: 2vw; margin-bottom: 3.13vw;
+    }
+
+    .cacaoOriginsContainer > .wrap > div:first-of-type{
+        background-color: #fff; max-width: 1000px; width: 55.55%; margin: 0 auto 16vw;
+        padding: 3vw 3.4%; box-sizing: border-box; font-weight: 500; text-align: center;
+        border: 5px solid #626262;
+    }
+    .cacaoOriginsContainer > .wrap > div:last-of-type::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+
+    .cacaoOriginsContainer > .wrap > div:first-of-type p{
+        font-size: 1.05vw; line-height: 2vw; margin-bottom: 2vw; color: #515151;
+    }
+
+    .cacaoOriginsContainer > .wrap > div:last-of-type img{
+        width: 42.2%; float: left;
+    }
+    .cacaoOriginsContainer > .wrap > div:last-of-type div{
+        width: 55%; float: left; margin-left: 2.8%;
+    }
+    .cacaoOriginsContainer > .wrap > div:last-of-type div > *{
+        font-weight: 500;
+    }
+    .cacaoOriginsContainer > .wrap > div:last-of-type div h3{
+        font-size: 1.88vw; margin-bottom: 3.13vw; line-height: 2.61vw;
+    }
+
+    .cacaoOriginsContainer > .wrap > div:last-of-type div p{
+        font-size: 1.25vw; color: #3b3b3b; line-height: 2.09vw;
+    }
+    .cacaoOriginsContainer > .wrap > div:last-of-type div p:last-of-type{
+        margin-bottom: 5.2vw;
+    }
+    .cacaoOriginsContainer > .wrap > div:last-of-type div p:not(:last-of-type){
+        margin-bottom: 2.09vw;
+    }
+
+    .cacaoOriginsContainer > .wrap > div:last-of-type div blockquote{
+        font-size: 1.25vw; margin-bottom: 3.13vw; color: #3b3b3b;
+        line-height: 2.09vw;
+    }
+    .cacaoOriginsContainer > .wrap > div:last-of-type div span{
+        font-size: 1.88vw; text-align: right; display: block;
+    }
+
+    /* ? cacao Origins */
+
+}
+/* ? desktop */

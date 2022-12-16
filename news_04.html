@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maui Kuia Estate</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div class="popup" id="search">
+        <input type="search" id="detailSearch" placeholder="SEARCH">
+        <a href="#" class="btn_close">CLOSE</a>
+    </div>
+    <div class="popup" id="shoppingBag">
+        <h2 class="btn_close">CART</h2>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    <img src="images/common_chocolateBars_09.png" alt="Dark Chocolate Bar">
+                    <dl>
+                        <dt>Dark Chocolate Bar</dt>
+                        <dd>
+                            $
+                            <input type="text" id="price" value="9.00" readonly>
+                             USD
+                        </dd>
+                    </dl>
+                    <div class="countComp">
+                        <input type="button" value="-" class="countMinus" >
+                        <input type="number" class="qc" id="countNumb" value="1" min="1" max="99" step="1">
+                        <input type="button" value="+" class="countPlus" >
+                    </div>
+                </li>
+            </ul>
+            <span>Subtotal</span>
+            <strong>$ <output id="totalPrice">9.00</output> USD</strong>
+            <input type="submit" value="VIEW CART">
+        </form>
+    </div>
+    <div class="topBannerSub">
+        Hello Summer.
+    </div>
+    <header>
+        <input type="button" value="menu" id="muiNavBtn" class="material-icons">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>
+                    SHOP
+                    <ol>
+                        <li><a href="list_bestSellers.html">Best Sellers</a></li>
+                        <li><a href="list_gifts.html">Gifts</a></li>
+                        <li><a href="list_bakingPantry.html">Baking & Pantry</a></li>
+                        <li><a href="list_atHomeTasting.html">AT&#45;Home Tasting  </a></li>
+                        <li><a href="list_chocolateBars.html">Chocolate Bars</a></li>
+                        <li><a href="list_mauiGrown.html">Maui Grown</a></li>
+                        <li><a href="list_merchandise.html">Merchandise</a></li>
+                        <li><a href="list_bulkChocolateSquares.html">Bulk Chocolate Squares</a></li>
+                    </ol>
+                </li>
+                <li>
+                    EXPLORE
+                    <ol>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ol>
+                </li>
+                <li><a href="cafe.html">Cafe</a></li>
+                <li><a href="monthClub.html">Month club</a></li>
+                <li>
+                    ABOUT US
+                    <ol>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li>
+                        <li><a href="ourStory.html">Our Story</a></li>
+                        <li><a href="cacaoOrigins.html">Cacao Origins</a></li>
+                    </ol>
+                </li>
+            </ul>
+            <div class="navSns">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/MauiChocolate/" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/mauichocolate/?hl=en" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="mailto:aloha@mauichocolate.com"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1><a href="/"><img src="images/logo.png" alt="Maui Kuia Estate"></a></h1>
+        <ul>
+            <li><a href="myPage_login.html"><img src="images/bull_person.png" alt="my page"></a></li>
+            <li class="search"><a href="#" data-panel="search"><img src="images/bull_search.png" alt="search"></a></li>
+            <li class="cart"><a href="#" data-panel="shoppingBag"><img src="images/bull_shoppingbag.png" alt="shopping bag"></a></li>
+        </ul>
+    </header>
+    <section class="newsContainer">
+        <h2>NEWS</h2>
+        <ul>
+            <li>
+                <img src="images/news_37.png" alt="Gets a new $10M chocolate factory and cacao farm, with all the profits going to charity">
+                <dl>
+                    <dt>
+                        Gets a new $10M chocolate
+                        factory and cacao farm, with
+                        all the profits going to
+                        charity                                              
+                    </dt>
+                    <dd>
+                        Featured within the CRAVE section of the online Star
+                        Advertiser, Andrew Gomes wrote about MKEC and
+                        published a video about our Factory and Farm
+                        created by Cindy Ellen Russell.
+                    </dd>
+                </dl>
+                <a href="news_detail_37.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/news_38.png" alt="Donates Profits to Help Community">
+                <dl>
+                    <dt>
+                        Donates Profits to Help
+                        Community
+                    </dt>
+                    <dd>
+                        Not too long ago, we had the privilege to interview
+                        with Christina O'Connor  of Pacific Business News.
+                    </dd>
+                </dl>
+                <a href="news_detail_38.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/news_39.png" alt="Maui Watch Good Eats Maui Ku’ia Estate Chocolate">
+                <dl>
+                    <dt>
+                        Maui Watch Good Eats Maui
+                        Ku’ia Estate Chocolate
+                    </dt>
+                    <dd>
+                        Olena Heu from Maui Watch shared her experience
+                        of visiting our Chocolate Factory.
+                    </dd>
+                </dl>
+                <a href="news_detail_39.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/news_40.jpg" alt="KHON2 NEWS Living 808 A Taste of Maui Ku’ia Estate Chocolate">
+                <dl>
+                    <dt>
+                        KHON2 NEWS Living 808 A Taste
+                        of Maui Ku’ia Estate Chocolate
+                    </dt>
+                    <dd>
+                        Tannya and John of KHON2'S Living 808 hosted our
+                        CEO Gunars Valkirs to their show to talk all about
+                        MKEC and Chocolate Kuleana.
+                    </dd>
+                </dl>
+                <a href="news_detail_40.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/news_41.png" alt="Maui News Employers seeking new workers">
+                <dl>
+                    <dt>
+                        Maui News Employers seeking
+                        new workers
+                    </dt>
+                    <dd>
+                        Did you see us at Ka Lima O Maui's Job Fair? 
+                    </dd>
+                </dl>
+                <a href="news_detail_41.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/news_42.jpg" alt="The Maui News Cacao growing in West Maui">
+                <dl>
+                    <dt>
+                        The Maui News Cacao growing
+                        in West Maui
+                    </dt>
+                    <dd>
+                        Read all about our Farm beginnings in The Maui
+                        News!
+                    </dd>
+                </dl>
+                <a href="news_detail_42.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/news_43.jpg" alt="Maui Now Maui Ku‘ia Estate Chocolate Harvests Cacao Crop">
+                <dl>
+                    <dt>
+                        Maui Now Maui Ku‘ia Estate
+                        Chocolate Harvests Cacao
+                        Crop
+                    </dt>
+                    <dd>
+                        Read all about our second Cacao Harvest at our
+                        Lahaina Farm on Maui Now.
+                    </dd>
+                </dl>
+                <a href="news_detail_43.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/news_44.jpg" alt="Lahaina News Second harvest underway at Maui Ku‘ia Estate Chocolate">
+                <dl>
+                    <dt>
+                        Lahaina News Second harvest
+                        underway at Maui Ku‘ia Estate
+                        Chocolate
+                    </dt>
+                    <dd>
+                        Have you ever wondered what happens during the
+                        Cacao Farm Harvest?
+                    </dd>
+                </dl>
+                <a href="news_detail_44.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/news_45.png" alt="The Maui News All that glitters at the Imua masquerade ball">
+                <dl>
+                    <dt>
+                        The Maui News All that
+                        glitters at the Imua
+                        masquerade ball
+                    </dt>
+                    <dd>
+                        The Imua Fundraising Gala, a Masquerade Ball, as
+                        covered by The Maui News:
+                    </dd>
+                </dl>
+                <a href="news_detail_45.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/news_46.png" alt="Maui Now Giving Back in Style at Imua Ball Fundraiser Gala">
+                <dl>
+                    <dt>
+                        Maui Now Giving Back in Style
+                        at Imua Ball Fundraiser Gala
+                    </dt>
+                    <dd>
+                        It is no secret that the Imua Ball Fundraiser Gala is
+                        incredibly fun! Maui Now covered the event. 
+                    </dd>
+                </dl>
+                <a href="news_detail_46.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/news_47.png" alt="The Maui News 6 county companies receive grants">
+                <dl>
+                    <dt>
+                        The Maui News 6 county
+                        companies receive grants
+                    </dt>
+                    <dd>
+                        "Six Maui County companies received a share of
+                        $930,680 in grants awarded through the Hawaii
+                        Technology Development Corp. Manufacturing
+                        Assistance Program."
+                    </dd>
+                </dl>
+                <a href="news_detail_47.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/news_48.jpg" alt="Maui No Ka Oi Magazine First Maui Cacao Harvest">
+                <dl>
+                    <dt>
+                        Maui No Ka Oi Magazine First
+                        Maui Cacao Harvest
+                    </dt>
+                    <dd>
+                        "On Tuesday, March 13, farmers in Lahaina
+                        harvested Maui Ku’ia Estate cacao that was planted
+                        three years prior."
+                    </dd>
+                </dl>
+                <a href="news_detail_48.html">Read more</a>
+            </li>
+        </ul>
+        <div class="pager">
+            <a href="news_03.html">Prev</a>
+            <a href="#">next</a>
+            <ol>
+                <li><a href="news.html">1</a></li>
+                <li><a href="news_02.html">2</a></li>
+                <li><a href="news_03.html">3</a></li>
+                <li><a href="news_04.html">4</a></li>
+            </ol>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h2>KU’IA CLUB MEMBER</h2>
+            <p>Sign up for a membership and get 10% discount</p>
+            <input type="email" id="memberShipEmail" placeholder="Enter your email address">
+            <input type="button" value="SUBSCRIBE">
+        </div>
+        <div>
+            <h2>MAUI KU'IA</h2>
+            <ul>
+                <li>
+                    <a href="contactUs.html">Contact us</a>
+                </li>
+                <li>
+                    <a href="team.html">Team</a>
+                </li>
+                <li>
+                    <a href="ourStory.html">Our Story</a>
+                </li>
+                <li>
+                    <a href="cacaoOrigins.html">Cacao Origins</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>FAQ</h2>
+            <ul>
+                <li>
+                    <a href="faq.html">How long until I receive order</a>
+                </li>
+                <li>
+                    <a href="faq.html">Do you offer gift cards?</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is the cacao sourced from</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is your chocolate made?</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>SNS</h2>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/MauiChocolate/"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mauichocolate/?hl=en"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ"></a>
+                </li>
+                <li>
+                    <a href="aloha@mauichocolate.com"></a>
+                </li>
+            </ul>
+            <p>&copy; 2022 MAUI KU’IA ESTATE CHOCOLATE</p>
+        </div>
+    </footer>
+</body>
+</html>

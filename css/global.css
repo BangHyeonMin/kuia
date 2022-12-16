@@ -1,0 +1,2201 @@
+.countComp .qc,
+.topBanner,
+.topBannerSub,
+.btn,
+.btn_open,
+.btn_close,
+.pager,
+header nav ul li,
+header nav ul li ol li a,
+#search #detailSearch,
+#search #detailSearch::placeholder,
+footer div h2,
+footer div:first-of-type input[type="button"],
+#shoppingBag h2,
+#shoppingBag ul li dl dt,
+#shoppingBag ul li dl dd,
+#shoppingBag span,
+#shoppingBag strong,
+#shoppingBag a,
+.listContainer h2,
+.listContainer > div:first-of-type a,
+.listContainer > div > p,
+.listContainer > div > ul li,
+.listContainer > div > div:first-of-type,
+.detailContainer > div:first-of-type,
+.detailContainer > div:nth-of-type(3),
+section[class$='DetailContainer'] .detailPager,
+section[class$='DetailContainer'] h2,
+section[class$='DetailContainer'] > div form fieldset legend,
+section[class$='DetailContainer'] > div form fieldset input:not(:last-of-type),
+section[class$='DetailContainer'] > div form fieldset textarea{
+    font-family: 'Raleway', sans-serif;
+}
+
+footer div p,
+footer div:first-child input[type="email"]::placeholder,
+footer div ul li,
+.detailContainer .selectComponent > select,
+section[class$='DetailContainer'] .contentBox p,
+section[class$='DetailContainer'] > div form fieldset span,
+.recipesDetailContainer .contentBox > div p,
+.recipesDetailContainer .contentBox > div ol li,
+.recipesDetailContainer .contentBox > div ul li,
+.newsDetailContainer > div .contentBox > ol li{
+    font-family: 'Futura std';
+}
+
+#shoppingBag ul li dl dt,
+.listContainer > div:first-of-type a,
+.listContainer > p,
+.detailContainer > div:nth-of-type(3) h2,
+.detailContainer > div:nth-of-type(3) strong{
+    color: #1c1b1b;
+}
+
+a{
+    text-decoration: none; color: inherit;
+}
+
+textarea{
+    resize: none;
+}
+
+.btn{
+    background-color: #000; color: #fff; text-align: center; display: block;
+    cursor: pointer;
+}
+
+.popup{
+    display: none;
+}
+
+.popup.active{
+    display: block;
+}
+
+
+small{
+    display: block;
+}
+
+.btn_next{
+    background-color: #000; color: #fff; width: 100%; display: block;
+    text-align: center; line-height: 65px; font-size: 20px; font-weight: 500;    
+}
+
+.topBanner{
+   background-color: #fff;
+}
+.topBannerSub{
+    background-color: #f7b19e; color: #fff;
+}
+
+li{
+    list-style: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+input[type='checkbox'] + label{
+    background: url('../images/bull_checkbox_default.png') left no-repeat;
+    display: block; color: #626262;
+}
+
+input[type='checkbox']:checked + label{
+    background: url('../images/bull_checkbox_check.png') left no-repeat;
+    color: #000;
+}
+
+.selectComponent{
+    position: relative;
+}
+.selectComponent > select{
+    width: 100%; z-index: 3; appearance:none;
+}
+.selectComponent > span{
+    z-index: 1; width: 25px; height: inherit; position: absolute;
+    display: block;
+}
+.selectComponent > span img{
+    width: 100%; transition: transform 0.5s ease-in-out;
+}
+.selectComponent > select.active + span img{
+    transform: rotate(180deg);
+}
+
+.pager{
+    margin: 0 auto; position: relative; padding: 0 5%;
+    clear: both; text-transform: capitalize;
+}
+.pager > *{
+    line-height: 16px;
+}
+.pager > a{
+    position: absolute; top: 0; font-weight: 500;
+}
+.pager > a:first-of-type{
+    left: 0; 
+}
+.pager > a:first-of-type::before{
+    content: '<'; padding-right: 10%;
+}
+.pager > a:last-of-type{
+    right: 0;
+}
+.pager > a:last-of-type::after{
+    content: '>'; padding-left: 20%;
+}
+.pager ol{
+    display: block; text-align: center;
+}
+.pager ol li{
+    display: inline-block;
+}
+.pager ol li a{
+    font-weight: 300; display: block; 
+}
+.pager ol li:not(:first-child){
+    margin-left: 5%;
+}
+
+.countComp{
+    position: relative; display: inline-block; text-align: center;
+}
+.countComp input[type='button']{
+    background: transparent; border: none; position: absolute;
+}
+.countComp .qc{
+    text-align: center; border: none;
+}
+.countComp .countMinus{
+    left: 0; cursor: pointer;
+}
+.countComp .countPlus{
+    right: 0; cursor: pointer;
+}
+
+strong,
+address{
+    font-style: normal;
+}
+
+#muiNavBtn{
+    padding: 0;
+}
+
+@media screen and (max-width: 767px){
+
+    .pager{
+        width: 87%; font-size: 12px;
+    }
+    .pager a{
+        font-size: 12px; 
+    }
+
+    .btn{
+        line-height: 40px;
+    }
+
+    .topBanner,
+    .topBannerSub{
+    font-weight: 500; text-align: center; line-height: 40px;
+    position: fixed; width: 100%; z-index: 10; top: 0;
+    }
+    .topBanner{
+        font-size: 10px;
+    }
+    .topBannerSub{
+        font-size: 12px;
+    }
+
+
+    #search,
+    #shoppingBag{
+        top: 0; background-color: #fff; position: fixed; z-index: 100;
+    }
+    #search{
+        width: 100%; text-align: center; padding: 40px 0;
+    }
+    #search #detailSearch{
+        margin-right: 8%; width: 62.5%; border-width: 2px; padding: 10px 5px; font-size: 12px;
+        border-style: none none solid none; border-color: #9a9a9a; font-weight: 300;
+    }
+    #search #detailSearch::placeholder{
+        font-size: 12px; font-weight: 300;
+    }
+    #search #detailSearch::after{
+        content: ''; background-image: url('../images/bull_search.png');
+        min-width: 20px; min-height: 20px; background-size: 20px 20px; display: inline-block;
+    }
+    #search #detailSearch::-webkit-search-cancel-button{
+        position: relative; right: 0; appearance: none; height: 10px; width: 10px;
+        background: url('../images/bull_search.png') center / 100% no-repeat; cursor: pointer;
+    }
+    #search .btn_close{
+        background-image: url('../images/bull_close.png'); text-indent: -9999px;
+        display: inline-block; position: absolute; background-size: 100%;
+        background-position: center; background-repeat: no-repeat; max-width: 15px; width: 100%;
+    }
+
+    #shoppingBag{
+        width: 100%; height: 100%;
+    }
+    #shoppingBag h2{
+        text-align: center; margin-bottom: 20px; font-size: 16px; font-weight: 500; color: #fff;
+        background-color: #efefef; line-height: 100px; text-shadow: 3px 1px 3px rgb(128, 128, 128);
+        position: relative; cursor: pointer;
+    }
+    #shoppingBag h2::before{
+        content: ""; background-image: url('../images/arrow_next.png');
+        background-size: 12px; min-width: 12px; min-height: 12px;
+        display: inline-block; left: 13%; top: 40%; position: absolute;
+        filter: invert(94%) sepia(22%) saturate(272%) hue-rotate(191deg) brightness(108%) contrast(106%) drop-shadow(3px 1px 1px rgb(129, 128, 128));
+    }
+
+    #shoppingBag ul,
+    #shoppingBag ul li{
+        margin-bottom: 40px;
+    }
+    #shoppingBag ul{
+        padding-left: 7.7%; max-width: 220px;
+    }
+    #shoppingBag ul li{
+        border-bottom: 1px solid #efefef;
+    }
+    #shoppingBag ul li img{
+        width: 31%; float: left; margin-right: 8%; min-width: 80px;
+    }
+    #shoppingBag ul li dl dt,
+    #shoppingBag ul li dl dd{
+        margin-bottom: 20px;
+    }
+    #shoppingBag ul li dl dt{
+        font-weight: 300; font-size: 10px;
+    }
+    #shoppingBag ul li dl dd{
+        font-size: 12px;
+    }
+    #shoppingBag ul li dl dd,
+    #shoppingBag ul li dl dd input[type='text']{
+        font-weight: 700;
+    }
+    #shoppingBag span,
+    #shoppingBag strong{
+        font-size: 14px; font-weight: 700; display: block; padding-left: 7.7%;
+    }
+
+    #shoppingBag span{
+        margin-bottom: 10px; 
+    }
+    #shoppingBag strong{
+        margin-bottom: 30px; text-decoration: underline;
+    }
+    #shoppingBag input[type='submit']{
+        background-color: #f7b19e; width: 84.6%; display: block; text-align: center;
+        color: #fff; line-height: 40px; border: none; margin: 0 auto; cursor: pointer;
+        font-size: 12px;
+    }
+    #shoppingBag ul li dl dd input[type='text']{
+        background: none; border: none; background: transparent; display: inline;
+        width: 13%;
+    }
+    #shoppingBag .countComp{
+        margin-bottom: 40px;  width: 23.5%; border: 1px solid #000;
+    }
+    #shoppingBag .countComp .countPlus{
+        top: 1px;
+    }
+
+    header,
+    footer{
+        padding: 0 3.5%; box-sizing: border-box;
+    }
+
+    header{
+        position: fixed; width: 100%; top: 40px; background-color: #fff;
+        z-index: 10; border-bottom: 1px solid #e6d38f;
+    }
+
+    header > div label.material-icons{
+        width: 5.3%; max-width: 60px; line-height: 90px; box-sizing: border-box;
+        display: block;
+    }
+    header > *:not(h1,nav){
+        position: absolute; top: 35%;
+    }
+
+    header input[type="button"]{
+        background-color: transparent; border: none; cursor: pointer;
+    }
+    header input[type="button"].active{
+        color: #fff; top: -25px; z-index: 1;
+    }
+
+    header nav{
+        display: none; z-index: 0;
+    }
+    header nav.active{
+        display: block; background-color: #000; color: #fff; height: 100%;
+        padding-top: 80px; width: 100%; position: fixed; top: 0; left: 0;
+    }
+    header nav.active > ul{
+        padding: 0 9.5%; height: 77%; overflow-y: scroll;
+    }
+    header nav.active > ul > li{
+        font-size: 14px;
+    }
+    header nav.active > ul > li{
+        padding-bottom: 20px; position: relative; cursor: pointer;
+        border-bottom: 1px solid #b1b1b1; text-transform: uppercase;
+    }
+    header nav.active > ul > li:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+    header nav.active > ul > li:last-of-type{
+        margin-bottom: 120px;
+    }
+    header nav.active > ul > li:nth-of-type(n+2):nth-of-type(-n+3)::after,
+    header nav.active > ul > li:last-of-type::after{
+        content: '+'; font-size: 20px; position: absolute; top: -4px; right: 0;
+    }
+    header nav.active > ul > li.active:nth-of-type(n+2):nth-of-type(-n+3)::after,
+    header nav.active > ul > li.active:last-of-type::after{
+        content: '-'; top: -5px;
+    }
+
+    header nav.active > ul > li:not(.navSns) ol{
+        display: none;
+    }
+    header nav.active > ul > li.active ol{
+        display: block; margin: 20px 0 0 20px; border-left: 1px solid #b1b1b1;
+        padding-left: 10px; box-sizing: border-box;
+    }
+    header nav.active > ul > li.active ol li{
+        font-size: 12px;
+    }
+    header nav.active > ul > li.active ol li:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+
+    header nav.active .navSns{
+        position: fixed; bottom: 0; border-top: 1px solid #b1b1b1;
+        padding: 10px 9.2%; width: 100%; box-sizing: border-box;
+    }
+    header nav.active .navSns ul::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+    header nav.active .navSns ul li{
+        float: left; background-repeat: no-repeat; background-size: contain;
+    }
+    header nav.active .navSns ul li:not(:first-of-type){
+        margin-left: 17.8%;
+    }
+    header nav.active .navSns ul li:nth-of-type(1){
+        background-image: url('../images/icon_faceBook_white.png'); width: 20px;
+    }
+    header nav.active .navSns ul li:nth-of-type(2){
+        background-image: url('../images/icon_instagram_white.png'); width: 20px;
+    }
+    header nav.active .navSns ul li:nth-of-type(3){
+        background-image: url('../images/icon_youtube_white.png'); width: 30px;
+    }
+    header nav.active .navSns ul li:nth-of-type(4 ){
+        background-image: url('../images/icon_mail_white.png'); width: 27px;
+    }
+
+
+    header nav.active .navSns ul li a{
+        display: block; min-height: 20px;
+    }
+
+
+    header > h1{
+        max-width: 81px; margin-left: 23%; padding: 15px 0;
+    }
+    header > h1 a{
+        display: block;
+    }
+    header > h1 a img{
+        width: 100%;
+    }
+    header > ul{
+        right: 3%; width: 34%;
+    }
+    header > ul:after{
+        content: ''; display: block; clear: both;
+    }
+    header > ul li{
+        width: 14%; display: block; float: left; min-width: 20px;
+    }
+    header > ul li:not(:first-child){
+        margin-left: 18%;
+    }
+    header > ul li a{
+        display: block;
+    }
+    header > ul li a img{
+        width: 100%;
+    }
+
+    footer{
+        padding: 40px 3.5%; box-sizing: border-box;
+    }
+    footer > div{
+        width: 100%;
+    }
+    footer > div:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+    footer div h2{
+        margin-bottom: 20px; font-size: 16px; font-weight: 500; color: #1c1b1b;
+    }
+    footer div p,
+    footer div ul li{
+        font-size: 14px; font-weight: 500; color: #6a6a6a;
+    }
+    footer div:not(:last-child) ul li:not(:last-child){
+        margin-bottom: 15px;
+    }
+
+    footer div:first-child p {
+        margin-bottom: 20px;
+    }
+    footer div:first-child input[type="email"]{
+        width: 100%; max-width: 260px; margin-bottom: 25px; padding: 10px;
+        box-sizing: border-box;
+    }
+    footer div:first-child input[type="email"],
+    footer div:first-child input[type="email"]::placeholder{
+        font-size: 12px; font-weight: 300;
+    }
+    footer div:first-child input[type="button"]{
+        font-size: 12px; font-weight: 300; cursor: pointer;
+        background-color: #000; color: #fff; display: block;
+        max-width: 100px; width: 38.5%; line-height: 40px;
+    }
+
+
+    footer div:last-of-type ul::after{
+        clear: both; content: ''; display: block; visibility: hidden;
+    }
+    footer div:last-of-type ul{
+        margin-bottom: 20px;
+    }
+    footer div:last-of-type ul li{
+        float: left; background-size: 100%;
+    }
+    footer div:last-of-type ul li:not(:first-of-type){
+        margin-left: 17.7%;
+    }
+    footer div:last-of-type ul li:nth-of-type(1){
+        background-image: url('../images/sns_facebook.png'); width: 25px;
+    }
+    footer div:last-of-type ul li:nth-of-type(2){
+        background-image: url('../images/sns_instagram.png'); width: 25px;
+    }
+    footer div:last-of-type ul li:nth-of-type(3){
+        background-image: url('../images/sns_youtube.png'); width: 37px;
+    }
+    footer div:last-of-type ul li:nth-of-type(4 ){
+        background-image: url('../images/sns_mail.png'); width: 34px;
+    }
+    footer div:last-of-type ul li a{
+        display: block; min-height: 25px;
+    }
+    footer div:last-of-type p{
+        font-size: 12px;
+    }
+
+    .listContainer{
+        padding: 200px 0 80px; background-color: #efefef; margin: 0 auto;
+    }
+    .listContainer h2{
+        text-align: center; margin-bottom: 100px;
+    }
+    .listContainer h2 span{
+        display: inline-block; font-size: 20px; font-weight: 500;
+        border-bottom: 1px solid #e6d38f; padding: 0 2% 20px;
+    }
+    .listContainer > div:first-of-type{
+        position: relative;
+    }
+    .listContainer > div:first-of-type a{
+        font-size: 10px; font-weight: 300; color: #fff; line-height: 20px;
+        background-color: #f5c3b6; text-align: center; padding: 10px 25px;
+        display: block; top: 0; right: 3.6%; position: absolute; box-sizing: border-box;
+        max-width: 150px; width: 57.7%;
+    }
+    .listContainer > div:first-of-type::before{
+        content: ''; display: block; position: absolute; left: 0; top: 29px;
+        height: 1px; width: 100%; background-color: #e6d38f;
+    }
+    .listContainer > div > p{
+        text-align: center; padding-top: 130px;
+        font-size: 12px; font-weight: 500; margin-bottom: 100px;
+    }
+
+    .listContainer > div:last-of-type{
+        padding: 0 3.5%;
+    }
+    .listContainer > div:last-of-type > div:first-of-type{
+        margin-bottom: 120px; border-bottom: 1px solid #000;
+    }
+    .listContainer > div:last-of-type > div:first-of-type::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+    .listContainer > div:last-of-type > div:first-of-type h3{
+        font-size: 16px; font-weight: 500; padding-bottom: 15px; margin-bottom: 30px;
+        border-bottom: 1px solid #000;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset{
+        position: relative; transition-duration: 0.5s; width: 100%;
+    }
+    
+    .listContainer > div:last-of-type > div:first-of-type form fieldset:nth-of-type(-n+3){
+        margin-bottom: 40px;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset:nth-of-type(4){
+        padding-bottom: 30px;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset legend{
+        margin-bottom: 30px; font-weight: 700; cursor: pointer; font-size: 16px;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset legend::after{
+        content: '-'; top: 0; right: 0; position: absolute; font-size: 25px;
+        line-height: 0; cursor: pointer; line-height: 10px;
+    }
+
+    .listContainer > div:last-of-type > div:first-of-type form fieldset.active{
+        height: 0; padding: 0; overflow: hidden;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset.active legend::after{
+        content: '+';
+    }
+
+    .listContainer > div:last-of-type > div:first-of-type form fieldset > a{
+        display: block; font-weight: 300; line-height: 20px; font-size: 14px;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset > a:not(:last-of-type){
+        margin-bottom: 15px;
+    }
+
+    .listContainer > div:last-of-type > div:first-of-type form fieldset input[type="range"]{
+        width: 100%; margin-bottom: 40px;
+    }
+
+    .listContainer > div:last-of-type > div:first-of-type form fieldset input[type="range"] {
+        appearance: none;  background-color: #000; height: 3px; border-radius: 5px;
+    }
+      
+    .listContainer > div:last-of-type > div:first-of-type form fieldset input[type="range"]::-webkit-slider-thumb {
+        appearance: none; height: 10px; width: 10px; cursor: pointer;
+        border-radius: 50%; background-color: #000;
+    }
+
+
+    .listContainer > div:last-of-type > div:first-of-type form fieldset label{
+        position: absolute; bottom: 0;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset label:first-of-type{
+        left: 0;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset label:last-of-type{
+        right: 0;
+    }
+
+
+    .listContainer > div:last-of-type > ul li{
+        margin-bottom: 100px;
+    }
+    .listContainer > div:last-of-type > ul li div{
+        position: relative;
+    }
+    .listContainer > div:last-of-type > ul li div img{
+        width: 100%;
+    } 
+    .listContainer > div:last-of-type > ul li div:hover img + a{
+        display: block;
+    }
+    .listContainer > div:last-of-type > ul li div a{
+        position: absolute; bottom: 0; text-align: center; text-shadow: 1px 1px 5px #000;
+        width: 100%; background-color: rgba(0, 0, 0, 0.3); line-height: 80px;
+        font-size: 16px; font-weight: 300; color: #fff; display: none;
+    }
+    .listContainer > div:last-of-type > ul li h3{
+        font-size: 16px; font-weight: 500; line-height: 30px; margin: 15px 0;
+    }
+    .listContainer > div:last-of-type > ul li span{
+        font-size: 16px; font-weight: 300;
+    }
+
+    /* ? list */
+
+    .detailContainer{
+        padding: 200px 3.5% 20px; background-color: #efefef;
+    }
+
+    .detailContainer > div > div:first-of-type{
+        margin-bottom: 100px; position: relative;
+    }
+    .detailContainer > div > div:first-of-type > a{
+        font-size: 12px; font-weight: 300; line-height: 25px;
+    }
+    .detailContainer > div > div:first-of-type > a:last-of-type{
+        padding-right: 25%; display: inline-block;
+    }
+    .detailContainer > div > div:first-of-type > a:not(:last-of-type){
+        color: #7e7e7e;
+    }
+    .detailContainer > div > div:first-of-type > div{
+        position: absolute; top: 0; right: 0; font-size: 12px; font-weight: 500;
+        text-align: right;
+    }
+
+    .detailContainer > div > div:first-of-type > div a:first-of-type{
+        margin-bottom: 40px; display: block;
+    }
+    .detailContainer > div > div:first-of-type > div a:first-of-type::before{
+        content: '<'; padding-right: 10px;
+    }
+    .detailContainer > div > div:first-of-type > div a:last-of-type::after{
+        content: '>'; padding-left: 10px;
+    }
+
+
+    .detailContainer .imgSwapBox img{
+        width: 100%;
+    }
+    .detailContainer .imgSwapBox > img{
+        margin-bottom: 20px;
+    }
+    .detailContainer .imgSwapBox ul{
+        width: 100%; display: inline-block; margin-bottom: 60px;
+    }
+    .detailContainer .imgSwapBox ul li{
+        display: inline-block; max-width: 70px; cursor: pointer;
+    }
+    .detailContainer .imgSwapBox ul li:not(:first-of-type){
+        margin-left: 7.7%;
+    }
+    .detailContainer .imgSwapBox ul li:nth-of-type(4){
+        margin-left: 0;
+    }
+
+    .detailContainer > div > div:nth-of-type(2) > div:last-of-type::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+    .detailContainer > div > div:nth-of-type(2) > div:last-of-type > h2{
+        font-size: 18px; font-weight: 300; margin-bottom: 30px; line-height: 30px;
+        text-align: center;
+    }
+    .detailContainer > div > div:nth-of-type(2) > div:last-of-type > strong{
+        font-size: 16px; font-weight: 700; margin-bottom: 60px; display: block;
+        text-align: center;
+    }
+    .detailContainer > div > div:nth-of-type(2) > div:last-of-type > p{
+        font-size: 12px; font-weight: 500; color: #626262; line-height: 20px;
+    }
+    .detailContainer > div > div:nth-of-type(2) > div:last-of-type > p:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+    .detailContainer > div > div:nth-of-type(2) > div:last-of-type > p:last-of-type{
+        margin-bottom: 40px;
+    }
+    .detailContainer > div > div:nth-of-type(2) > div:last-of-type > label{
+        font-size: 16px; font-weight: 500; margin: 0 5.7% 0 14%; float: left;
+        line-height: 40px;
+    }
+
+    .detailContainer .countComp{
+        max-width: 110px; line-height: 40px; border: 2px solid #6a6a6a; box-sizing: border-box;
+        margin: 0 0 40px 49%; background-color: #fff; width: 100%; display: block;
+    }
+
+    .detailContainer .countMinus,
+    .detailContainer .countPlus{
+        font-size: 25px;
+    }
+    .detailContainer .countComp .qc{
+        font-size: 20px; font-weight: 500;
+    }
+    .detailContainer .countMinus{
+        top: 5px; left: 5px;
+    }
+    .detailContainer .countPlus{
+        top: 6px;
+    }
+
+    .detailContainer .btn{
+        margin-bottom: 40px; font-size: 12px; line-height: 50px;
+    }
+
+    .detailContainer input[type='radio']{
+        margin-right: 5.7%; float: left; display: block; width: 20px; height: 20px; appearance: none;
+        background: url('../images/detail_radioButton_default.png') no-repeat top left / 100%;
+    }
+    .detailContainer input[type='radio']:checked{
+        background-image: url('../images/detail_radioButton_checked.png');
+    }
+
+    .detailContainer > div > div:nth-of-type(2) > div:last-of-type > div > label{
+        margin-bottom: 30px; font-size: 14px; font-weight: 300; padding-top: 5px;
+        display: block;
+    }
+
+    .detailContainer .selectComponent{
+        margin-bottom: 60px;
+    }
+    .detailContainer .selectComponent > select{
+        font-size: 12px; border: 2px solid #6a6a6a; line-height: 48px;
+        padding-left: 15px;
+    }
+    .detailContainer .selectComponent > select option{
+        font-size: 12px; font-weight: 500;
+    }
+
+    .detailContainer .selectComponent > span{
+        top: 13px; right: 15px;
+    }
+
+    .detailContainer .specContainer{
+        margin-bottom: 60px;
+    }
+    .detailContainer .specContainer h3{
+        font-size: 16px; font-weight: 300; margin-bottom: 40px;
+    }
+    .detailContainer .specContainer ul li{
+        font-size: 12px; font-weight: 500; color: #7e7e7e; line-height: 25px;
+    }
+    .detailContainer .specContainer ul li:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+
+    /* ? detail */
+
+    section[class$='DetailContainer']{
+        padding: 200px 3.5% 80px; background-color: #efefef; 
+    }
+
+    section[class$='DetailContainer'] > div{
+        max-width: 260px; width: 100%; margin: 0 auto;
+    }
+
+    section[class$='DetailContainer'] .detailPager{
+        position: relative; font-size: 12px; font-weight: 500; text-transform: capitalize;
+    }
+    section[class$='DetailContainer'] .detailPager time{
+        margin-bottom: 40px; display: block;
+    }
+
+    section[class$='DetailContainer'] .detailPager a{
+        position: absolute; top: 0;
+    }
+    section[class$='DetailContainer'] .detailPager a:first-of-type{
+        right: 22%;
+    }
+    section[class$='DetailContainer'] .detailPager a:first-of-type::before{
+        content: '< ';
+    }
+
+    section[class$='DetailContainer'] .detailPager a:last-of-type{
+        right: 0;
+    }
+    section[class$='DetailContainer'] .detailPager a:last-of-type::after{
+        content: ' >';
+    }
+
+    section[class$='DetailContainer'] > div h2{
+        font-size: 14px; font-weight: 300; margin-bottom: 80px; text-transform: capitalize;
+    }
+
+    section[class$='DetailContainer'] > div .contentBox{
+        margin-bottom: 100px;
+    }
+    section[class$='DetailContainer'] > div .contentBox img{
+        margin: 0 auto 60px; display: block; max-width: 260px;
+    }
+    section[class$='DetailContainer'] > div .contentBox > p,
+    .newsDetailContainer > div .contentBox > ol li{
+        font-size: 12px; font-weight: 500; line-height: 25px;
+    }
+    section[class$='DetailContainer'] > div .contentBox > p:not(:last-of-type){
+        margin-bottom: 30px;
+    }
+    
+
+    section[class$='DetailContainer'] > div form fieldset legend{
+        font-size: 16px; font-weight: 300; margin-bottom: 40px;
+    }
+    section[class$='DetailContainer'] > div form fieldset input,
+    section[class$='DetailContainer'] > div form fieldset textarea{
+        padding-left: 3.8%; margin-bottom: 20px; box-sizing: border-box;
+        font-size: 12px; font-weight: 500;
+    }
+    section[class$='DetailContainer'] > div form fieldset input::placeholder,
+    section[class$='DetailContainer'] > div form fieldset textarea::placeholder{
+        font-size: 12px; font-weight: 500; color: #626262;
+    }
+    section[class$='DetailContainer'] > div form fieldset input{
+        display: block; line-height: 48px; width: 100%;
+        
+    }
+    section[class$='DetailContainer'] > div form fieldset textarea{
+        width: 100%; height: 200px; padding-top: 20px;
+    }
+
+    section[class$='DetailContainer'] > div form fieldset span{
+        font-size: 12px; font-weight: 500; line-height: 20px; display: block;
+        margin-bottom: 40px;
+    }
+
+    section[class$='DetailContainer'] > div form fieldset .btn{
+        float: right; max-width: 160px; width: 61.5%; font-size: 12px;
+    }
+
+    .recipesDetailContainer .contentBox > p:last-of-type,
+    .recipesDetailContainer .contentBox > div:not(:last-of-type){
+        margin-bottom: 60px;
+    }
+
+    .recipesDetailContainer .contentBox > div h3{
+        font-size: 16px; font-weight: 500; margin-bottom: 30px;
+    }
+
+    .recipesDetailContainer .contentBox > div p,
+    .recipesDetailContainer .contentBox > div ol li,
+    .recipesDetailContainer .contentBox > div ul li{
+        font-size: 12px; font-weight: 500; line-height: 20px;
+    }
+
+    .recipesDetailContainer .contentBox > div p:not(:last-of-type),
+    .recipesDetailContainer .contentBox > div ol li:not(:last-of-type),
+    .recipesDetailContainer .contentBox > div ul li:not(:last-of-type){
+        margin-bottom: 30px;
+    }
+}
+/* ? mobile */
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+
+    .pager{
+        width: 50%;
+    }
+    .pager > a{
+        font-size: 20px; 
+    }
+    .pager ol li a{
+        font-size: 30px;
+    }
+
+    .btn{
+        line-height: 50px;
+    }
+
+    .topBanner,
+    .topBannerSub{
+    font-size: 12px; font-weight: 500; text-align: center; line-height: 40px;
+    position: fixed; width: 100%; z-index: 10; top: 0;
+    }
+
+    #search,
+    #shoppingBag{
+        top: 0; background-color: #fff; position: fixed; z-index: 100;
+    }
+    #search{
+        width: 100%; text-align: center; padding: 40px 0;
+    }
+    #search #detailSearch{
+        margin-right: 8%; width: 63%; border-width: 2px; padding: 10px; font-size: 20px;
+        border-style: none none solid none; border-color: #9a9a9a; font-weight: 300;
+    }
+    #search #detailSearch::placeholder{
+        font-size: 20px; font-weight: 300;
+    }
+    #search #detailSearch::after{
+        content: ''; background-image: url('../images/bull_search.png');
+        min-width: 20px; min-height: 20px; background-size: 20px 20px; display: inline-block;
+    }
+    #search #detailSearch::-webkit-search-cancel-button{
+        position:relative; right:20px; appearance: none; height: 25px; width: 25px;
+        background: url('../images/bull_search.png') center / 100% no-repeat ; cursor: pointer;
+    }
+    #search .btn_close{
+        background-image: url('../images/bull_close.png'); text-indent: -9999px;
+        display: inline-block; position: absolute; background-size: 100%; min-height: 35px;
+        background-position: center; background-repeat: no-repeat; max-width: 20px; width: 100%;
+    }
+
+    #shoppingBag{
+        width: 40%; right: 0; height: 100%; line-height: 100%; 
+    }
+    #shoppingBag h2{
+        text-align: center; margin: 0 0 30px 0; font-size: 24px; font-weight: 500; color: #fff;
+        background-color: #efefef; line-height: 100px; text-shadow: 3px 1px 3px rgb(128, 128, 128); position: relative;
+        cursor: pointer;
+    }
+    #shoppingBag h2::before{
+        content: ""; background-image: url('../images/arrow_next.png');
+        background-size: 20px; min-width: 20px; min-height: 20px;
+        display: inline-block; left: 13%; top: 40%; position: absolute;
+        filter: invert(94%) sepia(22%) saturate(272%) hue-rotate(191deg) brightness(108%) contrast(106%) drop-shadow(3px 1px 1px rgb(129, 128, 128));
+    }
+
+    #shoppingBag ul,
+    #shoppingBag ul li{
+        margin-bottom: 40px;
+    }
+    #shoppingBag ul li{
+        border-bottom: 1px solid #efefef;
+    }
+    #shoppingBag ul li img{
+        width: 26%; float: left; margin-right: 8%; padding-left: 15%;
+    }
+    #shoppingBag ul li dl dt,
+    #shoppingBag ul li dl dd{
+        margin-bottom: 15px; font-size: 12px; 
+    }
+    #shoppingBag ul li dl dt{
+        font-weight: 300;
+    }
+    #shoppingBag ul li dl dd,
+    #shoppingBag ul li dl dd input[type='text']{
+        font-weight: 700;
+    }
+    #shoppingBag span,
+    #shoppingBag strong{
+        font-size: 18px; font-weight: 700; display: block; padding-left: 15%;
+    }
+
+    #shoppingBag span{
+        margin-bottom: 10px; 
+    }
+    #shoppingBag strong{
+        margin-bottom: 30px; text-decoration: underline;
+    }
+    #shoppingBag input[type='submit']{
+        background-color: #f7b19e; min-width: 67.7%; display: block; text-align: center;
+        color: #fff; line-height: 40px; border: none; margin: 0 auto; cursor: pointer;
+    }
+    #shoppingBag ul li dl dd input[type='text']{
+        background: none; border: none; background: transparent; display: inline;
+        width: 13%;
+    }
+    #shoppingBag .countComp{
+        margin-bottom: 40px;  width: 23.5%; border: 1px solid #000;
+    }
+    #shoppingBag .countComp .countPlus{
+        top: 1px;
+    }
+
+    header,
+    footer{
+        padding: 0 3%; box-sizing: border-box;
+    }
+
+    header{
+        position: fixed; min-width: 100%; top: 40px; background-color: #fff;
+        z-index: 10; border-bottom: 1px solid #e6d38f;
+    }
+
+    header > div label.material-icons{
+        width: 5.3%; max-width: 60px; line-height: 90px; box-sizing: border-box;
+        display: block;
+    }
+    header > *:not(h1,nav){
+        position: absolute; top: 35%;
+    }
+
+    header input[type="button"]{
+        background-color: transparent; border: none; cursor: pointer;
+    }
+    header input[type="button"].active{
+        color: #fff; top: 0; padding: 0;
+    }
+
+    header nav{
+        display: none; z-index: -1;
+    }
+    header nav.active{
+        display: block; background-color: #000; color: #fff; height: 100%;
+        padding-top: 100px; width: 30%; position: fixed; top: 0; left: 0;
+    }
+    header nav.active > ul{
+        padding: 0 10.7%;
+    }
+    header nav.active > ul li{
+        font-size: 14px;
+    }
+    header nav.active > ul > li:not(.navSns){
+        margin-bottom: 20px; padding-bottom: 20px; position: relative; cursor: pointer;
+        border-bottom: 1px solid #b1b1b1; text-transform: uppercase;
+    }
+    header nav.active > ul > li:nth-of-type(n+2):nth-of-type(-n+3)::after,
+    header nav.active > ul > li:last-of-type::after{
+        content: '+'; font-size: 20px; position: absolute; top: -4px; right: 0;
+    }
+    header nav.active > ul > li.active:nth-of-type(n+2):nth-of-type(-n+3)::after,
+    header nav.active > ul > li.active:last-of-type::after{
+        content: '-'; top: -5px;
+    }
+
+    header nav.active > ul > li:not(.navSns) ol{
+        display: none;
+    }
+    header nav.active > ul > li.active ol{
+        display: block; margin: 20px 0 0 20px; border-left: 1px solid #b1b1b1;
+        padding-left: 10px; box-sizing: border-box;
+    }
+    header nav.active > ul > li.active ol li{
+        font-size: 12px;
+    }
+    header nav.active > ul > li.active ol li:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+
+    header nav.active .navSns{
+        position: fixed; bottom: 0; border-top: 1px solid #b1b1b1;
+        padding: 10px 3%; width: 30%; box-sizing: border-box;
+    }
+    header nav.active .navSns ul::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+    header nav.active .navSns ul li{
+        float: left; background-repeat: no-repeat; background-size: contain;
+    }
+    header nav.active .navSns ul li:not(:first-of-type){
+        margin-left: 15%;
+    }
+    header nav.active .navSns ul li:nth-of-type(1){
+        background-image: url('../images/icon_faceBook_white.png'); width: 20px;
+    }
+    header nav.active .navSns ul li:nth-of-type(2){
+        background-image: url('../images/icon_instagram_white.png'); width: 20px;
+    }
+    header nav.active .navSns ul li:nth-of-type(3){
+        background-image: url('../images/icon_youtube_white.png'); width: 30px;
+    }
+    header nav.active .navSns ul li:nth-of-type(4 ){
+        background-image: url('../images/icon_mail_white.png'); width: 27px;
+    }
+
+
+    header nav.active .navSns ul li a{
+        display: block; min-height: 20px;
+    }
+
+
+    header > h1{
+        max-width: 82px; margin: 0 auto; padding: 15px 0;
+    }
+    header > h1 a{
+        display: block;
+    }
+    header > h1 a img{
+        width: 100%;
+    }
+    header > ul{
+        right: 3%; width: 17%;
+    }
+    header > ul:after{
+        content: ''; display: block; clear: both;
+    }
+    header > ul li{
+        width: 14%; display: block; float: left; min-width: 20px;
+    }
+    header > ul li:not(:first-child){
+        margin-left: 26%;
+    }
+    header > ul li a{
+        display: block;
+    }
+    header > ul li a img{
+        width: 100%;
+    }
+
+    footer{
+        padding: 40px 3%; box-sizing: border-box;
+    }
+    footer::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+    footer div{
+        float: left;
+    }
+    footer div:nth-of-type(-n+2){
+        margin-right: 13%;
+    }
+    footer div:nth-of-type(-n+3){
+        margin-bottom: 40px;
+    }
+    footer div:nth-of-type(1){
+        width: 38.5%; 
+    }
+    footer div:nth-of-type(2){
+        width: 11.5%;
+    }
+    footer div:nth-of-type(3){
+        width: 24%;
+    }
+    footer div:nth-of-type(4){
+        width: 100%;
+    }
+
+    footer div h2{
+        margin-bottom: 20px; font-size: 16px; font-weight: 500; color: #1c1b1b;
+    }
+    footer div p,
+    footer div ul li{
+        font-size: 14px; font-weight: 500; color: #6a6a6a;
+    }
+    footer div:not(:last-child) ul li:not(:last-child){
+        margin-bottom: 15px;
+    }
+
+    footer div:first-child p {
+        margin-bottom: 20px;
+    }
+    footer div:first-child input[type="email"]{
+        width: 100%; max-width: 285px; margin-bottom: 25px; padding: 10px;
+    }
+    footer div:first-child input[type="email"],
+    footer div:first-child input[type="email"]::placeholder{
+        font-size: 15px; font-weight: 300;
+    }
+    footer div:first-child input[type="button"]{
+        font-size: 12px; font-weight: 300; cursor: pointer;
+        background-color: #000; color: #fff; display: block;
+        max-width: 100px; width: 35%; line-height: 40px;
+    }
+
+    footer div:last-of-type::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+    footer div:last-of-type ul{
+       width: 44%; max-width: 265px;  margin: 0 13.5% 40px 0; float: left;
+    }
+    footer div:last-of-type ul::after{
+        clear: both; content: ''; display: block; visibility: hidden;
+    }
+    footer div:last-of-type ul li{
+        float: left; min-height: 30px;
+    }
+    footer div:last-of-type ul li:not(:first-of-type){
+        margin-left: 15%;
+    }
+    footer div:last-of-type ul li:nth-of-type(1){
+        background-image: url('../images/sns_facebook.png'); width: 30px;
+    }
+    footer div:last-of-type ul li:nth-of-type(2){
+        background-image: url('../images/sns_instagram.png'); width: 30px;
+    }
+    footer div:last-of-type ul li:nth-of-type(3){
+        background-image: url('../images/sns_youtube.png'); width: 44px;
+    }
+    footer div:last-of-type ul li:nth-of-type(4 ){
+        background-image: url('../images/sns_mail.png'); width: 41px;
+    }
+    footer div:last-of-type ul li a{
+        display: block; min-height: 30px;
+    }
+    footer div:last-of-type p{
+        float: left; vertical-align: bottom; margin-top: 15px;
+    }
+
+    .listContainer{
+        padding: 240px 0 120px; background-color: #efefef; margin: 0 auto;
+    }
+    .listContainer h2{
+        text-align: center; margin-bottom: 120px;
+    }
+    .listContainer h2 span{
+        display: inline-block; font-size: 20px; font-weight: 500;
+        border-bottom: 1px solid #e6d38f; padding: 0 2% 20px;
+    }
+    .listContainer > div:first-of-type{
+        position: relative; height: 60px; 
+    }
+    .listContainer > div:first-of-type a{
+        font-size: 12px; font-weight: 300; color: #fff; line-height: 20px;
+        background-color: #f5c3b6; text-align: center; padding: 15px 45px;
+        display: block; left: 60%; position: absolute; top: 0; max-width: 210px;
+        box-sizing: border-box;
+    }
+    .listContainer > div:first-of-type::before{
+        content: ''; display: block; position: absolute; left: 0; top: 29px;
+        height: 1px; width: 100%; background-color: #e6d38f;
+    }
+    .listContainer > div > p{
+        text-align: center; padding-top: 120px;
+        font-size: 14px; font-weight: 500; margin-bottom: 120px;
+    }
+
+    .listContainer > div:last-of-type{
+        padding: 0 3%;
+    }
+    .listContainer > div:last-of-type > div:first-of-type{
+        margin-bottom: 120px; border-bottom: 1px solid #000;
+    }
+    .listContainer > div:last-of-type > div:first-of-type::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+    .listContainer > div:last-of-type > div:first-of-type h3{
+        font-size: 20px; font-weight: 500; padding-bottom: 15px; margin-bottom: 30px;
+        border-bottom: 1px solid #000;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset{
+        padding-bottom: 30px; font-size: 17px; float: left;
+        position: relative; transition-duration: 0.5s; width: 22%;
+    }
+    
+    .listContainer > div:last-of-type > div:first-of-type form fieldset:not(:first-of-type){
+        margin-left: 4%;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset legend{
+        margin-bottom: 30px; font-weight: 700; cursor: pointer;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset legend::after{
+        content: '-'; top: 0; right: 0; position: absolute; font-size: 25px;
+        line-height: 0; cursor: pointer; line-height: 10px;
+    }
+
+    .listContainer > div:last-of-type > div:first-of-type form fieldset.active{
+        height: 0px; padding: 0px; overflow: hidden;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset.active legend::after{
+        content: '+';
+    }
+
+    .listContainer > div:last-of-type > div:first-of-type form fieldset > a{
+        display: block; font-weight: 300; line-height: 20px;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset > a:not(:last-of-type){
+        margin-bottom: 15px;
+    }
+
+    .listContainer > div:last-of-type > div:first-of-type form fieldset input[type="range"]{
+        width: 100%; margin-bottom: 40px;
+    }
+
+    .listContainer > div:last-of-type > div:first-of-type form fieldset input[type="range"] {
+        appearance: none;  background-color: #000; height: 3px; border-radius: 5px;
+    }
+      
+    .listContainer > div:last-of-type > div:first-of-type form fieldset input[type="range"]::-webkit-slider-thumb {
+        appearance: none; height: 10px; width: 10px; cursor: pointer;
+        border-radius: 50%; background-color: #000;
+    }
+
+
+    .listContainer > div:last-of-type > div:first-of-type form fieldset label{
+        position: absolute; bottom: 0; margin-bottom: 30px;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset label:first-of-type{
+        left: 0;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset label:last-of-type{
+        right: 0;
+    }
+
+
+    .listContainer > div:last-of-type > ul{
+        width: 100%; margin-bottom: 120px; display: flex; flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .listContainer > div:last-of-type > ul li{
+        width: 40%;
+    }
+    .listContainer > div:last-of-type > ul li:not(:nth-of-type(2n+1)){
+        margin-left: 8.5%;
+    }
+    .listContainer > div:last-of-type > ul li:nth-of-type(-n+6){
+        margin-bottom: 100px;
+    }
+
+    .listContainer > div:last-of-type > ul li div{
+        position: relative;
+    }
+    .listContainer > div:last-of-type > ul li div img{
+        width: 100%;
+    } 
+    .listContainer > div:last-of-type > ul li div:hover img + a{
+        display: block;
+    }
+    .listContainer > div:last-of-type > ul li div a{
+        position: absolute; bottom: 0; text-align: center; text-shadow: 1px 1px 5px #000;
+        width: 100%; background-color: rgba(0, 0, 0, 0.3); line-height: 80px;
+        font-size: 17px; font-weight: 300; color: #fff; display: none;
+    }
+    .listContainer > div:last-of-type > ul li h3{
+        font-size: 17px; font-weight: 500; line-height: 30px; margin: 15px 0;
+    }
+    .listContainer > div:last-of-type > ul li span{
+        font-size: 17px; font-weight: 300;
+    }
+
+    /* ? list */
+
+    .detailContainer{
+        padding: 240px 3% 60px; background-color: #efefef;
+    }
+
+    .detailContainer > div > div:first-of-type{
+        margin-bottom: 100px; position: relative;
+    }
+    .detailContainer > div > div:first-of-type > a{
+        font-size: 16px; font-weight: 300; line-height: 25px;
+    }
+    .detailContainer > div > div:first-of-type > a:last-of-type{
+        padding-right: 25%; display: inline-block;
+    }
+    .detailContainer > div > div:first-of-type > a:not(:last-of-type){
+        color: #7e7e7e;
+    }
+    .detailContainer > div > div:first-of-type > div{
+        position: absolute; top: 0; right: 0; font-size: 20px; font-weight: 500;
+        min-width: 160px;
+    }
+    .detailContainer > div > div:first-of-type > div a:first-of-type::before{
+        content: '<'; padding-right: 10px;
+    }
+    .detailContainer > div > div:first-of-type > div a{
+        margin-left: 9%;
+    }
+    .detailContainer > div > div:first-of-type > div a:last-of-type::after{
+        content: '>'; padding-left: 10px;
+    }
+
+    .detailContainer .imgSwapBox{
+        width: 100%;
+    }
+    .detailContainer .imgSwapBox img{
+        width: 100%;
+    }
+    .detailContainer .imgSwapBox > img{
+        margin-bottom: 20px;
+    }
+    .detailContainer .imgSwapBox ul{
+        width: 100%; max-width: 420px; display: inline-block; margin-bottom: 100px;
+    }
+    .detailContainer .imgSwapBox ul li{
+        display: inline-block; max-width: 80px; cursor: pointer;
+    }
+    .detailContainer .imgSwapBox ul li:not(:first-of-type){
+        margin-left: 6.7%;
+    }
+
+
+    .detailContainer > div > div:nth-of-type(2) > div:last-of-type > h2{
+        font-size: 24px; font-weight: 300; margin-bottom: 60px; line-height: 40px;
+        text-align: center;
+    }
+    .detailContainer > div > div:nth-of-type(2) > div:last-of-type > strong{
+        font-size: 20px; font-weight: 700; margin-bottom: 100px; display: block;
+        text-align: center;
+    }
+    .detailContainer > div > div:nth-of-type(2) > div:last-of-type > p{
+        font-size: 16px; font-weight: 500;  color: #626262; line-height: 30px;
+    }
+    .detailContainer > div > div:nth-of-type(2) > div:last-of-type > p:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+    .detailContainer > div > div:nth-of-type(2) > div:last-of-type > p:last-of-type{
+        margin-bottom: 40px;
+    }
+    .detailContainer > div > div:nth-of-type(2) > div:last-of-type > label{
+        font-size: 16px; font-weight: 500; margin: 0 30px 0 34%; float: left;
+        line-height: 60px;
+    }
+
+    .detailContainer .countComp{
+        max-width: 110px; line-height: 60px; border: 2px solid #6a6a6a; box-sizing: border-box;
+        margin: 0 0 40px 49%; background-color: #fff; width: 100%; display: block;
+    }
+    .detailContainer .countMinus,
+    .detailContainer .countPlus{
+        font-size: 25px;
+    }
+    .detailContainer .countComp .qc{
+        font-size: 20px; font-weight: 500;
+    }
+    .detailContainer .countMinus{
+        top: 13px; left: 5px;
+    }
+    .detailContainer .countPlus{
+        top: 15px;
+    }
+
+    .detailContainer .btn{
+        margin-bottom: 40px;
+    }
+
+    .detailContainer input[type='radio']{
+        margin-right: 2%; float: left; display: block; width: 25px; height: 25px; appearance: none;
+        background: url('../images/detail_radioButton_default.png') no-repeat top left / 100%;
+    }
+    .detailContainer input[type='radio']:checked{
+        background-image: url('../images/detail_radioButton_checked.png');
+    }
+
+    .detailContainer > div > div:nth-of-type(2) > div:last-of-type > div > label{
+        margin-bottom: 30px; font-size: 20px; font-weight: 300; padding-top: 5px;
+        display: block;
+    }
+
+    .detailContainer .selectComponent{
+        width: 96.6%; margin: 0 0 60px 3.4%;
+    }
+    .detailContainer .selectComponent > select{
+        font-size: 20px; border: 2px solid #6a6a6a; line-height: 48px;
+        padding-left: 20px;
+    }
+    .detailContainer .selectComponent > select option{
+        font-size: 20px; font-weight: 500;
+    }
+    .detailContainer .selectComponent > span{
+        top: 13px; right: 20px
+    }
+
+    .detailContainer .specContainer{
+        margin-bottom: 60px;
+    }
+    .detailContainer .specContainer h3{
+        font-size: 20px; font-weight: 300; margin-bottom: 40px;
+    }
+    .detailContainer .specContainer ul li{
+        font-size: 16px; font-weight: 500; color: #7e7e7e; line-height: 40px;
+    }
+    .detailContainer .specContainer ul li:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+
+    /* ? detail */
+
+    section[class$='DetailContainer']{
+        padding: 240px 3% 120px; background-color: #efefef; 
+    }
+
+    section[class$='DetailContainer'] > div{
+        max-width: 600px; margin: 0 auto;
+    }
+
+    section[class$='DetailContainer'] .detailPager{
+        position: relative; font-size: 20px; font-weight: 500; text-transform: capitalize;
+    }
+    section[class$='DetailContainer'] .detailPager time{
+        margin-bottom: 40px; display: block;
+    }
+
+    section[class$='DetailContainer'] .detailPager a{
+        position: absolute; top: 0;
+    }
+    section[class$='DetailContainer'] .detailPager a:first-of-type{
+        right: 12%;
+    }
+    section[class$='DetailContainer'] .detailPager a:first-of-type::before{
+        content: '< ';
+    }
+
+    section[class$='DetailContainer'] .detailPager a:last-of-type{
+        right: 0;
+    }
+    section[class$='DetailContainer'] .detailPager a:last-of-type::after{
+        content: ' >';
+    }
+
+    section[class$='DetailContainer'] > div h2{
+        font-size: 24px; font-weight: 300; margin-bottom: 100px; text-transform: capitalize;
+    }
+
+    section[class$='DetailContainer'] > div .contentBox{
+        margin-bottom: 120px;
+    }
+    section[class$='DetailContainer'] > div .contentBox img{
+        margin: 0 auto 80px; display: block; max-width: 600px;
+    }
+    section[class$='DetailContainer'] > div .contentBox > p,
+    .newsDetailContainer > div .contentBox > ol li{
+        font-size: 16px; font-weight: 500; line-height: 30px;
+    }
+    section[class$='DetailContainer'] > div .contentBox > p:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+    
+    section[class$='DetailContainer'] > div form fieldset::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+
+    section[class$='DetailContainer'] > div form fieldset legend{
+        font-size: 20px; font-weight: 300; margin-bottom: 60px;
+    }
+    section[class$='DetailContainer'] > div form fieldset input{
+        display: block;
+    }
+    section[class$='DetailContainer'] > div form fieldset input:nth-of-type(-n+2){
+        width: 48%; line-height: 70px; float: left;
+    }
+    section[class$='DetailContainer'] > div form fieldset input:nth-of-type(2){
+        margin-left: 4%;
+    }
+    section[class$='DetailContainer'] > div form fieldset textarea{
+        width: 100%; height: 200px; padding-top: 20px;
+    }
+
+    section[class$='DetailContainer'] > div form fieldset input:nth-of-type(-n+2),
+    section[class$='DetailContainer'] > div form fieldset textarea{
+        padding-left: 20px; box-sizing: border-box; border: 1px solid #626262;
+        margin-bottom: 40px; font-size: 17px; font-weight: 500;
+    }
+    section[class$='DetailContainer'] > div form fieldset input:nth-of-type(-n+2)::placeholder,
+    section[class$='DetailContainer'] > div form fieldset textarea::placeholder{
+        font-size: 17px; font-weight: 500; color: #626262;
+    }
+
+    section[class$='DetailContainer'] > div form fieldset span{
+        font-size: 16px; font-weight: 500; display: block; margin-bottom: 40px;
+    }
+
+    section[class$='DetailContainer'] > div form fieldset .btn{
+        float: right; max-width: 300px; width: 42%; font-size: 16px;
+    }
+
+    .recipesDetailContainer .contentBox > p:last-of-type,
+    .recipesDetailContainer .contentBox > div:not(:last-of-type){
+        margin-bottom: 80px;
+    }
+
+    .recipesDetailContainer .contentBox > div h3{
+        font-size: 20px; font-weight: 500; margin-bottom: 40px;
+    }
+
+    .recipesDetailContainer .contentBox > div p,
+    .recipesDetailContainer .contentBox > div ol li,
+    .recipesDetailContainer .contentBox > div ul li{
+        font-size: 16px; font-weight: 500; line-height: 30px;
+    }
+
+    .recipesDetailContainer .contentBox > div p:not(:last-of-type),
+    .recipesDetailContainer .contentBox > div ol li:not(:last-of-type),
+    .recipesDetailContainer .contentBox > div ul li:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+}
+/* ? tablet */
+
+@media screen and (min-width: 1280px){
+
+    .pager{
+        width: 25%;
+    }
+
+    .pager > a{
+        font-size: 20px; 
+    }
+    .pager ol li a{
+        font-size: 30px;
+    }
+
+    .btn{
+        line-height: 65px;
+    }
+
+    .topBanner,
+    .topBannerSub{
+    font-size: 17px; font-weight: 500; text-align: center; line-height: 58px;
+    position: fixed; width: 100%; z-index: 10; top: 0;
+    }
+
+    .menuBtn{
+        display: none;
+    }
+
+    
+    #muiNavBtn{
+        display: none;
+    }
+    
+    #search,
+    #shoppingBag{
+        top: 0; background-color: #fff; position: fixed; z-index: 100;
+    }
+
+    #search{
+        width: 100%; text-align: center; padding: 120px 0;
+    }
+    #search #detailSearch{
+        margin-right: 8%; width: 44.4%; border-width: 2px; padding: 10px; font-size: 30px;
+        border-style: none none solid none; border-color: #9a9a9a; font-weight: 300;
+    }
+    #search #detailSearch::placeholder{
+        font-size: 30px; font-weight: 300;
+    }
+    #search #detailSearch::after{
+        content: ''; background-image: url('../images/bull_search.png');
+        min-width: 20px; min-height: 20px; background-size: 20px 20px; display: inline-block;
+    }
+    #search #detailSearch::-webkit-search-cancel-button{
+        position:relative; right:20px; appearance: none; height: 25px; width: 25px;
+        background: url('../images/bull_search.png') center / 100% no-repeat ; cursor: pointer;
+    }
+    #search .btn_close{
+        background-image: url('../images/bull_close.png'); text-indent: -9999px;
+        display: inline-block; position: absolute; background-size: 100%; min-height: 35px;
+        background-position: center; background-repeat: no-repeat; width: 2%;
+    }
+
+    #shoppingBag{
+        width: 19.5%; right: 0; height: 100%; line-height: 100%; 
+    }
+    #shoppingBag h2{
+        text-align: center; margin: 0 0 30px 0; font-size: 24px; font-weight: 500; color: #fff;
+        background-color: #efefef; line-height: 100px; text-shadow: 3px 1px 3px rgb(128, 128, 128); position: relative;
+        cursor: pointer;
+    }
+    #shoppingBag h2::before{
+        content: ""; background-image: url('../images/arrow_next.png');
+        background-size: 20px; min-width: 20px; min-height: 20px;
+        display: inline-block; left: 13%; top: 40%; position: absolute;
+        filter: invert(94%) sepia(22%) saturate(272%) hue-rotate(191deg) brightness(108%) contrast(106%) drop-shadow(3px 1px 1px rgb(129, 128, 128));
+    }
+
+    #shoppingBag ul,
+    #shoppingBag ul li{
+        margin-bottom: 40px;
+    }
+    #shoppingBag ul li{
+        border-bottom: 1px solid #efefef;
+    }
+    #shoppingBag ul li img{
+        width: 26%; float: left; margin-right: 8%; padding-left: 15%;
+    }
+    #shoppingBag ul li dl dt,
+    #shoppingBag ul li dl dd{
+        margin-bottom: 15px; font-size: 12px; 
+    }
+    #shoppingBag ul li dl dt{
+        font-weight: 300;
+    }
+    #shoppingBag ul li dl dd,
+    #shoppingBag ul li dl dd input[type='text']{
+        font-weight: 700;
+    }
+    #shoppingBag span,
+    #shoppingBag strong{
+        font-size: 18px; font-weight: 700; display: block; padding-left: 15%;
+    }
+
+    #shoppingBag span{
+        margin-bottom: 10px; 
+    }
+    #shoppingBag strong{
+        margin-bottom: 30px; text-decoration: underline;
+    }
+    #shoppingBag input[type='submit']{
+        background-color: #f7b19e; min-width: 67.7%; display: block; text-align: center;
+        color: #fff; line-height: 40px; border: none; margin: 0 auto; cursor: pointer;
+    }
+    #shoppingBag ul li dl dd input[type='text']{
+        background: none; border: none; background: transparent; display: inline;
+        width: 13%;
+    }
+    #shoppingBag .countComp{
+        margin-bottom: 40px;  width: 23.5%; border: 1px solid #000;
+    }
+    #shoppingBag .countComp .countPlus{
+        top: 1px;
+    }
+
+    header,
+    footer{
+        max-width: 1800px; margin: 0 auto; box-sizing: border-box;
+    }
+
+    .listContainer{
+        padding: 290px 0 120px; background-color: #efefef; margin: 0 auto;
+    }
+
+    header{
+        position: fixed; min-width: 100%; top: 57px; background-color: #fff;
+        z-index: 10; border-bottom: 1px solid #e6d38f; padding: 0 3%;
+    }
+    header > *:not(h1){
+        position: absolute; line-height: 110px; top: 0;
+    }
+    header > nav{
+        left: 3%; width: 38%;
+    }
+    header > nav ul{
+        display: flex; justify-content: space-between; flex-flow: row nowrap; text-transform: uppercase;
+    }
+    header > nav ul li ol{
+        display: none; list-style: none; position: absolute; top: 80px;
+    }
+    header > nav ul li:hover ol{
+        display: block;
+    }
+    header > nav ul li ol li{
+        font-size: 20px; line-height: 26px; margin-bottom: 15px;
+    }
+    header > nav ul li ol li a{
+        font-size: 14px; font-weight: 300; display: block;
+    }
+    header > h1{
+        max-width: 143px; margin: 0 auto; padding: 15px 0;
+    }
+    header > h1 a{
+        display: block;
+    }
+    header > h1 a img{
+        width: 100%;
+    }
+    header > ul{
+        top: 5px; right: 3%; width: 10%;
+    }
+    header > ul:after{
+        content: ''; display: block; clear: both;
+    }
+    header > ul li{
+        width: 17.33%; display: block; float: left;
+    }
+    header > ul li:not(:first-child){
+        margin-left: 24%;
+    }
+    header > ul li a{
+        display: block;
+    }
+    header > ul li a img{
+        width: 100%;
+    }
+
+    footer{
+        padding: 60px 3%;
+        display: flex; justify-content: space-between; flex-flow: row nowrap;
+    }
+    footer div h2{
+        margin-bottom: 20px; font-size: 20px; font-weight: 500; color: #1c1b1b;
+    }
+    footer div p,
+    footer div ul li{
+        font-size: 18px; font-weight: 500; color: #6a6a6a;
+    }
+    footer div:not(:last-child) ul li:not(:last-child){
+        margin-bottom: 15px;
+    }
+
+    footer div:first-child p {
+        margin-bottom: 20px; font-size: 18px; font-weight: 500;
+    }
+    footer div:first-child input[type="email"]{
+        min-width: 92.5%; margin-bottom: 25px; padding: 10px;
+    }
+    footer div:first-child input[type="email"],
+    footer div:first-child input[type="email"]::placeholder{
+        font-size: 15px; font-weight: 300;
+    }
+    footer div:first-child input[type="button"]{
+        font-size: 12px; font-weight: 300; cursor: pointer;
+        background-color: #000; color: #fff; display: block;
+        max-width: 100px; width: 27%; line-height: 40px;
+    }
+
+    footer div:last-of-type ul{
+        margin-bottom: 75px;
+    }
+    footer div:last-of-type ul::after{
+        clear: both; content: ''; display: block; visibility: hidden;
+    }
+    footer div:last-of-type ul li{
+        float: left; min-height: 30px;
+    }
+    footer div:last-of-type ul li:not(:first-of-type){
+        margin-left: 18.4%;
+    }
+    footer div:last-of-type ul li:nth-of-type(1){
+        background-image: url('../images/sns_facebook.png'); width: 30px;
+    }
+    footer div:last-of-type ul li:nth-of-type(2){
+        background-image: url('../images/sns_instagram.png'); width: 30px;
+    }
+    footer div:last-of-type ul li:nth-of-type(3){
+        background-image: url('../images/sns_youtube.png'); width: 44px;
+    }
+    footer div:last-of-type ul li:nth-of-type(4 ){
+        background-image: url('../images/sns_mail.png'); width: 41px;
+    }
+    footer div:last-of-type ul li a{
+        display: block; min-height: 30px;
+    }
+
+    .listContainer h2{
+        text-align: center; margin-bottom: 120px;
+    }
+    .listContainer h2 span{
+        display: inline-block; font-size: 24px; font-weight: 500;
+        border-bottom: 1px solid #e6d38f; padding: 0 2% 20px;
+    }
+    .listContainer > div:first-of-type{
+        position: relative; height: 60px; 
+    }
+    .listContainer > div:first-of-type a{
+        font-size: 12px; font-weight: 300; color: #fff; line-height: 20px;
+        background-color: #f5c3b6; text-align: center; padding: 15px 45px;
+        display: block; left: 60%; position: absolute; top: 0; max-width: 210px;
+        box-sizing: border-box;
+    }
+    .listContainer > div:first-of-type::before{
+        content: ''; display: block; position: absolute; left: 0; top: 29px;
+        height: 1px; width: 100%; background-color: #e6d38f;
+    }
+    .listContainer > div > p{
+        text-align: center; padding-top: 120px;
+        font-size: 17px; font-weight: 500; margin-bottom: 120px;
+    }
+
+    .listContainer > div:last-of-type{
+        padding: 0 3%;
+    }
+    .listContainer > div:last-of-type > div:first-of-type{
+        float: left; width: 12%; margin: 0 5.5% 0 0;
+    }
+    .listContainer > div:last-of-type > div:first-of-type h3{
+        font-size: 1.4vw; font-weight: 500; padding-bottom: 15px; margin-bottom: 30px;
+        border-bottom: 1px solid #000;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset{
+        border-bottom: 1px solid #000; padding-bottom: 30px; font-size: 0.85vw;
+        position: relative; transition-duration: 0.5s;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset:not(:last-of-type){
+        margin-bottom: 30px;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset legend{
+        margin-bottom: 30px; font-weight: 700; cursor: pointer;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset legend::after{
+        content: '-'; top: 0; right: 0; position: absolute; font-size: 25px;
+        line-height: 0; cursor: pointer; line-height: 10px;
+    }
+
+    .listContainer > div:last-of-type > div:first-of-type form fieldset.active{
+        height: 0px; padding: 0px; overflow: hidden;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset.active legend::after{
+        content: '+';
+    }
+
+    .listContainer > div:last-of-type > div:first-of-type form fieldset > a{
+        display: block; font-weight: 500; line-height: 20px;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset > a:not(:last-of-type){
+        margin-bottom: 15px;
+    }
+
+    .listContainer > div:last-of-type > div:first-of-type form fieldset input[type="range"]{
+        width: 100%; margin-bottom: 40px;
+    }
+
+    .listContainer > div:last-of-type > div:first-of-type form fieldset input[type="range"] {
+        appearance: none;  background-color: #000; height: 3px; border-radius: 5px;
+    }
+      
+    .listContainer > div:last-of-type > div:first-of-type form fieldset input[type="range"]::-webkit-slider-thumb {
+        appearance: none; height: 10px; width: 10px; cursor: pointer;
+        border-radius: 50%; background-color: #000;
+    }
+
+
+    .listContainer > div:last-of-type > div:first-of-type form fieldset label{
+        position: absolute; bottom: 0; margin-bottom: 30px;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset label:first-of-type{
+        left: 0;
+    }
+    .listContainer > div:last-of-type > div:first-of-type form fieldset label:last-of-type{
+        right: 0;
+    }
+
+
+    .listContainer > div:last-of-type > ul{
+        width: 82.5%; margin-bottom: 120px; display: flex; flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .listContainer > div:last-of-type > ul li{
+        width: 20%;
+    }
+    .listContainer > div:last-of-type > ul li:not(:nth-of-type(4n+1)){
+        margin-left: 6.5%;
+    }
+    .listContainer > div:last-of-type > ul li:nth-of-type(-n+4){
+        margin-bottom: 100px;
+    }
+
+    .listContainer > div:last-of-type > ul li div{
+        position: relative;
+    }
+    .listContainer > div:last-of-type > ul li div img{
+        width: 100%;
+    } 
+    .listContainer > div:last-of-type > ul li div:hover img + a{
+        display: block;
+    }
+    .listContainer > div:last-of-type > ul li div a{
+        position: absolute; bottom: 0; text-align: center; text-shadow: 1px 1px 5px #000;
+        width: 100%; background-color: rgba(0, 0, 0, 0.3); line-height: 80px;
+        font-size: 17px; font-weight: 300; color: #fff; display: none;
+    }
+    .listContainer > div:last-of-type > ul li h3{
+        font-size: 17px; font-weight: 500; line-height: 30px; margin: 15px 0;
+    }
+    .listContainer > div:last-of-type > ul li span{
+        font-size: 17px; font-weight: 300;
+    }
+
+    /* ? list */
+
+    .detailContainer,
+    section[class$='DetailContainer']{
+        padding: 290px 3% 120px; background-color: #efefef;
+    }
+    .detailContainer div > div:not(:first-of-type)::after{
+        clear: both; display: block; visibility: hidden; content: '';
+    }
+
+    .detailContainer > div > div:first-of-type{
+        margin-bottom: 100px; position: relative;
+    }
+    .detailContainer > div > div:first-of-type > a{
+        font-size: 16px; font-weight: 300; 
+    }
+    .detailContainer > div > div:first-of-type > a:not(:last-of-type){
+        color: #7e7e7e;
+    }
+    .detailContainer > div > div:first-of-type > div{
+        position: absolute; top: 0; right: 0; font-size: 20px; font-weight: 500;
+        min-width: 160px;
+    }
+    .detailContainer > div > div:first-of-type > div a:first-of-type::before{
+        content: '<'; padding-right: 10px;
+    }
+    .detailContainer > div > div:first-of-type > div a{
+        margin-left: 9%;
+    }
+    .detailContainer > div > div:first-of-type > div a:last-of-type::after{
+        content: '>'; padding-left: 10px;
+    }
+
+    .detailContainer .imgSwapBox{
+        width: 40%; margin-right: 6.3%; float: left;
+    }
+    .detailContainer .imgSwapBox img{
+        width: 100%;
+    }
+    .detailContainer .imgSwapBox > img{
+        margin-bottom: 20px;
+    }
+    .detailContainer .imgSwapBox ul{
+        width: 100%; max-width: 420px; display: inline-block;
+    }
+    .detailContainer .imgSwapBox ul li{
+        display: inline-block; max-width: 80px; cursor: pointer;
+    }
+    .detailContainer .imgSwapBox ul li:not(:first-of-type){
+        margin-left: 6.7%;
+    }
+
+    .detailContainer > div > div:nth-of-type(2) > div:last-of-type{
+        width: 53.3%; float: left;
+    }
+    .detailContainer > div > div:nth-of-type(2) > div:last-of-type > h2{
+        font-size: 36px; font-weight: 300; margin-bottom: 40px; line-height: 50px;
+    }
+    .detailContainer > div > div:nth-of-type(2) > div:last-of-type > strong{
+        font-size: 32px; font-weight: 700; margin-bottom: 40px; display: block;
+    }
+    .detailContainer > div > div:nth-of-type(2) > div:last-of-type > p{
+        font-size: 24px; font-weight: 500; margin-bottom: 40px; color: #626262;
+        line-height: 30px;
+    }
+    .detailContainer > div > div:nth-of-type(2) > div:last-of-type > label{
+        font-size: 20px; font-weight: 500; margin-right: 30px; float: left;
+        line-height: 60px;
+    }
+
+    .detailContainer .countComp{
+        max-width: 110px; line-height: 60px; border: 2px solid #6a6a6a; box-sizing: border-box;
+        margin-bottom: 60px; background-color: #fff; width: 100%;
+    }
+    .detailContainer .countMinus,
+    .detailContainer .countPlus{
+        font-size: 25px;
+    }
+    .detailContainer .countComp .qc{
+        font-size: 20px; font-weight: 500;
+    }
+    .detailContainer .countMinus{
+        top: 13px; left: 5px;
+    }
+    .detailContainer .countPlus{
+        top: 15px;
+    }
+
+    .detailContainer .btn{
+        line-height: 65px; margin-bottom: 70px;
+    }
+
+    .detailContainer input[type='radio']{
+        margin-right: 2%; float: left; display: block; width: 25px; height: 25px; appearance: none;
+        background: url('../images/detail_radioButton_default.png') no-repeat top left / 100%;
+    }
+    .detailContainer input[type='radio']:checked{
+        background-image: url('../images/detail_radioButton_checked.png');
+    }
+
+    .detailContainer > div > div:nth-of-type(2) > div:last-of-type label{
+        margin-bottom: 30px; font-size: 27px; font-weight: 300;
+        display: block;
+    }
+
+    .detailContainer .selectComponent{
+        width: 100%;
+    }
+    .detailContainer .selectComponent > select{
+        font-size: 20px; border: 2px solid #6a6a6a; line-height: 48px;
+        padding-left: 20px;
+    }
+    .detailContainer .selectComponent > select option{
+        font-size: 20px; font-weight: 500;
+    }
+    .detailContainer .selectComponent > span{
+        top: 13px; right: 20px;
+    }
+
+    .detailContainer .specContainer{
+        max-width: 750px; margin-top: 100px; float: left; width: 42%;
+    }
+    .detailContainer .specContainer:nth-of-type(2){
+        margin-left: 120px;
+    }
+
+    .detailContainer .specContainer h3{
+        font-size: 32px; font-weight: 300; margin-bottom: 60px;
+    }
+    .detailContainer .specContainer ul li{
+        font-size: 24px; font-weight: 500; color: #7e7e7e; line-height: 50px;
+    }
+    .detailContainer .specContainer ul li:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+
+    /* ? detail */
+
+    section[class$='DetailContainer'] > div{
+        max-width: 1200px; margin: 0 auto;
+    }
+
+    section[class$='DetailContainer'] .detailPager{
+        position: relative; font-size: 24px; font-weight: 500; text-transform: capitalize;
+    }
+    section[class$='DetailContainer'] .detailPager time{
+        margin-bottom: 40px; display: block;
+    }
+
+    section[class$='DetailContainer'] .detailPager a{
+        position: absolute; top: 0;
+    }
+    section[class$='DetailContainer'] .detailPager a:first-of-type{
+        right: 9%;
+    }
+    section[class$='DetailContainer'] .detailPager a:first-of-type::before{
+        content: '< ';
+    }
+
+    section[class$='DetailContainer'] .detailPager a:last-of-type{
+        right: 0;
+    }
+    section[class$='DetailContainer'] .detailPager a:last-of-type::after{
+        content: ' >';
+    }
+
+    section[class$='DetailContainer'] > div h2{
+        font-size: 36px; font-weight: 300; margin-bottom: 100px; text-transform: capitalize;
+    }
+
+    section[class$='DetailContainer'] > div .contentBox{
+        margin-bottom: 120px;
+    }
+    section[class$='DetailContainer'] > div .contentBox img{
+        margin: 0 auto 100px; display: block; max-width: 1200px;
+    }
+    section[class$='DetailContainer'] > div .contentBox > p,
+    .newsDetailContainer > div .contentBox > ol li{
+        font-size: 24px; font-weight: 500; line-height: 40px;
+    }
+    section[class$='DetailContainer'] > div .contentBox > p:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+    
+    section[class$='DetailContainer'] > div form fieldset{
+        max-width: 1200px;
+    }
+    section[class$='DetailContainer'] > div form fieldset::after{
+        display: block; clear: both; visibility: hidden; content: '';
+    }
+
+    section[class$='DetailContainer'] > div form fieldset legend{
+        font-size: 32px; font-weight: 300; margin-bottom: 60px;
+    }
+    section[class$='DetailContainer'] > div form fieldset input{
+        display: block;
+    }
+    section[class$='DetailContainer'] > div form fieldset input:nth-of-type(-n+2){
+        width: 100%; line-height: 70px;
+    }
+    section[class$='DetailContainer'] > div form fieldset textarea{
+        width: 100%; height: 200px; padding-top: 20px;
+    }
+
+    section[class$='DetailContainer'] > div form fieldset input:nth-of-type(-n+2),
+    section[class$='DetailContainer'] > div form fieldset textarea{
+        padding-left: 20px; box-sizing: border-box; border: 1px solid #626262;
+        margin-bottom: 40px; font-size: 17px; font-weight: 500;
+    }
+    section[class$='DetailContainer'] > div form fieldset input:nth-of-type(-n+2)::placeholder,
+    section[class$='DetailContainer'] > div form fieldset textarea::placeholder{
+        font-size: 17px; font-weight: 500; color: #626262;
+    }
+
+    section[class$='DetailContainer'] > div form fieldset span{
+        font-size: 24px; font-weight: 500; display: block; margin-bottom: 40px;
+    }
+
+    section[class$='DetailContainer'] > div form fieldset .btn{
+        line-height: 65px; float: right; max-width: 290px; width: 24%;
+    }
+
+    .recipesDetailContainer .contentBox > p:last-of-type,
+    .recipesDetailContainer .contentBox > div:not(:last-of-type){
+        margin-bottom: 100px;
+    }
+
+    .recipesDetailContainer .contentBox > div h3{
+        font-size: 30px; font-weight: 500; margin-bottom: 40px;
+    }
+
+    .recipesDetailContainer .contentBox > div p,
+    .recipesDetailContainer .contentBox > div ol li,
+    .recipesDetailContainer .contentBox > div ul li{
+        font-size: 24px; font-weight: 500; line-height: 40px;
+    }
+
+    .recipesDetailContainer .contentBox > div p:not(:last-of-type),
+    .recipesDetailContainer .contentBox > div ol li:not(:last-of-type),
+    .recipesDetailContainer .contentBox > div ul li:not(:last-of-type){
+        margin-bottom: 40px;
+    }
+
+    /* ? news detail */
+
+}
+/* ? desktop */

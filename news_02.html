@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maui Kuia Estate</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div class="popup" id="search">
+        <input type="search" id="detailSearch" placeholder="SEARCH">
+        <a href="#" class="btn_close">CLOSE</a>
+    </div>
+    <div class="popup" id="shoppingBag">
+        <h2 class="btn_close">CART</h2>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    <img src="images/common_chocolateBars_09.png" alt="Dark Chocolate Bar">
+                    <dl>
+                        <dt>Dark Chocolate Bar</dt>
+                        <dd>
+                            $
+                            <input type="text" id="price" value="9.00" readonly>
+                             USD
+                        </dd>
+                    </dl>
+                    <div class="countComp">
+                        <input type="button" value="-" class="countMinus" >
+                        <input type="number" class="qc" id="countNumb" value="1" min="1" max="99" step="1">
+                        <input type="button" value="+" class="countPlus" >
+                    </div>
+                </li>
+            </ul>
+            <span>Subtotal</span>
+            <strong>$ <output id="totalPrice">9.00</output> USD</strong>
+            <input type="submit" value="VIEW CART">
+        </form>
+    </div>
+    <div class="topBannerSub">
+        Hello Summer.
+    </div>
+    <header>
+        <input type="button" value="menu" id="muiNavBtn" class="material-icons">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>
+                    SHOP
+                    <ol>
+                        <li><a href="list_bestSellers.html">Best Sellers</a></li>
+                        <li><a href="list_gifts.html">Gifts</a></li>
+                        <li><a href="list_bakingPantry.html">Baking & Pantry</a></li>
+                        <li><a href="list_atHomeTasting.html">AT&#45;Home Tasting  </a></li>
+                        <li><a href="list_chocolateBars.html">Chocolate Bars</a></li>
+                        <li><a href="list_mauiGrown.html">Maui Grown</a></li>
+                        <li><a href="list_merchandise.html">Merchandise</a></li>
+                        <li><a href="list_bulkChocolateSquares.html">Bulk Chocolate Squares</a></li>
+                    </ol>
+                </li>
+                <li>
+                    EXPLORE
+                    <ol>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ol>
+                </li>
+                <li><a href="cafe.html">Cafe</a></li>
+                <li><a href="monthClub.html">Month club</a></li>
+                <li>
+                    ABOUT US
+                    <ol>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li>
+                        <li><a href="ourStory.html">Our Story</a></li>
+                        <li><a href="cacaoOrigins.html">Cacao Origins</a></li>
+                    </ol>
+                </li>
+            </ul>
+            <div class="navSns">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/MauiChocolate/" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/mauichocolate/?hl=en" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="mailto:aloha@mauichocolate.com"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1><a href="/"><img src="images/logo.png" alt="Maui Kuia Estate"></a></h1>
+        <ul>
+            <li><a href="myPage_login.html"><img src="images/bull_person.png" alt="my page"></a></li>
+            <li class="search"><a href="#" data-panel="search"><img src="images/bull_search.png" alt="search"></a></li>
+            <li class="cart"><a href="#" data-panel="shoppingBag"><img src="images/bull_shoppingbag.png" alt="shopping bag"></a></li>
+        </ul>
+    </header>
+    <section class="newsContainer">
+        <h2>NEWS</h2>
+        <ul>
+            <li>
+                <img src="images/news_13.png" alt="Supporting Maui's Nonprofit Community Through Chocolate Laulima">
+                <dl>
+                    <dt>
+                        Supporting Maui's Nonprofit
+                        Community Through
+                        Chocolate Laulima
+                    </dt>
+                    <dd>
+                        In order to stay true to our company mission, we've
+                        recently partnered with multiple nonprofit
+                        organizations through our Chocolate Laulima program.
+                    </dd>
+                </dl>
+                <a href="news_detail_13.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/news_14.png" alt="Featured in Marin Magazine">
+                <dl>
+                    <dt>Featured in Marin Magazine</dt>
+                    <dd>
+                        We were recently featured in Marin Magazine's
+                        article Hawaii Reinvented: 5 Re-Invented Island Visits
+                        as the newest way to enjoy what Maui has to offer.
+                    </dd>
+                </dl>
+                <a href="news_detail_14.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/news_15.png" alt="Gives back with Chocolate Laulima program">
+                <dl>
+                    <dt>
+                        Gives back with Chocolate
+                        Laulima program
+                    </dt>
+                    <dd>
+                        The Maui News published an article about the launch
+                        of our new cooperative program Chocolate Laulima.
+                    </dd>
+                </dl>
+                <a href="news_detail_15.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/news_16.jpg" alt="Q103 Extra Cast Podcast">
+                <dl>
+                    <dt>Q103 Extra Cast Podcast</dt>
+                    <dd>
+                        A few weeks ago, our Sales & Marketing Manager
+                        Ashley joined DJ Shaggy of the Q103 for an
+                        interview on their Extra Cast Podcast.
+                    </dd>
+                </dl>
+                <a href="news_detail_16.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/news_17.png" alt="Promotes Lisa Foth to Vice President and General Manager">
+                <dl>
+                    <dt>
+                        Promotes Lisa Foth to Vice
+                        President and General
+                        Manager
+                    </dt>
+                    <dd>
+                        "Maui Ku‘ia Estate Chocolate Inc. announced the
+                        promotion of Lisa Foth to vice president and general
+                        manager of Maui’s first farm-to-bar chocolate
+                        factory."
+                    </dd>
+                </dl>
+                <a href="news_detail_17.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/news_18.jpg" alt="Gunars on KAOI FM Radio">
+                <dl>
+                    <dt>Gunars on KAOI FM Radio</dt>
+                    <dd>
+                        CEO Dr. Gunars Valkirs talks first hand about his
+                        motivation with DJ Jack Gist of KAOI FM Radio.
+                    </dd>
+                </dl>
+                <a href="news_detail_18.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/news_19.png" alt="The Maui News Names & Faces">
+                <dl>
+                    <dt>The Maui News Names & Faces</dt>
+                    <dd>
+                        Lisa Foth has been promoted from assistant general
+                        manager to vice president and general
+                    </dd>
+                </dl>
+                <a href="news_detail_19.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/news_20.jpg" alt="This Special Maui-Grown Chocolate and Get a Lesson in All Things Cacao">
+                <dl>
+                    <dt>
+                        This Special Maui-Grown
+                        Chocolate and Get a Lesson in
+                        All Things Cacao
+                    </dt>
+                    <dd>
+                        Learn about Maui Ku'ia Estate Chocolate via
+                        in-person and virtual tastings with the company’s
+                        owners.
+                    </dd>
+                </dl>
+                <a href="news_detail_20.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/news_21.jpg" alt="The Chocolate Journalist">
+                <dl>
+                    <dt>The Chocolate Journalist</dt>
+                    <dd>
+                        Italian Chocolate Aficionados Sharon Terenzi of The
+                        Chocolate Journalist shared another fantastic review
+                        of our Made in Maui chocolate.
+                    </dd>
+                </dl>
+                <a href="news_detail_21.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/news_22.png" alt="2020 ‘Aipono Awards Excellence in Sustainability">
+                <dl>
+                    <dt>
+                        2020 ‘Aipono Awards
+                        Excellence in Sustainability
+                    </dt>
+                    <dd>
+                        This year,  The 2020 ‘Aipono Restaurant Awards
+                        were presented virtually by Maui Nō Ka ‘Oi
+                        Magazine.
+                    </dd>
+                </dl>
+                <a href="news_detail_22.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/news_23.png" alt="Maui Family Magazine 7 Local Gift Ideas For Mother's Day">
+                <dl>
+                    <dt>
+                        Maui Family Magazine 7 Local
+                        Gift Ideas For Mother's Day
+                    </dt>
+                    <dd>
+                        We were recently featured in Maui Family
+                        Magazine's article, "7 Local Gift Ideas For Mother's
+                        Day".
+                    </dd>
+                </dl>
+                <a href="news_detail_23.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/news_24.jpg" alt="Hana Hou! Magazine : The Connoisseur of Cacao">
+                <dl>
+                    <dt>
+                        Hana Hou! Magazine : The
+                        Connoisseur of Cacao
+                    </dt>
+                    <dd>
+                        Dan O'Doherty, our VP of Farm & Factory
+                        Operations, was featured in Hana Hou!
+                    </dd>
+                </dl>
+                <a href="news_detail_24.html">Read more</a>
+            </li>
+        </ul>
+        <div class="pager">
+            <a href="news.html">Prev</a>
+            <a href="news_03.html">next</a>
+            <ol>
+                <li><a href="news.html">1</a></li>
+                <li><a href="news_02.html">2</a></li>
+                <li><a href="news_03.html">3</a></li>
+                <li><a href="news_04.html">4</a></li>
+            </ol>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h2>KU’IA CLUB MEMBER</h2>
+            <p>Sign up for a membership and get 10% discount</p>
+            <input type="email" id="memberShipEmail" placeholder="Enter your email address">
+            <input type="button" value="SUBSCRIBE">
+        </div>
+        <div>
+            <h2>MAUI KU'IA</h2>
+            <ul>
+                <li>
+                    <a href="contactUs.html">Contact us</a>
+                </li>
+                <li>
+                    <a href="team.html">Team</a>
+                </li>
+                <li>
+                    <a href="ourStory.html">Our Story</a>
+                </li>
+                <li>
+                    <a href="cacaoOrigins.html">Cacao Origins</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>FAQ</h2>
+            <ul>
+                <li>
+                    <a href="faq.html">How long until I receive order</a>
+                </li>
+                <li>
+                    <a href="faq.html">Do you offer gift cards?</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is the cacao sourced from</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is your chocolate made?</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>SNS</h2>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/MauiChocolate/"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mauichocolate/?hl=en"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ"></a>
+                </li>
+                <li>
+                    <a href="aloha@mauichocolate.com"></a>
+                </li>
+            </ul>
+            <p>&copy; 2022 MAUI KU’IA ESTATE CHOCOLATE</p>
+        </div>
+    </footer>
+</body>
+</html>

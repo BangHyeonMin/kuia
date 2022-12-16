@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maui Kuia Estate</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div class="popup" id="search">
+        <input type="search" id="detailSearch" placeholder="SEARCH">
+        <a href="#" class="btn_close">CLOSE</a>
+    </div>
+    <div class="popup" id="shoppingBag">
+        <h2 class="btn_close">CART</h2>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    <img src="images/common_chocolateBars_09.png" alt="Dark Chocolate Bar">
+                    <dl>
+                        <dt>Dark Chocolate Bar</dt>
+                        <dd>
+                            $
+                            <input type="text" id="price" value="9.00" readonly>
+                             USD
+                        </dd>
+                    </dl>
+                    <div class="countComp">
+                        <input type="button" value="-" class="countMinus" >
+                        <input type="number" class="qc" id="countNumb" value="1" min="1" max="99" step="1">
+                        <input type="button" value="+" class="countPlus" >
+                    </div>
+                </li>
+            </ul>
+            <span>Subtotal</span>
+            <strong>$ <output id="totalPrice">9.00</output> USD</strong>
+            <input type="submit" value="VIEW CART">
+        </form>
+    </div>
+    <div class="topBannerSub">
+        Hello Summer.
+    </div>
+    <header>
+        <input type="button" value="menu" id="muiNavBtn" class="material-icons">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>
+                    SHOP
+                    <ol>
+                        <li><a href="list_bestSellers.html">Best Sellers</a></li>
+                        <li><a href="list_gifts.html">Gifts</a></li>
+                        <li><a href="list_bakingPantry.html">Baking & Pantry</a></li>
+                        <li><a href="list_atHomeTasting.html">AT&#45;Home Tasting  </a></li>
+                        <li><a href="list_chocolateBars.html">Chocolate Bars</a></li>
+                        <li><a href="list_mauiGrown.html">Maui Grown</a></li>
+                        <li><a href="list_merchandise.html">Merchandise</a></li>
+                        <li><a href="list_bulkChocolateSquares.html">Bulk Chocolate Squares</a></li>
+                    </ol>
+                </li>
+                <li>
+                    EXPLORE
+                    <ol>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ol>
+                </li>
+                <li><a href="cafe.html">Cafe</a></li>
+                <li><a href="monthClub.html">Month club</a></li>
+                <li>
+                    ABOUT US
+                    <ol>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li>
+                        <li><a href="ourStory.html">Our Story</a></li>
+                        <li><a href="cacaoOrigins.html">Cacao Origins</a></li>
+                    </ol>
+                </li>
+            </ul>
+            <div class="navSns">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/MauiChocolate/" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/mauichocolate/?hl=en" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="mailto:aloha@mauichocolate.com"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1><a href="/"><img src="images/logo.png" alt="Maui Kuia Estate"></a></h1>
+        <ul>
+            <li><a href="myPage_login.html"><img src="images/bull_person.png" alt="my page"></a></li>
+            <li class="search"><a href="#" data-panel="search"><img src="images/bull_search.png" alt="search"></a></li>
+            <li class="cart"><a href="#" data-panel="shoppingBag"><img src="images/bull_shoppingbag.png" alt="shopping bag"></a></li>
+        </ul>
+    </header>
+    <section class="recipesDetailContainer">
+        <div>
+            <div class="detailPager">
+                <time datetime="2020-04-01T00:00:00">April 01, 2020</time>
+                <a href="recipes_detail_25.html">Prev</a>
+                <a href="#">next</a>
+            </div>
+            <h2>The BEST Chocolate Martini Recipe</h2>
+            <div class="contentBox">
+                <img src="images/recipes_26.png" alt="The BEST Chocolate Martini Recipe">
+                <p>
+                    We truly believe there is nothing better than delicious chocolate...except, maybe, a delicious
+                    chocolate martini.
+                </p>
+                <p>
+                    Our CEO Gunars Valkirs personally concocted this simple, yet indulgent, recipe for us to share
+                    with you! 
+                </p>
+                <p>
+                    We suggest using our Dark Chocolate Baker's Drops because they melt so quickly on the stove!
+                </p>
+                <p>
+                    Of course, you can always use our chocolate bars or pieces instead. Here is the conversion: 
+                </p>
+                <p>
+                    2 oz of chocolate drops = about 10 5g chocolate pieces or 2 25g chocolate bars
+                </p>
+                <p>
+                    Chocolate Martini Recipe
+                </p>
+                <div>
+                    <h3>INGREDIENTS :</h3>
+                    <ul>
+                        <li>
+                            6 oz Liquid of choice (water, milk, cream, non-dairy milk)
+                        </li>
+                        <li>
+                            2 oz Maui Ku'ia Estate Dark Chocolate Drops
+                        </li>
+                        <li>
+                            2 oz Ocean Vodka
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>DIRECTIONS :</h3>
+                    <ol>
+                        <li>
+                            Heat liquid in saucepan and stir frequently until bubbles start to form (if using heavvy cream,
+                            thin with 2 oz of water).
+                        </li>
+                        <li>
+                            Add the chocolate all at once and mix thoroughly until melted.
+                        </li>
+                        <li>
+                            Bring the liquid back up to the temperature where it just starts to bubble, remove from heat,
+                            and cool slightly before placing it in a container for storage in a refrigerator.
+                            This can be stored for up to 1 week.
+                        </li>
+                        <li>
+                            After the chocolate mixture is cold, add 2 oz of vodka, mix thoroughly and serve.
+                        </li>
+                    </ol>
+                </div>
+                <p>
+                    After trying our 65% Dark Chocolate, we encourage you to experiment with Peppermint, Maui
+                    Coffee, or Blood Orange!
+                </p>
+            </div>
+            <form>
+                <fieldset>
+                    <legend>LEAVE A COMMENT</legend>
+                    <input type="text" id="newsCommentName" placeholder="Name">
+                    <input type="email" id="newsCommentEmail" placeholder="Email">
+                    <textarea id="newsCommentTextarea" cols="50" rows="10" placeholder="Comment"></textarea>
+                    <span>All comments are moderated before being published</span>
+                    <input type="submit" class="btn" value="POST COMMENT">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h2>KU’IA CLUB MEMBER</h2>
+            <p>Sign up for a membership and get 10% discount</p>
+            <input type="email" id="memberShipEmail" placeholder="Enter your email address">
+            <input type="button" value="SUBSCRIBE">
+        </div>
+        <div>
+            <h2>MAUI KU'IA</h2>
+            <ul>
+                <li>
+                    <a href="contactUs.html">Contact us</a>
+                </li>
+                <li>
+                    <a href="team.html">Team</a>
+                </li>
+                <li>
+                    <a href="ourStory.html">Our Story</a>
+                </li>
+                <li>
+                    <a href="cacaoOrigins.html">Cacao Origins</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>FAQ</h2>
+            <ul>
+                <li>
+                    <a href="faq.html">How long until I receive order</a>
+                </li>
+                <li>
+                    <a href="faq.html">Do you offer gift cards?</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is the cacao sourced from</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is your chocolate made?</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>SNS</h2>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/MauiChocolate/"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mauichocolate/?hl=en"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ"></a>
+                </li>
+                <li>
+                    <a href="aloha@mauichocolate.com"></a>
+                </li>
+            </ul>
+            <p>&copy; 2022 MAUI KU’IA ESTATE CHOCOLATE</p>
+        </div>
+    </footer>
+</body>
+</html>

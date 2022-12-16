@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maui Kuia Estate</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div class="popup" id="search">
+        <input type="search" id="detailSearch" placeholder="SEARCH">
+        <a href="#" class="btn_close">CLOSE</a>
+    </div>
+    <div class="popup" id="shoppingBag">
+        <h2 class="btn_close">CART</h2>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    <img src="images/common_chocolateBars_09.png" alt="Dark Chocolate Bar">
+                    <dl>
+                        <dt>Dark Chocolate Bar</dt>
+                        <dd>
+                            $
+                            <input type="text" id="price" value="9.00" readonly>
+                             USD
+                        </dd>
+                    </dl>
+                    <div class="countComp">
+                        <input type="button" value="-" class="countMinus" >
+                        <input type="number" class="qc" id="countNumb" value="1" min="1" max="99" step="1">
+                        <input type="button" value="+" class="countPlus" >
+                    </div>
+                </li>
+            </ul>
+            <span>Subtotal</span>
+            <strong>$ <output id="totalPrice">9.00</output> USD</strong>
+            <input type="submit" value="VIEW CART">
+        </form>
+    </div>
+    <div class="topBannerSub">
+        Hello Summer.
+    </div>
+    <header>
+        <input type="button" value="menu" id="muiNavBtn" class="material-icons">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>
+                    SHOP
+                    <ol>
+                        <li><a href="list_bestSellers.html">Best Sellers</a></li>
+                        <li><a href="list_gifts.html">Gifts</a></li>
+                        <li><a href="list_bakingPantry.html">Baking & Pantry</a></li>
+                        <li><a href="list_atHomeTasting.html">AT&#45;Home Tasting  </a></li>
+                        <li><a href="list_chocolateBars.html">Chocolate Bars</a></li>
+                        <li><a href="list_mauiGrown.html">Maui Grown</a></li>
+                        <li><a href="list_merchandise.html">Merchandise</a></li>
+                        <li><a href="list_bulkChocolateSquares.html">Bulk Chocolate Squares</a></li>
+                    </ol>
+                </li>
+                <li>
+                    EXPLORE
+                    <ol>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ol>
+                </li>
+                <li><a href="cafe.html">Cafe</a></li>
+                <li><a href="monthClub.html">Month club</a></li>
+                <li>
+                    ABOUT US
+                    <ol>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li>
+                        <li><a href="ourStory.html">Our Story</a></li>
+                        <li><a href="cacaoOrigins.html">Cacao Origins</a></li>
+                    </ol>
+                </li>
+            </ul>
+            <div class="navSns">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/MauiChocolate/" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/mauichocolate/?hl=en" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="mailto:aloha@mauichocolate.com"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1><a href="/"><img src="images/logo.png" alt="Maui Kuia Estate"></a></h1>
+        <ul>
+            <li><a href="myPage_login.html"><img src="images/bull_person.png" alt="my page"></a></li>
+            <li class="search"><a href="#" data-panel="search"><img src="images/bull_search.png" alt="search"></a></li>
+            <li class="cart"><a href="#" data-panel="shoppingBag"><img src="images/bull_shoppingbag.png" alt="shopping bag"></a></li>
+        </ul>
+    </header>
+    <section class="recipesDetailContainer">
+        <div>
+            <div class="detailPager">
+                <time datetime="2020-04-25T00:00:00">April 25, 2020</time>
+                <a href="recipes_detail_17.html">Prev</a>
+                <a href="recipes_detail_19.html">next</a>
+            </div>
+            <h2>Tequila & Chocolate Pairings</h2>
+            <div class="contentBox">
+                <img src="images/recipes_18.jpg" alt="Tequila & Chocolate Pairings">
+                <img src="images/recipes_18_02.png" alt="Tequila & Chocolate Pairings">
+                <p>
+                    In preparation for Cinco de Mayo, I tasted many of our chocolates together with three
+                    Casamigos Tequilas, Blanco, Reposado and Anejo.
+                </p>
+                <p>
+                    As a quick reminder, Blanco is the youngest, aged less than two months if at all, Reposado is
+                    “rested” in large oak barrels for 2-12 months, and Anejo is aged in smaller oak barrels for
+                    more than 12 months.
+                </p>
+                <p>
+                    In general Blanco is the purest expression of the flavor derived from distilling blue agave,
+                    Reposado adds some oak and sweetness, and Anejo adds more oak and other complex flavors
+                    including caramel.
+                </p>
+                <p>
+                    I tasted all of these (someone had to do it!) with our three newest chocolate products and our
+                    two other standards, 65% dark chocolate and 60% dark milk chocolate, that have been the
+                    basis of our products until these new releases.
+                </p>
+                <p>
+                    In general, the chocolates work best with the Blanco and Reposado and not as well with the
+                    Anejo because of the pronounced flavor of oak. Of our new releases only the 78% dark
+                    chocolate from Costa Esmeraldas stood up to the intense, complex flavors of the Anejo because
+                    that chocolate is similarly intense and complex.
+                </p>
+                <p>
+                    The Blanco and Reposado both worked well with the new chocolate from wild Amazon cacao
+                    (70% cacao) and our own Maui grown Made in Maui chocolate (72% cacao).The fruitiness of
+                    the Maui chocolate was complemented by both Blanco and Reposado which both have a
+                    pronounced fruitiness.
+                </p>
+                <p>
+                    I am a fan of Reposado because it retains the fruit of the Blanco and injects some sweetness
+                    from esters developed by aging but not overwhelmed by oak.
+                    If I had one Tequila to drink to complement our chocolate it would be Reposado. 
+                </p>
+                <p>
+                    Similar findings were found with our 65% dark chocolate and our 65% dark milk chocolate
+                    with a couple of exceptions.
+                </p>
+                <p>
+                    Surprisingly, the 60% dark milk held up to the oakiness of the Anejo!
+                </p>
+                <p>
+                    I believe that the reduced sugar content of the 60% dark milk and the general property that milk
+                    has to reduce the intensity of flavors had a lot to do with this.
+                </p>
+                <p>
+                    I did not try any of the flavored chocolates with these Tequilas with one exception, 65% dark
+                    chocolate with lemongrass essential oil, our most polarizing product.
+                </p>
+                <p>
+                    Some people think it is the best product we make and others just don’t get it. I tried it with the
+                    Anejo and it worked well together even though the 65% dark chocolate without lemongrass did
+                    not work at all for me with Anejo.
+                </p>
+                <p>
+                    One last comment is that because of the high alcohol content of Tequila, it can be mixed in
+                    limited quantities with the melted chocolate in your mouth.
+                </p>
+                <p>
+                    Trying this with water will not work and liquids that have a high water content like beer and
+                    wine will inhibit the melting of chocolate.
+                </p>
+                <p>
+                    Therefore, Tequila opens up an almost infinite number of chocolate/Tequila combinations and I
+                    encourage you to enjoy them responsibly.
+                </p>
+                <p>
+                    Dr. Gunars Valkirs, CEO
+                </p>
+            </div>
+            <form>
+                <fieldset>
+                    <legend>LEAVE A COMMENT</legend>
+                    <input type="text" id="newsCommentName" placeholder="Name">
+                    <input type="email" id="newsCommentEmail" placeholder="Email">
+                    <textarea id="newsCommentTextarea" cols="50" rows="10" placeholder="Comment"></textarea>
+                    <span>All comments are moderated before being published</span>
+                    <input type="submit" class="btn" value="POST COMMENT">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h2>KU’IA CLUB MEMBER</h2>
+            <p>Sign up for a membership and get 10% discount</p>
+            <input type="email" id="memberShipEmail" placeholder="Enter your email address">
+            <input type="button" value="SUBSCRIBE">
+        </div>
+        <div>
+            <h2>MAUI KU'IA</h2>
+            <ul>
+                <li>
+                    <a href="contactUs.html">Contact us</a>
+                </li>
+                <li>
+                    <a href="team.html">Team</a>
+                </li>
+                <li>
+                    <a href="ourStory.html">Our Story</a>
+                </li>
+                <li>
+                    <a href="cacaoOrigins.html">Cacao Origins</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>FAQ</h2>
+            <ul>
+                <li>
+                    <a href="faq.html">How long until I receive order</a>
+                </li>
+                <li>
+                    <a href="faq.html">Do you offer gift cards?</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is the cacao sourced from</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is your chocolate made?</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>SNS</h2>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/MauiChocolate/"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mauichocolate/?hl=en"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ"></a>
+                </li>
+                <li>
+                    <a href="aloha@mauichocolate.com"></a>
+                </li>
+            </ul>
+            <p>&copy; 2022 MAUI KU’IA ESTATE CHOCOLATE</p>
+        </div>
+    </footer>
+</body>
+</html>

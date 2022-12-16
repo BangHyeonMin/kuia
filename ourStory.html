@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maui Kuia Estate</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div class="popup" id="search">
+        <input type="search" id="detailSearch" placeholder="SEARCH">
+        <a href="#" class="btn_close">CLOSE</a>
+    </div>
+    <div class="popup" id="shoppingBag">
+        <h2 class="btn_close">CART</h2>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    <img src="images/common_chocolateBars_09.png" alt="Dark Chocolate Bar">
+                    <dl>
+                        <dt>Dark Chocolate Bar</dt>
+                        <dd>
+                            $
+                            <input type="text" id="price" value="9.00" readonly>
+                             USD
+                        </dd>
+                    </dl>
+                    <div class="countComp">
+                        <input type="button" value="-" class="countMinus" >
+                        <input type="number" class="qc" id="countNumb" value="1" min="1" max="99" step="1">
+                        <input type="button" value="+" class="countPlus" >
+                    </div>
+                </li>
+            </ul>
+            <span>Subtotal</span>
+            <strong>$ <output id="totalPrice">9.00</output> USD</strong>
+            <input type="submit" value="VIEW CART">
+        </form>
+    </div>
+    <div class="topBannerSub">
+        Hello Summer.
+    </div>
+    <header>
+        <input type="button" value="menu" id="muiNavBtn" class="material-icons">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>
+                    SHOP
+                    <ol>
+                        <li><a href="list_bestSellers.html">Best Sellers</a></li>
+                        <li><a href="list_gifts.html">Gifts</a></li>
+                        <li><a href="list_bakingPantry.html">Baking & Pantry</a></li>
+                        <li><a href="list_atHomeTasting.html">AT&#45;Home Tasting  </a></li>
+                        <li><a href="list_chocolateBars.html">Chocolate Bars</a></li>
+                        <li><a href="list_mauiGrown.html">Maui Grown</a></li>
+                        <li><a href="list_merchandise.html">Merchandise</a></li>
+                        <li><a href="list_bulkChocolateSquares.html">Bulk Chocolate Squares</a></li>
+                    </ol>
+                </li>
+                <li>
+                    EXPLORE
+                    <ol>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ol>
+                </li>
+                <li><a href="cafe.html">Cafe</a></li>
+                <li><a href="monthClub.html">Month club</a></li>
+                <li>
+                    ABOUT US
+                    <ol>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li>
+                        <li><a href="ourStory.html">Our Story</a></li>
+                        <li><a href="cacaoOrigins.html">Cacao Origins</a></li>
+                    </ol>
+                </li>
+            </ul>
+            <div class="navSns">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/MauiChocolate/" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/mauichocolate/?hl=en" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="mailto:aloha@mauichocolate.com"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1><a href="/"><img src="images/logo.png" alt="Maui Kuia Estate"></a></h1>
+        <ul>
+            <li><a href="myPage_login.html"><img src="images/bull_person.png" alt="my page"></a></li>
+            <li class="search"><a href="#" data-panel="search"><img src="images/bull_search.png" alt="search"></a></li>
+            <li class="cart"><a href="#" data-panel="shoppingBag"><img src="images/bull_shoppingbag.png" alt="shopping bag"></a></li>
+        </ul>
+    </header>
+    <section class="ourStoryContainer">
+        <div class="wrap">
+            <h2>OUR STORY</h2>
+            <p>
+                In the Hawaiian language, kuleana can be defined as accepting responsibility with understanding and intent.
+            </p>
+            <p>
+                It is our kuleana to serve our community to the best of our ability.
+            </p>
+            <p>
+                At Maui Ku'ia Estate Chocolate, it is our privilege to support our local nonprofit community and implement pono practices into our business operations.
+            </p>
+            <div>
+                <h3>HOW WE GOT HERE</h3>
+                <div>
+                    <ul class="memberSlider">
+                        <li>
+                            <img src="images/ourStory_slider_01.png" alt="In 2013">
+                            <div>
+                                <p>
+                                    In 2013, Dr. Gunars Valkirs, leased the farmland that would become the Maui Ku'ia Estate cacao farm.
+                                </p>
+                                <p>
+                                    He began work on a cacao farm operation with the first cacao plantings and blessings occurring on the
+                                    2013 winter solstice.
+                                </p>
+                                <p>
+                                    The winter solstice marks the estate's oldest trees - special hybrids that were created by our VP of Farm &
+                                    Factory Operations, Dan O’Doherty.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/ourStory_slider_02.png" alt="In 2016">
+                            <div>
+                                <p>
+                                    By the time the first ten acres were planted in 2016, Gunars had to decide how to keep growing
+                                    high-quality cacao while also maintaining an economically sustainable farm.
+                                </p>
+                                <p>
+                                    The only way to make the business viable was to make and sell chocolate, but Gunars had a bigger
+                                    mission.
+                                </p>
+                                <p>
+                                    Though the farm may have started as a hobby for our CEO, the decision to start a chocolate company was
+                                    born.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/ourStory_slider_03.png" alt="In 2019">
+                            <div>
+                                <p>
+                                    Through their family foundation, Makana Aloha Foundation, Gunars and his wife, JoRene, recognized that
+                                    the needs in the non-profit community could not be met by current funding and wanted to do more.
+                                </p>
+                                <p>
+                                    They decided to invest in building a chocolate company where 100% of net-profits would be given back to
+                                    the Maui community, their home.
+                                </p>
+                                <p>
+                                    The decision to create a mission-driven chocolate company triggered factory design and construction,
+                                    which was completed in late 2019.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="customControler">
+                        <span class="btnPrev"></span>
+                        <span class="btnNext"></span>
+                    </div>
+                </div>
+                <blockquote>
+                    " The answer came from what my family had already been doing for eight years,
+                    giving back to the Maui non-profit community. "
+                </blockquote>
+            </div>
+            <div>
+                <dl>
+                    <dt>Supporting Our Community</dt>
+                    <dd>
+                        It is our privilege to be able to give back to the
+                        community in which our delicious chocolate
+                        is made, by donating 100% of our net profits to
+                        Maui charities and non-profit organizations.
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Environmental Sustainability</dt>
+                    <dd>
+                        We strive to continually improve our focus on
+                        sustainability.
+                    </dd>
+                    <dd>
+                        We have achieved a net zero carbon footprint through
+                        our dedication to agricultural production and solar
+                        powered facilities.
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Award</dt>
+                    <dd>
+                        we have gone on to produce some of the world's
+                        best cacao and award-winning chocolate - as
+                        evidence by the 2021 Cocoa of Excellence Gold
+                        Award for the Asia Pacific region and the 2022 Good
+                        Food Award.
+                    </dd>
+                </dl>
+            </div>
+            <div>
+                <h3>Meet Our Founder</h3>
+                <p>
+                    Former biotech scientist, Dr. Gunars Valkirs, first leased the farmland in 2013 and began work on cacao farm operation.
+                </p>
+                <p>
+                    Throughout his career in San Diego, Gunars always grew fruit trees.
+                </p>
+                <p>
+                    When he moved to Maui, he was Intrigued by the fact that Hawai’i is the only state in the U.S. where cacao can be grown outside.
+                </p>
+                <p>
+                    Gunars began planting cacao at his home in Kapalua almost 10 years ago as part of a UH Manoa field trial to determine what growing conditions were suitable for cacao.
+                </p>
+                <p>
+                    Having previously considered making wine as a second career, Gunars realized the chocolate making process had many similar features to wine making.
+                </p>
+                <p>
+                    Wine and chocolate are also the perfect pairing, so he loved being able to explore a fascination with both at the same time.
+                </p>
+                <a href="team.html" class="btn">MEET NOW</a>
+                <img src="images/ourStory_bg.jpg" alt="our view from the sky">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h2>KU’IA CLUB MEMBER</h2>
+            <p>Sign up for a membership and get 10% discount</p>
+            <input type="email" id="memberShipEmail" placeholder="Enter your email address">
+            <input type="button" value="SUBSCRIBE">
+        </div>
+        <div>
+            <h2>MAUI KU'IA</h2>
+            <ul>
+                <li>
+                    <a href="contactUs.html">Contact us</a>
+                </li>
+                <li>
+                    <a href="team.html">Team</a>
+                </li>
+                <li>
+                    <a href="ourStory.html">Our Story</a>
+                </li>
+                <li>
+                    <a href="cacaoOrigins.html">Cacao Origins</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>FAQ</h2>
+            <ul>
+                <li>
+                    <a href="faq.html">How long until I receive order</a>
+                </li>
+                <li>
+                    <a href="faq.html">Do you offer gift cards?</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is the cacao sourced from</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is your chocolate made?</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>SNS</h2>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/MauiChocolate/"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mauichocolate/?hl=en"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ"></a>
+                </li>
+                <li>
+                    <a href="aloha@mauichocolate.com"></a>
+                </li>
+            </ul>
+            <p>&copy; 2022 MAUI KU’IA ESTATE CHOCOLATE</p>
+        </div>
+    </footer>
+</body>
+</html>

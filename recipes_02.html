@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maui Kuia Estate</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div class="popup" id="search">
+        <input type="search" id="detailSearch" placeholder="SEARCH">
+        <a href="#" class="btn_close">CLOSE</a>
+    </div>
+    <div class="popup" id="shoppingBag">
+        <h2 class="btn_close">CART</h2>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    <img src="images/common_chocolateBars_09.png" alt="Dark Chocolate Bar">
+                    <dl>
+                        <dt>Dark Chocolate Bar</dt>
+                        <dd>
+                            $
+                            <input type="text" id="price" value="9.00" readonly>
+                             USD
+                        </dd>
+                    </dl>
+                    <div class="countComp">
+                        <input type="button" value="-" class="countMinus" >
+                        <input type="number" class="qc" id="countNumb" value="1" min="1" max="99" step="1">
+                        <input type="button" value="+" class="countPlus" >
+                    </div>
+                </li>
+            </ul>
+            <span>Subtotal</span>
+            <strong>$ <output id="totalPrice">9.00</output> USD</strong>
+            <input type="submit" value="VIEW CART">
+        </form>
+    </div>
+    <div class="topBannerSub">
+        Hello Summer.
+    </div>
+    <header>
+        <input type="button" value="menu" id="muiNavBtn" class="material-icons">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>
+                    SHOP
+                    <ol>
+                        <li><a href="list_bestSellers.html">Best Sellers</a></li>
+                        <li><a href="list_gifts.html">Gifts</a></li>
+                        <li><a href="list_bakingPantry.html">Baking & Pantry</a></li>
+                        <li><a href="list_atHomeTasting.html">AT&#45;Home Tasting  </a></li>
+                        <li><a href="list_chocolateBars.html">Chocolate Bars</a></li>
+                        <li><a href="list_mauiGrown.html">Maui Grown</a></li>
+                        <li><a href="list_merchandise.html">Merchandise</a></li>
+                        <li><a href="list_bulkChocolateSquares.html">Bulk Chocolate Squares</a></li>
+                    </ol>
+                </li>
+                <li>
+                    EXPLORE
+                    <ol>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ol>
+                </li>
+                <li><a href="cafe.html">Cafe</a></li>
+                <li><a href="monthClub.html">Month club</a></li>
+                <li>
+                    ABOUT US
+                    <ol>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li>
+                        <li><a href="ourStory.html">Our Story</a></li>
+                        <li><a href="cacaoOrigins.html">Cacao Origins</a></li>
+                    </ol>
+                </li>
+            </ul>
+            <div class="navSns">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/MauiChocolate/" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/mauichocolate/?hl=en" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="mailto:aloha@mauichocolate.com"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1><a href="/"><img src="images/logo.png" alt="Maui Kuia Estate"></a></h1>
+        <ul>
+            <li><a href="myPage_login.html"><img src="images/bull_person.png" alt="my page"></a></li>
+            <li class="search"><a href="#" data-panel="search"><img src="images/bull_search.png" alt="search"></a></li>
+            <li class="cart"><a href="#" data-panel="shoppingBag"><img src="images/bull_shoppingbag.png" alt="shopping bag"></a></li>
+        </ul>
+    </header>
+    <section class="recipesContainer">
+        <h2>RECIPES</h2>
+        <ul>
+            <li>
+                <img src="images/recipes_13.jpg" alt="Ku'ia BBQ Dry Rub Recipe">
+                <dl>
+                    <dt>Ku'ia BBQ Dry Rub Recipe</dt>
+                    <dd>
+                        It's BBQ season! Time to fire up the grill and try our
+                        cocoa dry rub.                        
+                    </dd>
+                </dl>
+                <a href="recipes_detail_13.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/recipes_14.jpg" alt="Father's Day Dinner Lasagna and Chocolate Crinkle Cookies">
+                <dl>
+                    <dt>
+                        Father's Day Dinner Lasagna
+                        and Chocolate Crinkle
+                        Cookies
+                    </dt>
+                    <dd>
+                        Father's Day is coming up sooner than you think!
+                    </dd>
+                </dl>
+                <a href="recipes_detail_14.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/recipes_15.jpg" alt="Lisa's Chocolate Peanut Butter Balls">
+                <dl>
+                    <dt>Lisa's Chocolate Peanut Butter Balls</dt>
+                    <dd>
+                        Lisa Foth, MKEC's Assistant General Manager, has a
+                        great family recipe for chocolate peanut butter balls
+                        that she wants to share with us.
+                    </dd>
+                </dl>
+                <a href="recipes_detail_15.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/recipes_16.png" alt=" Ku'ia Chocolate Chip Pancakes">
+                <dl>
+                    <dt>
+                        Ku'ia Chocolate Chip Pancakes
+                    </dt>
+                    <dd>
+                        We have some amazing recipe from Maui's very
+                        own chefs to share with you.
+                    </dd>
+                </dl>
+                <a href="recipes_detail_16.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/recipes_17.jpg" alt="Chocolate Risotto Recipe">
+                <dl>
+                    <dt>Chocolate Risotto Recipe</dt>
+                    <dd>
+                        Our CEO Dr. Gunars Valkirs spent last weekend
+                        developing this unique and delicious treat!
+                    </dd>
+                </dl>
+                <a href="recipes_detail_17.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/recipes_18.jpg" alt="Tequila & Chocolate Pairings">
+                <dl>
+                    <dt>Tequila & Chocolate Pairings</dt>
+                    <dd>
+                        Tequila opens up an almost infinite number of
+                        chocolate/Tequila combinations and I encourage you
+                        to enjoy them responsibly.
+                    </dd>
+                </dl>
+                <a href="recipes_detail_18.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/recipes_19.png" alt="Mexican Hot Chocolate">
+                <dl>
+                    <dt>Mexican Hot Chocolate</dt>
+                    <dd>
+                        Here are three great recipes for hot chocolate.
+                    </dd>
+                </dl>
+                <a href="recipes_detail_19.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/recipes_20.jpg" alt="Mole 2 Ways">
+                <dl>
+                    <dt>Mole 2 Ways</dt>
+                    <dd>
+                        We have not one, but two great mole recipes for you to try at home this year.
+                    </dd>
+                </dl>
+                <a href="recipes_detail_20.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/recipes_21.png" alt="Ku'ia Whipped Coffee">
+                <dl>
+                    <dt>Ku'ia Whipped Coffee</dt>
+                    <dd>
+                        By now, you've probably seen how trendy Whipped
+                        Coffee, or Dalgona Coffee, has become.
+                    </dd>
+                </dl>
+                <a href="recipes_detail_21.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/recipes_22.jpg" alt="Vegan, Gluten Free Double Chocolate Chunk Cookies">
+                <dl>
+                    <dt>
+                        Vegan, Gluten Free Double
+                        Chocolate Chunk Cookies
+                    </dt>
+                    <dd>
+                        By now, you've probably seen how trendy Whipped
+                        Coffee, or Dalgona Coffee, has become.
+                    </dd>
+                </dl>
+                <a href="recipes_detail_22.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/recipes_23.png" alt="Big, Chewy Chocolate Chip Cookies">
+                <dl>
+                    <dt>
+                        Big, Chewy Chocolate Chip
+                        Cookies
+                    </dt>
+                    <dd>
+                        Our Sales & Marketing Manager Ashley is sharing
+                        her favorite chocolate chip cookie recipe with us.
+                    </dd>
+                </dl>
+                <a href="recipes_detail_23.html">Read more</a>
+            </li>
+            <li>
+                <img src="images/recipes_24.png" alt="Easter Bunny Tracks Ice Cream Sundae">
+                <dl>
+                    <dt>
+                        Easter Bunny Tracks Ice
+                        Cream Sundae
+                    </dt>
+                    <dd>
+                        Today, we are sharing our fool-proof recipe for our
+                        Easter Bunny Tracks Ice Cream Sundae.
+                    </dd>
+                </dl>
+                <a href="recipes_detail_24.html">Read more</a>
+            </li>
+        </ul>
+        <div class="pager">
+            <a href="recipes.html">Prev</a>
+            <a href="recipes_03.html">next</a>
+            <ol>
+                <li><a href="recipes.html">1</a></li>
+                <li><a href="recipes_02.html">2</a></li>
+                <li><a href="recipes_03.html">3</a></li>
+            </ol>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h2>KU’IA CLUB MEMBER</h2>
+            <p>Sign up for a membership and get 10% discount</p>
+            <input type="email" id="memberShipEmail" placeholder="Enter your email address">
+            <input type="button" value="SUBSCRIBE">
+        </div>
+        <div>
+            <h2>MAUI KU'IA</h2>
+            <ul>
+                <li>
+                    <a href="contactUs.html">Contact us</a>
+                </li>
+                <li>
+                    <a href="team.html">Team</a>
+                </li>
+                <li>
+                    <a href="ourStory.html">Our Story</a>
+                </li>
+                <li>
+                    <a href="cacaoOrigins.html">Cacao Origins</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>FAQ</h2>
+            <ul>
+                <li>
+                    <a href="faq.html">How long until I receive order</a>
+                </li>
+                <li>
+                    <a href="faq.html">Do you offer gift cards?</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is the cacao sourced from</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is your chocolate made?</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>SNS</h2>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/MauiChocolate/"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mauichocolate/?hl=en"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ"></a>
+                </li>
+                <li>
+                    <a href="aloha@mauichocolate.com"></a>
+                </li>
+            </ul>
+            <p>&copy; 2022 MAUI KU’IA ESTATE CHOCOLATE</p>
+        </div>
+    </footer>
+</body>
+</html>

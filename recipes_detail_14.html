@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maui Kuia Estate</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div class="popup" id="search">
+        <input type="search" id="detailSearch" placeholder="SEARCH">
+        <a href="#" class="btn_close">CLOSE</a>
+    </div>
+    <div class="popup" id="shoppingBag">
+        <h2 class="btn_close">CART</h2>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    <img src="images/common_chocolateBars_09.png" alt="Dark Chocolate Bar">
+                    <dl>
+                        <dt>Dark Chocolate Bar</dt>
+                        <dd>
+                            $
+                            <input type="text" id="price" value="9.00" readonly>
+                             USD
+                        </dd>
+                    </dl>
+                    <div class="countComp">
+                        <input type="button" value="-" class="countMinus" >
+                        <input type="number" class="qc" id="countNumb" value="1" min="1" max="99" step="1">
+                        <input type="button" value="+" class="countPlus" >
+                    </div>
+                </li>
+            </ul>
+            <span>Subtotal</span>
+            <strong>$ <output id="totalPrice">9.00</output> USD</strong>
+            <input type="submit" value="VIEW CART">
+        </form>
+    </div>
+    <div class="topBannerSub">
+        Hello Summer.
+    </div>
+    <header>
+        <input type="button" value="menu" id="muiNavBtn" class="material-icons">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>
+                    SHOP
+                    <ol>
+                        <li><a href="list_bestSellers.html">Best Sellers</a></li>
+                        <li><a href="list_gifts.html">Gifts</a></li>
+                        <li><a href="list_bakingPantry.html">Baking & Pantry</a></li>
+                        <li><a href="list_atHomeTasting.html">AT&#45;Home Tasting  </a></li>
+                        <li><a href="list_chocolateBars.html">Chocolate Bars</a></li>
+                        <li><a href="list_mauiGrown.html">Maui Grown</a></li>
+                        <li><a href="list_merchandise.html">Merchandise</a></li>
+                        <li><a href="list_bulkChocolateSquares.html">Bulk Chocolate Squares</a></li>
+                    </ol>
+                </li>
+                <li>
+                    EXPLORE
+                    <ol>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ol>
+                </li>
+                <li><a href="cafe.html">Cafe</a></li>
+                <li><a href="monthClub.html">Month club</a></li>
+                <li>
+                    ABOUT US
+                    <ol>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li>
+                        <li><a href="ourStory.html">Our Story</a></li>
+                        <li><a href="cacaoOrigins.html">Cacao Origins</a></li>
+                    </ol>
+                </li>
+            </ul>
+            <div class="navSns">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/MauiChocolate/" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/mauichocolate/?hl=en" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="mailto:aloha@mauichocolate.com"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1><a href="/"><img src="images/logo.png" alt="Maui Kuia Estate"></a></h1>
+        <ul>
+            <li><a href="myPage_login.html"><img src="images/bull_person.png" alt="my page"></a></li>
+            <li class="search"><a href="#" data-panel="search"><img src="images/bull_search.png" alt="search"></a></li>
+            <li class="cart"><a href="#" data-panel="shoppingBag"><img src="images/bull_shoppingbag.png" alt="shopping bag"></a></li>
+        </ul>
+    </header>
+    <section class="recipesDetailContainer">
+        <div>
+            <div class="detailPager">
+                <time datetime="2020-06-04T00:00:00">June 04, 2020</time>
+                <a href="recipes_detail_13.html">Prev</a>
+                <a href="recipes_detail_15.html">next</a>
+            </div>
+            <h2>Father's Day Dinner Lasagna and Chocolate Crinkle Cookies</h2>
+            <div class="contentBox">
+                <img src="images/recipes_14.jpg" alt="Father's Day Dinner Lasagna and Chocolate Crinkle Cookies">
+                <img src="images/recipes_14_02.png" alt="Father's Day Dinner Lasagna and Chocolate Crinkle Cookies">
+                <p>
+                    Father's Day is coming up sooner than you think!
+                </p>
+                <p>
+                    If you have eaten at Kapalua's Taverna, then chances are you are familiar with their beloved lasagna.
+                </p>
+                <p>
+                    Lucky for us, Chef Roger Stettler has been kind enough to share the very recipe he uses to make Taverna's lasagna.
+                </p>
+                <p>
+                    It is an old family recipe passed down from his grandmother to his mother. 
+                </p>
+                <p>
+                    We think it makes the perfect meal to feed the entire family for Father's Day.
+                </p>
+                <p>
+                    Finish it off with some homemade chocolate crinkle cookies for dessert!
+                </p>
+                <p>
+                    Maui Ku'ia Estate Chocolate Crinkle Cookies Recipe
+                </p>
+                <p>
+                    Chef Roger Stettler of Taverna enjoyed some quality time with his keiki munching up these yummy cookies.
+                </p>
+                <p>
+                    We love that you can save some extra dough in the freezer for future use.
+                </p>
+                <div>
+                    <h3>INGREDIENTS :</h3>
+                    <ul>
+                        <li>
+                            Makes about 12-16 cookies
+                        </li>
+                        <li>
+                            12 oz (2 cups) 65% Maui Dark Chocolate Drops
+                        </li>
+                        <li>
+                            2 oz (3 tbsp) unsalted butter, soft
+                        </li>
+                        <li>
+                            3 whole eggs
+                        </li>
+                        <li>
+                            3.5 oz (1/2 cup) sugar, granulated
+                        </li>
+                        <li>
+                            3.5 oz (3/4 cup) cake flour
+                        </li>
+                        <li>
+                            1/4 tsp baking powder
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>DIRECTIONS :</h3>
+                    <ol>
+                        <li>
+                            Melt the chocolate and butter over a water bath.
+                        </li>
+                        <li>
+                            Whisk the eggs and sugar together until foamy.
+                        </li>
+                        <li>
+                            Sift the cake flour and baking power together.
+                        </li>
+                        <li>
+                            Add the chocolate mixture to the eggs and sugar, mixing until fully incorporated.
+                        </li>
+                        <li>
+                            Add the flour mixture slowly to avoid lumps.
+                        </li>
+                        <li>
+                            Chill at least 4 hours, or until firm enough to scoop.
+                        </li>
+                        <li>
+                            Use a small ice cream scoop to portion. Refrigerate again or can be frozen at this stage for future use.
+                        </li>
+                        <li>
+                            Roll in sifted powderd sugar until generously coated (do this prior to baking). You should not see any of the
+                            chocolate.
+                        </li>
+                        <li>
+                            Place on a baking sheet lined with parchment paper, and immediately bake in preheated oven at 350°F, middle
+                            shelf, for approximately 15-20 minutes.
+                        </li>
+                        <li>
+                            Allow to completely cool before removing from the baking tray.
+                        </li>
+                    </ol>
+                </div>
+                <p>
+                    They are best eaten on the day they are baked but will keep for 2 days in an airtight container. Frozen dough will keep
+                    for up to 1 month in the freezer.
+                    Enjoy!
+                </p>
+            </div>
+            <form>
+                <fieldset>
+                    <legend>LEAVE A COMMENT</legend>
+                    <input type="text" id="newsCommentName" placeholder="Name">
+                    <input type="email" id="newsCommentEmail" placeholder="Email">
+                    <textarea id="newsCommentTextarea" cols="50" rows="10" placeholder="Comment"></textarea>
+                    <span>All comments are moderated before being published</span>
+                    <input type="submit" class="btn" value="POST COMMENT">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h2>KU’IA CLUB MEMBER</h2>
+            <p>Sign up for a membership and get 10% discount</p>
+            <input type="email" id="memberShipEmail" placeholder="Enter your email address">
+            <input type="button" value="SUBSCRIBE">
+        </div>
+        <div>
+            <h2>MAUI KU'IA</h2>
+            <ul>
+                <li>
+                    <a href="contactUs.html">Contact us</a>
+                </li>
+                <li>
+                    <a href="team.html">Team</a>
+                </li>
+                <li>
+                    <a href="ourStory.html">Our Story</a>
+                </li>
+                <li>
+                    <a href="cacaoOrigins.html">Cacao Origins</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>FAQ</h2>
+            <ul>
+                <li>
+                    <a href="faq.html">How long until I receive order</a>
+                </li>
+                <li>
+                    <a href="faq.html">Do you offer gift cards?</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is the cacao sourced from</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is your chocolate made?</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>SNS</h2>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/MauiChocolate/"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mauichocolate/?hl=en"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ"></a>
+                </li>
+                <li>
+                    <a href="aloha@mauichocolate.com"></a>
+                </li>
+            </ul>
+            <p>&copy; 2022 MAUI KU’IA ESTATE CHOCOLATE</p>
+        </div>
+    </footer>
+</body>
+</html>

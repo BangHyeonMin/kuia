@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maui Kuia Estate</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div class="popup" id="search">
+        <input type="search" id="detailSearch" placeholder="SEARCH">
+        <a href="#" class="btn_close">CLOSE</a>
+    </div>
+    <div class="popup" id="shoppingBag">
+        <h2 class="btn_close">CART</h2>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    <img src="images/common_chocolateBars_09.png" alt="Dark Chocolate Bar">
+                    <dl>
+                        <dt>Dark Chocolate Bar</dt>
+                        <dd>
+                            $
+                            <input type="text" id="price" value="9.00" readonly>
+                             USD
+                        </dd>
+                    </dl>
+                    <div class="countComp">
+                        <input type="button" value="-" class="countMinus" >
+                        <input type="number" class="qc" id="countNumb" value="1" min="1" max="99" step="1">
+                        <input type="button" value="+" class="countPlus" >
+                    </div>
+                </li>
+            </ul>
+            <span>Subtotal</span>
+            <strong>$ <output id="totalPrice">9.00</output> USD</strong>
+            <input type="submit" value="VIEW CART">
+        </form>
+    </div>
+    <div class="topBannerSub">
+        Hello Summer.
+    </div>
+    <header>
+        <input type="button" value="menu" id="muiNavBtn" class="material-icons">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>
+                    SHOP
+                    <ol>
+                        <li><a href="list_bestSellers.html">Best Sellers</a></li>
+                        <li><a href="list_gifts.html">Gifts</a></li>
+                        <li><a href="list_bakingPantry.html">Baking & Pantry</a></li>
+                        <li><a href="list_atHomeTasting.html">AT&#45;Home Tasting  </a></li>
+                        <li><a href="list_chocolateBars.html">Chocolate Bars</a></li>
+                        <li><a href="list_mauiGrown.html">Maui Grown</a></li>
+                        <li><a href="list_merchandise.html">Merchandise</a></li>
+                        <li><a href="list_bulkChocolateSquares.html">Bulk Chocolate Squares</a></li>
+                    </ol>
+                </li>
+                <li>
+                    EXPLORE
+                    <ol>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ol>
+                </li>
+                <li><a href="cafe.html">Cafe</a></li>
+                <li><a href="monthClub.html">Month club</a></li>
+                <li>
+                    ABOUT US
+                    <ol>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li>
+                        <li><a href="ourStory.html">Our Story</a></li>
+                        <li><a href="cacaoOrigins.html">Cacao Origins</a></li>
+                    </ol>
+                </li>
+            </ul>
+            <div class="navSns">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/MauiChocolate/" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/mauichocolate/?hl=en" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="mailto:aloha@mauichocolate.com"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1><a href="/"><img src="images/logo.png" alt="Maui Kuia Estate"></a></h1>
+        <ul>
+            <li><a href="myPage_login.html"><img src="images/bull_person.png" alt="my page"></a></li>
+            <li class="search"><a href="#" data-panel="search"><img src="images/bull_search.png" alt="search"></a></li>
+            <li class="cart"><a href="#" data-panel="shoppingBag"><img src="images/bull_shoppingbag.png" alt="shopping bag"></a></li>
+        </ul>
+    </header>
+    <section class="teamContainer">
+        <div class="wrap">
+            <h2>TEAM</h2>
+            <div>
+                <ul>
+                    <li data-panel="commentCEO" class="active">
+                        <span><img src="images/team_01.png" alt="CEO"></span>
+                        <div id="commentCEO" class="active">
+                            <p>
+                                A full-time Maui resident and retired biotech entrepreneur, Gunars started a cacao farm
+                                with the goal of making great chocolate.
+                            </p>
+                            <p>
+                                As the operation grew, he knew he wanted to tie it into the philanthropy that is so
+                                central to life for him and his wife JoRene.
+                            </p>
+                            <p>
+                                Plans for the farm, the factory and the company evolved and MKEC’s Chocolate Kuleana took shape right
+                                along with it, creating a remarkable and admirable business model.
+                            </p>
+                            <p>
+                                As CEO, Gunars is responsible for overall leadership, strategic vision and financial vitality of MKEC.
+                            </p>
+                            <div class="position">
+                                <h3>Gunars Valkirs</h3>
+                                CEO
+                                <small>gunars@mauichocolate.com</small>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-panel="commentOperations">
+                        <span><img src="images/team_02.png" alt="Operations"></span>
+                        <div id="commentOperations">
+                            <p>
+                                The owner and president of Cacao Services, Inc., Dan has worked in 23 different countries
+                                around the globe, providing consulting services to farmers and producers of high quality cacao.
+                            </p>
+                            <p>
+                                As MKEC’s Vice President of Chocolate Operations, Dan is responsible for managing operations at
+                                Maui Ku’ia Estate Cacao, the farm producing Maui cocoa beans for exclusive sale to MKEC.
+                            </p>
+                            <p>
+                                Dan is responsible for cacao sourcing, farm oversight, production planning, and the most delicious
+                                job of all: chocolate recipe R&D.
+                            </p>
+                            <div class="position">
+                                <h3>Daniel O'Doherty</h3>
+                                VP, Farm & Factory Operations
+                                <small>dan@mauichocolate.com</small>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-panel="commentFarmer">
+                        <span><img src="images/team_03.png" alt="Farmer"></span>
+                        <div id="commentFarmer">
+                            <p>
+                                Born and raised on Maui, Palani Wright knows and appreciates this island from mountains to sea.
+                            </p>
+                            <p>
+                                After graduating from Lahainaluna High School, he earned an associate’s degree
+                                from University of Hawai‘i - Maui College.
+                            </p>
+                            <p>
+                                With a strong interest in forestry, he went to work for West Maui Mountains
+                                Watershed Partnership as a field crew leader.
+                            </p>
+                            <p>
+                                He has now been working for Maui Ku‘ia Estate Chocolate for four years, and he enjoys the interest and
+                                excitement of working with the MKEC team.
+                            </p>
+                            <p>
+                                According to Palani, there is still a lot to learn about this ancient crop.
+                            </p>
+                            <p>
+                                For this Maui boy, the entire process of cultivating, harvesting and fermenting
+                                cacao is an experience to be savored.
+                            </p>
+                            <div class="position">
+                                <h3>Palani Wright</h3>
+                                Cacao Farmer
+                                <small>palani@mauichocolate.farm</small>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-panel="commentFarmDirector">
+                        <span><img src="images/team_04.png" alt="Farm Director"></span>
+                        <div id="commentFarmDirector">
+                            <p>
+                                For Cacao Farm Director David McPherson, working outside with his hands in the dirt is a joy in itself.                        
+                            </p>
+                            <p>
+                                Then you add the great crew of four farmers that he oversees, plus the fact that their ultimate goal is to
+                                benefit the community—and eat some chocolate along the way—and David says he couldn’t
+                                ask for a more fulfilling job!
+                            </p>
+                            <p>
+                                David previously worked as a field crew leader for Maui Nui Seabird Recovery Project on Lana‘i.
+                            </p>
+                            <p>
+                                He also led a crew with the State of Hawai‘i Maui Natural Area Reserve and oversaw weed
+                                management on Lana‘i for Maui Invasive Species Committee.
+                            </p>
+                            <p>
+                                Whatever Mother Nature brings, from wind to wildfire, David and his team are well-equipped to handle it
+                                    and Maui Ku‘ia Estate Cacao farm is thriving under their expert care.
+                            </p>
+                            <div class="position">
+                                <h3>David McPherson</h3>
+                                Cacao Farm Director
+                                <small>david@mauichocolate.farm</small>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-panel="commentFactoryDirector">
+                        <span><img src="images/team_05.jpg" alt="Factory Director"></span>
+                        <div id="commentFactoryDirector">
+                            <p>
+                                Dennis Elms is Maui Ku’ia Estate Chocolate Inc.’s master of all things technology.
+                            </p>
+                            <p>
+                                With his technical understanding and calm demeanor, he leads all aspects of technology to keep
+                                systems operating and employees happy.
+                            </p>
+                            <p>
+                                Dennis spent many years traveling as a computer consultant before falling in love with Maui and
+                                founding his own business in Lahaina, NexLevel Computers and Consulting.
+                            </p>
+                            <p>
+                                He later served as IT specialist at Montage and as IT manager at Honua Kai. With a degree in engineering
+                                technology and decades worth of experience in the field, he’s proud to be Technology
+                                Director and part of a new startup—one that gives back to the community he loves.
+                            </p>
+                            <div class="position">
+                                <h3>Dennis Elms</h3>
+                                Factory & Technology Director
+                                <small>dennis@mauichocolate.com</small>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-panel="commentConsultant">
+                        <span><img src="images/team_06.png" alt="Consultant"></span>
+                        <div id="commentConsultant">
+                            <p>
+                                Charlene Ka'uhane, owner of Ka‘uhane Inc., manages public relations for
+                                Maui Ku’ia Estate Chocolate, Inc. (MKEC).
+                            </p>
+                            <p>
+                                Charlene is a multi-award-winning practitioner with expertise in media and community
+                                relations, strategic planning, partnerships, events, and more.
+                            </p>
+                            <p>
+                                In addition to MKEC, her client list includes Haleakala Ranch, Kā‘anapali Beach Resort, Maui
+                                Cattle Company, Maui County Farm Bureau and Maui Gold Pineapple Company/Hali'imaile
+                                Distilling Company, as well as pro bono services for Na Mele O Maui.
+                            </p>
+                            <p>
+                                Dedicated to her culture and community, Charlene creates important connections between
+                                MKEC and important industries, businesses and organizations.
+                            </p>
+                            <p>
+                                Charlene strives to create public relations programs that are mutually beneficial for
+                                her clients and her community.
+                            </p>
+                            <div class="position">
+                                <h3>Charlene Ka'uhane</h3>
+                                Public Relations consultant
+                                <small>charlene@mauichocolate.com</small>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h2>KU’IA CLUB MEMBER</h2>
+            <p>Sign up for a membership and get 10% discount</p>
+            <input type="email" id="memberShipEmail" placeholder="Enter your email address">
+            <input type="button" value="SUBSCRIBE">
+        </div>
+        <div>
+            <h2>MAUI KU'IA</h2>
+            <ul>
+                <li>
+                    <a href="contactUs.html">Contact us</a>
+                </li>
+                <li>
+                    <a href="team.html">Team</a>
+                </li>
+                <li>
+                    <a href="ourStory.html">Our Story</a>
+                </li>
+                <li>
+                    <a href="cacaoOrigins.html">Cacao Origins</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>FAQ</h2>
+            <ul>
+                <li>
+                    <a href="faq.html">How long until I receive order</a>
+                </li>
+                <li>
+                    <a href="faq.html">Do you offer gift cards?</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is the cacao sourced from</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is your chocolate made?</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>SNS</h2>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/MauiChocolate/"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mauichocolate/?hl=en"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ"></a>
+                </li>
+                <li>
+                    <a href="aloha@mauichocolate.com"></a>
+                </li>
+            </ul>
+            <p>&copy; 2022 MAUI KU’IA ESTATE CHOCOLATE</p>
+        </div>
+    </footer>
+</body>
+</html>

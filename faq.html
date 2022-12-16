@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maui Kuia Estate</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div class="popup" id="search">
+        <input type="search" id="detailSearch" placeholder="SEARCH">
+        <a href="#" class="btn_close">CLOSE</a>
+    </div>
+    <div class="popup" id="shoppingBag">
+        <h2 class="btn_close">CART</h2>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    <img src="images/common_chocolateBars_09.png" alt="Dark Chocolate Bar">
+                    <dl>
+                        <dt>Dark Chocolate Bar</dt>
+                        <dd>
+                            $
+                            <input type="text" id="price" value="9.00" readonly>
+                             USD
+                        </dd>
+                    </dl>
+                    <div class="countComp">
+                        <input type="button" value="-" class="countMinus" >
+                        <input type="number" class="qc" id="countNumb" value="1" min="1" max="99" step="1">
+                        <input type="button" value="+" class="countPlus" >
+                    </div>
+                </li>
+            </ul>
+            <span>Subtotal</span>
+            <strong>$ <output id="totalPrice">9.00</output> USD</strong>
+            <input type="submit" value="VIEW CART">
+        </form>
+    </div>
+    <div class="topBannerSub">
+        Hello Summer.
+    </div>
+    <header>
+        <input type="button" value="menu" id="muiNavBtn" class="material-icons">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>
+                    SHOP
+                    <ol>
+                        <li><a href="list_bestSellers.html">Best Sellers</a></li>
+                        <li><a href="list_gifts.html">Gifts</a></li>
+                        <li><a href="list_bakingPantry.html">Baking & Pantry</a></li>
+                        <li><a href="list_atHomeTasting.html">AT&#45;Home Tasting  </a></li>
+                        <li><a href="list_chocolateBars.html">Chocolate Bars</a></li>
+                        <li><a href="list_mauiGrown.html">Maui Grown</a></li>
+                        <li><a href="list_merchandise.html">Merchandise</a></li>
+                        <li><a href="list_bulkChocolateSquares.html">Bulk Chocolate Squares</a></li>
+                    </ol>
+                </li>
+                <li>
+                    EXPLORE
+                    <ol>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ol>
+                </li>
+                <li><a href="cafe.html">Cafe</a></li>
+                <li><a href="monthClub.html">Month club</a></li>
+                <li>
+                    ABOUT US
+                    <ol>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li>
+                        <li><a href="ourStory.html">Our Story</a></li>
+                        <li><a href="cacaoOrigins.html">Cacao Origins</a></li>
+                    </ol>
+                </li>
+            </ul>
+            <div class="navSns">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/MauiChocolate/" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/mauichocolate/?hl=en" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="mailto:aloha@mauichocolate.com"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1><a href="/"><img src="images/logo.png" alt="Maui Kuia Estate"></a></h1>
+        <ul>
+            <li><a href="myPage_login.html"><img src="images/bull_person.png" alt="my page"></a></li>
+            <li class="search"><a href="#" data-panel="search"><img src="images/bull_search.png" alt="search"></a></li>
+            <li class="cart"><a href="#" data-panel="shoppingBag"><img src="images/bull_shoppingbag.png" alt="shopping bag"></a></li>
+        </ul>
+    </header>
+    <section class="faqContainer">
+        <h2>Frequently Asked Questions</h2>
+        <div>
+            <div>
+                <h3>OUR CHOCOLATE</h3>
+                <ul>
+                    <li>
+                        <h4>What is a napolitain?</h4>
+                        <div class="hideBox">
+                            <p>
+                                A napolitain is a tablet of chocolate that weighs 5 grams. Traditionally, a napolitain is served with
+                                a cup of coffee!
+                            </p>
+                            <p>
+                                Our Maui Grown chocolate is made using 100% cacao grown at our cacao farm in Lahaina.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>What's the difference between "Maui Grown" chocolate and all your other chocolate?</h4>
+                        <div class="hideBox">
+                            <p>
+                                "Maui Grown" describes our farm-to-bar Hawaiian chocolate products.
+                            </p>
+                            <p>
+                                Our Maui Grown chocolate is made using 100% cacao grown at our cacao farm in Lahaina.
+                            </p>
+                            <p>
+                                Our Lahaina cacao farm produces a very limited supply of cacao each year, so we're lucky to
+                                source cacao from other unique terroirs around the world.
+                            </p>
+                            <p>
+                                Our other chocolate products are made using cacao from an award-winning family-run estate in
+                                Costa Esmeraldas, Ecuador.
+                            </p>
+                            <p>
+                                Cacao is similar to wine in that the terroir it is grown in is a main contributor to its taste and we
+                                are happy to celebrate how diverse cacao can be.
+                            </p>
+                            <p>
+                                To learn more about both our Maui and Costa Esmeraldas cacao, please visit our Cacao Origins
+                                page!
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>Where is your chocolate made?</h4>
+                        <div class="hideBox">
+                            <p>
+                                All of our chocolate is made in Hawaii!
+                            </p>
+                            <p>
+                                Our Maui Grown chocolate is made using 100% cacao grown at our cacao farm in Lahaina.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>Where is the cacao sourced from?</h4>
+                        <div class="hideBox">
+                            <p>
+                                All of our chocolate is made in our Lahaina factory from single-origin cacao!
+                            </p>
+                            <p>
+                                Our current chocolate offerings are sourced from either the Maui Ku’ia Estate cacao farm in
+                                Lahaina or from Costa Esmeraldas, Ecuador.
+                            </p>
+                            <p>
+                                The cacao from our Lahaina farm is used in our Hawaiian Maui Grown chocolate.
+                            </p>
+                            <p>
+                                All of our other products use cacao from Costa Esmeraldas, a single-family estate in Ecuador.
+                            </p>
+                            <p>
+                                To learn more about our chocolate’s origins, please visit our Cacao Origins page.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>What's the shelf-life of your chocolate?</h4>
+                        <div class="hideBox">
+                            <p>
+                                Over time, chocolate has a tendency to bloom, which is when the cocoa butter begins to
+                                separate from the cacao solids.
+                            </p>
+                            <p>
+                                If you’ve ever seen chocolate turn a bit white around the edges - that’s blooming.
+                            </p>
+                            <p>
+                                Our dark chocolate’s best-of date is one year from when it is molded.
+                            </p>
+                            <p>
+                                Dark milk's best-of date is one year and a half from when it is molded.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Online Ordering</h3>
+                <ul>
+                    <li>
+                        <h4>Do you offer gift cards?</h4>
+                        <div class="hideBox">
+                            <p>
+                                Yes! We offer e-gift cards.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>What is your return policy?</h4>
+                        <div class="hideBox">
+                            <p>
+                                In order to protect the public as well as the integrity of our Chocolate Factory, an FDA Certified
+                                Food Production facility, we will not be able to accept product returns.                            
+                            </p>
+                            <p>
+                                If there is a problem with your order or concern with our chocolate, we want to hear from you
+                                immediately.
+                            </p>
+                            <p>
+                                Please email us your order number, name, phone number, a preferred time to reach you, and tell
+                                us what happened.
+                            </p>
+                            <p>
+                                We will contact you promptly and work with you on the situation.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>What payment methods are available?</h4>
+                        <div class="hideBox">
+                            <p>
+                                We accept all major credit and debit cards.
+                            </p>
+                            <p>
+                                In our retail store we do not accept cash at this time. We apologize for any inconvenience.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Shipping</h3>
+                <ul>
+                    <li>
+                        <h4>How long until I receive my order?</h4>
+                        <div class="hideBox">
+                            <p>
+                                We generally try to send your order within 48 hours of receipt on the days we ship
+                                (we currently ship Monday - Thursday).
+                            </p>
+                            <p>
+                                Orders received between Thursday morning and Sunday will ship out on Monday at the earliest.
+                            </p>
+                            <p>
+                                Through Fedex and UPS, we offer 7-day shipping.
+                            </p>
+                            <p>
+                                We will contact you promptly and work with you on the situation.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>Do you still ship during the warmer summer months?</h4>
+                        <div class="hideBox">
+                            <p>
+                                Yes! Every order is packed with care in an insulated cool bag with sweat-proof ice packs.
+                            </p>
+                            <p>
+                                We prefer to ship Monday - Thursday to avoid having your package sit somewhere hot and
+                                unprotected over the weekend.
+                            </p>
+                            <p>
+                                During these hotter months, there might be a delay in sending your order.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>Will your chocolate melt during shipping?</h4>
+                        <div class="hideBox">
+                            <p>
+                                Each order is packed with care in an insulated cool bag with sweat-proof/non-condensing ice
+                                packs to prevent the chocolate from melting.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Allergens & Ingredients</h3>
+                <ul>
+                    <li>
+                        <h4>Is your chocolate Kosher certified?</h4>
+                        <div class="hideBox">
+                            <p>
+                                Yes! All of our chocolate is kosher certified.
+                            </p>
+                            <p>
+                                Our dark chocolate is Kosher Parve certified and our dark milk chocolate is Kosher Dairy
+                                certified.
+                            </p>
+                            <p>
+                                Please visit our Kosher Certification page to learn more.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>Is your chocolate vegan?</h4>
+                        <div class="hideBox">
+                            <p>
+                                All of our dark chocolate is vegan.
+                            </p>
+                            <p>
+                                Our dark milk chocolate does contain dairy.
+                            </p>
+                            <p>
+                                We go to great lengths to ensure that milk cannot contact our dark chocolate.
+                            </p>
+                            <p>
+                                We run two independent production lines to keep the dark milk chocolate separate from dark
+                                chocolate.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>Is your chocolate gluten-free and soy-free?</h4>
+                        <div class="hideBox">
+                            <p>Yes, all of our chocolate is gluten-free and soy-free.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>Where do the flavors come from?</h4>
+                        <div class="hideBox">
+                            <p>
+                                Most of our fruit flavors are sourced from fruit picked locally on Maui.
+                            </p>
+                            <p>
+                                We grow Mapulehu mangoes on our farm, guavas are handpicked up north in Kapalua.
+                            </p>
+                            <p>
+                                Food grade essential oils are available for a variety of plant-based sources and are highly
+                                purified by steam distillation.
+                            </p>
+                            <p>
+                                We use essential oils in our blood orange, lemongrass, and peppermint chocolate products.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Company</h3>
+                <ul>
+                    <li>
+                        <h4>Who do I contact for questions and issues?</h4>
+                        <div class="hideBox">
+                            <p>
+                                For questions and issues regarding your farm tour, tasting, or bookings please contact
+                                email info@mauichocolatetour.com. 
+                            </p>
+                            <p>
+                                For questions and issues regarding orders, wholesale, products, and shipping please email
+                                orders@mauichocolate.com.
+                            </p>
+                            <p>
+                                For all other questions and issues please contact aloha@mauichocolate.com.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>Where does the name Ku’ia come from?</h4>
+                        <div class="hideBox">
+                            <p>
+                                Our cacao farm is located within the ahupua'a named Ku'ia.
+                            </p>
+                            <p>
+                                An ahupua'a is how the Hawai'ian people traditionally divided land in triangular form from
+                                mountain to sea.
+                            </p>
+                            <p>
+                                The ahupua'a system defined a way of life among the  people that lived within each specific land
+                                division, and the community could only flourish when each individual worked hard and fulfilled
+                                the responsibility entrusted upon them.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h2>KU’IA CLUB MEMBER</h2>
+            <p>Sign up for a membership and get 10% discount</p>
+            <input type="email" id="memberShipEmail" placeholder="Enter your email address">
+            <input type="button" value="SUBSCRIBE">
+        </div>
+        <div>
+            <h2>MAUI KU'IA</h2>
+            <ul>
+                <li>
+                    <a href="contactUs.html">Contact us</a>
+                </li>
+                <li>
+                    <a href="team.html">Team</a>
+                </li>
+                <li>
+                    <a href="ourStory.html">Our Story</a>
+                </li>
+                <li>
+                    <a href="cacaoOrigins.html">Cacao Origins</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>FAQ</h2>
+            <ul>
+                <li>
+                    <a href="faq.html">How long until I receive order</a>
+                </li>
+                <li>
+                    <a href="faq.html">Do you offer gift cards?</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is the cacao sourced from</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is your chocolate made?</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>SNS</h2>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/MauiChocolate/"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mauichocolate/?hl=en"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ"></a>
+                </li>
+                <li>
+                    <a href="aloha@mauichocolate.com"></a>
+                </li>
+            </ul>
+            <p>&copy; 2022 MAUI KU’IA ESTATE CHOCOLATE</p>
+        </div>
+    </footer>
+</body>
+</html>

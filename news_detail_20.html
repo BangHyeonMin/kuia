@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maui Kuia Estate</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div class="popup" id="search">
+        <input type="search" id="detailSearch" placeholder="SEARCH">
+        <a href="#" class="btn_close">CLOSE</a>
+    </div>
+    <div class="popup" id="shoppingBag">
+        <h2 class="btn_close">CART</h2>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    <img src="images/common_chocolateBars_09.png" alt="Dark Chocolate Bar">
+                    <dl>
+                        <dt>Dark Chocolate Bar</dt>
+                        <dd>
+                            $
+                            <input type="text" id="price" value="9.00" readonly>
+                             USD
+                        </dd>
+                    </dl>
+                    <div class="countComp">
+                        <input type="button" value="-" class="countMinus" >
+                        <input type="number" class="qc" id="countNumb" value="1" min="1" max="99" step="1">
+                        <input type="button" value="+" class="countPlus" >
+                    </div>
+                </li>
+            </ul>
+            <span>Subtotal</span>
+            <strong>$ <output id="totalPrice">9.00</output> USD</strong>
+            <input type="submit" value="VIEW CART">
+        </form>
+    </div>
+    <div class="topBannerSub">
+        Hello Summer.
+    </div>
+    <header>
+        <input type="button" value="menu" id="muiNavBtn" class="material-icons">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>
+                    SHOP
+                    <ol>
+                        <li><a href="list_bestSellers.html">Best Sellers</a></li>
+                        <li><a href="list_gifts.html">Gifts</a></li>
+                        <li><a href="list_bakingPantry.html">Baking & Pantry</a></li>
+                        <li><a href="list_atHomeTasting.html">AT&#45;Home Tasting  </a></li>
+                        <li><a href="list_chocolateBars.html">Chocolate Bars</a></li>
+                        <li><a href="list_mauiGrown.html">Maui Grown</a></li>
+                        <li><a href="list_merchandise.html">Merchandise</a></li>
+                        <li><a href="list_bulkChocolateSquares.html">Bulk Chocolate Squares</a></li>
+                    </ol>
+                </li>
+                <li>
+                    EXPLORE
+                    <ol>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ol>
+                </li>
+                <li><a href="cafe.html">Cafe</a></li>
+                <li><a href="monthClub.html">Month club</a></li>
+                <li>
+                    ABOUT US
+                    <ol>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li>
+                        <li><a href="ourStory.html">Our Story</a></li>
+                        <li><a href="cacaoOrigins.html">Cacao Origins</a></li>
+                    </ol>
+                </li>
+            </ul>
+            <div class="navSns">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/MauiChocolate/" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/mauichocolate/?hl=en" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="mailto:aloha@mauichocolate.com"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1><a href="/"><img src="images/logo.png" alt="Maui Kuia Estate"></a></h1>
+        <ul>
+            <li><a href="myPage_login.html"><img src="images/bull_person.png" alt="my page"></a></li>
+            <li class="search"><a href="#" data-panel="search"><img src="images/bull_search.png" alt="search"></a></li>
+            <li class="cart"><a href="#" data-panel="shoppingBag"><img src="images/bull_shoppingbag.png" alt="shopping bag"></a></li>
+        </ul>
+    </header>
+    <section class="newsDetailContainer">
+        <div>
+            <div class="detailPager">
+                <time datetime="2020-07-23T00:00:00">July 23, 2020</time>
+                <a href="news_detail_19.html">Prev</a>
+                <a href="news_detail_21.html">next</a>
+            </div>
+            <h2>This Special Maui-Grown Chocolate and Get a Lesson in All Things Cacao</h2>
+            <div class="contentBox">
+                <img src="images/news_20.jpg" alt="This Special Maui-Grown Chocolate and Get a Lesson in All Things Cacao">
+                <img src="images/news_20_02.png" alt="This Special Maui-Grown Chocolate and Get a Lesson in All Things Cacao">
+                <img src="images/news_20_03.png" alt="This Special Maui-Grown Chocolate and Get a Lesson in All Things Cacao">
+                <p>
+                    “It’s best to eat chocolate when your body is at room temperature,” he continues. “Let it melt in your mouth slowly ...
+                    Your body is perfectly engineered to enjoy chocolate because of chocolate’s melting point and your body temperature.
+                    It’s the perfect environment.”
+                </p>
+                <p>
+                    If you can’t already tell, Valkirs was biotech scientist and inventor—he has more than 30 U.S. patents—before adding
+                    cacao farmer and chocolate maker to his resume.
+                </p>
+                <p>
+                    These virtual tastings are something new he and his partner, Dan O’Doherty, are offering right now, in addition to
+                    in-person tasting at Maui Ku’ia’s retail storefront in Lahaina. (The virtual tasting is free when you purchase
+                    chocolates online.)
+                </p>
+                <p>
+                    “Getting people to taste the chocolate is our No. 1 priority,” says Valkirs, who now lives in Kapalua and eats 20 pieces
+                    of chocolate a day. “
+                </p>
+                <p>
+                    One bite and I know they will realize it’s world-class chocolate, made right here on Maui, and they’ll want to buy it
+                    and support as a local, small business.”
+                </p>
+                <p>
+                    SEE ALSO: 5 Reasons You Want To Eat Maui Ku’ia Estate Chocolate
+                </p>
+                <p>
+                    Valkirs started the company in 2013, planting 50 cacao varietals over 20 acres of former sugarcane land in Lahaina.
+                    (He started growing cacao as a hobby; now, about half of the 50 acres is cultivated.)
+                </p>
+                <p>
+                    He harvested the first cacao crop in 2018 and, the following year, debuted Maui Ku’ia Estate chocolate to the public.
+                </p>
+                <p>
+                    All of the net profits are donated to Maui charities and nonprofits. “Our focus is giving back to Maui because this is
+                    where we live,” he says.
+                </p>
+                <p>
+                    SEE ALSO: How Hawai’i’s Cacao is Making the World Sweeter
+                </p>
+                <p>
+                    Hawai’i is the only U.S. state that commercially grows cacao.
+                </p>
+                <p>
+                    And, like wine, the flavor of Maui Ku’ia’s chocolates can be traced to the land. Valkirs’ plan is to create single-varietal
+                    chocolates; meaning, crafting chocolate from a single tree.
+                </p>
+                <p>
+                    Right now, though, he doesn’t have enough cacao in production for that—but, he underscores, all of the cacao used in
+                    his Maui-branded chocolate is grown on his farm.
+                </p>
+                <p>
+                    “Our signature flavor is based on this blend and the micro-environment where the farm is,“ he says. “This farm is
+                    unlike any other farm in the world ... and we expected and succeeded in developing a flavor profile that’s
+                    representative of this micro-environment.”
+                </p>
+                <p>
+                    By that he means the 5-gram tablet of Maui chocolate that I’m now nibbling will melt at first, then the flavor will turn
+                    into a tanginess, he explains.
+                </p>
+                <p>
+                    “The tanginess will grow and persist throughout the melting phases and lingers really long into the finish. We actually
+                    really like that.” He compares the taste to an apple banana.
+                </p>
+                <p>
+                    We move to the Wild Amazon, a truly unique chocolate offered nowhere else in the world but here.
+                </p>
+                <p>
+                    Valkirs uses cacao beans that grow wild on the banks of the 1,840-mile-long Purus River, a tributary of the Amazon
+                    River in Peru. Most of the river is uninhabited.
+                </p>
+                <p>
+                    There’s likely no one else in the world using this variety of cacao to make chocolate.
+                </p>
+                <p>
+                    “This cacao is genetically distinct from anything farmed in the world,” explains Valkirs, as he urges us to first smell the
+                    chocolate before eating it. “It has an earthy aroma.”
+                </p>
+                <p>
+                    I take a small bite and let it sit in my mouth, per his instructions.
+                </p>
+                <p>
+                    He mentions what we may taste—mushrooms, dried blueberries—and I’m blown away. I’ve eaten a lot of chocolate in
+                    my lifetime, and this is something very special.
+                </p>
+                <p>
+                    Maui Ku’ia also offers a 78% cacao made with beans Costa Esmeraldas, a farm in Ecuador, and chocolates infused
+                    with Maui-grown coffee and essential oils like blood orange (most popular), lemongrass and peppermint.
+                </p>
+                <p>
+                    Valkirs said he experimented with about 30 different flavor options—even some savory ones—and these were the best
+                    three.
+                </p>
+                <p>
+                    All of these chocolates—including the Wild Amazon—are available for purchase online.
+                </p>
+                <p>
+                    But if you’re lucky enough to be on Maui right now, you can sign up for in-person tastings in an open-air pavilion
+                    above the Lahaina factory.
+                </p>
+                <p>
+                    Cost for a 13-flavor tasting is $15 per person or $25 per couple, with 100% of the proceeds benefitting the Maui Food
+                    Bank.
+                </p>
+                <p>
+                    And if you’re not on Maui—like me—the virtual tasting is a fun alternative. And trust me, it will change the way you
+                    eat chocolate.
+                </p>
+                <p>
+                    78 Ulupono St., Lahaina, (844) 844-5842, mauichocolate.com
+                </p>
+            </div>
+            <form>
+                <fieldset>
+                    <legend>LEAVE A COMMENT</legend>
+                    <input type="text" id="newsCommentName" placeholder="Name">
+                    <input type="email" id="newsCommentEmail" placeholder="Email">
+                    <textarea id="newsCommentTextarea" cols="50" rows="10" placeholder="Comment"></textarea>
+                    <span>All comments are moderated before being published</span>
+                    <input type="submit" class="btn" value="POST COMMENT">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h2>KU’IA CLUB MEMBER</h2>
+            <p>Sign up for a membership and get 10% discount</p>
+            <input type="email" id="memberShipEmail" placeholder="Enter your email address">
+            <input type="button" value="SUBSCRIBE">
+        </div>
+        <div>
+            <h2>MAUI KU'IA</h2>
+            <ul>
+                <li>
+                    <a href="contactUs.html">Contact us</a>
+                </li>
+                <li>
+                    <a href="team.html">Team</a>
+                </li>
+                <li>
+                    <a href="ourStory.html">Our Story</a>
+                </li>
+                <li>
+                    <a href="cacaoOrigins.html">Cacao Origins</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>FAQ</h2>
+            <ul>
+                <li>
+                    <a href="faq.html">How long until I receive order</a>
+                </li>
+                <li>
+                    <a href="faq.html">Do you offer gift cards?</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is the cacao sourced from</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is your chocolate made?</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>SNS</h2>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/MauiChocolate/"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mauichocolate/?hl=en"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ"></a>
+                </li>
+                <li>
+                    <a href="aloha@mauichocolate.com"></a>
+                </li>
+            </ul>
+            <p>&copy; 2022 MAUI KU’IA ESTATE CHOCOLATE</p>
+        </div>
+    </footer>
+</body>
+</html>

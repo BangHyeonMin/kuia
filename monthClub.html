@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maui Kuia Estate</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+    <style>
+    </style>
+</head>
+<body>
+    <div class="popup" id="search">
+        <input type="search" id="detailSearch" placeholder="SEARCH">
+        <a href="#" class="btn_close">CLOSE</a>
+    </div>
+    <div class="popup" id="shoppingBag">
+        <h2 class="btn_close">CART</h2>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    <img src="images/common_chocolateBars_09.png" alt="Dark Chocolate Bar">
+                    <dl>
+                        <dt>Dark Chocolate Bar</dt>
+                        <dd>
+                            $
+                            <input type="text" id="price" value="9.00" readonly>
+                             USD
+                        </dd>
+                    </dl>
+                    <div class="countComp">
+                        <input type="button" value="-" class="countMinus" >
+                        <input type="number" class="qc" id="countNumb" value="1" min="1" max="99" step="1">
+                        <input type="button" value="+" class="countPlus" >
+                    </div>
+                </li>
+            </ul>
+            <span>Subtotal</span>
+            <strong>$ <output id="totalPrice">9.00</output> USD</strong>
+            <input type="submit" value="VIEW CART">
+        </form>
+    </div>
+    <div class="topBannerSub">
+        Hello Summer.
+    </div>
+    <header>
+        <input type="button" value="menu" id="muiNavBtn" class="material-icons">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>
+                    SHOP
+                    <ol>
+                        <li><a href="list_bestSellers.html">Best Sellers</a></li>
+                        <li><a href="list_gifts.html">Gifts</a></li>
+                        <li><a href="list_bakingPantry.html">Baking & Pantry</a></li>
+                        <li><a href="list_atHomeTasting.html">AT&#45;Home Tasting  </a></li>
+                        <li><a href="list_chocolateBars.html">Chocolate Bars</a></li>
+                        <li><a href="list_mauiGrown.html">Maui Grown</a></li>
+                        <li><a href="list_merchandise.html">Merchandise</a></li>
+                        <li><a href="list_bulkChocolateSquares.html">Bulk Chocolate Squares</a></li>
+                    </ol>
+                </li>
+                <li>
+                    EXPLORE
+                    <ol>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ol>
+                </li>
+                <li><a href="cafe.html">Cafe</a></li>
+                <li><a href="monthClub.html">Month club</a></li>
+                <li>
+                    ABOUT US
+                    <ol>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li>
+                        <li><a href="ourStory.html">Our Story</a></li>
+                        <li><a href="cacaoOrigins.html">Cacao Origins</a></li>
+                    </ol>
+                </li>
+            </ul>
+            <div class="navSns">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/MauiChocolate/" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/mauichocolate/?hl=en" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="mailto:aloha@mauichocolate.com"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1><a href="/"><img src="images/logo.png" alt="Maui Kuia Estate"></a></h1>
+        <ul>
+            <li><a href="myPage_login.html"><img src="images/bull_person.png" alt="my page"></a></li>
+            <li class="search"><a href="#" data-panel="search"><img src="images/bull_search.png" alt="search"></a></li>
+            <li class="cart"><a href="#" data-panel="shoppingBag"><img src="images/bull_shoppingbag.png" alt="shopping bag"></a></li>
+        </ul>
+    </header>
+    <section class="monthClubContainer">
+        <div class="wrap">
+            <h2>JOIN THE OUR MEMBER SHIP !</h2>
+            <div>
+                <dl>
+                    <dt>Subscribe</dt>
+                    <dd>
+                        Subscribe to our chocolate of the month box and get
+                        delicious curated chocolate each month.
+                    </dd>
+                    <dd>
+                        Sign up by the 15th of the month to get the current
+                        month's box!
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Receive</dt>
+                    <dd>
+                        Once you're signed up, chocolate will be delivered
+                        right to your doorstep each month.
+                    </dd>
+                    <dd>
+                        Ku'ia Club members get access to exclusive new
+                        flavors selected by our CEO and VP of Operations!
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Enjoy</dt>
+                    <dd>
+                        Open your chocolate of the month box and enjoy the
+                        curated, limited edition chocolate.
+                    </dd>
+                    <dd>
+                        If you love a certain's month box, you can always login
+                        and purchase more.
+                    </dd>
+                </dl>
+            </div>
+            <div>
+                <h3>What's Included in My Membership?</h3>
+                <ul>
+                    <li>
+                        • Once you're signed up, chocolate will be delivered right to your doorstep each month.      
+                    </li>
+                    <li>
+                        • Exclusive access to newly released craft chocolate
+                    </li>
+                    <li>
+                        • 15% discount* off any additional chocolate purchases - both in store and online!
+                    </li>
+                    <li>
+                        • Monthly writings and musings from our CEO Dr. Gunars Valkirs or VP of Operations Dan O'Doherty 
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Club Member Testimonials</h3>
+                <div>
+                    <div>
+                        <blockquote>
+                            “ When I asked what was next for the club after the so aptly titled O.M.G. I was told we were getting the first of the 2020 harvest and was
+                            given a verbal swoon worthy preview which inspired mega anticipation.<br><br>
+                            I must say that preview was pluperfect correct.<br><br>
+                            The depth and complexity of the flavors is a direction I hope will continue into the future. Hip, hip hooray! “
+                        </blockquote>
+                        <img src="images/monthClub_member.png" alt="Paul Janes-Brown">
+                    </div>
+                    <span>
+                        Paul Janes-Brown
+                        <small>Ku’ia Club Member</small>
+                    </span>
+                </div>
+            </div>
+            <div>
+                <h3>Previous Months</h3>
+                <p>Not sure what to expect? Here are some of our past Ku'ia Club offerings!</p>
+                <ul class="floatContainer">
+                    <li class="limgRtxt">
+                        <time datetime="2022-03-01T00:00:00">March 2022</time>
+                        <h4>Experimental Chocolate</h4>
+                        <p>
+                            A 48 piece gift box filled with a new version of our 70% Dark 2020 Maui Harvest that was created
+                            through inoculated yeast fermentation.
+                        </p>
+                        <p>
+                            We used experimental yeast strains that have the ability to develop new possibilities for flavor and
+                            aroma.
+                        </p>
+                        <p>
+                            Pichia kluyveri is naturally found in New Zealand grape juice and is used by some winemakers to
+                            boost fruit flavors.
+                        </p>
+                    </li>
+                    <li class="ltxtRimg">
+                        <time datetime="2021-12-01T00:00:00">December 2021</time>
+                        <h4>Exclusive Cacao Sources</h4>
+                        <p>
+                            A 48 piece gift box filled with two types of dark chocolate: a unique 70% dark chocolate made from
+                            cacao sourced from India and a 65% dark chocolate made from a cacao blend sourced from Ecuador
+                            and Uganda.
+                        </p>
+                    </li>
+                    <li class="limgRtxt">
+                        <time datetime="2021-08-01T00:00:00">August 2021</time>
+                        <h4>OMG</h4>
+                        <p>
+                            Our debut Kui'ia Club chocolate of the month box featured a 48-piece gift box and two chocolate bars
+                            in our new exclusive flavor Orange, Mango, Guava.
+                        </p>
+                        <p>
+                            You'll definitely feel like saying "OMG!" when you try it!
+                        </p>
+                    </li>
+                </ul>
+                <a href="monthClub_subscribe.html" class="btn">SUBSCRIBE NOW</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h2>KU’IA CLUB MEMBER</h2>
+            <p>Sign up for a membership and get 10% discount</p>
+            <input type="email" id="memberShipEmail" placeholder="Enter your email address">
+            <input type="button" value="SUBSCRIBE">
+        </div>
+        <div>
+            <h2>MAUI KU'IA</h2>
+            <ul>
+                <li>
+                    <a href="contactUs.html">Contact us</a>
+                </li>
+                <li>
+                    <a href="team.html">Team</a>
+                </li>
+                <li>
+                    <a href="ourStory.html">Our Story</a>
+                </li>
+                <li>
+                    <a href="cacaoOrigins.html">Cacao Origins</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>FAQ</h2>
+            <ul>
+                <li>
+                    <a href="faq.html">How long until I receive order</a>
+                </li>
+                <li>
+                    <a href="faq.html">Do you offer gift cards?</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is the cacao sourced from</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is your chocolate made?</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>SNS</h2>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/MauiChocolate/"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mauichocolate/?hl=en"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ"></a>
+                </li>
+                <li>
+                    <a href="aloha@mauichocolate.com"></a>
+                </li>
+            </ul>
+            <p>&copy; 2022 MAUI KU’IA ESTATE CHOCOLATE</p>
+        </div>
+    </footer>
+</body>
+</html>

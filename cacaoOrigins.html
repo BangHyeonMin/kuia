@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maui Kuia Estate</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div class="popup" id="search">
+        <input type="search" id="detailSearch" placeholder="SEARCH">
+        <a href="#" class="btn_close">CLOSE</a>
+    </div>
+    <div class="popup" id="shoppingBag">
+        <h2 class="btn_close">CART</h2>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    <img src="images/common_chocolateBars_09.png" alt="Dark Chocolate Bar">
+                    <dl>
+                        <dt>Dark Chocolate Bar</dt>
+                        <dd>
+                            $
+                            <input type="text" id="price" value="9.00" readonly>
+                             USD
+                        </dd>
+                    </dl>
+                    <div class="countComp">
+                        <input type="button" value="-" class="countMinus" >
+                        <input type="number" class="qc" id="countNumb" value="1" min="1" max="99" step="1">
+                        <input type="button" value="+" class="countPlus" >
+                    </div>
+                </li>
+            </ul>
+            <span>Subtotal</span>
+            <strong>$ <output id="totalPrice">9.00</output> USD</strong>
+            <input type="submit" value="VIEW CART">
+        </form>
+    </div>
+    <div class="topBannerSub">
+        Hello Summer.
+    </div>
+    <header>
+        <input type="button" value="menu" id="muiNavBtn" class="material-icons">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>
+                    SHOP
+                    <ol>
+                        <li><a href="list_bestSellers.html">Best Sellers</a></li>
+                        <li><a href="list_gifts.html">Gifts</a></li>
+                        <li><a href="list_bakingPantry.html">Baking & Pantry</a></li>
+                        <li><a href="list_atHomeTasting.html">AT&#45;Home Tasting  </a></li>
+                        <li><a href="list_chocolateBars.html">Chocolate Bars</a></li>
+                        <li><a href="list_mauiGrown.html">Maui Grown</a></li>
+                        <li><a href="list_merchandise.html">Merchandise</a></li>
+                        <li><a href="list_bulkChocolateSquares.html">Bulk Chocolate Squares</a></li>
+                    </ol>
+                </li>
+                <li>
+                    EXPLORE
+                    <ol>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ol>
+                </li>
+                <li><a href="cafe.html">Cafe</a></li>
+                <li><a href="monthClub.html">Month club</a></li>
+                <li>
+                    ABOUT US
+                    <ol>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li>
+                        <li><a href="ourStory.html">Our Story</a></li>
+                        <li><a href="cacaoOrigins.html">Cacao Origins</a></li>
+                    </ol>
+                </li>
+            </ul>
+            <div class="navSns">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/MauiChocolate/" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/mauichocolate/?hl=en" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="mailto:aloha@mauichocolate.com"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1><a href="/"><img src="images/logo.png" alt="Maui Kuia Estate"></a></h1>
+        <ul>
+            <li><a href="myPage_login.html"><img src="images/bull_person.png" alt="my page"></a></li>
+            <li class="search"><a href="#" data-panel="search"><img src="images/bull_search.png" alt="search"></a></li>
+            <li class="cart"><a href="#" data-panel="shoppingBag"><img src="images/bull_shoppingbag.png" alt="shopping bag"></a></li>
+        </ul>
+    </header>
+    <section class="cacaoOriginsContainer">
+        <div class="wrap">
+            <div>
+                <h2>Single-Origin Chocolate</h2>
+                <p>
+                    Work began on our Maui Ku’ia Estate Cacao Farm in 2013, when former biotech
+                    entrepreneur, Gunars Valkirs, decided to combine his family history of farming with his
+                    obsession for outstanding chocolate.
+                </p>
+                <p>
+                    Located within the moku (traditional Hawaiian district) of Lahaina and the ahupua‘a of
+                    Ku’ia, early days on the farm saw our team clearing the land, adding in irrigation and a
+                    system of windbreak and shade trees in order to create the tropical environment needed
+                    for The obroma cacao to flourish and produce its colorful pods, which contain the seeds
+                    from which chocolate is made.
+                </p>
+                <p>
+                    Ten acres at a time, the hillside began to transform into a luxuriant green—helped greatly
+                    by the water that flows from the wao akua of Mauna Kahālāwai (West Maui Mountains),
+                    where the gods reside, to the wao kanaka, the realm of people where cacao is grown and
+                    crafted into chocolate.
+                </p>
+                <p>
+                    Maui Ku‘ia Estate Chocolate is proud to have regenerated the land in recent years,
+                    tending to our sustainable cacao from seedling to harvest-ready pod and harvested for
+                    the very first time in April 2018.
+                </p>
+                <p>
+                    We now have 15 fields and approximately 6-7000 cacao trees set across 20 acres,
+                    growing to 60 in the near future.
+                </p>
+            </div>
+            <div>
+                <img src="images/cacaoOrigins_bg_02.jpg" alt="maui kuia background image">
+                <div>
+                    <h3>Costa Esmeraldas, Ecuador</h3>
+                    <p>
+                        It will take ten years for 50 acres of our cacao trees to be planted and mature, so
+                        we also import unique cocoa beans from a single-family estate in Costa
+                        Esmeraldas, Ecuador.
+                    </p>
+                    <p>
+                        We are proud to support the sustainable practices of this farm and use one of the
+                        world’s best cocoa beans in our chocolate products.
+                    </p>
+                    <p>
+                        Our Costa Esmeraldas cacao comes from an award-winning single-origin family
+                        estate with an incredible flavor profile.
+                    </p>
+                    <p>
+                        This is a farm that Dan has worked with for many years to develop their
+                        post-harvest processing, primarily fermentation and drying processes so that their
+                        beans can be sold for premium prices.
+                    </p>
+                    <p>
+                        Dan frequently returns to Ecuador to monitor the operation and along with
+                        checking on quality control he brings back with him exclusive samples from each
+                        harvest and ferment. Back on Maui, we take these samples and create test
+                        chocolate.
+                    </p>
+                    <h3>
+                        What makes our Costa Esmeraldas chocolate
+                        so unique?
+                    </h3>
+                    <blockquote>
+                        “The initial aroma has slight aged balsamic vinegar notes. Initial taste is balanced
+                        sugar/sour flavor with roasted hazelnuts. After full melt hazelnut flavor remains and
+                        full cocoa flavor tinged with aged balsamic vinegar that evokes a fruit flavor. Finish
+                        is long with very little bitterness mostly dominated by rich cocoa flavors.”
+                    </blockquote>
+                    <span>— Gunars Valkirs, CEO</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h2>KU’IA CLUB MEMBER</h2>
+            <p>Sign up for a membership and get 10% discount</p>
+            <input type="email" id="memberShipEmail" placeholder="Enter your email address">
+            <input type="button" value="SUBSCRIBE">
+        </div>
+        <div>
+            <h2>MAUI KU'IA</h2>
+            <ul>
+                <li>
+                    <a href="contactUs.html">Contact us</a>
+                </li>
+                <li>
+                    <a href="team.html">Team</a>
+                </li>
+                <li>
+                    <a href="ourStory.html">Our Story</a>
+                </li>
+                <li>
+                    <a href="cacaoOrigins.html">Cacao Origins</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>FAQ</h2>
+            <ul>
+                <li>
+                    <a href="faq.html">How long until I receive order</a>
+                </li>
+                <li>
+                    <a href="faq.html">Do you offer gift cards?</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is the cacao sourced from</a>
+                </li>
+                <li>
+                    <a href="faq.html">Where is your chocolate made?</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>SNS</h2>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/MauiChocolate/"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mauichocolate/?hl=en"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UC9rpS-YwSDTFIq6f4xHVfCQ"></a>
+                </li>
+                <li>
+                    <a href="aloha@mauichocolate.com"></a>
+                </li>
+            </ul>
+            <p>&copy; 2022 MAUI KU’IA ESTATE CHOCOLATE</p>
+        </div>
+    </footer>
+</body>
+</html>
