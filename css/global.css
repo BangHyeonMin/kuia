@@ -383,16 +383,13 @@ address{
 
     header nav.active .navSns{
         position: fixed; bottom: 0; border-top: 1px solid #b1b1b1;
-        padding: 10px 9.2%; width: 100%; box-sizing: border-box;
+        padding: 10px 9%; width: 100%; box-sizing: border-box;
     }
-    header nav.active .navSns ul::after{
-        display: block; clear: both; visibility: hidden; content: '';
+    header nav.active .navSns ul{
+        display: flex; justify-content: space-between;
     }
     header nav.active .navSns ul li{
-        float: left; background-repeat: no-repeat; background-size: contain;
-    }
-    header nav.active .navSns ul li:not(:first-of-type){
-        margin-left: 17.8%;
+        background-repeat: no-repeat; background-size: contain;
     }
     header nav.active .navSns ul li:nth-of-type(1){
         background-image: url('../images/icon_faceBook_white.png'); width: 20px;
