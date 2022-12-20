@@ -28,6 +28,7 @@
 #editUnAddress form fieldset input::placeholder,
 #addNewAddress label,
 #editUnAddress label,
+.cartContainer > div > div:first-of-type > h2,
 .cartContainer > div > div:first-of-type ul li dl,
 .cartContainer > div > div:last-of-type ul li > *,
 .checkOutContainer h2,
