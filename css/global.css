@@ -260,13 +260,13 @@ address{
         margin-bottom: 40px;
     }
     #shoppingBag ul{
-        padding-left: 7.7%; max-width: 220px;
+        padding-left: 7.7%; width: 85.5%;
     }
     #shoppingBag ul li{
         border-bottom: 1px solid #efefef;
     }
     #shoppingBag ul li img{
-        width: 31%; float: left; margin-right: 8%; min-width: 80px;
+        width: 31%; float: left; margin-right: 8%; max-width: 80px;
     }
     #shoppingBag ul li dl dt,
     #shoppingBag ul li dl dd{
