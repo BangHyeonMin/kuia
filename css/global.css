@@ -740,13 +740,22 @@ address{
         background-image: url('../images/detail_radioButton_checked.png');
     }
 
-    .detailContainer > div > div:nth-of-type(2) > div:last-of-type > div > label{
-        margin-bottom: 30px; font-size: 14px; font-weight: 300; padding-top: 5px;
-        display: block;
+    .detailContainer .radioGroup > label{
+        font-size: 14px; font-weight: 300; padding-top: 5px; display: block;
+    }
+    .detailContainer .radioGroup > label:first-of-type,
+    .detailContainer .radioGroup > label.selected{
+        margin-bottom: 30px;
+    }
+    .detailContainer .radioGroup > label:last-of-type:not(.selected){
+        margin-bottom: 60px;
     }
 
     .detailContainer .selectComponent{
-        margin-bottom: 60px;
+        margin-bottom: 60px; display: none;
+    }
+    .detailContainer .selectComponent.selected{
+        display: block;
     }
     .detailContainer .selectComponent > select{
         font-size: 12px; border: 2px solid #6a6a6a; line-height: 48px;
@@ -1439,13 +1448,22 @@ address{
         background-image: url('../images/detail_radioButton_checked.png');
     }
 
-    .detailContainer > div > div:nth-of-type(2) > div:last-of-type > div > label{
-        margin-bottom: 30px; font-size: 20px; font-weight: 300; padding-top: 5px;
-        display: block;
+    .detailContainer .radioGroup > label{
+        font-size: 20px; font-weight: 300; padding-top: 5px; display: block;
+    }
+    .detailContainer .radioGroup > label:first-of-type,
+    .detailContainer .radioGroup > label.selected{
+        margin-bottom: 30px;
+    }
+    .detailContainer .radioGroup > label:last-of-type:not(.selected){
+        margin-bottom: 60px;
     }
 
     .detailContainer .selectComponent{
-        width: 96.6%; margin: 0 0 60px 3.4%;
+        width: 96.6%; margin: 0 0 60px 3.4%; display: none;
+    }
+    .detailContainer .selectComponent.selected{
+        display: block;
     }
     .detailContainer .selectComponent > select{
         font-size: 20px; border: 2px solid #6a6a6a; line-height: 48px;
@@ -2052,13 +2070,22 @@ address{
         background-image: url('../images/detail_radioButton_checked.png');
     }
 
-    .detailContainer > div > div:nth-of-type(2) > div:last-of-type label{
-        margin-bottom: 30px; font-size: 27px; font-weight: 300;
-        display: block;
+    .detailContainer .radioGroup > label{
+        font-size: 27px; font-weight: 300; padding-top: 5px; display: block;
+    }
+    .detailContainer .radioGroup > label:first-of-type,
+    .detailContainer .radioGroup > label.selected{
+        margin-bottom: 30px;
+    }
+    .detailContainer .radioGroup > label:last-of-type:not(.selected){
+        margin-bottom: 60px;
     }
 
     .detailContainer .selectComponent{
-        width: 100%;
+        width: 100%; display: none;
+    }
+    .detailContainer .selectComponent.selected{
+        display: block;
     }
     .detailContainer .selectComponent > select{
         font-size: 20px; border: 2px solid #6a6a6a; line-height: 48px;

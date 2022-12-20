@@ -21,8 +21,8 @@ $(document).ready(function(){
     teamControl();
     customSlider(".mainSlider",1,4,325,80,true,false,true);
     customSlider(".memberSlider",1,1,0,0,false,true,true,".btnNext",".btnPrev","<");
-
     popupScroll();
+    detailRadioCheck();
 });
 
 function gnbControl(){
@@ -189,3 +189,19 @@ function popupScroll(){
       $(".myPagePopup").css("margin-top", marginTop - $(this).scrollTop() );
     });
 };
+
+function detailRadioCheck(){  
+    $(".detailContainer #salePrice").on('click',function(){
+        if($(this).prop('checked')){
+        $(".selectComponent").addClass("selected");
+        $(".radioGroup label:last-of-type").addClass("selected");
+        }
+    });
+
+    $(".detailContainer #noSalePrice").on('click',function(){
+        if($(this).prop('checked')){
+        $(".selectComponent").removeClass("selected");
+        $(".radioGroup label:last-of-type").removeClass("selected");
+        }
+    });
+}
