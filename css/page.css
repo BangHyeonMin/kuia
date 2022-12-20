@@ -1388,6 +1388,7 @@ div[id$="Address"].active{
     .ourStoryContainer .wrap > div:nth-of-type(2) dl{
         width: 100%; max-width: 260px; text-align: center; background-size: 55px;
         background-position: center top; background-repeat: no-repeat; font-weight: 500;
+        margin: 0 auto;
     }
 
     .monthClubContainer .wrap > div:first-of-type dl:not(:last-of-type),
