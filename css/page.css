@@ -1033,7 +1033,7 @@ div[id$="Address"].active{
     .checkOutContainer > div ol li:first-of-type label{
         margin-bottom: 20px; font-size: 14px; color: #626262;
     }
-    .checkOutContainer > div ol li:first-of-type input{
+    .checkOutContainer > div ol li:first-of-type input:not(input[type="button"]){
         width: 100%; line-height: 46px; margin-bottom: 40px; font-weight: 500;
         padding: 0 0 0 10px; box-sizing: border-box; font-size: 14px;
     }
@@ -2716,7 +2716,7 @@ div[id$="Address"].active{
     .checkOutContainer > div ol li:first-of-type label{
         margin-bottom: 20px; font-size: 17px; color: #626262;
     }
-    .checkOutContainer > div ol li:first-of-type input{
+    .checkOutContainer > div ol li:first-of-type input:not(input[type="button"]){
         width: 100%; line-height: 60px; margin-bottom: 40px; font-weight: 500;
         padding-left: 20px; box-sizing: border-box; font-size: 17px;
     }
@@ -4453,7 +4453,7 @@ div[id$="Address"].active{
     .checkOutContainer > div ol li:first-of-type label{
         margin-bottom: 20px; font-size: 17px; color: #626262;
     }
-    .checkOutContainer > div ol li:first-of-type input{
+    .checkOutContainer > div ol li:first-of-type input:not(input[type="button"]){
         width: 100%; line-height: 60px; margin-bottom: 40px;
         padding-left: 20px; box-sizing: border-box; font-size: 17px;
         font-weight: 500;
