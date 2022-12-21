@@ -404,11 +404,9 @@ address{
         background-image: url('../images/icon_mail_white.png'); width: 27px;
     }
 
-
     header nav.active .navSns ul li a{
         display: block; min-height: 20px;
     }
-
 
     header > h1{
         max-width: 81px; margin-left: 23%; padding: 15px 0;
@@ -642,18 +640,16 @@ address{
         font-size: 12px; font-weight: 300; line-height: 25px;
     }
     .detailContainer > div > div:first-of-type > a:last-of-type{
-        padding-right: 25%; display: inline-block;
+        margin-bottom: 40px;
     }
     .detailContainer > div > div:first-of-type > a:not(:last-of-type){
         color: #7e7e7e;
     }
     .detailContainer > div > div:first-of-type > div{
-        position: absolute; top: 0; right: 0; font-size: 12px; font-weight: 500;
-        text-align: right;
+        font-size: 12px; font-weight: 500; text-align: right; margin-top: 40px;
     }
-
-    .detailContainer > div > div:first-of-type > div a:first-of-type{
-        margin-bottom: 40px; display: block;
+    .detailContainer > div > div:first-of-type > div a:last-of-type{
+        margin-left: 11.5%;
     }
     .detailContainer > div > div:first-of-type > div a:first-of-type::before{
         content: '<'; padding-right: 10px;
