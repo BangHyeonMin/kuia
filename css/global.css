@@ -561,7 +561,7 @@ address{
     }
     .listContainer > div:last-of-type > div:first-of-type form fieldset legend::after{
         content: '-'; top: 0; right: 0; position: absolute; font-size: 25px;
-        line-height: 0; cursor: pointer; line-height: 10px;
+        line-height: 0; cursor: pointer; line-height: 10px; padding-right: 1%;
     }
 
     .listContainer > div:last-of-type > div:first-of-type form fieldset.active{
