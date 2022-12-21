@@ -318,21 +318,19 @@ address{
     header{
         position: fixed; width: 100%; top: 40px; background-color: #fff;
         z-index: 10; border-bottom: 1px solid #e6d38f;
+        display: flex; justify-content: space-between;
     }
 
     header > div label.material-icons{
         width: 5.3%; max-width: 60px; line-height: 90px; box-sizing: border-box;
         display: block;
     }
-    header > *:not(h1,nav){
-        position: absolute; top: 35%;
-    }
 
     header input[type="button"]{
         background-color: transparent; border: none; cursor: pointer;
     }
     header input[type="button"].active{
-        color: #fff; top: -25px; z-index: 1;
+        color: #fff; position:absolute; top: -25px; z-index: 1;
     }
 
     header nav{
@@ -409,7 +407,7 @@ address{
     }
 
     header > h1{
-        max-width: 81px; margin-left: 23%; padding: 15px 0;
+        max-width: 81px; padding: 15px 0;
     }
     header > h1 a{
         display: block;
@@ -418,13 +416,13 @@ address{
         width: 100%;
     }
     header > ul{
-        right: 3%; width: 34%;
+        right: 3%; width: 37%; max-width: 95px; margin-top: 28px;
     }
     header > ul:after{
         content: ''; display: block; clear: both;
     }
     header > ul li{
-        width: 14%; display: block; float: left; min-width: 20px;
+        max-width: 20px; display: block; float: left;
     }
     header > ul li:not(:first-child){
         margin-left: 18%;
