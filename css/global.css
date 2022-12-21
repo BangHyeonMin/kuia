@@ -625,8 +625,6 @@ address{
         font-size: 16px; font-weight: 300;
     }
 
-    /* ? list */
-
     .detailContainer{
         padding: 200px 3.5% 20px; background-color: #efefef;
     }
@@ -774,8 +772,6 @@ address{
         margin-bottom: 40px;
     }
 
-    /* ? detail */
-
     section[class$='DetailContainer']{
         padding: 200px 3.5% 80px; background-color: #efefef; 
     }
@@ -877,7 +873,6 @@ address{
         margin-bottom: 30px;
     }
 }
-/* ? mobile */
 
 @media screen and (min-width: 768px) and (max-width: 1279px){
 
@@ -1336,8 +1331,6 @@ address{
         font-size: 17px; font-weight: 300;
     }
 
-    /* ? list */
-
     .detailContainer{
         padding: 240px 3% 60px; background-color: #efefef;
     }
@@ -1481,8 +1474,6 @@ address{
         margin-bottom: 40px;
     }
 
-    /* ? detail */
-
     section[class$='DetailContainer']{
         padding: 240px 3% 120px; background-color: #efefef; 
     }
@@ -1592,7 +1583,6 @@ address{
         margin-bottom: 40px;
     }
 }
-/* ? tablet */
 
 @media screen and (min-width: 1280px){
 
@@ -1962,8 +1952,6 @@ address{
         font-size: 17px; font-weight: 300;
     }
 
-    /* ? list */
-
     .detailContainer,
     section[class$='DetailContainer']{
         padding: 290px 3% 120px; background-color: #efefef;
@@ -2107,8 +2095,6 @@ address{
         margin-bottom: 40px;
     }
 
-    /* ? detail */
-
     section[class$='DetailContainer'] > div{
         max-width: 1200px; margin: 0 auto;
     }
@@ -2213,8 +2199,4 @@ address{
     .recipesDetailContainer .contentBox > div ul li:not(:last-of-type){
         margin-bottom: 40px;
     }
-
-    /* ? news detail */
-
 }
-/* ? desktop */
