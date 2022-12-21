@@ -88,6 +88,7 @@ function toggleControl(target){
         $(this).parent().toggleClass("active");
     });
 }
+
 function muiToggleControl(){
     $("#muiNavBtn").click(function(){
         if($(this).val() == "menu"){
@@ -190,18 +191,11 @@ function popupScroll(){
     });
 };
 
-function detailRadioCheck(){  
-    $(".detailContainer #salePrice").on('click',function(){
-        if($(this).prop('checked')){
-        $(".selectComponent").addClass("selected");
-        $(".radioGroup label:last-of-type").addClass("selected");
-        }
+function detailRadioCheck(){
+    $(".radioGroup .sale").click(function(){
+        $(".radioGroup").addClass("active");
     });
-
-    $(".detailContainer #noSalePrice").on('click',function(){
-        if($(this).prop('checked')){
-        $(".selectComponent").removeClass("selected");
-        $(".radioGroup label:last-of-type").removeClass("selected");
-        }
+    $(".radioGroup .nosale").click(function(){
+        $(".radioGroup").removeClass("active");
     });
-}
+};

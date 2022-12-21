@@ -734,18 +734,18 @@ address{
         font-size: 14px; font-weight: 300; padding-top: 5px; display: block;
     }
     .detailContainer .radioGroup > label:first-of-type,
-    .detailContainer .radioGroup > label.selected{
+    .detailContainer .radioGroup.active > label:last-of-type{
         margin-bottom: 30px;
     }
-    .detailContainer .radioGroup > label:last-of-type:not(.selected){
+    .detailContainer .radioGroup > label:last-of-type{
         margin-bottom: 60px;
     }
 
+    .detailContainer .radioGroup.active~.selectComponent{
+        display: block;
+    }
     .detailContainer .selectComponent{
         margin-bottom: 60px; display: none;
-    }
-    .detailContainer .selectComponent.selected{
-        display: block;
     }
     .detailContainer .selectComponent > select{
         font-size: 12px; border: 2px solid #6a6a6a; line-height: 48px;
@@ -1436,12 +1436,20 @@ address{
     .detailContainer .radioGroup > label{
         font-size: 20px; font-weight: 300; padding-top: 5px; display: block;
     }
+
     .detailContainer .radioGroup > label:first-of-type,
-    .detailContainer .radioGroup > label.selected{
+    .detailContainer .radioGroup.active > label:last-of-type{
         margin-bottom: 30px;
     }
-    .detailContainer .radioGroup > label:last-of-type:not(.selected){
+    .detailContainer .radioGroup > label:last-of-type{
         margin-bottom: 60px;
+    }
+
+    .detailContainer .radioGroup.active~.selectComponent{
+        display: block;
+    }
+    .detailContainer .selectComponent{
+        margin-bottom: 60px; display: none;
     }
 
     .detailContainer .selectComponent{
@@ -2053,14 +2061,18 @@ address{
     .detailContainer .radioGroup > label{
         font-size: 27px; font-weight: 300; padding-top: 5px; display: block;
     }
+
     .detailContainer .radioGroup > label:first-of-type,
-    .detailContainer .radioGroup > label.selected{
+    .detailContainer .radioGroup.active > label:last-of-type{
         margin-bottom: 30px;
     }
-    .detailContainer .radioGroup > label:last-of-type:not(.selected){
+    .detailContainer .radioGroup > label:last-of-type{
         margin-bottom: 60px;
     }
 
+    .detailContainer .radioGroup.active~.selectComponent{
+        display: block;
+    }
     .detailContainer .selectComponent{
         width: 100%; display: none;
     }
