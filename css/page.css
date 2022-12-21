@@ -852,12 +852,9 @@ div[id$="Address"].active{
     }
 
     .cartContainer > div > div:first-of-type ul li img{
-        max-width: 120px; margin-right: 3.6%; float: left;
+        max-width: 120px; margin: 0 3.6% 40px 0; float: left;
     }
 
-    .cartContainer > div > div:first-of-type ul li dl{
-        width: 47%; float: left;
-    }
     .cartContainer > div > div:first-of-type ul li dl > *{
         margin-bottom: 20px; font-weight: 500;
     }
@@ -872,7 +869,7 @@ div[id$="Address"].active{
     }
     
     .cartContainer .countComp{
-        border: 1px solid #626262; line-height: 30px;
+        border: 1px solid #626262; line-height: 30px; margin-bottom: 40px;
         width: 28.6%; max-width: 80px; box-sizing: border-box;
         background-color: #fff;
     }
