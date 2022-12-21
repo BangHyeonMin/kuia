@@ -304,7 +304,7 @@ address{
         width: 13%;
     }
     #shoppingBag .countComp{
-        margin-bottom: 40px;  width: 23.5%; border: 1px solid #000;
+        margin-bottom: 40px; max-width: 60px; width: 23.5%; border: 1px solid #000;
     }
     #shoppingBag .countComp .countPlus{
         top: 1px;
