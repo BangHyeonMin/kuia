@@ -5158,8 +5158,11 @@ div[id$="Address"].active{
         text-align: center;
     }
 
+    .ourStoryContainer .wrap div:first-of-type .bx-wrapper{
+        min-height: 251px;
+    }
     .ourStoryContainer .wrap div:first-of-type .memberSlider li{
-        background-color: white; min-height: 305px;
+        background-color: white;
     }
     .ourStoryContainer .wrap div:first-of-type .memberSlider li:after{
         content: ''; display: block; clear: both;
@@ -5168,7 +5171,7 @@ div[id$="Address"].active{
         width: 33.3%; float: left; display: block;
     }
     .ourStoryContainer .wrap div:first-of-type .memberSlider div{
-        background-color: #fff; padding: 0 3.3%; width: 66.7%; box-sizing: border-box;
+        background-color: #fff; padding: 0.8vw 3.3% 0; width: 66.7%; box-sizing: border-box;
         float: left;
     }
     .ourStoryContainer .wrap div:first-of-type .memberSlider div p{
