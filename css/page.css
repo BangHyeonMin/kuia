@@ -1235,7 +1235,7 @@ div[id$="Address"].active{
     }
 
     .faqContainer > div > div ul li h4{
-        background-color: #fff; line-height: 20px; padding: 20px 3.9%; box-sizing: border-box;
+        background-color: #fff; line-height: 20px; padding: 20px 13% 20px 3.9%; box-sizing: border-box;
         position: relative; font-size: 12px; font-weight: 700; cursor: pointer;
     }
     .faqContainer > div > div ul li h4::after{
