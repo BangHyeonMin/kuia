@@ -1408,23 +1408,19 @@ div[id$="Address"].active{
     .monthClubContainer .wrap > div:nth-of-type(3) h3{
         text-align: center; font-size: 16px; font-weight: 500; margin-bottom: 40px;
     }
-    .monthClubContainer .wrap > div:nth-of-type(3) div{
-        background-color: #e1e1e1;
-    }
-    .monthClubContainer .wrap > div:nth-of-type(3) div div{
-        position: relative;
-    }
-    .monthClubContainer .wrap > div:nth-of-type(3) div div blockquote{
-        text-align: center; padding: 40px 7.7%; margin: 0 auto 50px;
-        font-size: 12px; font-weight: 500; line-height: 20px; position: relative;
-    }
-    .monthClubContainer .wrap > div:nth-of-type(3) div div img{
-        width: 20%; border-radius: 50%; position: absolute; bottom: -40%; left: 40%;
+    .monthClubContainer .wrap > div:nth-of-type(3) div blockquote{
+        background-color: #e1e1e1; margin: 0 auto 40px; display: block;
+        text-align: center; padding: 40px 7.7%; font-weight: 500; line-height: 20px;
+        font-size: 12px; 
     }
 
     .monthClubContainer .wrap > div:nth-of-type(3) div span{
-        padding-top: 65px; display: block; background-color: #efefef; text-align: center;
+        display: block; background-color: #efefef; text-align: center;
         font-size: 16px; font-weight: 500;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(3) div span img{
+        width: 34%; max-width: 90px; border-radius: 50%; display: block;
+        margin: 0 auto 20px;
     }
     .monthClubContainer .wrap > div:nth-of-type(3) div span small{
         font-size: 12px; font-weight: 300; margin-top: 20px;
@@ -3066,23 +3062,18 @@ div[id$="Address"].active{
     .monthClubContainer .wrap > div:nth-of-type(3) h3{
         text-align: center; font-size: 20px; font-weight: 500; margin-bottom: 60px;
     }
-    .monthClubContainer .wrap > div:nth-of-type(3) div{
-        background-color: #e1e1e1;
-    }
-    .monthClubContainer .wrap > div:nth-of-type(3) div div{
-        position: relative;
-    }
-    .monthClubContainer .wrap > div:nth-of-type(3) div div blockquote{
-        text-align: center; padding: 40px 3%; margin: 0 auto;
-        font-size: 16px; font-weight: 500; line-height: 35px; position: relative;
-    }
-    .monthClubContainer .wrap > div:nth-of-type(3) div div img{
-        width: 8.3%; border-radius: 50%; position: absolute; bottom: -10%; left: 45.85%;
+    .monthClubContainer .wrap > div:nth-of-type(3) div blockquote{
+        background-color: #e1e1e1; margin: 0 auto 40px; display: block;
+        text-align: center; padding: 40px 3%; font-weight: 500; line-height: 35px;
+        font-size: 16px; 
     }
 
     .monthClubContainer .wrap > div:nth-of-type(3) div span{
-        padding-top: 65px; display: block; background-color: #efefef; text-align: center;
+        display: block; background-color: #efefef; text-align: center;
         font-size: 20px; font-weight: 500;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(3) div span img{
+        width: 12.5%; border-radius: 50%; display: block; margin: 0 auto 20px;
     }
     .monthClubContainer .wrap > div:nth-of-type(3) div span small{
         font-size: 16px; font-weight: 300; margin-top: 20px;
@@ -4755,23 +4746,18 @@ div[id$="Address"].active{
     .monthClubContainer .wrap > div:nth-of-type(3) h3{
         text-align: center; font-size: 36px; font-weight: 500; margin-bottom: 60px;
     }
-    .monthClubContainer .wrap > div:nth-of-type(3) div{
-        background-color: #e1e1e1;
-    }
-    .monthClubContainer .wrap > div:nth-of-type(3) div div{
-        position: relative;
-    }
-    .monthClubContainer .wrap > div:nth-of-type(3) div div blockquote{
-        max-width: 1510px; text-align: center; padding: 100px 7.8% 8%; margin: 0 auto;
-        font-size: 24px; font-weight: 500; line-height: 40px; position: relative;
-    }
-    .monthClubContainer .wrap > div:nth-of-type(3) div div img{
-        width: 8.3%; border-radius: 50%; position: absolute; bottom: -10%; left: 45.85%;
+    .monthClubContainer .wrap > div:nth-of-type(3) div blockquote{
+        background-color: #e1e1e1; margin: 0 auto 40px; display: block;
+        max-width: 1510px; text-align: center; padding: 100px 7.8%;
+        font-size: 24px; font-weight: 500; line-height: 40px;
     }
 
     .monthClubContainer .wrap > div:nth-of-type(3) div span{
-        padding-top: 95px; display: block; background-color: #efefef; text-align: center;
+        display: block; background-color: #efefef; text-align: center;
         font-size: 24px; font-weight: 500;
+    }
+    .monthClubContainer .wrap > div:nth-of-type(3) div span img{
+        width: 8.3%; max-width: 150px; border-radius: 50%; display: block; margin: 0 auto 20px;
     }
     .monthClubContainer .wrap > div:nth-of-type(3) div span small{
         font-size: 20px; font-weight: 300; margin-top: 20px;
