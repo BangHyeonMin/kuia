@@ -185,10 +185,12 @@ function customSlider(target,mivSVal, maxSVal, swVal, smVal, hcoVal,infVal, ctVa
 
 
 function popupScroll(){
-    var marginTop = parseInt( $(".myPagePopup").css('margin-top'));
-    $(window).scroll(function(e) {
-      $(".myPagePopup").css("margin-top", marginTop - $(this).scrollTop() );
-    });
+    if (window.matchMedia("(max-width: 767px)").matches){
+        var marginTop = parseInt( $(".myPagePopup").css('margin-top'));
+        $(window).scroll(function(e){
+          $(".myPagePopup").css("margin-top", marginTop - $(this).scrollTop() );
+        });
+    }
 };
 
 function detailRadioCheck(){
